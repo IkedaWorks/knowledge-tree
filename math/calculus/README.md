@@ -17,7 +17,6 @@ I prioritize the **formalization process** over rote memorization (*decoreba*).
 
 I don't believe in "black-box" formulas where you memorize steps without context. Instead, I apply the **Feynman Technique**: if you can't explain it simply from first principles, you haven't understood it yet. This repository is built on the belief that **derivation is the key to mastery.**
 
-
 # 🧮 Calculus Index
 
 > "If you can't explain it simply, you don't understand it well enough." — Richard Feynman
