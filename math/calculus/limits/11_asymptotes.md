@@ -73,3 +73,7 @@ Nem todo ponto que zera o denominador é AV. Se o ponto também zerar o numerado
 > - **AV:** $x$ fixo, $y$ explode.
 > - **AH:** $y$ fixo, $x$ explode.
 > - **AO:** $x$ e $y$ explodem juntos mantendo uma proporção constante.
+
+### 🔗 Connections
+- [07. Limits at Infinity](./07_Limits_at_Infinity_and_Infinite_Limits.md)
+- [09. Continuity of Functions](./09_continuity_of_functions.md)

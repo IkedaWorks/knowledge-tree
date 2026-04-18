@@ -53,3 +53,8 @@ $$f(x) =  \begin{cases}  2x + 1, & x < 3 \\ x^2 - 2, & x \ge 3 \end{cases}$$
 
 > [!IMPORTANT]
 > **Nota de Engenharia:** Limites laterais são usados para descrever interruptores (on/off) e degraus de tensão em circuitos digitais. O momento exato da troca é uma descontinuidade.
+
+
+### 🔗 Connections
+- [09. Continuity of Functions](./09_continuity_of_functions.md)
+- [07. Limits at Infinity](./07_Limits_at_Infinity_and_Infinite_Limits.md)

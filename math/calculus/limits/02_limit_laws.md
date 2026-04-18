@@ -57,3 +57,7 @@ Calcule $\lim_{x \to 0} \cos(x^2 + \pi)$.
 
 ---
 
+### 🔗 Connections
+- [01. Limit Definition](./01_limit_definition.md)
+- [04. Fundamental Limits](./04_fundamental_limits.md)
+- [05. Limits by Substitution](./05_limits_by_substitution.md)

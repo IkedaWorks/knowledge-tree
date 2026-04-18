@@ -55,3 +55,8 @@ $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
 * **O Macete do Argumento:** Para o limite trigonométrico ou logarítmico, não importa o que está dentro ($\text{sen}(u)$ ou $\ln(1+u)$), desde que o $u \to 0$ e o denominador também seja $u$.
 * **Identidade de Euler:** Se você ver algo do tipo $(1 + \text{lixo})^{\frac{1}{\text{lixo}}}$ com $\text{lixo} \to 0$, o resultado é sempre $e$.
 * **Conexão com Derivadas:** Esses limites são, na verdade, as definições das derivadas de $\text{sen}(x)$, $e^x$ e $\ln(x)$ no ponto zero.
+
+### 🔗 Connections
+- [08. Squeeze Theorem](./08_squeeze_theorem.md)
+- [12. Hardcore Limits](./12_limits_review.md)
+- [Index de Limites](./index_limits.md)
