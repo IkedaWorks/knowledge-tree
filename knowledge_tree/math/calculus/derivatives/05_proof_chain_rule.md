@@ -27,9 +27,9 @@ A ideia central é expressar a variação de $y$ em relação a $x$ utilizando a
 
 $$\frac{\Delta y}{\Delta x} = \frac{\Delta y}{\Delta u} \cdot \frac{\Delta u}{\Delta x}$$
 
-> [!IMPORTANT] Nota de Rigor
+> [!IMPORTANT] Nota de Rigor:
 > 
-> Esta manipulação assume que $\Delta u \neq 0$ em um intervalo próximo de $x$. Em demonstrações 100% rigorosas (análise matemática), utiliza-se uma função auxiliar para tratar casos onde $g(x)$ é constante em algum intervalo, mas a lógica do limite permanece a mesma para a engenharia.
+>Esta manipulação assume que $\Delta u \neq 0$ em um intervalo próximo de $x$. Em demonstrações 100% rigorosas (análise matemática), utiliza-se uma função auxiliar para tratar casos onde $g(x)$ é constante em algum intervalo, mas a lógica do limite permanece a mesma para a engenharia.
 
 ---
 

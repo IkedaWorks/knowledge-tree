@@ -1,7 +1,7 @@
 
 
-# Proof of Basic Derivative Rules
 
+# Regras de Derivação
 ## Definição
 
 As demonstrações transformam “regras decoradas” em verdades matemáticas fundamentais usando a definição de derivada:
