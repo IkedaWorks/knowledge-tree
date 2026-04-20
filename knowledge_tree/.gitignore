@@ -1,0 +1,14 @@
+# config
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/indexed_db/
+
+# system (adicionando os niveis acima)
+../$RECYCLE.BIN/
+"../System Volume Information/"
+../.*
+# E tambem por seguranca dentro da pasta atual
+$RECYCLE.BIN/
+System\ Volume\ Information/
