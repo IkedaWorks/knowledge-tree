@@ -1,4 +1,3 @@
-
 ## A Intuição: Por que o Cálculo é o "Cérebro" do Robô?
 
 Imagine que você está programando um drone para filmar um carro de corrida. Se você programar a câmera para girar a uma velocidade fixa, você vai falhar.
