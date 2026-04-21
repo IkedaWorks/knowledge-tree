@@ -45,7 +45,8 @@ Provar que $\lim_{x \to a} c = c$.
 * **$\delta$ (Delta) é a parede esquerda e direita:** Ele limita o eixo $x$. É a precisão necessária no ajuste da entrada (controle).
 * **A Implicação ($\implies$):** Significa **causalidade**. Se eu garanto a precisão na entrada ($\delta$), a saída obrigatoriamente respeita a margem de erro ($\epsilon$).
 
-> [!ABSTRACT] **Conclusão**
+> [!ABSTRACT] 
+> **Conclusão**
 > O limite é uma forma de estudar o comportamento de uma função usando apenas a proximidade de um ponto no eixo das abscissas sem precisar saber o que acontece exatamente nele. Ao controlarmos a entrada $x$ dentro de um intervalo $(0, \delta)$, forçamos a saída $f(x)$ a cair dentro do intervalo de erro $\epsilon$ em torno de $L$. **Controlar a entrada é controlar a aproximação da saída.**
 
 ### 🔗 Connections

@@ -30,7 +30,8 @@ Fundamental para diversas áreas como a Física, pois indica explicitamente em r
 
 $$\frac{dy}{dx}, \quad \frac{d^2y}{dx^2}, \quad \frac{d^3y}{dx^3}, \dots, \quad \frac{d^ny}{dx^n}$$
 
-> [!NOTE] Estrutura da Notação
+> [!NOTE] 
+> Estrutura da Notação
 > 
 > Na expressão $\frac{d^2y}{dx^2}$, o expoente no $d$ indica a **ordem da operação**, enquanto o expoente no $x$ indica a **variável** que está sendo variada.
 
@@ -46,7 +47,8 @@ Para modelagem de sistemas, robótica ou motores gráficos, as derivadas sucessi
 | **1ª**    | Velocidade          | $v(t) = s'$   | Taxa de deslocamento no tempo.              |
 | **2ª**    | Aceleração          | $a(t) = s''$  | Variação da velocidade (gravidade, empuxo). |
 | **3ª**    | Jerk                | $j(t) = s'''$ | Mudança brusca na aceleração ("Solavanco"). |
-> [!NOTE] NOTA:
+> [!NOTE] 
+> NOTA:
 >
 > Isso é bem útil em cinemática, geralmente eu não decoro equações do movimento retilíneo uniformemente variado, eu uso derivadas em conjunto com integrais, que você verá no próximo capítulo, e obtenho as equações do MRUV sem ter que fazer esforço.
 

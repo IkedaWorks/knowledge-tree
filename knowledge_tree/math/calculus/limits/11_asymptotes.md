@@ -69,7 +69,8 @@ Ocorrem quando o grau do numerador é exatamente **um a mais** que o do denomina
 Nem todo ponto que zera o denominador é AV. Se o ponto também zerar o numerador ($0/0$), pode ser apenas um buraco removível. Calcule sempre o limite para ter certeza se ele vai para o infinito.
 
 ---
-> [!TIP] **Resumo Visual**
+> [!TIP] 
+> **Resumo Visual**
 > - **AV:** $x$ fixo, $y$ explode.
 > - **AH:** $y$ fixo, $x$ explode.
 > - **AO:** $x$ e $y$ explodem juntos mantendo uma proporção constante.

@@ -3,7 +3,8 @@
 
 No modelo tradicional, $y$ depende diretamente de $x$. Na forma **paramétrica**, tanto $x$ quanto $y$ são funções de uma terceira variável independente: o **parâmetro** ($t$), que geralmente simboliza o tempo ou o ângulo.
 
-> [!TIP] Visão de Desenvolvedor
+> [!TIP] 
+> Visão de Desenvolvedor
 > 
 > Imagine o movimento de um cursor ou de um projétil em um motor de jogo. Em vez de uma trajetória estática, descrevemos a posição da partícula em cada instante:
 > 
@@ -84,7 +85,8 @@ A astróide assemelha-se a um quadrado com lados curvos para dentro. Suas equaç
 
 ---
 
-> [!NOTE] Aplicação em Eletromagnetismo (Física 3)
+> [!NOTE] 
+> Aplicação em Eletromagnetismo (Física 3)
 > 
 > Embora pareça abstrato, o uso de parametrização simplifica drasticamente equações que envolvem partículas carregadas em campos magnéticos. Em vez de lidar com equações cartesianas "monstruosas", você resolve o problema para $x(t)$ e $y(t)$ separadamente, o que é o padrão ouro na modelagem física moderna.
 > Esse é apenas um exemplo que eu achei relevante, você usará em isso em diversas área do conhecimento, principalmente na física.

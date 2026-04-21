@@ -8,7 +8,8 @@ Imagine que você está programando um drone para filmar um carro de corrida. Se
 - **A Solução do Engenheiro (Visão de Cálculo):** Você entende que a **Velocidade Angular ($d\theta/dt$)** precisa ser dinâmica. Ela deve acelerar conforme o carro se aproxima para manter o objeto no centro da lente.
     
 
-> [!IMPORTANT] Insight de Engenharia
+> [!IMPORTANT] 
+> Insight de Engenharia
 > 
 > Sem o cálculo, seu software é **reativo** (tenta corrigir o erro após ele acontecer). Com o cálculo, seu software é **preditivo** (ele calcula a velocidade necessária para o instante seguinte).
 
@@ -54,7 +55,8 @@ while carro_detectado:
     enviar_comando_motor_gimbal(velocidade_angular)
 ```
 
-> [!NOTE] Nota Técnica
+> [!NOTE] 
+> Nota Técnica
 > 
 > O **Firmware** é o software de baixo nível que lida diretamente com o hardware. Em um drone, o firmware processa essas equações de cálculo milhares de vezes por segundo para garantir a estabilidade da imagem.
 

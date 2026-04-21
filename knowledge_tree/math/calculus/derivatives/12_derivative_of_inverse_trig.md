@@ -5,7 +5,8 @@
 
 Para a compreensão deste tópico, é necessário o domínio de funções trigonométricas, identidades fundamentais e a aplicação da Derivada da Função Inversa.
 
-> [!CAUTION] RECOMENDAÇÃO
+> [!CAUTION] 
+> RECOMENDAÇÃO
 > 
 > Se o estudo deste tema estiver sendo realizado em regime de urgência para avaliações, recomenda-se focar na memorização das fórmulas finais, visto que este assunto possui menor frequência de incidência em provas iniciais.
 

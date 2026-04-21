@@ -5,7 +5,8 @@
 
 Para que uma taxa esteja relacionada a outra, elas precisam estar "presas" por uma equação. Essa equação é o vínculo físico. Se você traciona uma ponta da corda, a outra deve se mover em uma proporção definida pela geometria.
 
-> [!IMPORTANT] Regra de Ouro
+> [!IMPORTANT] 
+> Regra de Ouro
 > 
 > **Sem vínculo, não há relação:** Se as variáveis fossem independentes (como a velocidade de um processador e a temperatura em Marte), a derivada de uma em relação à outra seria zero.
 
@@ -50,7 +51,8 @@ A proporção é o que "transmite" o movimento de uma variável para a outra, co
 
 ---
 
-> [!TIP] Insight Final
+> [!TIP] 
+> Insight Final
 > 
 > Toda vez que for resolver um problema de taxas, pergunte-se: **"Quem é a corrente que prende essas duas variáveis?"**.
 > 

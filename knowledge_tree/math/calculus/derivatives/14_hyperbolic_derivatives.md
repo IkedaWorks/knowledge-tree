@@ -1,7 +1,8 @@
 
 # Derivadas das Funções Hiperbólicas
 
-> [!NOTE] Nota de Estudo
+> [!NOTE] 
+> Nota de Estudo
 > 
 > Este tópico apresenta um nível de abstração elevado e possui aplicações muito específicas. Na engenharia civil, é utilizado no cálculo de estruturas; na computação, surge em contextos de Machine Learning e Ciência de Dados. Recomenda-se o estudo como complemento acadêmico. Caso este material esteja sendo consultado sob regime de urgência para avaliações, recomenda-se priorizar tópicos com maior incidência.
 
@@ -30,7 +31,8 @@ Sabemos que $\sinh(x) = \frac{e^x - e^{-x}}{2}$. Derivando termo a termo:
 
 **Definição:** $\frac{d}{dx}(\cosh x) = \sinh x$
 
-> [!IMPORTANT] Diferença Fundamental
+> [!IMPORTANT] 
+> Diferença Fundamental
 > 
 > Diferente da trigonometria circular, na derivada do cosseno hiperbólico **não** ocorre a inversão de sinal para negativo.
 

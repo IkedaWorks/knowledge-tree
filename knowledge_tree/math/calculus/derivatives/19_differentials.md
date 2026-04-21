@@ -12,7 +12,8 @@ Até agora, você viu a derivada $\frac{dy}{dx} = f'(x)$ como uma entidade únic
 - **$dy$ (Diferencial de $y$):** Representa a variação correspondente **ao longo da reta tangente**, e não da curva original.
     
 
-> [!TIP] A Intuição do Passo
+> [!TIP] 
+> A Intuição do Passo
 > 
 > Imagine que você está sobre uma curva. Se você der um passo minúsculo para o lado ($dx$), o $dy$ informa o quanto você subiria ou desceria se estivesse caminhando pela **tangente** em vez da curva real. Para variações muito pequenas, a diferença entre a reta e a curva é desprezível.
 

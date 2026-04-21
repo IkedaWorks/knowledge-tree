@@ -4,7 +4,8 @@
 
 Antes de começarmos as demonstrações eu recomendo que você de um revisada nos limites fundamentais e nas propriedade de potenciação e de logaritmos, usaremos elas de forma bem sucinta.
 
-> [!TIP] **RECOMENDAÇÃO:** 
+> [!TIP]
+>  **RECOMENDAÇÃO:** 
 >
 >Se vc está estudando isso de última hora é melhor vc só decorar e pular para o próximo tópico.
 

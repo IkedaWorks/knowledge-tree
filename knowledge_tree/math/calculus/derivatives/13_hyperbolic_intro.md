@@ -56,6 +56,7 @@ Assim como o círculo possui sua relação fundamental, a geometria hiperbólica
 
 $$\cosh^2(x) - \sinh^2(x) = 1$$
 
-> [!TIP] Diferença de Sinal
+> [!TIP] 
+> Diferença de Sinal
 > 
 > Lembre-se: no círculo, somamos os quadrados ($\sin^2 + \cos^2 = 1$). Na hipérbole, subtraímos os quadrados. Esse sinal negativo no seio da função é o que define todo o comportamento das derivadas que veremos a seguir.

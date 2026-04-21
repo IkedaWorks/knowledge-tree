@@ -42,7 +42,8 @@ $$\lim_{x \to a} f(x) = L$$
 * **Como identificar no papel:** Se você tentar substituir e der "Oscilação / Infinito", é Sanduíche na certa.
 * **Cuidado com o Sinal:** Se você estiver dividindo por $x$ e o limite for para $-\infty$, o sinal da desigualdade inverte, mas o resultado do "esmagamento" costuma ser o mesmo.
 
-> [!ABSTRACT] **Conclusão**
+> [!ABSTRACT] 
+> **Conclusão**
 > O Teorema do Sanduíche é a prova matemática de que uma oscilação finita não consegue resistir a um "esmagamento" em direção a um ponto ou ao zero no infinito. É a forma rigorosa de dizer que o **"zero" ganha de qualquer oscilação limitada**.
 
 ---

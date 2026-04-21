@@ -5,7 +5,8 @@
 
 Até agora, analisamos como $y$ muda em relação a $x$. Nas **Taxas Relacionadas**, o cenário muda: temos duas ou mais variáveis (como raio, volume, altura ou distância) que dependem de uma terceira variável invisível e onipresente: o **tempo ($t$)**.
 
-> [!TIP] A Intuição do Balão
+> [!TIP] 
+> A Intuição do Balão
 > 
 > Imagine encher um balão esférico. À medida que você injeta ar (variação do Volume no tempo: $dV/dt$), o raio do balão aumenta ($dr/dt$).
 > 
@@ -78,7 +79,8 @@ Para resolver problemas de taxas, o Engenheiro segue um fluxo lógico:
     **Resultado:** $\frac{dr}{dt} = 1 \text{ km/h}$.
     
 
-> [!IMPORTANT] Interpretação de Engenharia
+> [!IMPORTANT] 
+> Interpretação de Engenharia
 > 
 > Note que, se a taxa de área ($\frac{dA}{dt}$) é constante, a velocidade do raio ($\frac{dr}{dt}$) **diminui** conforme o círculo cresce. Isso ocorre porque manter o mesmo aumento de área em um círculo gigante exige muito menos avanço no raio do que em um círculo pequeno.
 

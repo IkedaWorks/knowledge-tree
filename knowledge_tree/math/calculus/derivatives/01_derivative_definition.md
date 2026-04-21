@@ -88,6 +88,7 @@ Se quisermos a reta tangente no ponto $(1, 1)$:
     $$y - 1 = 2x - 2 \implies y = 2x - 1$$
     
 
->  [!NOTE] Nota do Engenheiro
->  
->  Perceba que a **função derivada** ($2x$) e a **reta tangente** ($2x - 1$) são objetos matemáticos diferentes. A derivada é o "motor" que nos diz para onde a curva aponta, enquanto a reta tangente é a "estrada" que encosta na curva naquele ponto específico.
+> [!NOTE]
+> **Nota do Engenheiro**
+> 
+> Perceba que a função derivada $2x$ e a reta tangente $2x - 1$ são objetos matemáticos diferentes. A derivada é o "motor" que nos diz para onde a curva aponta, enquanto a reta tangente é a "estrada" que encosta na curva naquele ponto específico.

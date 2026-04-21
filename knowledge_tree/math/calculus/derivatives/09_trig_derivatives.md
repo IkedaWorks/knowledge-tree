@@ -5,7 +5,8 @@
 
 Para o domínio deste tópico, é indispensável a compreensão sólida de trigonometria, especificamente no que tange às identidades e relações fundamentais.
 
-> [!IMPORTANT] Orientação de Estudo
+> [!IMPORTANT] 
+> Orientação de Estudo
 > 
 > Recomenda-se a memorização das derivadas do **seno**, **cosseno** e **tangente**. Através delas, é possível demonstrar todas as demais funções. Evite a memorização mecânica de todas as fórmulas, pois a similaridade entre elas pode induzir ao erro. Priorize a compreensão da lógica de derivação para que você seja capaz de reconstruí-las quando necessário.
 

@@ -19,7 +19,8 @@ $$\frac{d}{dx}(a^x) = a^x \cdot \ln(a)$$
 - **O caso específico ($e^x$):** Se a base for $e$, teríamos $e^x \cdot \ln(e)$. Como $\ln(e) = 1$, o pedágio é invisível. Por isso $e^x$ é tão prático: sua derivada é ele mesmo.
     
 
-> [!WARNING] Condição de Existência
+> [!WARNING] 
+> **Condição de Existência**
 > 
 > A base $a$ da exponencial deve ser sempre maior que zero ($a > 0$) e diferente de $1$ para que a função seja bem definida e não constante.
 
@@ -36,7 +37,8 @@ $$\frac{d}{dx}(\log_a x) = \frac{1}{x \cdot \ln(a)}$$
 - **O caso específico ($\ln x$):** Se a base for $e$, temos $\frac{1}{x \cdot \ln(e)} = \frac{1}{x}$.
     
 
-> [!NOTE] Domínio e Condições
+> [!NOTE] 
+> **Domínio e Condições**
 > 
 > - **Base ($a$):** Deve ser $a > 0$ e $a \neq 1$.
 >     

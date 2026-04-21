@@ -14,7 +14,8 @@ Já na forma **implícita**, as variáveis $x$ e $y$ estão entrelaçadas em uma
 - **Folium de Descartes:** $x^3 + y^3 - 3axy = 0$
     
 
-> [!ATTENTION] Por que não isolar o "y"?
+> [!ATTENTION] 
+> Por que não isolar o "y"?
 > 
 > No ensino médio, a estratégia era sempre isolar o $y$. No Cálculo de nível superior, isso muitas vezes é:
 > 
@@ -106,7 +107,8 @@ Este é um clássico de prova, pois o termo $xy$ exige a **Regra do Produto**: $
 
 ---
 
-> [!TIP] Diferença Geométrica
+> [!TIP] 
+> **Diferença Geométrica**
 > 
 > Note a simetria:
 > 

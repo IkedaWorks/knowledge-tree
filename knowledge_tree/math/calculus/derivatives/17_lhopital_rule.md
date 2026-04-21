@@ -14,7 +14,8 @@ A regra é restrita a dois casos específicos de indeterminação:
 - $$\frac{\infty}{\infty}$$
     
 
-> [!CAUTION] Alerta de Erro Comum
+> [!CAUTION] 
+> Alerta de Erro Comum
 > 
 > Se o limite resultar em qualquer outro valor (ex: $5/0$ ou $0/\infty$), a regra **não se aplica**. Aplicá-la fora desses casos levará a um resultado matematicamente falso.
 
@@ -26,7 +27,8 @@ Dada uma função racional $\frac{f(x)}{g(x)}$, se o limite em um ponto $a$ resu
 
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$$
 
-> [!IMPORTANT] Nota de Engenharia
+> [!IMPORTANT] 
+> Nota de Engenharia
 > 
 > **Não utilize a Regra do Quociente aqui.** Você deriva o numerador sozinho e o denominador sozinho. É uma operação paralela, não composta.
 
@@ -91,7 +93,8 @@ $$\lim_{x \to \infty} \frac{x^2}{e^x}$$
 4. **Análise Final:** Como o denominador cresce infinitamente e o numerador é constante: $\frac{2}{\infty} = 0$.
     
 
-> [!TIP] Insight de Computação (Notação Big O)
+> [!TIP] 
+> Insight de Computação (Notação Big O)
 > 
 > Este resultado prova que a exponencial sempre "esmaga" qualquer polinômio no longo prazo. Na prática, isso explica por que algoritmos de complexidade exponencial ($O(e^n)$) são inviáveis para grandes volumes de dados comparados a algoritmos polinomiais ($O(n^2)$).
 

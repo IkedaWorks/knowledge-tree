@@ -90,6 +90,7 @@ Caso não estejam memorizadas, estas relações são cruciais para a expansão d
 
 ---
 
-> [!NOTE] Observação de Engenharia
+> [!NOTE] 
+> Observação de Engenharia
 > 
-> Note que, para ângulos muito pequenos ($h \approx 0$), o comportamento do seno é linear (como a função $y=x$), enquanto o cosseno comporta-se como uma constante próxima a $1$. Isso explica por que a taxa de variação (derivada) do seno é máxima na origem, enquanto a do cosseno é nula.
+> Note que, para ângulos muito pequenos ($h \approx 0$), o comportamento do seno é linear (como a função $y=x$), enquanto o cosseno comporta-se como uma constante próxima a $1$.Isso explica por que a taxa de variação (derivada) do seno é máxima na origem, enquanto a do cosseno é nula.
