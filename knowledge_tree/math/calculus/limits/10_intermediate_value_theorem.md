@@ -52,6 +52,6 @@ Dada $f(x) = x^2 + \cos(\pi x)$, prove que existe um $c \in [0, 1]$ tal que $f(c
 * **O Erro Fatal:** Nunca use o TVI sem mencionar que a função é **contínua**. Se a função tiver um "salto", ela pode pular por cima do valor $L$ sem nunca tocá-lo.
 * **Truque para equações $f(x) = g(x)$:** Se te pedirem para provar que duas funções se cruzam, crie uma nova função $h(x) = f(x) - g(x)$ e prove que $h(x)$ tem uma raiz (muda de sinal).
 
-> [!ABSTRACT] 
+> [!TIP] 
 > **Conclusão**
 > O TVI é a prova matemática de que a continuidade impõe uma trajetória. Se você começou embaixo e terminou em cima, você tocou em tudo que havia no meio.

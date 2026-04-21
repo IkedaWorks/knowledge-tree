@@ -14,15 +14,13 @@ Já na forma **implícita**, as variáveis $x$ e $y$ estão entrelaçadas em uma
 - **Folium de Descartes:** $x^3 + y^3 - 3axy = 0$
     
 
-> [!ATTENTION] 
-> Por que não isolar o "y"?
+> [!WARNING]
+> **Por que não isolar o "y"?**
 > 
 > No ensino médio, a estratégia era sempre isolar o $y$. No Cálculo de nível superior, isso muitas vezes é:
-> 
-> 1. **Impossível:** Tente isolar $y$ em $y^5 + 3x^2y^2 + \sin(y) = 10$. Não existe álgebra que permita isolar $y$.
->     
-> 2. **Ineficiente:** Mesmo quando isolável (como no círculo, gerando $y = \pm\sqrt{1-x^2}$), a derivada resultante é muito mais complexa do que se derivássemos a equação original.
->     
+>
+> * **Impossível:** Tente isolar $y$ em $y^5 + 3x^2y^2 + \sin(y) = 10$. Não existe álgebra que permita isolar $y$.
+> * **Ineficiente:** Mesmo quando isolável (como no círculo, gerando $y = \pm\sqrt{1-x^2}$), a derivada resultante é muito mais complexa do que se derivássemos a equação original.
 
 ---
 
