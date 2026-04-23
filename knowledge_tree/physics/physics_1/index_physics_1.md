@@ -18,7 +18,7 @@
 ### 2. Practice & Exercises
 * 07 — [Numerical Calculus Exercises](./07_numerical_calculus_exercises.md) — *Exercícios de Cálculo Numérico e Grandezas.*
 * 08 — [Vector Decomposition](./08_vector_decomposition.md) — *Decomposição de Vetores.*
-* 09 — [Force Vector Exercises (Easy)](./09_force_vectors_easy.md) — *Exercícios de Vetores Força (Easy).*
+* 09 — [Force Vector Exercises (Easy)](09_force_vectors_exercises_easy.md) — *Exercícios de Vetores Força (Easy).*
 
 ### 🛠️ Accessory: Calculus to Physics
 *Links para as ferramentas matemáticas aplicadas aos tópicos acima:*

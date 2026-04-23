@@ -9,6 +9,8 @@
 
 ### 📝 Lista de Problemas (Hibbeler)
 
+![Exercises](../../assets/physics-1-fundamental-exercises.webp)
+
 #### F2.1. Resultante na Argola
 
 - **Enunciado:** Determine a intensidade da força resultante que atua sobre a argola e sua direção, medida no sentido horário a partir do eixo $x$.
