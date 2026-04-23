@@ -12,10 +12,24 @@ To ensure repository performance and cross-platform compatibility (Obsidian/GitH
 * **Fallback:** `.jpg` / `.jpeg` - Use for high-contrast photos of textbooks or handwritten sketches.
 * **Avoid:** `.png` - Unless transparency is strictly required, as file sizes tend to be unnecessarily large for static diagrams.
 
-### 2. Naming Convention
-Use **snake_case** with descriptive prefixes to keep files searchable and prevent broken links in Unix-based systems:
-* `phys1_statics_hibbeler_f2_1.webp`
-* `calc1_integration_by_parts.webp`
+### 2. Naming Convention 
+
+Use a hybrid approach to distinguish between content and assets, ensuring compatibility with GitHub and Unix-based systems:
+
+- **Notes & Folders (`snake_case`):** Maintain for consistency with existing academic logs.
+    
+    - `phys1_statics_notes.md`
+        
+- **Images & Assets (`kebab-case`):** Standard for web assets and easy visual distinction.
+    
+    - `phys1-statics-hibbeler-f2-1.webp`
+        
+    - `calc1-integration-by-parts.webp`
+        
+
+> [!TIP] 
+> 
+> This distinction helps in identifying file types at a glance in the terminal and prevents conflicts with Python/C variable naming conventions.
 
 ### 3. Workflow & Linking
 1. Save the optimized image directly into this `/assets` folder.
@@ -23,4 +37,3 @@ Use **snake_case** with descriptive prefixes to keep files searchable and preven
    `![Brief Description](../assets/file_name.webp)`
 
 ---
-**Maintained under the First Principles learning framework.**
