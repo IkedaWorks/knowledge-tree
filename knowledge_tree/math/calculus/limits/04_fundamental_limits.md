@@ -31,6 +31,19 @@ $$\lim_{x \to 0} \frac{\text{sen}(x)}{x} = 1$$
 
 $$\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e \quad \text{ou} \quad \lim_{u \to 0} (1 + u)^{1/u} = e$$
 
+
+### 3. Limite Fundamental Logarítmico
+
+Este limite é derivado diretamente do limite exponencial e é a base para a derivada do logaritmo natural ($\ln$).
+
+$$\lim_{x \to 0} \frac{\ln(1+x)}{x} = 1$$
+
+**Caso Geral (Base $a$):**
+
+Quando a base não é $e$, o resultado envolve o ajuste para o logaritmo natural:
+
+$$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
+
 ---
 
 ### 💡 Macetes de Ouro
