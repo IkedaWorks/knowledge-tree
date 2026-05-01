@@ -1,9 +1,9 @@
 
-# 🏛️ Force Vector Exercises (Easy) — (Problemas Fundamentais: Estática)
+# 🏛️ Problemas Fundamentais: Estática
 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > Esta seção foca na aplicação prática do **Método do Paralelogramo** e da **Decomposição em Eixos Não Ortogonais**. Lembre-se: em problemas de engenharia, o desenho (DCL) é metade da solução.
 

@@ -1,5 +1,5 @@
 
-# 🏛️ Vector Decomposition & Sum — (O Guia do Engenheiro)
+# 🏛️ Decomposição de Vetores  — (O Guia do Engenheiro)
 
 > [!IMPORTANT]
 > 

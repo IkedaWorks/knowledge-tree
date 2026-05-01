@@ -1,9 +1,9 @@
 
-# 🏛️ Physical Quantities — (O que são Grandezas e por que Medimos?)
-
+# 🏛️ O que são Grandezas e por que Medimos ?
+ 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > A Física nasce quando decidimos que o adjetivo não basta; precisamos da **Grandeza**. Grandeza é tudo aquilo que pode ser quantificado; é a propriedade do objeto que aceita um número. Altura, massa, temperatura e tempo são grandezas porque podemos aplicar uma escala nelas.
 

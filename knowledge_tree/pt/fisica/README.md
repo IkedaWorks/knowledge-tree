@@ -1,19 +1,22 @@
 
-# 🌌 Physics Knowledge Base
+### 🌌 Base de Conhecimento de Física
 
-This directory contains my structured studies of Physics.
+Este diretório contém meus estudos estruturados de Física.
 
-## 📂 Hierarchy Index
+#### 📂 Índice de Hierarquia
 
- **[physics_1](knowledge_tree/pt/fisica/physics_1/index_physics_1.md)**: Classical Mechanics, Statics, and Kinematics.
-* **physics_2**: (Upcoming) Thermodynamics, Waves, and Optics.
-* **physics_3**: (Upcoming) Electromagnetism and Modern Physics.
-* **other/**: Miscellaneous physics topics and quick references.
+- [Física 1: Mecânica Clássica, Estática e Cinemática](index_fisica_1.md)
+    
+- Física 2: (Em breve) Termodinâmica, Ondas e Óptica
+    
+- Física 3: (Em breve) Eletromagnetismo e Física Moderna
 
-## 🛠 Study Methodology
-1.  **Derivation:** Focus on understanding the origin of formulas.
-2.  **Visualization:** High-quality `.webp` diagrams stored in the root `assets/` folder.
-3.  **Language:** Documentation in English; core conceptual explanations in Portuguese.
+#### 🛠 Metodologia de Estudo
 
----
-*Created as part of the Computer Engineering degree .*
+- **Dedução:** Foco total em entender a origem das fórmulas (nada de "caixa-preta").
+    
+- **Visualização:** Diagramas em `.webp` de alta qualidade armazenados na pasta raiz `assets/`.
+
+
+
+> Criado como parte da graduação em **Engenharia de Computação**.

@@ -1,9 +1,9 @@
 
-# 🏛️ Dimensional Analysis — (Essência das Dimensões e Regra da Cadeia)
+# 🏛️ Análise Dimensional (Método da Cadeia)
 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > Toda grandeza física, por mais complexa que seja, é construída a partir de três "átomos" fundamentais na mecânica. Chamamos a natureza de uma grandeza de sua **dimensão**.
 

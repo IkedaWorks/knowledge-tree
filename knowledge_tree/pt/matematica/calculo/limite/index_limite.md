@@ -2,7 +2,7 @@
 <h1 align="center"> 📉 Caminho de Aprendizado</h1>
 Este index centraliza o todo o conteúdo de limites com o intuito de facilitar a navegação através das notas. Recomendo que você dedique o seu estudo para entender e não decorar, esse é um assunto importante para derivada e integral, os outros pilares do cálculo. Perceba tudo que você memorizou e não utilizou com uma certa frequência você esqueceu ou não lembra o processo de para chegar naquele resultado, por isso é importante aprender de verdade.
 
-## 🛤️ Progress Roadmap
+## 📂 Mapa de Conteúdo (MOC)
 
 - [ ] [01. Definição de Limites](01_conceito_de_limite.md)
 - [ ] [02. Propriedades de Limites](02_propriedades_de_limites.md) 

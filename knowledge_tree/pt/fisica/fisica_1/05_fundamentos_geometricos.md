@@ -1,10 +1,10 @@
 
 
-# 🏛️ Geometric Fundamentals — (Fundamentos Geométricos para Física Superior)
+# 🏛️ Fundamentos Geométricos para Física Superior
 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > Esta é uma mini revisão para quem não lembra da matemática necessária para o ensino superior. Conceitos que você não decora, mas **compreende**. O método de compreender o processo é o que torna o estudo eficiente e duradouro. Divirta-se.
 

@@ -1,9 +1,9 @@
 
-# 🏛️ The Nature of Classical Mechanics — (A Natureza da Mecânica Clássica)
+# 🏛️ A Natureza da Mecânica Clássica
 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > Imagine que você está observando o mundo e decide que ele não é um caos de eventos aleatórios, mas um sistema de regras que podem ser escritas. A Mecânica Clássica é a tentativa de prever o futuro das coisas tangíveis. Se você a entende, deixa de ser um espectador para se tornar o arquiteto das engrenagens da realidade.
 

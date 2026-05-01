@@ -16,7 +16,7 @@ Antes de começar, certifique-se de compreender:
 
 ---
 
-### 🗺️ Roteiro de Estudos
+### 📂 Mapa de Conteúdo (MOC)
 
 #### 1. Fundamentos
 

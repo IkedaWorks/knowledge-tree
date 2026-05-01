@@ -1,10 +1,10 @@
 
 
-# 🏛️ Numerical Calculus & SI — (Diretrizes de Precisão e Representação)
+# 🏛️ Diretrizes de Precisão e Representação
 
 > [!IMPORTANT]
 > 
-> **Important**
+> **Importante:**
 > 
 > Na engenharia, um número isolado é insuficiente. A integridade de um projeto depende da correta manipulação de **Algarismos Significativos (AS)** e da aplicação rigorosa dos prefixos do Sistema Internacional (SI). O rigor aqui aplicado visa eliminar ambiguidades e garantir uma comunicação técnica universal.
 

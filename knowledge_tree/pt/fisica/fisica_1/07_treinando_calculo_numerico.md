@@ -1,6 +1,6 @@
 
 
-# 🏛️ Numerical Calculus Exercises — (Prática de Precisão e SI)
+# 🏛️ Prática de Precisão e SI
 
 > [!IMPORTANT]
 > 

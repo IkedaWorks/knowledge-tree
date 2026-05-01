@@ -1,6 +1,6 @@
 
 
-# 🏛️ Classical Mechanics  (Mecânica Clássica)
+# 🏛️ Mecânica Clássica
 
 > [!IMPORTANT]
 > 
