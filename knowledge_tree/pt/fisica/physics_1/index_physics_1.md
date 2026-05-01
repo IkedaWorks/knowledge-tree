@@ -22,8 +22,8 @@
 
 ### 🛠️ Accessory: Calculus to Physics
 *Links para as ferramentas matemáticas aplicadas aos tópicos acima:*
-* [Derivatives as Rates of Change](knowledge_tree/pt/matematica/calculo/derivada/index_derivatives.md) *- Derivadas como taxa de variação*
-* [Integrals as Accumulation](knowledge_tree/pt/matematica/calculo/integral/index_integrals.md) *-Integrais como função área acumulada*
+* [Derivatives as Rates of Change](index_derivada.md) *- Derivadas como taxa de variação*
+* [Integrals as Accumulation](index_integral.md) *-Integrais como função área acumulada*
 
 ---
 

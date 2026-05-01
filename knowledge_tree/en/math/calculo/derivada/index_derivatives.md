@@ -9,7 +9,7 @@
 
 Antes de começar, certifique-se de compreender:
 
-- [Limits](knowledge_tree/pt/matematica/calculo/limite/index_limits.md) *-Limites*
+- [Limits](index_limite.md) *-Limites*
     
 - [Basic Algebra](/algebra.md) *-Álgebra Básica*
     

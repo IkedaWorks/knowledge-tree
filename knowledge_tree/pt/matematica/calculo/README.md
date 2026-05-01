@@ -48,5 +48,15 @@ Não acredito em fórmulas "caixa-preta", onde você memoriza passos sem context
     
 - **Secundário:** Halliday & Resnick. _Fundamentos de Física_ (Cálculo Aplicado).
     
-- **Ferramentas:** Desmos Graphing Calculator.
+- **Ferramentas:** 
+- -  Desmos Graphing Calculator. 
+- - Photomath
+- - GeoGebra
+- - Wolfram Alfa
+
+> [!TIP]
+> 
+> **OBS:**  As ferramentas acima são as que uso para confirmar cálculo e conclusões, nunca use elas para resolver o problema para você, isso se chama auto enganar a  si próprio.
+
+
 ---
