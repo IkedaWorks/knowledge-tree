@@ -11,7 +11,7 @@ This index centralizes the study of limits, focusing on first principles and int
 - [ ] [04. Fundamental Limits](./04_fundamental_limits.md) *-Limites Fundamentais*
 - [ ] [05. Limits by Substitution](./05_limits_by_substitution.md) *-Limites por Substituição*
 - [ ] [06. One-Sided Limits](./06_one_sided_limits.md)  *-Limites Laterais*
-- [ ] [07. Limits at Infinity and Infinite Limits](./07_limits_at_infinity_and_infinite_limits.md)  *-Limites no Infinito e Limites  infinitos*
+- [ ] [07. Limits at Infinity and Infinite Limits](07_limits_at_infinity_and_infinite_limits.md)  *-Limites no Infinito e Limites  infinitos*
 - [ ] [08. Squeeze Theorem](./08_squeeze_theorem.md) *-Teorema do Confronto ou do Sanduíche*
 - [ ] [09. Continuity of Functions](./09_continuity_of_functions.md) *-Funções Continuas*
 - [ ] [10. Intermediate Value Theorem](./10_intermediate_value_theorem.md) *-Teorema do Valor Intermediário*

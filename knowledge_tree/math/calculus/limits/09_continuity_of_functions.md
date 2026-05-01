@@ -47,7 +47,7 @@ Determine $k$ para que $f(x)$ seja contínua em $x = 2$:
 
 
 $$
-f(x) = \begin{cases} x + 3, & x < 2 \\ k, & x = 2 \\ 3x - 1, & x > 2 \end{cases}
+f(x) = \begin{cases} x + 3, & x < 2 \\\\ k, & x = 2 \\\\ 3x - 1, & x > 2 \end{cases}
 $$
 
 
@@ -65,7 +65,7 @@ Verifique se $f(x) = \frac{x^2 - 4}{x - 2}$ é contínua em $x = 2$.
 Determine $k$ para que $f(x)$ seja contínua em todo o domínio:
 
 $$
-f(x) = \begin{cases} kx^2, & x \le 2 \\ 10 - kx, & x > 2 \end{cases}
+f(x) = \begin{cases} kx^2, & x \le 2 \\\\ 10 - kx, & x > 2 \end{cases}
 $$
 
 

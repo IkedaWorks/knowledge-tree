@@ -36,7 +36,7 @@ Função: $f(x) = \frac{|x-3|}{x-3}$ no ponto $a = 3$.
 Função definida por partes:
 
 $$ 
-f(x) = \begin{cases} 2x + 1, & x < 3 \\ x^2 - 2, & x \ge 3 \end{cases}
+f(x) = \begin{cases} 2x + 1, & x < 3 \\\\ x^2 - 2, & x \ge 3 \end{cases}
 $$
 
 
@@ -62,4 +62,4 @@ $$
 
 ### 🔗 Connections
 - [09. Continuity of Functions](./09_continuity_of_functions.md)
-- [07. Limits at Infinity](./07_Limits_at_Infinity_and_Infinite_Limits.md)
+- [07. Limits at Infinity](07_limits_at_infinity_and_infinite_limits.md)
