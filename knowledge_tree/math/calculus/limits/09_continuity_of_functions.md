@@ -44,7 +44,13 @@ Existem três formas principais de "quebrar" uma função:
 
 ### Exemplo 1: O "Conserto" de Função
 Determine $k$ para que $f(x)$ seja contínua em $x = 2$:
-$$f(x) = \begin{cases} x + 3, & x < 2 \\ k, & x = 2 \\ 3x - 1, & x > 2 \end{cases}$$
+
+
+$$
+f(x) = \begin{cases} x + 3, & x < 2 \\ k, & x = 2 \\ 3x - 1, & x > 2 \end{cases}
+$$
+
+
 1. **Limite pela esquerda:** $2 + 3 = 5$.
 2. **Limite pela direita:** $3(2) - 1 = 5$.
 3. **Veredito:** O limite global é 5. Para fechar o buraco e ser contínua, o ponto $f(2)$ deve ser igual ao limite. Logo, **$k = 5$**.
@@ -57,7 +63,12 @@ Verifique se $f(x) = \frac{x^2 - 4}{x - 2}$ é contínua em $x = 2$.
 
 ### Exemplo 3: Encontrando a Incógnita $k$
 Determine $k$ para que $f(x)$ seja contínua em todo o domínio:
-$$f(x) = \begin{cases} kx^2, & x \le 2 \\ 10 - kx, & x > 2 \end{cases}$$
+
+$$
+f(x) = \begin{cases} kx^2, & x \le 2 \\ 10 - kx, & x > 2 \end{cases}
+$$
+
+
 1. **Igualando os lados no ponto de transição ($x=2$):**
    * Lado esquerdo: $k(2)^2 = 4k$.
    * Lado direito: $10 - k(2) = 10 - 2k$.

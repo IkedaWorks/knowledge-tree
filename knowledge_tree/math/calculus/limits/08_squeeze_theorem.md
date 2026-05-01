@@ -6,9 +6,9 @@ O Teorema do Sanduíche (ou Teorema do Confronto) serve para encontrar o limite 
 
 ### 🏃 A Intuição do Corredor (Realidade)
 Imagine que você está caminhando em um corredor estreito:
-* À sua esquerda existe uma parede móvel ($g(x)$).
-* À sua direita existe outra parede móvel ($h(x)$).
-* Se as duas paredes se afunilam e se encontram exatamente em uma porta ($L$), você, que está no meio ($f(x)$), não tem escolha a não ser passar por essa mesma porta.
+* À sua esquerda existe uma parede móvel ( $g(x)$ ).
+* À sua direita existe outra parede móvel ( $h(x)$ ).
+* Se as duas paredes se afunilam e se encontram exatamente em uma porta ( $L$ ), você, que está no meio ( $f(x)$ ), não tem escolha a não ser passar por essa mesma porta.
 
 ---
 

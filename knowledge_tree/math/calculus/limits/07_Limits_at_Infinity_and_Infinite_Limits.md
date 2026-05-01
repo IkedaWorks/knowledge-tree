@@ -1,7 +1,7 @@
 
 # Limits at Infinity and Infinite Limits
 
-Esta nota explora o comportamento das funções nos extremos: quando a entrada ($x$) cresce sem parar ou quando a saída ($f(x)$) explode para valores imensuráveis.
+Esta nota explora o comportamento das funções nos extremos: quando a entrada  ( $x$ ) cresce sem parar ou quando a saída ( $f(x)$ ) explode para valores imensuráveis.
 
 ---
 
@@ -11,11 +11,11 @@ Para resolver esses limites de forma rigorosa, baseamo-nos em duas identidades f
 
 1. **A Identidade do Horizonte ($x \to \infty$):**
    $$\lim_{x \to \infty} \frac{k}{x^n} = 0$$
-   *(Um número fixo $k$ dividido por algo que cresce sem parar tende a zero).*
+   *(Um número fixo **K** dividido por algo que cresce sem parar tende a zero).*
 
 2. **A Identidade da Explosão ($x \to a$):**
    $$\lim_{x \to a} \frac{k}{(x-a)^n} = \pm \infty$$
-   *(Um número fixo $k$ dividido por algo que diminui até quase zero explode para o infinito).*
+   *(Um número fixo **k** dividido por algo que diminui até quase zero explode para o infinito).*
 
 ---
 

@@ -34,7 +34,12 @@ Função: $f(x) = \frac{|x-3|}{x-3}$ no ponto $a = 3$.
 
 ### 📝 Exemplo 2: A Conexão (Limite Existente)
 Função definida por partes:
-$$f(x) =  \begin{cases}  2x + 1, & x < 3 \\ x^2 - 2, & x \ge 3 \end{cases}$$
+
+$$ 
+f(x) = \begin{cases} 2x + 1, & x < 3 \\ x^2 - 2, & x \ge 3 \end{cases}
+$$
+
+
 
 1.  **Pela Esquerda ($x \to 3^-$):** Usamos a primeira sentença:
     $$\lim_{x \to 3^-} (2x + 1) = 2(3) + 1 = 7$$
