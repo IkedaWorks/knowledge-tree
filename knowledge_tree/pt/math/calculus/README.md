@@ -25,10 +25,10 @@ I don't believe in "black-box" formulas where you memorize steps without context
 
 ## 🗺️ Learning Roadmap
 
-### 1. 🔵 [Limits & Continuity](./limits/index_limits.md)
+### 1. 🔵 [Limits & Continuity](index_limits.md)
 
-### 2. 🟢 [Derivatives](./derivatives/index_derivatives.md)
-### 3. 🔴 [Integrals](./integrals/index_integrals.md)
+### 2. 🟢 [Derivatives](index_derivatives.md)
+### 3. 🔴 [Integrals](index_integrals.md)
 
 ---
 

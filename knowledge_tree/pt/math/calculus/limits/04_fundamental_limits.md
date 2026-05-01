@@ -140,8 +140,8 @@ Estes exercícios focam na manipulação de argumentos e identificação de padr
  ---
 **🔗 Connections**
 
-- [08. Squeeze Theorem](./08_squeeze_theorem.md)
+- [08. Squeeze Theorem](08_squeeze_theorem.md)
     
-- [12. Hardcore Limits](./12_limits_review.md)
+- [12. Hardcore Limits](12_limits_review.md)
     
-- [Index de Limites](./index_limits.md)
+- [Index de Limites](index_limits.md)

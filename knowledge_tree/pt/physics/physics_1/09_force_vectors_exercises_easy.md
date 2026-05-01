@@ -9,7 +9,7 @@
 
 ### 📝 Lista de Problemas (Hibbeler)
 
-![Exercises](../../assets/physics-1-fundamental-exercises.webp)
+![Exercises](physics-1-fundamental-exercises.webp)
 
 #### F2.1. Resultante na Argola
 

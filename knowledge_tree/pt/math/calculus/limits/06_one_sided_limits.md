@@ -61,5 +61,5 @@ $$
 
 
 ### 🔗 Connections
-- [09. Continuity of Functions](./09_continuity_of_functions.md)
+- [09. Continuity of Functions](09_continuity_of_functions.md)
 - [07. Limits at Infinity](07_limits_at_infinity_and_infinite_limits.md)

@@ -50,6 +50,6 @@ Provar que $\lim_{x \to a} c = c$.
 > O limite é uma forma de estudar o comportamento de uma função usando apenas a proximidade de um ponto no eixo das abscissas sem precisar saber o que acontece exatamente nele. Ao controlarmos a entrada $x$ dentro de um intervalo $(0, \delta)$, forçamos a saída $f(x)$ a cair dentro do intervalo de erro $\epsilon$ em torno de $L$. **Controlar a entrada é controlar a aproximação da saída.**
 
 ### 🔗 Connections
-- [02. Limit Laws](./02_limit_laws.md)
-- [06. One-Sided Limits](./06_one_sided_limits.md)
-- [Index de Limites](./index_limits.md)
+- [02. Limit Laws](02_limit_laws.md)
+- [06. One-Sided Limits](06_one_sided_limits.md)
+- [Index de Limites](index_limits.md)

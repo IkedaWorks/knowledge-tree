@@ -77,4 +77,4 @@ Nem todo ponto que zera o denominador é AV. Se o ponto também zerar o numerado
 
 ### 🔗 Connections
 - [07. Limits at Infinity](07_limits_at_infinity_and_infinite_limits.md)
-- [09. Continuity of Functions](./09_continuity_of_functions.md)
+- [09. Continuity of Functions](09_continuity_of_functions.md)

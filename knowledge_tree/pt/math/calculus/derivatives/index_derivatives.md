@@ -9,7 +9,7 @@
 
 Antes de começar, certifique-se de compreender:
 
-- [Limits](../limits/index_limits.md) *-Limites*
+- [Limits](index_limits.md) *-Limites*
     
 - [Basic Algebra](/algebra.md) *-Álgebra Básica*
     

@@ -90,6 +90,6 @@ Se uma função é contínua em um intervalo e ela começa no $y = -2$ e termina
 * **Dica Visual:** Se o limite lateral deu diferente, é um **Salto**. Se o limite deu igual, mas a função não existe ali, é um **Buraco**.
 
 ### 🔗 Connections
-- [10. Intermediate Value Theorem (TVI)](./10_intermediate_value_theorem.md)
-- [06. One-Sided Limits](./06_one_sided_limits.md)
-- [11. Asymptotes](./11_asymptotes.md)
+- [10. Intermediate Value Theorem (TVI)](10_intermediate_value_theorem.md)
+- [06. One-Sided Limits](06_one_sided_limits.md)
+- [11. Asymptotes](11_asymptotes.md)
