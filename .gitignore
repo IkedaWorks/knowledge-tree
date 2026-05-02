@@ -1,14 +1,10 @@
-# config
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/graph.json
-.obsidian/cache/
-.obsidian/indexed_db/
+# Obsidian - Ignora todas as configuracoes locais e cache
+.obsidian/
 
-# system (adicionando os niveis acima)
-../$RECYCLE.BIN/
-"../System Volume Information/"
-../.*
-# E tambem por seguranca dentro da pasta atual
+# Windows System Files - Caso eles aparecam dentro da knowledge_tree
 $RECYCLE.BIN/
 System\ Volume\ Information/
+
+# Arquivos temporarios e de sistema
+.DS_Store
+Thumbs.db
