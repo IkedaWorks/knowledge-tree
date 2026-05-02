@@ -1,7 +1,7 @@
 # Change of Variables in Definite Integrals
 
 ## Definition
-When performing a variable substitution ($u = g(x)$) in a **definite integral**, the original limits of integration ($a$ and $b$) must be updated to the corresponding values in the new variable ($u(a)$ and $u(b)$). This allows you to solve the integral and apply the Fundamental Theorem of Calculus (FTC) directly, without needing to switch back to the original variable $x$.
+When performing a variable substitution ( $u = g(x)$ ) in a **definite integral**, the original limits of integration ($a$ and $b$) must be updated to the corresponding values in the new variable ( $u(a)$ and $u(b)$ ). This allows you to solve the integral and apply the Fundamental Theorem of Calculus (FTC) directly, without needing to switch back to the original variable $x$.
 
 ### Strategic Advantages
 *   **Mathematical Consistency:** Prevents notation errors like writing $x$-limits on a function of $u$.

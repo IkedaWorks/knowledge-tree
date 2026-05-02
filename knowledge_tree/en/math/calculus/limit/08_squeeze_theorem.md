@@ -9,11 +9,11 @@ The **Squeeze Theorem** (also known as the **Sandwich Theorem** or **Confrontati
 
 Imagine you are walking down a narrow hallway:
 
-- To your left is a moving wall ($g(x)$).
+- To your left is a moving wall ( $g(x)$ ) .
     
-- To your right is another moving wall ($h(x)$).
+- To your right is another moving wall ( $h(x)$ ).
     
-- If both walls taper and meet exactly at a door ($L$), you, who are in the middle ($f(x)$), have no choice but to pass through that same door.
+- If both walls taper and meet exactly at a door ( $L$ ), you, who are in the middle ( $f(x)$ ), have no choice but to pass through that same door.
     
 
 ## 📐 Formalization and the Classic Example

@@ -36,7 +36,7 @@ To calculate the area under a function $f(x)$ in the interval $[a, b]$:
 
 1. **Partition:** We divide the interval into $n$ pieces of width $\Delta x = \frac{b-a}{n}$.
     
-2. **Choosing the Height:** In each piece, we choose a point $x_i^*$ to determine the height of the rectangle $f(x_i^*)$.
+2. **Choosing the Height:** In each piece, we choose a point  $x_i^{*}$ to determine the height of the rectangle $f(x_i^{*})$.
     
 3. **The Sum:** We sum the area of all $n$ rectangles:
     

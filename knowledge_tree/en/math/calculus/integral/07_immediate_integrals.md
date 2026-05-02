@@ -38,18 +38,18 @@ Often, you must "prepare" the function algebraically before integrating:
 
 ## 📊 Table of Immediate Integrals
 
-| Function $f(x)$ | Integral $\int f(x) \, dx$ | Observation |
-| :--- | :--- | :--- |
-| $k$ (Constant) | $kx + C$ | The integral of a constant generates a linear slope. |
-| $x^n$ | $\frac{x^{n+1}}{n+1} + C$ | Valid for $n \neq -1$. |
-| $1/x$ | $\ln|x| + C$ | Essential for fractional functions. |
-| $e^x$ | $e^x + C$ | Does not change during integration. |
-| $a^x$ | $\frac{a^x}{\ln a} + C$ | Exponential with any base $a$. |
-| $\sin(x)$ | $-\cos(x) + C$ | **Watch the negative sign!** |
-| $\cos(x)$ | $\sin(x) + C$ | Direct inverse of the sine derivative. |
-| $\sec^2(x)$ | $\tan(x) + C$ | Fundamental for trigonometric substitutions. |
-| $\csc^2(x)$ | $-\cot(x) + C$ | Negative result for "co-" functions. |
-| $\sec(x)\tan(x)$ | $\sec(x) + C$ | Common in advanced mechanics. |
+| Function $f(x)$  | Integral $\int f(x) \, dx$ | Observation                                          |
+| :--------------- | :------------------------- | :--------------------------------------------------- |
+| $k$ (Constant)   | $kx + C$                   | The integral of a constant generates a linear slope. |
+| $x^n$            | $\frac{x^{n+1}}{n+1} + C$  | Valid for $n \neq -1$.                               |
+| $1/x$            | $\ln\|x\| + C$             | Essential for fractional functions.                  |
+| $e^x$            | $e^x + C$                  | Does not change during integration.                  |
+| $a^x$            | $\frac{a^x}{\ln a} + C$    | Exponential with any base $a$.                       |
+| $\sin(x)$        | $-\cos(x) + C$             | **Watch the negative sign!**                         |
+| $\cos(x)$        | $\sin(x) + C$              | Direct inverse of the sine derivative.               |
+| $\sec^2(x)$      | $\tan(x) + C$              | Fundamental for trigonometric substitutions.         |
+| $\csc^2(x)$      | $-\cot(x) + C$             | Negative result for "co-" functions.                 |
+| $\sec(x)\tan(x)$ | $\sec(x) + C$              | Common in advanced mechanics.                        |
 
 > [!TIP]
 > 

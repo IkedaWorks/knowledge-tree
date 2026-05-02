@@ -33,7 +33,7 @@ To save time during exams, use immediate recognition triggers:
     
 - **Formulas:**
     
-    $$ \sin^2 x = \frac{1 - \cos(2x)}{2} \quad \text{and} \quad \cos^2 x = \frac{1 + \cos(2x)}{2} $$
+    $$\sin^2 x = \frac{1 - \cos(2x)}{2} \quad \text{and} \quad \cos^2 x = \frac{1 + \cos(2x)}{2}$$
     
 
 ### C. The Tangent-Secant Binomial ( $\int \tan^m (x) \sec^n (x) dx$ )
@@ -62,7 +62,7 @@ To save time during exams, use immediate recognition triggers:
 
 **Problem:** Calculate the definite integral:
 
-$$ I = \int_{0}^{\pi/2} \frac{\sin^2 x}{\sin x + \cos x} \, dx $$
+$$I = \int_{0}^{\pi/2} \frac{\sin^2 x}{\sin x + \cos x} \, dx$$
 
 **Why is it hard?** It does not fall into a simple typology immediately. It requires the manipulation of symmetry properties (**King's Property**) combined with trigonometric identities.
 
@@ -74,15 +74,15 @@ $$ I = \int_{0}^{\pi/2} \frac{\sin^2 x}{\sin x + \cos x} \, dx $$
         
 2. **Sum of Integrals:** Combine the two expressions for $I$.
     
-    $$ 2I = \int_{0}^{\pi/2} \frac{\sin^2 x + \cos^2 x}{\sin x + \cos x} \, dx = \int_{0}^{\pi/2} \frac{1}{\sin x + \cos x} \, dx $$
+    $$2I = \int_{0}^{\pi/2} \frac{\sin^2 x + \cos^2 x}{\sin x + \cos x} \ dx = \int_{0}^{\pi/2} \frac{1}{\sin x + \cos x} \ dx$$
     
 1. **Denominator Transformation:** Use the identity $\sin (x) + \cos (x) = \sqrt{2} \sin(x + \frac{\pi}{4})$.
     
-    $$ 2I = \frac{1}{\sqrt{2}} \int_{0}^{\pi/2} \csc\left(x + \frac{\pi}{4}\right) \, dx $$
+    $$2I = \frac{1}{\sqrt{2}} \int_{0}^{\pi/2} \csc\left(x + \frac{\pi}{4}\right) \ dx$$
     
 1. **Integral of Cosecant:** Apply $\int \csc (u) du = \ln|\csc (u) - \cot (u)|$.
     
-    $$ 2I = \frac{1}{\sqrt{2}} \left[ \ln\left|\csc\left(x + \frac{\pi}{4}\right) - \cot\left(x + \frac{\pi}{4}\right)\right| \right]_{0}^{\pi/2} $$
+    $$2I = \frac{1}{\sqrt{2}} \left[ \ln\left|\csc\left(x + \frac{\pi}{4}\right) - \cot\left(x + \frac{\pi}{4}\right)\right| \right]_{0}^{\pi/2}$$
     
 2. **Evaluation:**
     
@@ -92,10 +92,10 @@ $$ I = \int_{0}^{\pi/2} \frac{\sin^2 x}{\sin x + \cos x} \, dx $$
         
 3. **Final Result:**
     
-    $$ 2I = \frac{1}{\sqrt{2}} \ln\left(\frac{\sqrt{2}+1}{\sqrt{2}-1}\right) $$
+    $$2I = \frac{1}{\sqrt{2}} \ln\left(\frac{\sqrt{2}+1}{\sqrt{2}-1}\right)$$
     
     - Rationalizing $\frac{\sqrt{2}+1}{\sqrt{2}-1}$ gives $(\sqrt{2}+1)^2$.
         
-        $$ 2I = \frac{1}{\sqrt{2}} \ln(\sqrt{2}+1)^2 = \frac{2}{\sqrt{2}} \ln(\sqrt{2}+1) $$
+        $$2I = \frac{1}{\sqrt{2}} \ln(\sqrt{2}+1)^2 = \frac{2}{\sqrt{2}} \ln(\sqrt{2}+1)$$
         
-        $$ I = \frac{1}{\sqrt{2}} \ln(\sqrt{2} + 1) $$
+        $$I = \frac{1}{\sqrt{2}} \ln(\sqrt{2} + 1)$$

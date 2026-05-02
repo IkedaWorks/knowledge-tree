@@ -7,7 +7,7 @@ To solve areas between complex functions, follow this protocol:
 
 - **Graph Sketch:** Draw the functions. Identify roots and y-axis intercepts.
     
-- **Points of Intersection:** Set the functions equal to each other ($f(x) = g(x)$) to find the **Limits of Integration**.
+- **Points of Intersection:** Set the functions equal to each other ( $f(x) = g(x)$ ) to find the **Limits of Integration**.
     
 - **Identification of the Upper Function:** Check which function is "on top" within the interval. This defines the setup: $\int_{a}^{b} (\text{Upper} - \text{Lower}) \, dx$.
     

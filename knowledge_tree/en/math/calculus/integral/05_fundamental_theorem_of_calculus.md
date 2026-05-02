@@ -2,7 +2,7 @@
 # Proof: Fundamental Theorem of Calculus 
 
 ## The Intuition Behind the Proof
-To prove that the derivative of the accumulated area is the function itself ($A'(x) = f(x)$), we must return to the **Limit Definition of the Derivative**.
+To prove that the derivative of the accumulated area is the function itself ( $A'(x) = f(x)$ ), we must return to the **Limit Definition of the Derivative**.
 
 *   **The Concept:** Imagine an accumulated area $A(x)$ under a curve. If you move a tiny step $h$ along the x-axis, you add a small "slice" of area.
 *   **The Geometry:** 
@@ -41,4 +41,4 @@ This proof confirms that the integral "stores" the original function within itse
 
 > [!IMPORTANT]
 > 
-> This proof is what validates the use of **Part 2 of the FTC** ($\int_{a}^{b} f = F(b) - F(a)$), as we now know for certain that integration and differentiation are operations that cancel each other out.
+> This proof is what validates the use of **Part 2 of the FTC** ( $\int_{a}^{b} f = F(b) - F(a)$ ), as we now know for certain that integration and differentiation are operations that cancel each other out.

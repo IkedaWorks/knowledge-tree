@@ -17,7 +17,7 @@ Given an integral of the type $\int f(g(x)) \cdot g'(x) \, dx$:
 
 1.  **Identification:** Choose the inner function $u = g(x)$.
 2.  **Differentiation:** Calculate the relationship between the variations: $du = g'(x) \, dx$.
-    *   *Mechanism:* You differentiate $u$ with respect to $x$ ($\frac{du}{dx} = g'(x)$) and isolate $du$.
+    *   *Mechanism:* You differentiate $u$ with respect to $x$ ( $\frac{du}{dx} = g'(x)$ ) and isolate $du$.
 3.  **Substitution:** Replace all terms in $x$ with terms in $u$, resulting in $\int f(u) \, du$.
 4.  **Resolution:** Integrate with respect to $u$ and, finally, substitute back to the original variable $x$.
 

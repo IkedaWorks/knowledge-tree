@@ -23,8 +23,8 @@ The properties of the definite integral are manipulation rules that allow us to 
 
 ### C. Symmetry (The Physics "Shortcut")
 In symmetric intervals $[-a, a]$:
-*   **Even Function** ($f(x) = f(-x)$): $\int_{-a}^{a} f(x) \, dx = 2 \int_{0}^{a} f(x) \, dx$
-*   **Odd Function** ($f(x) = -f(-x)$): $\int_{-a}^{a} f(x) \, dx = 0$
+*   **Even Function** ( $f(x) = f(-x)$ ): $\int_{-a}^{a} f(x) \, dx = 2 \int_{0}^{a} f(x) \, dx$
+*   **Odd Function** ( $f(x) = -f(-x)$ ): $\int_{-a}^{a} f(x) \, dx = 0$
 *   **Example:** $\int_{-1}^{1} x^3 \, dx = 0$. In Physics III, if an electric field points in opposite directions with the same intensity in a symmetric distribution, the integral vanishes by symmetry.
 
 ---
@@ -41,7 +41,7 @@ Unlike classical geometry, the definite integral calculates the **Signed Area**.
 > [!IMPORTANT]
 > 
 > **Where is the $+C$?**
-> Notice that we do **not** add the $+C$ here (the constant often forgotten in indefinite integrals). This is because the goal is not to find a general primitive, but a specific numerical value. When applying the FTC ($F(b) - F(a)$), the constants would cancel out anyway: $(F(b) + C) - (F(a) + C) = F(b) - F(a)$.
+> Notice that we do **not** add the $+C$ here (the constant often forgotten in indefinite integrals). This is because the goal is not to find a general primitive, but a specific numerical value. When applying the FTC ( $F(b) - F(a)$ ), the constants would cancel out anyway: $(F(b) + C) - (F(a) + C) = F(b) - F(a)$.
 
 > [!TIP]
 > 

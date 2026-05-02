@@ -30,7 +30,7 @@ Instead, I apply the **Feynman Technique**: if you cannot explain something simp
 *   The concept of infinitesimals.
 *   Limit laws and algebraic techniques.
 *   Continuity and the Intermediate Value Theorem.
-* [ ] **[LIMITS](./limit/Index_limits.md)**
+* [ ] **[LIMITS](./limit/index_limits.md)**
 
 ### 🟢 2. Derivatives (Calculus in Motion)
 *   The definition of the derivative.
@@ -45,7 +45,7 @@ Instead, I apply the **Feynman Technique**: if you cannot explain something simp
 *   Riemann Sums and the Fundamental Theorem of Calculus.
 *   Integration Techniques (Substitution, Parts, Partial Fractions).
 *   Applications (Area, Volume of Solids of Revolution).
-- [ ] **[Intrgrals](./integral/index_integrals.md)**
+- [ ] **[Integrals](./integral/index_integrals.md)**
 ---
 
 ## 📚 Resources and References

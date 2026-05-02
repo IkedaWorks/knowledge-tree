@@ -3,13 +3,13 @@
 
 > [!IMPORTANT]
 > 
-> **Goal (Objetivo):** Upon completing this section, you will be able to efficiently calculate derivatives, understand their geometric/physical meaning, and apply them to real-world problems.
+> **Goal:** Upon completing this section, you will be able to efficiently calculate derivatives, understand their geometric/physical meaning, and apply them to real-world problems.
 
 ### 📌 Prerequisites 
 
-- [Limits](index_limite.md) 
+- [Limits](index_limits.md) 
     
-- [Basic Algebra](/algebra.md) 
+- Basic Algebra
     
 
 ---

@@ -1,7 +1,7 @@
 
 # Limits at Infinity and Infinite Limits
 
-This note explores the behavior of functions at their extremes: when the input ($x$) grows without bound or when the output ($f(x)$) explodes toward immeasurable values.
+This note explores the behavior of functions at their extremes: when the input ( $x$ ) grows without bound or when the output ( $f(x)$ ) explodes toward immeasurable values.
 
 ## 📐 Fundamental Identities
 
