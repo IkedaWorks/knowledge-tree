@@ -1,96 +1,95 @@
-
-# 🏛️ Physical Quantities — (O que são Grandezas e por que Medimos?)
+## 🏛️ Physical Quantities — (What are Quantities and why do we Measure?)
 
 > [!IMPORTANT]
 > 
-> **Important**
-> 
-> A Física nasce quando decidimos que o adjetivo não basta; precisamos da **Grandeza**. Grandeza é tudo aquilo que pode ser quantificado; é a propriedade do objeto que aceita um número. Altura, massa, temperatura e tempo são grandezas porque podemos aplicar uma escala nelas.
-
-### ⚖️ A Necessidade da Referência
-
-Medir é, essencialmente, um ato de comparação. O padrão (unidade) é o contrato social da ciência. Sem uma referência única, nada no mundo se encaixaria. A medição garante que o projeto de um engenheiro seja compreendido universalmente.
+> Physics is born when we decide that an adjective is not enough; we need a **Quantity**. A quantity is everything that can be quantified; it is the property of an object that accepts a number. Height, mass, temperature, and time are quantities because we can apply a scale to them.
 
 ---
 
-### 📏 A Anatomia das Grandezas e o Sistema Internacional
+### ⚖️ The Need for Reference
 
-Nem todas as grandezas nascem iguais. Na Mecânica, dividimos o mundo em dois grupos:
+Measuring is, essentially, an act of comparison. The standard (**unit**) is the social contract of science. Without a unique reference, nothing in the world would fit together. Measurement ensures that an engineer's design is understood universally.
 
-1. **Grandezas Fundamentais:** São os pilares. Não dependem de ninguém para existir. Na Física 1, os três "reis" são:
+---
+
+### 📏 The Anatomy of Quantities and the International System
+
+Not all quantities are born equal. In Mechanics, we divide the world into two groups:
+
+1. **Fundamental Quantities:** These are the pillars. They do not depend on anyone else to exist. In Physics 1, the three "kings" are:
     
-    - **Comprimento ($L$)**
+    - **Length (L)**
         
-    - **Massa ($M$)**
+    - **Mass (M)**
         
-    - **Tempo ($T$)**
+    - **Time (T)**
         
-2. **Grandezas Derivadas:** São as "filhas" das fundamentais.
+2. **Derived Quantities:** These are the "daughters" of the fundamentals.
     
-    - Exemplo: Velocidade (Comprimento dividido por Tempo).
+    - _Example:_ Velocity (Length divided by Time).
         
-3. **O Sistema Internacional (SI):** É a nossa _língua franca_. Ao basear o tempo em um átomo de Césio, garantimos que a precisão seja democratizada e constante em qualquer lugar do universo.
+3. **The International System (SI):** This is our lingua franca. By basing time on a Cesium atom, we ensure that precision is democratized and constant anywhere in the universe.
     
 
 ---
 
-### 🔄 A Arte da Tradução: Principais Conversões e Escalas
+### 🔄 The Art of Translation: Main Conversions and Scales
 
-O Sistema Internacional é decimal. Mudar de escala é, quase sempre, deslocar a vírgula através de potências de 10.
+The International System is decimal. Changing scales is, almost always, moving the decimal point through powers of 10.
 
-#### 1. Múltiplos e Submúltiplos (O Poder de 10)
+#### 1. Multiples and Submultiples (The Power of 10)
 
-- **Grandes Escalas (Múltiplos):**
+- **Large Scales (Multiples):**
     
-    - Quilo ($k$): $10^{3}$ (Ex: $1 \text{ km} = 1000 \text{ m}$)
+    - Kilo (k): $10^{3}$ (Ex: $1 \text{ km} = 1000 \text{ m}$)
         
-    - Mega ($M$): $10^{6}$
+    - Mega (M): $10^{6}$
         
-    - Giga ($G$): $10^{9}$
+    - Giga (G): $10^{9}$
         
-- **Pequenas Escalas (Submúltiplos):**
+- **Small Scales (Submultiples):**
     
-    - Centi ($c$): $10^{-2}$ (Ex: $1 \text{ m} = 100 \text{ cm}$)
+    - Centi (c): $10^{-2}$ (Ex: $1 \text{ m} = 100 \text{ cm}$)
         
-    - Mili ($m$): $10^{-3}$ (Ex: $1 \text{ s} = 1000 \text{ ms}$)
+    - Milli (m): $10^{-3}$ (Ex: $1 \text{ s} = 1000 \text{ ms}$)
         
     - Micro ($\mu$): $10^{-6}$
         
 
-#### 2. Conversões Fundamentais na Mecânica
+#### 2. Fundamental Conversions in Mechanics
 
-- **Comprimento:**
+- **Length:**
     
-    - $1 \text{ in (polegada)} \approx 2,54 \text{ cm}$ (Crucial para hardware).
+    - $1 \text{ in (inch)} \approx 2.54 \text{ cm}$ (Crucial for hardware).
         
-    - $1 \text{ ft (pé)} \approx 30,48 \text{ cm}$.
+    - $1 \text{ ft (foot)} \approx 30.48 \text{ cm}$.
         
-- **Massa:**
+- **Mass:**
     
-    - $1 \text{ t (tonelada)} = 1000 \text{ kg}$.
+    - $1 \text{ t (tonne)} = 1000 \text{ kg}$.
         
-    - $1 \text{ lb (libra)} \approx 0,453 \text{ kg}$.
+    - $1 \text{ lb (pound)} \approx 0.453 \text{ kg}$.
         
-- **Tempo (Base 60):**
+- **Time (Base 60):**
     
     - $1 \text{ h} = 60 \text{ min} = 3600 \text{ s}$.
         
 
-#### 3. Conversões de Grandezas Derivadas (Velocidade e Volume)
+#### 3. Conversions of Derived Quantities (Velocity and Volume)
 
-- **Velocidade (A ponte clássica):**
+- **Velocity (The classic bridge):**
     
-    - Para converter de $\text{km/h}$ para $\text{m/s}$, **dividimos por 3,6**.
+    - To convert from $\text{km/h}$ to $\text{m/s}$, divide by **3.6**.
         
-    - _Raciocínio:_ $1 \text{ km/h} = \frac{1000 \text{ m}}{3600 \text{ s}} = \frac{1}{3,6} \text{ m/s}$.
+    - _Reasoning:_ $1 \text{ km/h} = \frac{1000 \text{ m}}{3600 \text{ s}} = \frac{1}{3.6} \text{ m/s}$.
         
-- **Volume (Cuidado com a potência):**
+- **Volume (Watch the power):**
     
-    - $1 \text{ m}^{3} = 1000 \text{ litros}$.
+    - $1 \text{ m}^{3} = 1000 \text{ liters}$.
         
-    - $1 \text{ litro} = 1000 \text{ cm}^{3}$ (ou $1000 \text{ ml}$).
+    - $1 \text{ liter} = 1000 \text{ cm}^{3}$ (or $1000 \text{ ml}$).
         
 
 > [!CAUTION]
 > 
-> **Erro comum:** Achar que $1 \text{ m}^{2}$ são $100 \text{ cm}^{2}$. Na verdade, como a escala é quadrada, são $100 \times 100 = 10.000 \text{ cm}^{2}$. O mesmo raciocínio se aplica ao volume ($100^3$).
+> **Common Error:** Thinking that $1 \text{ m}^{2}$ is $100 \text{ cm}^{2}$. In fact, because the scale is squared, it is $100 \times 100 = 10,000 \text{ cm}^{2}$. The same reasoning applies to volume ($100^3$).

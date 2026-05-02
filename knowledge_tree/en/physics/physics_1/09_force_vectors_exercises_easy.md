@@ -1,68 +1,58 @@
 
-# 🏛️ Force Vector Exercises (Easy) — (Problemas Fundamentais: Estática)
+## 🏛️ Recommended Exercises: Statics & Vector Mechanics
 
-> [!IMPORTANT]
-> 
-> **Important**
-> 
-> Esta seção foca na aplicação prática do **Método do Paralelogramo** e da **Decomposição em Eixos Não Ortogonais**. Lembre-se: em problemas de engenharia, o desenho (DCL) é metade da solução.
+This note serves as a curated guide to mastering **Resultant Forces** and **Force Decomposition**, particularly focusing on **Non-Orthogonal (Oblique) Axes**. This selection emphasizes the transition from basic trigonometry to advanced engineering intuition.
 
-### 📝 Lista de Problemas (Hibbeler)
+### 📚 Core Bibliography
 
-![Exercises](physics-1-fundamental-exercises.webp)
-
-#### F2.1. Resultante na Argola
-
-- **Enunciado:** Determine a intensidade da força resultante que atua sobre a argola e sua direção, medida no sentido horário a partir do eixo $x$.
+- **Hibbeler, R. C.** — _Engineering Mechanics: Statics_ (14th Edition).
     
-- **Gatilho de Resolução:** Decomposição $x/y$. Calcule $R_x = \sum F_x$ e $R_y = \sum F_y$. A direção final será $\theta = \arctan(|R_y|/|R_x|)$.
+- **Halliday, D., & Resnick, R.** — _Fundamentals of Physics_.
     
-
-#### F2.2. Forças no Gancho
-
-- **Enunciado:** Duas forças atuam sobre o gancho. Determine a intensidade da força resultante.
-    
-- **Gatilho de Resolução:** Lei dos Cossenos para a resultante de dois vetores: $R = \sqrt{F_1^2 + F_2^2 + 2F_1F_2\cos(\theta)}$.
-    
-
-#### F2.3. Resultante e Direção (Anti-horária)
-
-- **Enunciado:** Determine a intensidade da força resultante e sua direção, medida no sentido anti-horário a partir do eixo $x$ positivo.
-    
-- **Dica:** Atente-se ao quadrante final do vetor resultante para ajustar o ângulo em relação ao semieixo $x$ positivo.
+- **Feynman, R.** — _The Feynman Lectures on Physics_ (Vol. 1).
     
 
 ---
 
-### ⚠️ Desafios de Decomposição (Eixos u, v)
+### 📝 Curated Exercise List
 
-#### F2.4. Decomposição nos eixos $u$ e $v$
+#### **1. R. C. Hibbeler: The Engineering Standard**
 
-- **Enunciado:** Decomponha a força de $30 \text{ N}$ nas componentes ao longo dos eixos $u$ e $v$, e determine a intensidade de cada uma delas.
+Ideal for developing **Free-Body Diagrams (FBD)** and practical structural analysis.
+
+- **Fundamental Problems F2.1 – F2.3:** Essential for mastering the Resultant Force using scalar decomposition ($x, y$ components) and the Parallelogram Law.
     
-- **Estratégia:** Como os eixos são oblíquos, monte o triângulo de forças e utilize a **Lei dos Senos**. As componentes são os lados do triângulo cujas direções são paralelas a $u$ e $v$.
+- **Fundamental Problems F2.4 – F2.6:** The most critical exercises for understanding why simple $\cos/\sin$ projections fail on **Oblique Axes ($u, v$)**.
+    
+- **Problem 2.10 & 2.12:** Excellent for practicing the direction of resultants in complex bracket and support systems.
+    
+- **Problem 2.35:** A great challenge for three-dimensional vector addition using Cartesian unit vectors ($\mathbf{i, j, k}$).
     
 
-#### F2.5. Componentes nos Membros $AB$ e $AC$
+#### **2. Halliday & Resnick: Analytical Foundations**
 
-- **Enunciado:** A força $F = 450 \text{ N}$ atua sobre a estrutura. Decomponha essa força nas componentes que atuam ao longo dos membros $AB$ e $AC$.
+Focuses on the mathematical rigor of vector algebra and unit vector notation.
+
+- **Chapter 3 (Vectors) - Sample Problems:** Excellent for practicing the addition of three or more vectors in 2D space.
     
-- **Insight:** Aplique a mesma lógica de eixos não ortogonais. A força de $450 \text{ N}$ funciona como a resultante (diagonal) do paralelogramo formado pelos membros.
+- **Chapter 5 (Force and Motion):** Focus on problems involving particles in equilibrium with multiple cables/tensions. This complements Hibbeler’s structural approach with a more analytical physics perspective.
+    
+- **Problem 3.48:** Challenges your ability to find components in rotating coordinate systems.
     
 
-#### F2.6. Intensidade e Componente $F_v$
+#### **3. Richard Feynman: Theoretical Insights**
 
-- **Enunciado:** Se a força $\mathbf{F}$ precisa ter uma componente ao longo do eixo $u$ com $F_u = 6 \text{ kN}$, determine a intensidade de $\mathbf{F}$ e de sua componente $\mathbf{F}_v$ ao longo do eixo $v$.
+Recommended for developing an "Engineer's Intuition" regarding the nature of physical quantities.
+
+- **Vol 1. Chapter 11 (Vectors):** Read the section on **Vector Symmetry**. It explains _why_ forces behave as vectors, helping you visualize the resultant without immediate calculation.
     
-- **Cuidado:** O triângulo de forças deve ser construído a partir da componente conhecida para fechar a geometria da resultante.
+- **Vol 1. Chapter 12 (Characteristics of Force):** Focuses on the superposition of forces—a fundamental concept for every exercise listed above.
     
 
 ---
 
-> [!TIP]
-> 
-> **Tip**
-> 
-> **Engineer's Insight:** Em eixos oblíquos, a projeção ortogonal ($\cos/\text{sen}$ simples) falha. A **Lei dos Senos** é a ferramenta definitiva aqui:
-> 
-> $$\frac{F}{\text{sen}(\alpha)} = \frac{F_u}{\text{sen}(\beta)} = \frac{F_v}{\text{sen}(\gamma)}$$
+### ⚠️ Engineer's Insight: The Ultimate Tool
+
+When dealing with oblique axes (like structural members AB and AC), the **Law of Sines** is the definitive method to avoid geometric errors:
+
+$$\frac{F}{\sin(\alpha)} = \frac{F_u}{\sin(\beta)} = \frac{F_v}{\sin(\gamma)}$$

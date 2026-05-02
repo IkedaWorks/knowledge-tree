@@ -1,103 +1,103 @@
-
-
-# 🏛️ Numerical Calculus Exercises — (Prática de Precisão e SI)
+## 🏛️ Numerical Calculus Exercises — ( Precision and SI Practice )
 
 > [!IMPORTANT]
 > 
-> **Introdução e Recomendações**
+> **Introduction and Recommendations**
 > 
-> Esta seção é fundamental para você se acostumar a usar a **notação de engenharia**. Para facilitar sua vida, utilize uma calculadora científica para realizar os cálculos.
+> This section is essential for you to get used to using engineering notation. To make your life easier, use a scientific calculator to perform the calculations.
 > 
-> **Fonte:** Problemas selecionados de _Mecânica para Engenharia: Estática_ (R. C. Hibbeler).
+> _Source: Selected problems from Engineering Mechanics: Statics ( R. C. Hibbeler )._
 
-### 📝 Exercício 1.1 — Operações com Algarismos Significativos
+---
 
-**Enunciado:** Avalie cada uma das seguintes operações com três algarismos significativos e expresse cada resposta em unidades SI utilizando um prefixo apropriado.
+### 📝 Exercise 1.1 — Operations with Significant Figures
 
-**(a) $(430 \text{ kg})^2$**
+**Statement:** Evaluate each of the following operations to three significant figures and express each answer in SI units using an appropriate prefix.
 
-- **Análise Numérica:** $430 \times 430 = 184.900$.
-    
-- **Aplicação dos 3 AS:** No número $184.900$, o quarto dígito ($9$) força o arredondamento do terceiro ($4$) para cima. Resultado: $185.000$.
-    
-- **Ajuste SI:** Em engenharia, usamos $185 \cdot 10^3$.
-    
-- **Resposta Final:** $\mathbf{185(10^3) \text{ kg}^2}$
-    
+**( a )** ( $(430 \text{ kg})^2$ )
 
-**(b) $(0,002 \text{ mg})^2$**
-
-- **Análise Numérica:** $(2 \cdot 10^{-3})^2 = 4 \cdot 10^{-6}$.
+- **Numerical Analysis:** ( $430 \times 430 = 184,900$ ).
     
-- **Aplicação dos 3 AS:** Para demonstrar a precisão requerida, adicionamos zeros à direita: $4,00 \cdot 10^{-6}$.
+- **Applying 3 SF:** In the number ( $184,900$ ), the fourth digit ( $9$ ) forces the third ( $4$ ) to round up. Result: ( $185,000$ ).
     
-- **Ajuste SI:** Converter para a unidade base ($g$) revela a escala real: $4 \cdot 10^{-6} \cdot (10^{-3} \text{ g})^2 = 4 \cdot 10^{-12} \text{ g}^2$.
+- **SI Adjustment:** In engineering, we use ( $185 \cdot 10^3$ ).
     
-- **Resposta Final:** $\mathbf{4,00 \cdot 10^{-6} \text{ mg}^2}$
+- **Final Answer:** ( $\mathbf{185(10^3) \text{ kg}^2}$ )
     
 
-**(c) $(230 \text{ m})^3$**
+**( b )** ( $(0.002 \text{ mg})^2$ )
 
-- **Análise Numérica:** $230 \times 230 \times 230 = 12.167.000$.
+- **Numerical Analysis:** ( $(2 \cdot 10^{-3})^2 = 4 \cdot 10^{-6}$ ).
     
-- **Aplicação dos 3 AS:** O quarto dígito ($6$) arredonda o terceiro ($1$) para cima. Resultado: $12,2 \cdot 10^6$.
+- **Applying 3 SF:** To demonstrate the required precision, we add trailing zeros: ( $4.00 \cdot 10^{-6}$ ).
     
-- **Resposta Final:** $\mathbf{12,2 \cdot 10^6 \text{ m}^3}$
+- **SI Adjustment:** Converting to the base unit ( $\text{g}$ ) reveals the actual scale: ( $4 \cdot 10^{-6} \cdot (10^{-3} \text{ g})^2 = 4 \cdot 10^{-12} \text{ g}^2$ ).
+    
+- **Final Answer:** ( $\mathbf{4.00 \cdot 10^{-6} \text{ mg}^2}$ )
+    
+
+**( c )** ( $(230 \text{ m})^3$ )
+
+- **Numerical Analysis:** ( $230 \times 230 \times 230 = 12,167,000$ ).
+    
+- **Applying 3 SF:** The fourth digit ( $6$ ) rounds the third ( $1$ ) up. Result: ( $12.2 \cdot 10^6$ ).
+    
+- **Final Answer:** ( $\mathbf{12.2 \cdot 10^6 \text{ m}^3}$ )
     
 
 ---
 
-### 📝 Exercício 1.2 — Simplificação de Prefixos Compostos
+### 📝 Exercise 1.2 — Simplification of Compound Prefixes
 
-**Enunciado:** Represente cada uma das seguintes combinações de unidades na forma correta do SI utilizando um prefixo apropriado.
+**Statement:** Represent each of the following combinations of units in the correct SI form using an appropriate prefix.
 
-**(a) $\text{Mg/ms}$**
+**( a )** ( $\text{Mg/ms}$ )
 
-- **Conversão:** $\frac{10^6 \text{ g}}{10^{-3} \text{ s}} = 10^9 \text{ g/s}$.
+- **Conversion:** ( $\frac{10^6 \text{ g}}{10^{-3} \text{ s}} = 10^9 \text{ g/s}$ ).
     
-- **Lógica SI:** Aplicamos o prefixo à grama para evitar prefixos duplos.
+- **SI Logic:** We apply the prefix to the gram to avoid double prefixes.
     
-- **Resposta Final:** $\mathbf{1 \text{ Gg/s}}$
-    
-
-**(b) $\text{N/mm}$**
-
-- **Conversão:** $\frac{\text{N}}{10^{-3} \text{ m}} = 10^3 \text{ N/m}$.
-    
-- **Resposta Final:** $\mathbf{1 \text{ kN/m}}$
+- **Final Answer:** ( $\mathbf{1 \text{ Gg/s}}$ )
     
 
-**(c) $\text{mN/(kg} \cdot \mu\text{s)}$**
+**( b )** ( $\text{N/mm}$ )
 
-- **Conversão:** $\frac{10^{-3} \text{ N}}{1 \text{ kg} \cdot 10^{-6} \text{ s}} = \frac{10^{-3}}{10^{-6}} \text{ N/(kg} \cdot \text{s)} = 10^3 \text{ N/(kg} \cdot \text{s)}$.
+- **Conversion:** ( $\frac{\text{N}}{10^{-3} \text{ m}} = 10^3 \text{ N/m}$ ).
     
-- **Resposta Final:** $\mathbf{1 \text{ kN/(kg} \cdot \text{s)}}$
+- **Final Answer:** ( $\mathbf{1 \text{ kN/m}}$ )
+    
+
+**( c )** ( $\text{mN/(kg} \cdot \mu\text{s)}$ )
+
+- **Conversion:** ( $\frac{10^{-3} \text{ N}}{1 \text{ kg} \cdot 10^{-6} \text{ s}} = \frac{10^{-3}}{10^{-6}} \text{ N/(kg} \cdot \text{s)} = 10^3 \text{ N/(kg} \cdot \text{s)}$ ).
+    
+- **Final Answer:** ( $\mathbf{1 \text{ kN/(kg} \cdot \text{s)}}$ )
     
 
 ---
 
-### 📝 Exercício 1.4 — Conversão de Grandezas Complexas
+### 📝 Exercise 1.4 — Conversion of Complex Quantities
 
-**Enunciado:** Represente cada uma das seguintes quantidades na forma correta do SI utilizando um prefixo apropriado.
+**Statement:** Represent each of the following quantities in the correct SI form using an appropriate prefix.
 
-**(a) $\text{kN/}\mu\text{s}$**
+**( a )** ( $\text{kN/}\mu\text{s}$ )
 
-- **Cálculo:** $\frac{10^3 \text{ N}}{10^{-6} \text{ s}} = 10^9 \text{ N/s}$.
+- **Calculation:** ( $\frac{10^3 \text{ N}}{10^{-6} \text{ s}} = 10^9 \text{ N/s}$ ).
     
-- **Resposta Final:** $\mathbf{1 \text{ GN/s}}$
+- **Final Answer:** ( $\mathbf{1 \text{ GN/s}}$ )
     
 
-**(b) $\text{Mg/mN}$**
+**( b )** ( $\text{Mg/mN}$ )
 
-- **Cálculo:** $\frac{10^6 \text{ g}}{10^{-3} \text{ N}} = 10^9 \text{ g/N}$.
+- **Calculation:** ( $\frac{10^6 \text{ g}}{10^{-3} \text{ N}} = 10^9 \text{ g/N}$ ).
     
-- **Resposta Final:** $\mathbf{1 \text{ Gg/N}}$
+- **Final Answer:** ( $\mathbf{1 \text{ Gg/N}}$ )
     
 
 ---
 
 > [!TIP]
 > 
-> **Dica de Estudo**
+> **Study Tip**
 > 
-> Observe que nos exercícios de divisão, o prefixo do denominador sempre "sobe" invertendo o sinal da potência. Dominar isso elimina $90\%$ dos erros de unidade em provas de física e estática.
+> Notice that in division exercises, the denominator's prefix always "moves up" by inverting the sign of the power. Mastering this eliminates 90% of unit errors in physics and statics exams.

@@ -1,68 +1,52 @@
 
-# 🏛️ Problemas Fundamentais: Estática
+## 🏛️ Exercícios recomendados
 
-> [!IMPORTANT]
-> 
-> **Importante:**
-> 
-> Esta seção foca na aplicação prática do **Método do Paralelogramo** e da **Decomposição em Eixos Não Ortogonais**. Lembre-se: em problemas de engenharia, o desenho (DCL) é metade da solução.
+Esta nota compila uma seleção de problemas essenciais para o domínio de **Resultantes de Forças** e **Decomposição em Eixos Não Ortogonais**. O foco aqui é a aplicação da Lei dos Senos e Cossenos em problemas de engenharia real.
 
-### 📝 Lista de Problemas (Hibbeler)
+### 📚 Bibliografia Sugerida
 
-![Exercises](physics-1-fundamental-exercises.webp)
-
-#### F2.1. Resultante na Argola
-
-- **Enunciado:** Determine a intensidade da força resultante que atua sobre a argola e sua direção, medida no sentido horário a partir do eixo $x$.
+- **Hibbeler, R. C.** — _Engineering Mechanics: Statics_ (14th Edition).
     
-- **Gatilho de Resolução:** Decomposição $x/y$. Calcule $R_x = \sum F_x$ e $R_y = \sum F_y$. A direção final será $\theta = \arctan(|R_y|/|R_x|)$.
+- **Halliday & Resnick** — _Fundamentals of Physics_ (Extended).
     
-
-#### F2.2. Forças no Gancho
-
-- **Enunciado:** Duas forças atuam sobre o gancho. Determine a intensidade da força resultante.
-    
-- **Gatilho de Resolução:** Lei dos Cossenos para a resultante de dois vetores: $R = \sqrt{F_1^2 + F_2^2 + 2F_1F_2\cos(\theta)}$.
-    
-
-#### F2.3. Resultante e Direção (Anti-horária)
-
-- **Enunciado:** Determine a intensidade da força resultante e sua direção, medida no sentido anti-horário a partir do eixo $x$ positivo.
-    
-- **Dica:** Atente-se ao quadrante final do vetor resultante para ajustar o ângulo em relação ao semieixo $x$ positivo.
+- **Feynman, Richard** — _The Feynman Lectures on Physics_ (Vol. 1).
     
 
 ---
 
-### ⚠️ Desafios de Decomposição (Eixos u, v)
+### 📝 Lista de Exercícios Recomendados (Curadoria)
 
-#### F2.4. Decomposição nos eixos $u$ e $v$
+#### **1. R. C. Hibbeler: O Padrão da Engenharia**
 
-- **Enunciado:** Decomponha a força de $30 \text{ N}$ nas componentes ao longo dos eixos $u$ e $v$, e determine a intensidade de cada uma delas.
+Focado na aplicação prática e no desenvolvimento do **Diagrama de Corpo Livre (DCL)**.
+
+- **F2.1 a F2.3 (Fundamental Problems):** Essenciais para dominar a Resultante por decomposição escalar ($x, y$) e a regra do paralelogramo.
     
-- **Estratégia:** Como os eixos são oblíquos, monte o triângulo de forças e utilize a **Lei dos Senos**. As componentes são os lados do triângulo cujas direções são paralelas a $u$ e $v$.
+- **F2.4 a F2.6 (Oblique Axes):** Os exercícios mais importantes para entender que a projeção simples ($\cos/\sin$) não funciona em eixos não ortogonais ($u, v$).
     
-
-#### F2.5. Componentes nos Membros $AB$ e $AC$
-
-- **Enunciado:** A força $F = 450 \text{ N}$ atua sobre a estrutura. Decomponha essa força nas componentes que atuam ao longo dos membros $AB$ e $AC$.
-    
-- **Insight:** Aplique a mesma lógica de eixos não ortogonais. A força de $450 \text{ N}$ funciona como a resultante (diagonal) do paralelogramo formado pelos membros.
+- **Problem 2.10:** Excelente para praticar a direção da resultante em suportes estruturais.
     
 
-#### F2.6. Intensidade e Componente $F_v$
+#### **2. Halliday & Resnick: Visão Analítica**
 
-- **Enunciado:** Se a força $\mathbf{F}$ precisa ter uma componente ao longo do eixo $u$ com $F_u = 6 \text{ kN}$, determine a intensidade de $\mathbf{F}$ e de sua componente $\mathbf{F}_v$ ao longo do eixo $v$.
+Focado na decomposição de vetores e somatória de componentes unitárias.
+
+- **Chapter 3 - Vector Addition:** Recomendo os problemas que envolvem a soma de três ou mais vetores em 2D. Ajuda a consolidar o método de componentes cartesianas antes de entrar em estática pura.
     
-- **Cuidado:** O triângulo de forças deve ser construído a partir da componente conhecida para fechar a geometria da resultante.
+- **Chapter 5 - Force & Motion:** Procure exercícios de equilíbrio estático com polias e cordas. Eles forçam você a pensar na geometria antes de aplicar as leis de Newton.
+    
+
+#### **3. Richard Feynman: Insight Teórico**
+
+Para entender a "física" por trás dos vetores, não apenas a matemática.
+
+- **Vol 1. Chapter 11:** Recomendo o estudo sobre a **Simetria de Vetores**. Feynman explica como as forças se somam de uma forma que ajuda a visualizar o resultado final sem precisar de calculadora de imediato.
     
 
 ---
 
-> [!TIP]
-> 
-> **Tip**
-> 
-> **Engineer's Insight:** Em eixos oblíquos, a projeção ortogonal ($\cos/\text{sen}$ simples) falha. A **Lei dos Senos** é a ferramenta definitiva aqui:
-> 
-> $$\frac{F}{\text{sen}(\alpha)} = \frac{F_u}{\text{sen}(\beta)} = \frac{F_v}{\text{sen}(\gamma)}$$
+### ⚠️ Engineer's Insight: A Ferramenta Definitiva
+
+Em problemas de decomposição oblíqua (como os membros AB e AC de uma estrutura), a **Lei dos Senos** é sua melhor amiga para evitar erros geométricos:
+
+$$\frac{F}{\sin(\alpha)} = \frac{F_u}{\sin(\beta)} = \frac{F_v}{\sin(\gamma)}$$
