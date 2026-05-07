@@ -37,3 +37,36 @@ Use a hybrid approach to distinguish between content and assets, ensuring compat
    `![Brief Description](../assets/file_name.webp)`
 
 ---
+
+
+### 📷 Gestão de Ativos e Mídia 
+
+Este diretório centraliza todos os arquivos binários, diagramas e ativos de mídia utilizados em todas as notas de estudo de engenharia.
+
+### 🛠 Diretrizes para Contribuintes
+
+Para garantir o desempenho do repositório e a compatibilidade entre plataformas (Obsidian/GitHub), siga estes padrões:
+
+**1. Formatos de Arquivo Preferenciais**
+
+- **Prioridade:** `.webp` – Excelente taxa de compressão com alta qualidade visual.
+    
+- **Alternativa:** `.jpg` / `.jpeg` – Utilize para fotos de alto contraste de livros didáticos ou esboços manuais.
+    
+- **Evite:** `.png` – A menos que a transparência seja estritamente necessária, pois os tamanhos dos arquivos tendem a ser desnecessariamente grandes para diagramas estáticos.
+    
+
+**2. Convenção de Nomenclatura** Utilize uma abordagem híbrida para distinguir entre conteúdo e ativos, garantindo compatibilidade com o GitHub e sistemas baseados em Unix:
+
+- **Notas e Pastas (`snake_case`):** Mantenha para consistência com os logs acadêmicos existentes. Ex: `fis1_estatica_notas.md`.
+    
+- **Imagens e Ativos (`kebab-case`):** Padrão para ativos web e fácil distinção visual. Ex: `fis1-estatica-hibbeler-f2-1.webp` ou `calc1-integracao-por-partes.webp`.
+    
+
+> **Dica:** Esta distinção ajuda a identificar tipos de arquivo rapidamente no terminal e evita conflitos com convenções de nomenclatura de variáveis em Python/C.
+
+**3. Fluxo de Trabalho e Links**
+
+1. Salve a imagem otimizada diretamente nesta pasta `/assets`.
+    
+2. Vincule-a no seu arquivo Markdown usando caminhos relativos para máxima compatibilidade: `![Breve Descrição](../assets/nome_do_arquivo.webp)`
