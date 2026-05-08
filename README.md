@@ -21,6 +21,7 @@ To ensure this ecosystem grows with stability and remains accessible across all 
 *   **Scientific Precision:** We use **LaTeX (MathJax)** for all mathematical and scientific formulas to maintain academic standards.
 *   **Engineering Rigor:** Every update is managed via **Git CLI**, ensuring a deep, professional understanding of the project's lifecycle.
 *   **Obsidian Optimized:** While fully readable in any Markdown editor, the structure is optimized for **Obsidian's** graph and backlinking capabilities.
+* **Excalidraw Integration:** All technical diagrams are built using Excalidraw. This allows for hand-drawn aesthetics with professional engineering precision, maintained as editable source files within the repository.
 
 > [!IMPORTANT]
 > **For detailed technical specifications, syntax rules (LaTeX/Markdown), and branching policies, please refer to our [Contributing Guidelines](./CONTRIBUTING.md).**

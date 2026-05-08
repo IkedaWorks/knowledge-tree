@@ -39,7 +39,14 @@ We use the **Fork & Pull Request** model to keep the "main tree" stable.
 - **Assets Folder**: All images must be placed inside the `/assets` folder.
     
 - **Image Protocol**: Before linking an image to a note, check the **[assets/README.md](./assets/README.md)** for specific instructions on file naming conventions and compression.
+
+> **Diagrams (Excalidraw):** We maintain a "Source vs. Export" policy for diagrams.
+
+- **Source (.md):** Keep the original Excalidraw Markdown file in `assets/excalidraw/` to allow future edits.
     
+- **Export (.png/.webp):** Always export a visual version to the `assets/` root for GitHub compatibility.
+    
+- **Tooling:** You can edit these files using the Excalidraw plugin in Obsidian or by dragging the `.md` file into [excalidraw.com](https://excalidraw.com).
 
 ## ⚖️ License & Ethical Conduct
 
@@ -96,6 +103,14 @@ Utilizamos o modelo de **Fork & Pull Request** para manter a "árvore mestre" es
 - **Pasta de Assets**: Todas as imagens devem ser obrigatoriamente colocadas dentro da pasta `/assets`.
     
 - **Protocolo de Imagem**: Antes de linkar uma imagem em uma nota, verifique o **[assets/README.md](./assets/README.md)** para instruções específicas sobre nomenclatura e compressão.
+
+> **Diagramas (Excalidraw):** Mantemos uma política de "Fonte vs. Exportação".
+
+- **Fonte (.md):** Mantenha o arquivo original do Excalidraw em `assets/excalidraw/` para permitir edições futuras.
+    
+- **Exportação (.png/.webp):** Sempre exporte uma versão visual para a raiz de `assets/` para garantir a visualização no GitHub.
+    
+- **Ferramental:** Você pode editar estes arquivos usando o plugin Excalidraw no Obsidian ou arrastando o arquivo `.md` para o site [excalidraw.com](https://excalidraw.com).
     
 
 ## ⚖️ Licença e Conduta Ética
