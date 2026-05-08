@@ -30,7 +30,7 @@ We use the **Fork & Pull Request** model to keep the "main tree" stable.
 - **Markdown**: Use standard links `[Text](./path.md)` instead of Wikilinks, as GitHub is more restrictive.
     
 - **Git CLI**: We value the terminal. Use clear messages following **Conventional Commits**.
-    
+    [check our commit guidelines here](./en/computation/git/commit_best_practices.md)
 
 ## 🖼️ Media & Assets Management
 
@@ -87,7 +87,7 @@ Utilizamos o modelo de **Fork & Pull Request** para manter a "árvore mestre" es
 - **Markdown**: Use links padrão `[Texto](./caminho.md)` em vez de Wikilinks, pois o GitHub é mais restritivo.
     
 - **Git CLI**: Valorizamos o uso do terminal. Use mensagens claras seguindo o padrão **Conventional Commits**.
-    
+    [Cofira nossa Diretrizes de Commit aqui](./pt/computacao/git/boas_praticas_commit.md)
 
 ## 🖼️ Gestão de Mídias e Assets
 
