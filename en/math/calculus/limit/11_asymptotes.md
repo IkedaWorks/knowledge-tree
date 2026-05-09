@@ -98,6 +98,3 @@ These occur when the degree of the numerator is exactly one higher than that of 
 >     
 > - **SA:** $x$ and $y$ explode together, maintaining a constant proportion.
 >
-### 🔗 Connections
-- [07. Limits at Infinity](07_Limits_at_Infinity_and_Infinite_Limits.md)
-- [09. Continuity of Functions](09_continuity_of_functions.md)

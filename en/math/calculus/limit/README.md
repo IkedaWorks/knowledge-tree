@@ -1,7 +1,7 @@
 
 <h1 align="center"> 📉 Limits Learning Path</h1>
 
-This index centralizes the study of limits, focusing on first principles and intuitive understanding.
+This README centralizes the study of limits, focusing on first principles and intuitive understanding.
 
 ## 🛤️ Progress Roadmap
 

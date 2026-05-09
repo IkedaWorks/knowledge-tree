@@ -88,7 +88,3 @@ In this case, $x$ tends toward a real number, but the denominator tends toward z
 >     
 > - If $\lim_{x \to a^{\pm}} f(x) = \pm \infty$, then **$x = a$** is a **Vertical Asymptote**.
 >
-### 🔗 Connections
-- [11. Asymptotes](11_asymptotes.md)
-- [06. One-Sided Limits](06_one_sided_limits.md)
-- [12. Hardcore Limits](12_limits_review.md)

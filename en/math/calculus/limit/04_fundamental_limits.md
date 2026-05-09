@@ -120,10 +120,3 @@ $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
         
     - **Result:** $\mathbf{1}$.
 
-**🔗 Connections**
-
-- [08. Squeeze Theorem](08_squeeze_theorem.md)
-    
-- [12. Hardcore Limits](12_limits_review.md)
-    
-- [Index de Limits](en/math/calculus/limit/README.md)

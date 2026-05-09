@@ -121,7 +121,3 @@ If a function is continuous on an interval and it starts at $y = -2$ and ends at
     
 - **Visual Cue:** If the one-sided limits are different, it is a **Jump**. If the limits are equal but the function doesn't exist there, it is a **Hole**.
 
-### 🔗 Connections
-- [10. Intermediate Value Theorem (TVI)](10_intermediate_value_theorem.md)
-- [06. One-Sided Limits](06_one_sided_limits.md)
-- [11. Asymptotes](11_asymptotes.md)

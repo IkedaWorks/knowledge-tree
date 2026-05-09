@@ -76,7 +76,3 @@ $$0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$$
 > **Conclusion:**
 > 
 > A limit is a way to study function behavior using only the proximity of a point on the abscissa axis without needing to know exactly what happens at that point. By controlling the input $x$ within an interval $(0, \delta)$, we force the output $f(x)$ to fall within the error interval $\epsilon$ around $L$. **Controlling the input is controlling the output's approximation.**
-### 🔗 Connections
-- [02. Limit Laws](02_limit_laws.md)
-- [06. One-Sided Limits](06_one_sided_limits.md)
-- [Index de Limits](en/math/calculus/limit/README.md)

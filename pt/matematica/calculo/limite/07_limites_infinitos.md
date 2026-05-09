@@ -66,10 +66,3 @@ Neste caso, o $x$ tende a um número real, mas o denominador tende a zero, causa
 > - Se $\lim_{x \to a^{\pm}} f(x) = \pm \infty$, então $x = a$ é uma **Assíntota Vertical**.
 
 ---
-### 🔗 Conexões:
-
-- [11. Assíntonas](11_assintonas.md)
-- [06. limites laterais](06_limites_laterais.md)
-- [12. Revisão](12_revisao_de_limites.md)
-
----

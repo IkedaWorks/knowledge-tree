@@ -88,7 +88,3 @@ $$\lim_{x \to a} P(x) = P(a)$$
 
 ---
 
-### 🔗 Connections
-- [01. Limit Definition](01_limit_definition.md)
-- [04. Fundamental Limits](04_fundamental_limits.md)
-- [05. Limits by Substitution](05_limits_by_substitution.md)

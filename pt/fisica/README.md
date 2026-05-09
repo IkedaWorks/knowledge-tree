@@ -5,7 +5,7 @@ Este diretório contém meus estudos estruturados de Física.
 
 #### 📂 Índice de Hierarquia
 
-- [Física 1: Mecânica Clássica, Estática e Cinemática](pt/fisica/fisica_1/README.md)
+- [Física 1: Mecânica Clássica, Estática e Cinemática](./fisica_1/README.md)
     
 - Física 2: (Em breve) Termodinâmica, Ondas e Óptica
     

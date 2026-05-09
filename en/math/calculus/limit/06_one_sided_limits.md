@@ -75,6 +75,3 @@ $$
 > [!IMPORTANT]
 > 
 > **Engineering Note:** One-sided limits are used to describe switches (on/off) and voltage steps in digital circuits. The exact moment of the transition is a discontinuity.
-### 🔗 Connections
-- [09. Continuity of Functions](09_continuity_of_functions.md)
-- [07. Limits at Infinity](07_Limits_at_Infinity_and_Infinite_Limits.md)

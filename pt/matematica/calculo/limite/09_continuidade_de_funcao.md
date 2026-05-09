@@ -91,7 +91,3 @@ Se uma função é contínua em um intervalo e ela começa no $y = -2$ e termina
 * **Onde procurar problemas:** As descontinuidades moram onde o **denominador zera** ou onde a função **"muda de regra"**.
 * **Dica Visual:** Se o limite lateral deu diferente, é um **Salto**. Se o limite deu igual, mas a função não existe ali, é um **Buraco**.
 
-### 🔗 Conexões
-- [10. Teorema do Valor Intermidiário (TVI)](10_teorema_do_valor_intermediario.md)
-- [06. Limites Laterais](06_limites_laterais.md)
-- [11. Assíntonas](11_assintonas.md)

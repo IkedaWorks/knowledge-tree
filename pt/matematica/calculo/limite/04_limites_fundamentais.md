@@ -138,10 +138,4 @@ Estes exercícios focam na manipulação de argumentos e identificação de padr
         
     - **Resultado:** $\mathbf{1}$.
  ---
-### **🔗 Conexões**
 
-- [08. Teorema do Confronto](08_teorema_do_confronto.md)
-    
-- [12. Revisao](12_revisao_de_limites.md)
-    
-- [Index de Limites](pt/matematica/calculo/limite/README.md)

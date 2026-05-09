@@ -60,9 +60,3 @@ $$
 > **Nota de Engenharia:** Limites laterais são usados para descrever interruptores (on/off) e degraus de tensão em circuitos digitais. O momento exato da troca é uma descontinuidade.
 
 ---
-### 🔗 Conexões:
-
-- [09. Continuidade de Funções](09_continuidade_de_funcao.md)
-- [07. Limites no infinito e Limites Infinitos](07_limites_infinitos.md)
-
----
