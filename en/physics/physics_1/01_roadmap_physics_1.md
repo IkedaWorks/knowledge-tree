@@ -1,95 +1,108 @@
 
-
-# 🏛️ Classical Mechanics  (Mecânica Clássica)
+### 🏛️ Classical Mechanics 
 
 > [!IMPORTANT]
 > 
-> **Importante:**
-> 
-> A compreensão da mecânica no nível Halliday ou Feynman é impossível sem a formalização prévia destes tópicos.
+> **Important:** Mastery of mechanics at the Halliday or Feynman level is impossible without prior formalization of these topics.
 
-### 🧮 Requisitos Matemáticos
+#### 🧮 Mathematical Requirements
 
-1. **Cálculo Diferencial e Integral**
+- **Differential and Integral Calculus:**
     
-    - Derivadas como taxas de variação instantânea: $v(t) = \frac{ds}{dt}$
+    - Derivatives as instantaneous rates of change:
         
-    - Integrais como acúmulo de quantidades e área sob a curva: $\int f(x) \, dx$
+        $$v(t) = \frac{ds}{dt}$$
         
-    - Regra da cadeia aplicada a funções compostas do tempo.
+    - Integrals as accumulation of quantities and area under the curve:
         
-2. **Geometria Analítica e Álgebra Vetorial**
+        $$\int f(x) \, dx$$
+        
+    - Chain rule applied to time-dependent composite functions.
+        
+- **Analytical Geometry and Vector Algebra:**
     
-    - Componentes ortogonais em sistemas de coordenadas cartesianas.
+    - Orthogonal components in Cartesian coordinate systems.
         
-    - Produto escalar para determinação de projeções e trabalho: $W = \vec{F} \cdot \vec{d}$
+    - Dot product for projection and work determination:
         
-    - Produto vetorial para definição de eixos de rotação e torque: $\vec{\tau} = \vec{r} \times \vec{F}$
+        $$W = \vec{F} \cdot \vec{d}$$
         
-3. **Análise de Funções e Escalonamento**
+    - Cross product for defining rotation axes and torque:
+        
+        $$\vec{\tau} = \vec{r} \times \vec{F}$$
+        
+- **Function Analysis and Scaling:**
     
-    - Comportamento de funções lineares, quadráticas e inversas.
+    - Behavior of linear, quadratic, and inverse functions.
         
-    - Verificação de consistência dimensional em equações literais.
-        
-
-### 🍎 Núcleo da Mecânica
-
-1. **Cinemática Escalar e Vetorial**
-    
-    - Definição de velocidade e aceleração como derivadas sucessivas da posição.
-        
-    - Obtenção de funções horárias através da integração de funções de aceleração.
-        
-    - Decomposição de movimentos bidimensionais e aceleração centrípeta.
-        
-2. **Dinâmica Newtoniana**
-    
-    - Segunda Lei de Newton em sua forma geral diferencial baseada no momento linear: $\vec{F} = \frac{d\vec{p}}{dt}$
-        
-    - Análise de forças de contato, forças fundamentais e resistência em meios viscosos.
-        
-3. **Leis de Conservação**
-    
-    - Trabalho definido como integral de linha da força ao longo de um deslocamento.
-        
-    - Conservação da energia mecânica em sistemas onde a força é o gradiente da energia potencial: $\vec{F} = -\nabla U$
-        
-    - Teorema do impulso e conservação do momento linear em colisões.
+    - Dimensional consistency verification in literal equations.
         
 
-### 🎡 Dinâmica de Sistemas e Rotação
+#### 🍎 Core Mechanics
 
-1. **Sistemas de Partículas**
+- **Scalar and Vector Kinematics:**
     
-    - Localização do centro de massa via integração de elementos diferenciais de massa: $\vec{r}_{cm} = \frac{1}{M} \int \vec{r} \, dm$
+    - Defining velocity and acceleration as successive derivatives of position.
         
-    - Movimento do centro de massa sob influência de forças externas.
+    - Obtaining kinematic equations through the integration of acceleration functions.
         
-2. **Cinemática e Dinâmica de Rotação**
+    - Decomposition of two-dimensional motion and centripetal acceleration.
+        
+- **Newtonian Dynamics:**
     
-    - Definição de grandezas angulares e suas relações com grandezas lineares.
+    - Newton's Second Law in its general differential form based on linear momentum:
         
-    - Cálculo do momento de inércia para corpos contínuos através de integrais de volume: $I = \int r^2 \, dm$
+        $$\vec{F} = \frac{d\vec{p}}{dt}$$
         
-3. **Momento Angular e Equilíbrio**
+    - Analysis of contact forces, fundamental forces, and resistance in viscous media.
+        
+- **Conservation Laws:**
     
-    - Torque como a taxa de variação temporal do momento angular: $\vec{\tau} = \frac{d\vec{L}}{dt}$
+    - Work defined as the line integral of force along a displacement.
         
-    - Condições formais de equilíbrio estático para corpos rígidos.
+    - Conservation of mechanical energy where force is the gradient of potential energy:
+        
+        $$\vec{F} = -\nabla U$$
+        
+    - Impulse theorem and conservation of linear momentum in collisions.
         
 
-### 🎯 Critérios de Progressão e Avanço
+#### 🎡 Systems Dynamics and Rotation
 
-- **Validação de Pré-requisito:** A transição da cinemática para a dinâmica exige o domínio completo de cálculo diferencial. A entrada em rotação exige domínio absoluto de produto vetorial e momento de inércia.
+- **Systems of Particles:**
     
-- **Metodologia de Estudo Ativo:** Substituição de fórmulas prontas por deduções partindo de princípios fundamentais. Resolução de problemas literais antes da substituição numérica para validar a lógica dimensional.
+    - Center of mass localization via integration of differential mass elements:
+        
+        $$\vec{r}_{cm} = \frac{1}{M} \int \vec{r} \, dm$$
+        
+    - Motion of the center of mass under the influence of external forces.
+        
+- **Rotational Kinematics and Dynamics:**
     
-- **Integração de Bibliografia:** Utilização do Halliday para estrutura de problemas e rigor básico. Utilização das Lições de Feynman para fundamentação teórica e física moderna aplicada à mecânica.
+    - Definition of angular quantities and their relations to linear quantities.
+        
+    - Calculation of moment of inertia for continuous bodies through volume integrals:
+        
+        $$I = \int r^2 \, dm$$
+        
+- **Angular Momentum and Equilibrium:**
+    
+    - Torque as the time rate of change of angular momentum:
+        
+        $$\vec{\tau} = \frac{d\vec{L}}{dt}$$
+        
+    - Formal static equilibrium conditions for rigid bodies.
+        
+
+#### 🎯 Progression and Advancement Criteria
+
+- **Prerequisite Validation:** The transition from kinematics to dynamics requires complete mastery of differential calculus. Entering rotational dynamics requires absolute mastery of cross products and moment of inertia.
+    
+- **Active Study Methodology:** Replacing "ready-to-use" formulas with derivations starting from fundamental principles. Solving literal problems before numerical substitution to validate dimensional logic.
+    
+- **Bibliography Integration:** Using Halliday for problem structure and basic rigor. Using Feynman Lectures for theoretical foundation and modern physics applied to mechanics.
     
 
 > [!TIP]
 > 
-> **Tip**
-> 
-> **Engineer's Insight:** Se você for engenheiro, recomendo o **Hibbeler** também, lá você encontra exercícios que mostram mais a realidade do que é ser um engenheiro.
+> **Engineer's Insight:** If you are an engineer, I also recommend Hibbeler; there you will find exercises that better reflect the reality of engineering practice.
