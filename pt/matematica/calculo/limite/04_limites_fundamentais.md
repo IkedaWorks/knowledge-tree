@@ -144,4 +144,4 @@ Estes exercícios focam na manipulação de argumentos e identificação de padr
     
 - [12. Revisao](12_revisao_de_limites.md)
     
-- [Index de Limites](index_limite.md)
+- [Index de Limites](pt/matematica/calculo/limite/README.md)

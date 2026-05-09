@@ -5,7 +5,7 @@ This directory contains my structured studies of Physics.
 
 ## 📂 Hierarchy Index
 
- **[physics_1](./physics_1/index_physics_1.md)**: Classical Mechanics, Statics, and Kinematics.
+ **[physics_1](en/physics/physics_1/README.md)**: Classical Mechanics, Statics, and Kinematics.
 * **physics_2**: (Upcoming) Thermodynamics, Waves, and Optics.
 * **physics_3**: (Upcoming) Electromagnetism and Modern Physics.
 * **other/**: Miscellaneous physics topics and quick references.

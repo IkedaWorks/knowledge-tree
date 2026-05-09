@@ -79,4 +79,4 @@ $$0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$$
 ### 🔗 Connections
 - [02. Limit Laws](02_limit_laws.md)
 - [06. One-Sided Limits](06_one_sided_limits.md)
-- [Index de Limits](index_limits.md)
+- [Index de Limits](en/math/calculus/limit/README.md)

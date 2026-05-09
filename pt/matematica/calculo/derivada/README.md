@@ -9,7 +9,7 @@
 
 Antes de começar, certifique-se de compreender:
 
-- **[ Limites](./../limite/index_limite.md)**
+- **[ Limites](pt/matematica/calculo/limite/README.md)**
 - **Álgebra**
 - **Geometria**
 

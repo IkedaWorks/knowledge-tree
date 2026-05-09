@@ -53,4 +53,4 @@ Provar que $\lim_{x \to a} c = c$.
 
 - [02. Propriedades de Limites](02_propriedades_de_limites.md)
 - [06. Limites Laterais](06_limites_laterais.md)
-- [Index de Limites](index_limite.md)
+- [Index de Limites](pt/matematica/calculo/limite/README.md)
