@@ -1,19 +1,28 @@
 
 # 🌌 Physics Knowledge Base
 
-This directory contains my structured studies of Physics.
+This directory contains my structured studies of Physics, organized by fundamental pillars and engineering applications.
 
 ## 📂 Hierarchy Index
 
- **[physics_1](./physics_1/README.md)**: Classical Mechanics, Statics, and Kinematics.
-* **physics_2**: (Upcoming) Thermodynamics, Waves, and Optics.
-* **physics_3**: (Upcoming) Electromagnetism and Modern Physics.
-* **other/**: Miscellaneous physics topics and quick references.
+- ⚡ **[Electrical Circuits I](./electrical_circuits_1/README.md)**: DC Circuit analysis, Kirchhoff's Laws, and Network Theorems.
+    
+- 🏛️ **[Physics I (Mechanics)](./physics_1/README.md)**: Classical Mechanics, Statics, and Kinematics.
+    
+- 🔥 **Physics II**: (Upcoming) Thermodynamics, Waves, and Optics.
+    
+- 🧲 **Physics III**: (Upcoming) Electromagnetism and Modern Physics.
+    
+- 🧪 **Other**: Miscellaneous physics topics and quick references.
+    
 
 ## 🛠 Study Methodology
-1.  **Derivation:** Focus on understanding the origin of formulas.
-2.  **Visualization:** High-quality `.webp` diagrams stored in the root `assets/` folder.
-3.  **Language:** Documentation in English; core conceptual explanations in Portuguese.
 
----
-*Created as part of the Computer Engineering degree .*
+- **Derivation:** Focus on understanding the origin of formulas through calculus.
+    
+- **Visualization:** High-quality diagrams stored in the root `assets/` folder.
+    
+- **Bilingual Documentation:** Navigational structure in English; deep conceptual explanations in Portuguese.
+    
+
+> _Created as part of the Computer Engineering degree curriculum._

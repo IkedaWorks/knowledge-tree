@@ -1,22 +1,26 @@
 
-### 🌌 Base de Conhecimento de Física
+# 🌌 Base de Conhecimento de Física
 
-Este diretório contém meus estudos estruturados de Física.
+Este diretório centraliza meus estudos estruturados de Física, organizados pelos pilares fundamentais da engenharia.
 
-#### 📂 Índice de Hierarquia
+## 📂 Índice de Hierarquia
 
-- [Física 1: Mecânica Clássica, Estática e Cinemática](./fisica_1/README.md)
+- ⚡ **[Circuitos Elétricos I](./circuito_eletricos_1/README.md)**: Análise de circuitos DC, Leis de Kirchhoff e Teoremas de Redes.
     
-- Física 2: (Em breve) Termodinâmica, Ondas e Óptica
+- 🏛️ **[Física I (Mecânica)](./fisica_1/README.md)**: Mecânica Clássica, Estática e Cinemática.
     
-- Física 3: (Em breve) Eletromagnetismo e Física Moderna
-
-#### 🛠 Metodologia de Estudo
-
-- **Dedução:** Foco total em entender a origem das fórmulas (nada de "caixa-preta").
+- 🔥 **Física II**: (Em breve) Termodinâmica, Ondas e Óptica.
     
-- **Visualização:** Diagramas em `.webp` de alta qualidade armazenados na pasta raiz `assets/`.
+- 🧲 **Física III**: (Em breve) Eletromagnetismo e Física Moderna.
+    
 
+## 🛠 Metodologia de Estudo
 
+- **Dedução:** Foco total em entender a origem das fórmulas através do cálculo diferencial e integral (rejeição ao método "caixa-preta").
+    
+- **Visualização:** Diagramas autorais em `.webp` de alta qualidade armazenados na pasta raiz `assets/`.
+    
+- **Documentação Bilíngue:** Estrutura de navegação em Inglês; explicações conceituais densas em Português.
+    
 
-> Criado como parte da graduação em **Engenharia de Computação**.
+> _Criado como parte do currículo da graduação em Engenharia de Computação_
