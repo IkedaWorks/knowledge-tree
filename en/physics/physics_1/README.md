@@ -15,6 +15,7 @@
 * 04 — [Dimensional Analysis](./04_dimensional_analysis.md) 
 * 05 — [Geometric Fundamentals](./05_geometric_fundamentals.md) 
 * 06 — [Numerical Calculus & SI](./06_numerical_calculus.md) 
+* 08 — [Addition of Vectors](./08_addition_vectors.md)
 ### 2. Practice & Exercises
 
 * 07 — [Numerical Calculus Exercises](./07_numerical_calculus_exercises.md) 

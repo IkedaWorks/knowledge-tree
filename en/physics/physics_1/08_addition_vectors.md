@@ -20,11 +20,21 @@ In statics, we rarely deal with a single isolated force. The need to find a resu
 
 This is the fundamental method, but be careful: it is strictly restricted to the sum of only two forces acting from the same point. The resultant is the diagonal of the parallelogram formed by the components. If you have three forces, you must sum two, find a partial resultant, and then sum it with the third.
 
+![parallelogram law](./../../../assets/parallelogram-law.webp)
 ### The Triangle and Polygon Rules
 
 To optimize calculations, we use the triangle rule, which is essentially half of a parallelogram. You place the tip of the first force at the origin of the second; the resultant will be the vector that closes this triangle.
 
 When the system has multiple forces (three or more), we evolve to the **polygon rule**. The process is the same: you stack the vectors one after another ("tip-to-tail"). The resultant force will be the vector connecting the origin of the very first vector to the tip of the last one. If this polygon closes exactly at the starting point, you have graphically proven that the system is in equilibrium and the resultant is zero.
+
+**`Example of triangle law:`**
+
+![triangle law](./../../../assets/triangle-law.webp)
+
+
+**`Example of polygonal law:`**
+
+![polygonal law](./../../../assets/polygonal-law.webp)
 
 ## Reasoning Dynamics
 
@@ -36,18 +46,20 @@ The **Law of Cosines** is used here to measure the "length" of this final route 
 
 # 🔩 Exercise 01: Geometric Addition on a Fastening Bolt
 
-> [!IMPORTANT] Requirements
+> [!IMPORTANT] 
 > 
-> - Identification of supplementary angles.
+> **Requirements**
+> 
+> **- Identification of supplementary angles.**
 >     
-> - Application of the Law of Cosines for magnitude.
+> **- Application of the Law of Cosines for magnitude.**
 >     
-> - Terminal proficiency for asset conversion.
+> **- Terminal proficiency for asset conversion.**
 >     
 
 ### Problem Statement
 
-A fastening bolt in a steel base is subjected to two pulling forces exerted by ropes, $\vec{F_1}$ and $\vec{F_2}$. Force $\vec{F_1}$ has a magnitude of $200\text{ N}$ at $20^\circ$ with the horizontal, while $\vec{F_2}$ has $300\text{ N}$ at $10^\circ$ with the vertical. Determine the magnitude of the resultant force ($\vec{F_R}$) that the bolt must support. Determine the direction of $\vec{F_R}$ relative to the positive x-axis.
+A fastening bolt in a steel base is subjected to two pulling forces exerted by ropes, $\vec{F_1}$ and $\vec{F_2}$. Force $\vec{F_1}$ has a magnitude of $200\text{ N}$ at $20^\circ$ with the horizontal, while $\vec{F_2}$ has $300\text{ N}$ at $10^\circ$ with the vertical. Determine the magnitude of the resultant force ( $\vec{F_R}$ ) that the bolt must support. Determine the direction of $\vec{F_R}$ relative to the positive x-axis.
 
 ### Visual Representation
 
