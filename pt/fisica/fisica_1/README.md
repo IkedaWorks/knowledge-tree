@@ -21,7 +21,7 @@
 - [ ] **[Análise Dimensional](./04_analise_dimensional.md)**
 - [ ] **[Fundamentos Matématicos Necessários](./05_fundamentos_geometricos.md)**
 - [ ] **[Treinando Cálculos Numéricos](./07_treinando_calculo_numerico.md)**
-- [ ] **[Decomposição e Soma de Vetores](./08_decomposicao_e_soma_de_vetores.md)**
+- [ ] **[Soma de Vetores](08_soma_de_vetores.md)**
 
 ## Exercícios:
 
