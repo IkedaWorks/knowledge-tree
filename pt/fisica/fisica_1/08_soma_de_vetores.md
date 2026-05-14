@@ -1,7 +1,9 @@
 
 # 🏛️ Adição de Forças Planas: Geometria e Rigor
 
-> [!IMPORTANT] Requisitos Prévios
+> [!IMPORTANT] 
+> 
+> **Requisitos Prévios**
 > 
 > Esta nota assume que você já domina:
 > 
@@ -31,7 +33,9 @@ Exemplo regra do triângulo:
 
 
 ![triangle law](./../../../assets/triangle-law.webp)
+
 Exemplo regra da poligonal:
+
 
 ![Polygonal Law](./../../../assets/polygonal-law.webp)
 
