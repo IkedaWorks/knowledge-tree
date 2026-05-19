@@ -11,7 +11,7 @@ This directory contains my structured studies of Physics, organized by fundament
     
 - 🔥 **Physics II**: (Upcoming) Thermodynamics, Waves, and Optics.
     
-- 🧲 **Physics III**: (Upcoming) Electromagnetism and Modern Physics.
+- 🧲 **[Physics III (Electromagnetism)](./physics_3/README.md)**: Electromagnetism and Modern Physics.
     
 - 🧪 **Other**: Miscellaneous physics topics and quick references.
     

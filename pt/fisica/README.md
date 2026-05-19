@@ -11,7 +11,7 @@ Este diretório centraliza meus estudos estruturados de Física, organizados pel
     
 - 🔥 **Física II**: (Em breve) Termodinâmica, Ondas e Óptica.
     
-- 🧲 **Física III**: (Em breve) Eletromagnetismo e Física Moderna.
+- 🧲 **[Física III (Eletromagnetismo)](./fisica_3/README.MD)**: Eletromagnetismo e Física Moderna.
     
 
 ## 🛠 Metodologia de Estudo
