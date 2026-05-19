@@ -71,7 +71,7 @@ Para encontrar o elemento central, primeiro precisamos organizar os dados em ord
 $$\text{Posição} = \frac{n + 1}{2}$$
 
 * **Se $n$ for Par:** Não existe uma pessoa no centro exato, mas sim duas. Tiramos a média aritmética dessas duas posições centrais:
-$$\text{Mediana} = \frac{x_{\left(\frac{n}{2}\right)} + x_{\left(\frac{n}{2} + 1\right)}}{2}$$
+$$\text{Mediana} = \frac{x_{n/2} + x_{(n/2) + 1}}{2}$$
 
 ---
 

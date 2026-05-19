@@ -80,7 +80,7 @@ $$\text{Position} = \frac{n + 1}{2}$$
 
 * **If $n$ is Even:** There is no single person at the exact center, but two. We take the arithmetic mean of these two central positions:
 * 
-$$\text{Median} = \frac{x_{\left(\frac{n}{2}\right)} + x_{\left(\frac{n}{2} + 1\right)}}{2}$$
+$$\text{Median} = \frac{x_{n/2} + x_{(n/2) + 1}}{2}$$
 
 ---
 
