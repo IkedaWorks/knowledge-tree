@@ -7,7 +7,7 @@ Em outras palavras, os juros representam o rendimento obtido ao emprestar um val
 ---
 
 > [!NOTE] 
-> **Nota de Notação Matemática (Padrão LaTeX):** > Os blocos matemáticos deste repositório seguem o padrão internacional do LaTeX. Portanto:
+> **Nota de Notação Matemática (Padrão LaTeX):**  Os blocos matemáticos deste repositório seguem o padrão internacional do LaTeX. Portanto:
 > * O **ponto (`.`)** é utilizado estritamente para indicar **casas decimais** (ex:  $1.025$  ).
 > * O **ponto central (`\cdot`)** é utilizado exclusivamente como **operador de multiplicação** (ex:  $1025 \cdot 1.025$ ).
 
