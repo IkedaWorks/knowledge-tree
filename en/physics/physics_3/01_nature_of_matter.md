@@ -52,7 +52,9 @@ Niels Bohr resolved this by applying the nascent ideas of Quantum Mechanics. He 
 
 As we cross the frontier of modern physics, we realize that Bohr's rigid orbit model also gave way to wave mechanics, where the electron is mapped as a spatial probability cloud (the $1s$ spherical orbital).
 
-![Hydrogen Atom](../../../assets/atomo-hidrogenio.svg)
+<p align="center">
+  <img src="../../../assets/atomo-hidrogenio.svg" alt="Hydrogen Atom" width="400"/>
+</p>
 
 With this background, we can completely abandon the superficial high school definition and adopt the elegant formalization of Physics and Engineering:
 

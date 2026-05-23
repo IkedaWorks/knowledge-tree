@@ -48,7 +48,9 @@ Niels Bohr resolveu isso aplicando as primeiras ideias da Mecânica Quântica. E
 
 Ao cruzarmos a fronteira da física moderna, percebemos que o modelo de órbitas duras de Bohr também deu lugar à mecânica ondulatória, onde o elétron é mapeado como uma nuvem de probabilidade espacial (o orbital esférico $1s$).
 
-![Átomo de Hidrogênio](../../../assets/atomo-hidrogenio.svg)
+<p align="center">
+  <img src="../../../assets/atomo-hidrogenio.svg" alt="Átomo de Hidrogênio" width="400"/>
+</p>
 
 Com essa bagagem, podemos abandonar de vez a definição superficial de colégio e adotar a formalização elegante da Física e da Engenharia:
 
