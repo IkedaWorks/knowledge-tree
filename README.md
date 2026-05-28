@@ -38,7 +38,7 @@ This roadmap tracks the evolution from a static knowledge base to an intelligent
 
 ## ⚖️ License & Ethics
 
-This project is licensed under the **[MIT License](./LICENSE.md)**.
+This project is licensed under the **[CC BY-NC-SA 4.0 License](./LICENSE.md)**.
 
 > [!CAUTION]
 > 

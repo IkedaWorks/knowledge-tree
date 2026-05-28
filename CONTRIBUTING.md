@@ -52,7 +52,7 @@ We follow a **"Source vs. Export"** architecture to ensure the tree remains edit
 
 ## ⚖️ License & Ethical Conduct
 
-This project is licensed under the **[MIT License](./LICENSE.md)**. By contributing to Project Yggdrasil, you agree to abide by our ethical standards.
+This project is licensed under the **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. By contributing to Project Yggdrasil, you agree to abide by our ethical standards.
 
 ### 🛡️ Ethical Usage & Image Rights
 
@@ -118,7 +118,7 @@ Mantemos uma arquitetura de **"Fonte vs. Exportação"** para garantir que a ár
 
 ## ⚖️ Licença e Conduta Ética
 
-Este projeto é licenciado sob a licença **[MIT License](./LICENSE.md)**. Ao contribuir para o Projeto Yggdrasil, você concorda em cumprir nossos padrões éticos.
+Este projeto é licenciado sob a licença **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. Ao contribuir para o Projeto Yggdrasil, você concorda em cumprir nossos padrões éticos.
 
 ### 🛡️ Ética e Direitos de Imagem
 
