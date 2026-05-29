@@ -38,11 +38,9 @@ This roadmap tracks the evolution from a static knowledge base to an intelligent
 
 ## ⚖️ License & Ethics
 
-This project is licensed under the **[CC BY-NC-SA 4.0 License](./LICENSE.md)**.
+This project is licensed under the [**CC BY-NC-SA 4.0**](./LICENSE.md) (Attribution-NonCommercial-ShareAlike 4.0 International) License.
 
 > [!CAUTION]
-> 
-> While the code is open, the authors' images, names, and the project's reputation are protected. Please read our **[Ethical Guidelines](./CONTRIBUTING.md#ethical-usage--image-rights)** before using or contributing to this repository.
-
-
+> **Personal Image Protection:**
+> Citing the authors' names for proper attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' **personal images (photos, avatars, or portraits)**, as well as the use of their names for **advertising, commercial promotion, or third-party product endorsements**, is strictly prohibited without prior written consent.
 ---

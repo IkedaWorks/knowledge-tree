@@ -9,6 +9,7 @@ Formulated by the French physicist Charles-Augustin de Coulomb in 1785, this law
 
 
 ### The Experimental Process: Measuring the Invisible Before the Electron
+
 Coulomb published his essays more than 110 years before J.J. Thomson discovered the existence of the electron (1897). Instead of knowing the absolute quantity of elementary charges, Coulomb utilized geometric symmetry and proportions to isolate his variables:
 
 * **Control of Charge Fractions ($q_1 \cdot q_2$):** To vary the charge without an absolute meter, he relied on the principle of conduction by contact. He would charge a polished conducting sphere with an unknown charge $Q$ and touch it to another identical, neutral sphere. By pure geometric symmetry, the net charge was forced to divide perfectly in half ($\frac{1}{2}Q$). By repeating this process, he could manipulate precise fractions of charge ($\frac{1}{2}, \frac{1}{4}, \frac{1}{8}$) without even knowing what an electron was.
@@ -22,6 +23,7 @@ Coulomb published his essays more than 110 years before J.J. Thomson discovered 
 > Note that the plot of Force vs. Distance forms a second-degree hyperbola, which clearly indicates this inverse proportion.
 
 ### Mechanical Operation of the Apparatus
+
 The torsion balance consisted of a fine silver or silk thread suspending a horizontal insulating rod:
 1. One end contained a small conducting sphere (the target charge to be tested).
 2. The opposite end contained a counterweight made of a neutral insulating material (such as paper or wax), serving purely to maintain horizontal mechanical equilibrium without undergoing electrical interference.

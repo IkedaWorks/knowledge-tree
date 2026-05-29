@@ -54,13 +54,12 @@ We follow a **"Source vs. Export"** architecture to ensure the tree remains edit
 
 This project is licensed under the **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. By contributing to Project Yggdrasil, you agree to abide by our ethical standards.
 
-### 🛡️ Ethical Usage & Image Rights
+## 🛡️ Ethical Usage & Image Rights
 
 The following restrictions apply to all users and contributors:
 
-- **Image Protection**: The use of authors' or contributors' names, handles, or profile images to promote commercial products or services is strictly prohibited.
-    
-- **No Hate Speech**: Associating this project with hate speech, discrimination, or extremist ideologies will result in immediate removal and blocking from the repository.
+* **Image & Name Protection:** Citing the names and handles of authors and contributors is permitted and encouraged strictly for academic attribution and open-source crediting purposes. However, using profile images (photos, avatars), names, or handles for advertising, marketing, commercial promotion, or to falsely imply endorsement of third-party products and services is strictly prohibited.
+* **Inclusive Environment (No Hate Speech):** This repository is a strictly educational space. Associating this project, its forks, or its contributors with hate speech, discrimination, harassment, or extremist ideologies will result in an immediate ban of the contributor and the permanent removal of their contributions.
     
 
 ---
@@ -120,10 +119,9 @@ Mantemos uma arquitetura de **"Fonte vs. Exportação"** para garantir que a ár
 
 Este projeto é licenciado sob a licença **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. Ao contribuir para o Projeto Yggdrasil, você concorda em cumprir nossos padrões éticos.
 
-### 🛡️ Ética e Direitos de Imagem
+## 🛡️ Diretrizes Éticas e Direitos de Imagem
 
-As seguintes restrições se aplicam a todos os usuários e colaboradores:
+As seguintes restrições aplicam-se a todos os usuários e colaboradores:
 
-- **Proteção de Imagem**: É estritamente proibido o uso de nomes, handles ou imagens dos autores e colaboradores para promover produtos ou serviços comerciais.
-    
-- **Sem Discurso de Ódio**: Associar este projeto a discursos de ódio, discriminação ou ideologias extremistas resultará em remoção imediata e banimento do repositório.
+* **Proteção de Imagem e Nome:** A citação de nomes e handles dos autores e colaboradores é permitida e incentivada exclusivamente para fins de atribuição de créditos acadêmicos e open-source. No entanto, o uso de imagens de perfil (fotos, avatares), nomes ou handles para fins de publicidade, marketing, promoção comercial ou para sugerir falsamente o endosso de produtos e serviços de terceiros é estritamente proibido.
+* **Ambiente Inclusivo (Sem Discurso de Ódio):** Este repositório é um espaço estritamente educacional. Qualquer associação deste projeto, de seus forks ou de seus colaboradores com discursos de ódio, discriminação, assédio ou ideologias extremistas resultará no banimento imediato do colaborador e na remoção permanente de suas contribuições.
