@@ -44,3 +44,5 @@ This project is licensed under the [**CC BY-NC-SA 4.0**](./LICENSE.md) (Attribut
 > **Personal Image Protection:**
 > Citing the authors' names for proper attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' **personal images (photos, avatars, or portraits)**, as well as the use of their names for **advertising, commercial promotion, or third-party product endorsements**, is strictly prohibited without prior written consent.
 ---
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-informational?style=flat-square&logo=creative-commons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
