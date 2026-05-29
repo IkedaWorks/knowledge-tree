@@ -23,7 +23,7 @@ Coulomb publicou seus ensaios mais de **110 anos antes** de J.J. Thomson descobr
 
 > [!NOTE]
 > 
-> **Observe que o gráfico de força X distância é um hipérbole de segundo grau, isso indica a proporção indireta.**
+> **Observe que o gráfico de força X distância é uma hipérbole de segundo grau, isso indica a proporção indireta.**
 > 
 
 ### Funcionamento Mecânico do Aparato
@@ -55,7 +55,7 @@ A força vetorial que a carga de origem ($1$) exerce sobre a carga de destino ($
 
 $$\vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^2} \hat{r}_{1\to2}$$
 
-Onde $\hat{r}_{1\to2} = \frac{\vec{r}_{1\to2}}{r}$ é o versor (vetor unitário) que aponta na linha reta da carga 1 para a carga 2. Se o produto $q_1 \cdot q_2$ for positivo, a força assume o mesmo sentido do versor (repulsão), se for negativo, assume o sentido oposto (atração).
+Onde $\hat{r}_{1 \to 2} = \frac{\vec{r}_{1 \to 2}}{r}$ é o versor (vetor unitário) que aponta na linha reta da carga 1 para a carga 2. Se o produto $q_1 \cdot q_2$ for positivo, a força assume o mesmo sentido do versor (repulsão), se for negativo, assume o sentido oposto (atração).
 
 ---
 

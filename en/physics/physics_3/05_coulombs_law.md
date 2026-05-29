@@ -53,7 +53,7 @@ The vector force exerted by the source charge ($1$) onto the target charge ($2$)
 
 $$\vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^2} \hat{r}_{1\to2}$$
 
-Where $\hat{r}_{1\to2} = \frac{\vec{r}_{1\to2}}{r}$ is the unit vector (versor) pointing in a straight line from charge 1 to charge 2. If the product $q_1 \cdot q_2$ is positive, the force assumes the same direction and sense as the unit vector (repulsion); if it is negative, it assumes the opposite sense (attraction).
+Where $\hat{r}_{1 \to 2} = \frac{\vec{r}_{1 \to 2}}{r}$ is the unit vector (versor) pointing in a straight line from charge 1 to charge 2. If the product $q_1 \cdot q_2$ is positive, the force assumes the same direction and sense as the unit vector (repulsion); if it is negative, it assumes the opposite sense (attraction).
 
 ---
 
