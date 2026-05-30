@@ -40,15 +40,11 @@ We use the **Fork & Pull Request** model to keep the "main tree" stable.
     
 - **Image Protocol**: Before linking an image to a note, check the **[assets/README.md](./assets/README.md)** for specific instructions on file naming conventions and compression.
 
-### 📐 Technical Diagrams (Excalidraw)
+📐 Technical Diagrams & Vector Graphics
+We follow an architecture that prioritizes vector clarity and lightweight documentation:
 
-We follow a **"Source vs. Export"** architecture to ensure the tree remains editable and viewable:
-
-1. **Source (`.md`):** Keep the original Excalidraw file in `assets/excalidraw/`.
-    
-2. **Export (`.png` / `.webp`):** Always export a visual version to the `assets/` root for GitHub compatibility.
-    
-3. **Tooling:** Use the Excalidraw plugin in Obsidian or edit via web at <a href="https://excalidraw.com" target="_blank" rel="noopener noreferrer">Excalidraw</a> and drag the `.md`file into screen.
+* **Professional Diagrams (Inkscape & SVG):** For complex physics, calculus, or electromagnetism diagrams, prefer using **Inkscape**. Always save and commit the diagram directly in native **.svg** format into the `assets/` folder. Do not convert to raster unless strictly necessary.
+* **Handdrawn Sketches (Excalidraw):** Useful for quick, conceptual drafts. Keep the original editable file in `assets/excalidraw/` (as `.md` or export as `.excalidraw`) and export a high-resolution `.svg` (instead of `.png`) to the `assets/` root for GitHub preview rendering.
 
 ## ⚖️ License & Ethical Conduct
 
