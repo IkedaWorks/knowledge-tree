@@ -46,17 +46,15 @@ We follow an architecture that prioritizes vector clarity and lightweight docume
 * **Professional Diagrams (Inkscape & SVG):** For complex physics, calculus, or electromagnetism diagrams, prefer using **Inkscape**. Always save and commit the diagram directly in native **.svg** format into the `assets/` folder. Do not convert to raster unless strictly necessary.
 * **Handdrawn Sketches (Excalidraw):** Useful for quick, conceptual drafts. Keep the original editable file in `assets/excalidraw/` (as `.md` or export as `.excalidraw`) and export a high-resolution `.svg` (instead of `.png`) to the `assets/` root for GitHub preview rendering.
 
-## ⚖️ License & Ethical Conduct
+## ⚖️ License & Ethical Conduct 
 
-This project is licensed under the **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. By contributing to Project Yggdrasil, you agree to abide by our ethical standards.
+This project is licensed under the [MIT License](./LICENSE.md). By contributing to Project Yggdrasil, you agree to abide by our ethical standards. 
 
-## 🛡️ Ethical Usage & Image Rights
+## 🛡️ Ethical Usage & Image Rights 
 
-The following restrictions apply to all users and contributors:
-
-* **Image & Name Protection:** Citing the names and handles of authors and contributors is permitted and encouraged strictly for academic attribution and open-source crediting purposes. However, using profile images (photos, avatars), names, or handles for advertising, marketing, commercial promotion, or to falsely imply endorsement of third-party products and services is strictly prohibited.
-* **Inclusive Environment (No Hate Speech):** This repository is a strictly educational space. Associating this project, its forks, or its contributors with hate speech, discrimination, harassment, or extremist ideologies will result in an immediate ban of the contributor and the permanent removal of their contributions.
-    
+The following restrictions apply to all users and contributors: 
+ - Image & Name Protection: Citing the names and handles of authors and contributors is permitted and encouraged strictly for academic attribution and open-source crediting purposes. However, using profile images (photos, avatars), names, or handles for advertising, marketing, commercial promotion, or to falsely imply endorsement of third-party products and services is strictly prohibited. 
+ - Inclusive Environment (No Hate Speech): This repository is a strictly educational space. Associating this project, its forks, or its contributors with hate speech, discrimination, harassment, or extremist ideologies will result in an immediate ban of the contributor and the permanent removal of their contributions.
 
 ---
 
@@ -113,11 +111,10 @@ Mantemos uma arquitetura de **"Fonte vs. Exportação"** para garantir que a ár
 
 ## ⚖️ Licença e Conduta Ética
 
-Este projeto é licenciado sob a licença **[CC BY-NC-SA 4.0 License](./LICENSE.md)**. Ao contribuir para o Projeto Yggdrasil, você concorda em cumprir nossos padrões éticos.
-
+ Este projeto é licenciado sob a licença [MIT](./LICENSE.md). Ao contribuir para o Projeto Yggdrasil, você concorda em cumprir nossos padrões éticos. 
+ 
 ## 🛡️ Diretrizes Éticas e Direitos de Imagem
 
-As seguintes restrições aplicam-se a todos os usuários e colaboradores:
-
-* **Proteção de Imagem e Nome:** A citação de nomes e handles dos autores e colaboradores é permitida e incentivada exclusivamente para fins de atribuição de créditos acadêmicos e open-source. No entanto, o uso de imagens de perfil (fotos, avatares), nomes ou handles para fins de publicidade, marketing, promoção comercial ou para sugerir falsamente o endosso de produtos e serviços de terceiros é estritamente proibido.
-* **Ambiente Inclusivo (Sem Discurso de Ódio):** Este repositório é um espaço estritamente educacional. Qualquer associação deste projeto, de seus forks ou de seus colaboradores com discursos de ódio, discriminação, assédio ou ideologias extremistas resultará no banimento imediato do colaborador e na remoção permanente de suas contribuições.
+ As seguintes restrições aplicam-se a todos os usuários e colaboradores: 
+ - Proteção de Imagem e Nome: A citação de nomes e handles dos autores e colaboradores é permitida e incentivada exclusivamente para fins de atribuição de créditos acadêmicos e open-source. No entanto, o uso de imagens de perfil (fotos, avatares), nomes ou handles para fins de publicidade, marketing, promoção comercial ou para sugerir falsamente o endosso de produtos e serviços de terceiros é estritamente proibido.
+ - Ambiente Inclusivo (Sem Discurso de Ódio): Este repositório é um espaço estritamente educacional. Qualquer associação deste projeto, de seus forks ou de seus colaboradores com discursos de ódio, discriminação, assédio ou ideologias extremistas resultará no banimento imediato do colaborador e na remoção permanente de suas contribuições.
