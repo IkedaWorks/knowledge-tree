@@ -1,131 +1,135 @@
-# Lei de Coulomb (Força Elétrica)
+# Coulomb's Law (Electric Force)
 
-A Lei de Coulomb trata da interação de cargas elétricas puntiformes (pontuais) em repouso. Como estamos falando da interação de um campo elétrico com uma carga elétrica, descrevemos esse fenômeno por meio de uma **força elétrica**, que serve como a fundação de toda a eletrostática.
+Coulomb's Law describes the interaction between point electric charges at rest. Since we are discussing the interaction of an electric field with an electric charge, we model this phenomenon using an electric force, which serves as the bedrock of all electrostatics.
 
----
+## 📜 Historical Context and the Torsion Balance
 
-## 📜 Contexto Histórico e a Balança de Torção
+Formulated by the French physicist Charles-Augustin de Coulomb in 1785, this law quantifies the force of attraction or repulsion between two charges. Since simulation software and multimeters did not exist at the time, Coulomb developed an extremely sensitive mechanical apparatus called the Torsion Balance.
 
-Formulada pelo físico francês Charles Augustin de Coulomb em 1785, esta lei quantifica a força de atração ou repulsão entre duas cargas. Como na época não existiam softwares de simulação ou multímetros, Coulomb desenvolveu um aparato mecânico extremamente sensível chamado **Balança de Torção**.
+### The Experimental Process: Measuring the Invisible Before the Electron
 
-### O Processo Experimental: Medindo o Invisível Antes do Elétron
+Coulomb published his essays more than 110 years before J.J. Thomson discovered the existence of the electron (1897). Instead of knowing the absolute quantity of elementary charges, Coulomb utilized geometric symmetry and proportions to isolate his variables:
 
-Coulomb publicou seus ensaios mais de **110 anos antes** de J.J. Thomson descobrir a existência do elétron (1897). Em vez de conhecer a quantidade absoluta de cargas elementares, Coulomb utilizou a **simetria geométrica e proporções** para isolar suas variáveis:
-
-1. **Controle das Frações de Carga ($q_1 \cdot q_2$):**
-   Para variar a carga sem ter um medidor absoluto, ele usou o princípio da condução por contato. Ele eletrizava uma esfera condutora polida com uma carga desconhecida $Q$ e a tocava em outra esfera idêntica e neutra. Por pura simetria geométrica, a carga líquida era obrigada a se dividir perfeitamente ao meio ($\frac{1}{2}Q$). Repetindo o processo, ele conseguia manipular frações precisas de carga ($\frac{1}{2}, \frac{1}{4}, \frac{1}{8}$) sem nem saber o que era um elétron.
-
-2. **Dependência com a Distância ($1/r^2$):**
-   Mantendo as cargas fixas e variando a distância ($r$) entre as esferas, ele mediu o ângulo de rotação do fio de suspensão. Ele observou que:
-   * Dobrar a distância ($2r$) tornava a força eletrostática **4 vezes menor** ($\frac{1}{4}F$).
-   * Triplicar a distância ($3r$) tornava a força **9 vezes menor** ($\frac{1}{9}F$).
-   * *Conclusão:* A força é inversamente proporcional ao quadrado da distância: $F \propto \frac{1}{r^2}$.
+* **Control of Charge Fractions ($q_1 \cdot q_2$):** To vary the charge without an absolute meter, he relied on the principle of conduction by contact. He would charge a polished conducting sphere with an unknown charge $Q$ and touch it to another identical, neutral sphere. By pure geometric symmetry, the net charge was forced to divide perfectly in half ($\frac{1}{2}Q$). By repeating this process, he could manipulate precise fractions of charge ($\frac{1}{2}, \frac{1}{4}, \frac{1}{8}$) without even knowing what an electron was.
+* **Distance Dependence ($1/r^2$):** Keeping the charges fixed and varying the distance ($r$) between the spheres, he measured the rotation angle of the suspension thread. He observed that:
+    * Doubling the distance ($2r$) made the electrostatic force 4 times smaller ($\frac{1}{4}F$).
+    * Tripling the distance ($3r$) made the force 9 times smaller ($\frac{1}{9}F$).
+    * **Conclusion:** The force is inversely proportional to the square of the distance: $F \propto \frac{1}{r^2}$.
 
 > [!NOTE]
 > 
-> **Observe que o gráfico de força X distância é uma hipérbole de segundo grau, isso indica a proporção indireta.**
-> 
+> Note that the plot of Force vs. Distance forms a second-degree hyperbola, which clearly indicates this inverse proportion.
 
-### Funcionamento Mecânico do Aparato
+### Mechanical Operation of the Apparatus
 
-A balança de torção consistia em um fino fio de prata ou seda que suspendia uma haste horizontal isolante:
-* **Uma das extremidades** continha uma pequena esfera condutora (a carga a ser testada).
-* **A extremidade oposta** continha um contrapeso feito de material isolante neutro (como papel ou cera), servindo puramente para manter o equilíbrio mecânico horizontal, sem sofrer interferência elétrica.
+The torsion balance consisted of a fine silver or silk thread suspending a horizontal insulating rod:
+* One end contained a small conducting sphere (the target charge to be tested).
+* The opposite end contained a counterweight made of a neutral insulating material (such as paper or wax), serving purely to maintain horizontal mechanical equilibrium without undergoing electrical interference.
 
-Ao introduzir no sistema uma segunda esfera condutora fixa e carregada, a repulsão eletrostática empurrava a esfera móvel, torcendo o fio de suspensão. O fio exercia um torque restaurador mecânico proporcional ao ângulo de torção (Lei de Hooke para torção). Lendo o deslocamento angular estável em uma escala graduada de vidro, Coulomb calculava a força eletrostática exata.
+When a second fixed, charged conducting sphere was introduced into the system, the electrostatic repulsion pushed the mobile sphere, twisting the suspension thread. The thread exerted a mechanical restoring torque proportional to the twist angle (Hooke's Law for torsion). By reading the stable angular displacement on a graduated glass scale, Coulomb could calculate the exact electrostatic force.
 
-Unindo essas observações empíricas, chegou-se à famosa relação escalar:
+Combining these empirical observations yielded the famous scalar relationship:
 $$F = k \frac{|q_1 \cdot q_2|}{r^2}$$
 
 ---
 
-## 🔬 O Conceito Matemático Vetorial
+## 🔬 The Mathematical Vector Concept
 
-Embora Coulomb tenha deduzido a relação de forma escalar, a engenharia e o Cálculo III exigem a abordagem vetorial para modelar sistemas tridimensionais complexos. 
+Although Coulomb deduced the relation in a scalar form, engineering and Multivariable Calculus (Calculus III) demand a vector approach to model complex three-dimensional systems.
 
-A magnitude da força é ditada pela constante eletrostática ($k$), que esconde uma profunda propriedade geométrica do espaço:
+The magnitude of the force is dictated by the electrostatic constant ($k$), which hides a profound geometric property of space:
+$$k = \frac{1}{4\pi\epsilon_0} \approx 8.99 \times 10^9 \ \text{N}\cdot\text{m}^2/\text{C}^2$$
 
-$$k = \frac{1}{4\pi\epsilon_0} \approx 8,99 \times 10^9 \text{ N}\cdot\text{m}^2/\text{C}^2$$
+* **Permittivity of Free Space ($\epsilon_0 \approx 8.85 \times 10^{-12} \ \text{C}^2/\text{N}\cdot\text{m}^2$):** This physical constant dictates the "permissiveness" or the degree of ease that the vacuum offers for electric field lines to propagate. It forms the bedrock for understanding Electric Potential, Capacitance (dielectric behavior), and Maxwell's Equations down the road.
 
-* **Permissividade do Vácuo ($\epsilon_0 \approx 8,85 \times 10^{-12} \text{ C}^2/\text{N}\cdot\text{m}^2$):** É a constante física que dita a "permissão" ou o grau de facilidade que o vácuo oferece para a propagação de linhas de campo elétrico. Ela é a base para o entendimento futuro de **Potencial Elétrico**, **Capacitância** (comportamento de dielétricos) e das próprias Equações de Maxwell.
+### 🌐 The Hidden Geometry of Coulomb's Law ($4\pi r^2$)
 
-#### 🌐 A Geometria Oculta da Lei de Coulomb ($4\pi r^2$)
-
-Se reescrevermos a Lei de Coulomb substituindo o valor de $k$, a equação ganha um significado geométrico brutal:
-
+If we rewrite Coulomb's Law by expanding the constant $k$, the equation reveals a massive geometric meaning:
 $$F = \frac{1}{4\pi\epsilon_0} \frac{|q_1 \cdot q_2|}{r^2} \implies F = \frac{|q_1 \cdot q_2|}{\mathbf{(4\pi r^2)} \epsilon_0}$$
 
-O termo **$4\pi r^2$** é rigorosamente a fórmula da **área superficial de uma esfera**. Como o nosso espaço é tridimensional e isotrópico, a perturbação elétrica gerada por uma carga pontual se propaga igualmente em todas as direções, expandindo-se como uma onda esférica. 
+The term $4\pi r^2$ is strictly the formula for the surface area of a sphere. Because our space is three-dimensional and isotropic, the electrical perturbation generated by a point charge propagates equally in all directions, expanding outwards like a spherical wave.
 
-À medida que a distância ($r$) aumenta, a "energia" do campo da carga fonte precisa se espalhar (diluir) por uma área esférica cada vez maior. O decaimento da força com o inverso do quadrado da distância ($1/r^2$) nada mais é do que a consequência geométrica do campo se distribuindo uniformemente pela superfície dessa esfera tridimensional em expansão.
+As the distance ($r$) increases, the "energy" of the source charge's field must spread (dilute) across an ever-increasing spherical surface area. The decay of force with the inverse square of the distance ($1/r^2$) is simply the geometric consequence of the field distributing itself uniformly over the surface of this expanding 3D sphere.
 
-### 🎯 Notação Vetorial (A Transição para o Cálculo Vetorial)
+---
 
-Para entender a formulação de engenharia, precisamos dividir o fenômeno entre a sua **intensidade pura** e a sua **orientação no espaço**, compreendendo que ambas as informações nascem do mesmo lugar: o **vetor posição relativo**.
+## 🎯 Vector Notation (The Transition to Vector Calculus)
 
-#### 1. O Vetor Posição Relativo ($\vec{r}_{1\to2}$) como Origem de Tudo
+To understand engineering formulation, we must divide the phenomenon into its pure intensity and its spatial orientation, recognizing that both pieces of information stem from the same place: the relative position vector.
 
-No espaço tridimensional, a primeira coisa que fazemos é traçar um vetor que conecta as duas cargas. Este é o vetor posição relativo $\vec{r}_{1\to2}$, que nasce na carga de origem ($q_1$, a fonte que modifica o espaço) e morre na carga de destino ($q_2$, o alvo que sente a força):
+### 1. The Relative Position Vector ($\vec{r}_{1\to2}$) as the Source of Everything
 
-$$\vec{r}_{1\to2} = (x_2 - x_1)\hat{i} + (y_2 - y_1)\hat{j} + (z_2 - z_1)\hat{k}$$
+In three-dimensional space, the very first step is to trace a vector connecting the two charges. This is the relative position vector $\vec{r}_{1\to2}$, which originates at the source charge ($q_1$, the source altering the space) and terminates at the target charge ($q_2$, the target feeling the force):
+$$\vec{r}_{1\to2} = (x_2 - x_1)i + (y_2 - y_1)j + (z_2 - z_1)k$$
 
-Tanto o módulo da distância quanto a direção da força vão depender exclusivamente desse cara. 
+Both the distance magnitude and the direction of the force depend exclusively on this vector.
 
-Perceba que $\vec{r}_{1\to2}$ é um vetor **relativo** porque o posicionamento está entre as cargas envolvidas na interação. Geometricamente, ele é composto por $\vec{r}_1$ e $\vec{r}_2$, que são os **vetores posição absolutos** — eles dão a localização exata de cada carga em relação à referência do espaço, que por padrão é a origem $(0,0,0)$. Pela lei de soma de vetores, temos:
-
+Notice that $\vec{r}_{1\to2}$ is a relative vector because the positioning is defined between the charges involved in the interaction. Geometrically, it is composed of $\vec{r}_1$ and $\vec{r}_2$, which are the absolute position vectors—they provide the exact location of each charge relative to the space's reference frame, which defaults to the origin $(0,0,0)$. By vector addition laws, we have:
 $$\vec{r}_{1\to2} = \vec{r}_2 - \vec{r}_1$$
 
 > [!NOTE]
 > 
-> **A Importância da Álgebra Linear:** Como a grande maioria das grandezas em Teoria de Campos são vetoriais, é aqui na Física Elétrica que tudo aquilo que você aprendeu em Álgebra Linear (transformações, subpaços, vetores e bases) começa a fazer sentido prático na engenharia.
+> **The Importance of Linear Algebra:** Since most quantities in Field Theory are vector-based, it is here in Electrical Physics that everything you learned in Linear Algebra (transformations, subspaces, vectors, and bases) begins to make practical engineering sense.
 
-#### 2. A Visão do Ensino Médio: O Módulo Escalar Puro
+### 2. The High School Perspective: Pure Scalar Magnitude
 
-A equação clássica do ensino médio calcula apenas a **intensidade** (o tamanho) da força. Para isso, ela extrai o módulo absoluto do vetor posição relativo (representado por $|\vec{r}_{1\to2}|$ ou simplesmente $r$). O $r^2$ no denominador é o quadrado do comprimento desse vetor relativo, ignorando para onde ele aponta:
-
-$$F = k \frac{|q_1 \cdot q_2|}{r^2} \quad \text{onde } r = |\vec{r}_{1\to2}| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
+The classic high school equation calculates only the intensity (magnitude) of the force. To do this, it extracts the absolute magnitude of the relative position vector (represented by $|\vec{r}_{1\to2}|$ or simply $r$). The $r^2$ in the denominator is the square of this relative vector's length, completely ignoring where it points:
+$$F = k \frac{|q_1 \cdot q_2|}{r^2} \quad \text{where } r = |\vec{r}_{1\to2}| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
 
 > [!WARNING]
 > 
-> **A Falha Fatal:** Essa equação brilhava no ensino médio, mas ela tem uma limitação crítica: só calcula a intensidade da força. Na realidade da engenharia, quase sempre precisamos saber a direção e o sentido, pois são essas características que ditarão o comportamento dinâmico real da interação tridimensional.
+> **The Fatal Flaw:** While this equation was ideal for high school physics, it has a critical limitation: it only computes the force's intensity. In engineering reality, we almost always need to know direction and sense, as these characteristics dictate the true dynamic behavior of the three-dimensional interaction.
 
-#### 3. O Casamento de Naturezas: A Entrada do Versor
+### 3. Matching Algebraic Natures: Enter the Unit Vector
 
-Dizer que a força vale $5\text{ N}$ não basta; o software de simulação precisa saber para onde ela empurra. Como o lado esquerdo da equação é um vetor ($\vec{F}$), o lado direito **obrigatoriamente precisa de uma operação vetorial** para a igualdade ser verdadeira. Não se pode igualar um vetor a um número escalar puro.
+Stating that a force equals $5\text{ N}$ is insufficient; simulation software must know which way it pushes. Since the left side of the equation is a vector ($\vec{F}$), the right side must contain a vector operation for the equality to be true. You cannot equate a vector to a pure scalar number.
 
-Para "vetorizar" a intensidade sem alterar o tamanho que já calculamos, multiplicamos a sopa de escalares pelo **versor unitário** ($\hat{r}_{1\to2}$). Esse versor é o próprio vetor posição relativo dividido pelo seu próprio módulo:
+To "vectorize" the intensity without altering the magnitude already calculated, we multiply the scalar expression by the unit vector ($\hat{r}_{1\to2}$). This unit vector is simply the relative position vector divided by its own magnitude:
+$$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{r^2} \right)}_{\text{Intensity (Magnitude)}} \cdot \underbrace{\hat{r}_{1\to2}}_{\text{Orientation (Unit Vector)}}$$
 
-$$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{r^2} \right)}_{\text{Intensidade (Módulo)}} \cdot \underbrace{\hat{r}_{1\to2}}_{\text{Orientação (Versor)}}$$
+Since the length of $\hat{r}_{1\to2}$ is strictly equal to $1$, its sole function is to inject spatial coordinates into the formula without disrupting the physical value of the force.
 
-Como o comprimento de $\hat{r}_{1\to2}$ é rigidamente igual a $1$, ele cumpre a função exclusiva de injetar as coordenadas espaciais na fórmula sem distorcer o valor físico da força.
+### 4. The Computational Formulation (Why $r^3$ is Used)
 
-#### 4. A Formulação Computacional (O porquê do $r^3$)
-
-No código ou em cálculos complexos, abrir a fórmula para achar o versor gera uma operação de divisão extra. Substituindo a definição geométrica do versor ($\hat{r}_{1\to2} = \frac{\vec{r}_{1\to2}}{r}$) diretamente na equação, o módulo do vetor relativo que estava ao quadrado ($r^2$) é multiplicado por ele mesmo mais uma vez, resultando em $r^3$:
-
+In code or complex calculations, expanding the formula to find the unit vector requires an additional division operation. Substituting the geometric definition of the unit vector ($\hat{r}_{1\to2} = \frac{\vec{r}_{1\to2}}{r}$) directly into the equation multiplies the already squared relative vector magnitude ($r^2$) by itself once more, resulting in $r^3$:
 $$\vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^2} \cdot \left( \frac{\vec{r}_{1\to2}}{r} \right) \implies \vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^3} \vec{r}_{1\to2}$$
 
 > [!NOTE]
-> **Atenção Física (Análise Dimensional):** A Lei de Coulomb **nunca deixou de ser do inverso do quadrado**. O expoente $3$ no denominador não indica uma lei do inverso do cubo. Ele surge porque o vetor posição completo ($\vec{r}_{1\to2}$) no numerador traz consigo uma dimensão extra de comprimento ($[\text{L}]$) que precisa ser matematicamente cancelada pelo termo extra no denominador, mantendo a unidade final estritamente em Newtons.
+> 
+> **Physical Reality (Dimensional Analysis):** Coulomb's Law remains an inverse-square law. The exponent 3 in the denominator does not indicate an inverse-cube law. It arises because the full position vector ($\vec{r}_{1\to2}$) in the numerator introduces an extra dimension of length ($[\text{L}]$) that must be mathematically canceled out by the extra term in the denominator, keeping the final unit strictly in Newtons.
 
-#### 💡 Intuição de Engenharia (Separação de Papéis)
+### 💡 Engineering Intuition (Separation of Roles)
 
-Olhando para a fórmula final expansiva, a separação de propriedades fica evidente:
+Looking at the expanded final formula, the division of properties becomes evident:
+$$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{|\vec{r}_{1\to2}|^3} \right)}_{\text{Scalar Block (Magnitude)}} \cdot \underbrace{\vec{r}_{1\to2}}_{\text{Relative Vector (Direction)}}$$
 
+* **The Scalar Block:** Everything inside the parentheses operates as pure numbers. The magnitude of the relative vector ($r$) is calculated and cubed, dictating the intensity of the impact.
+* **The Vector Block:** The relative position vector $\vec{r}_{1\to2}$ multiplies the expression at the end to "stamp" the Cartesian axes ($i, j, k$), translating the raw number into an actual geometric vector.
 
-
-$$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{|\vec{r}_{1\to2}|^3} \right)}_{\text{Sopa de Escalares (Tamanho)}} \cdot \underbrace{\vec{r}_{1\to2}}_{\text{Vetor Relativo (Direção)}}$$
-
-* **O Bloco Escalar:** Tudo dentro dos parênteses opera como números puros. O módulo do vetor relativo ($r$) é calculado e elevado ao cubo, ditando a intensidade do impacto.
-* **O Bloco Vetorial:** O vetor posição relativo $\vec{r}_{1\to2}$ entra multiplicando no final para "carimbar" os eixos cartesianos ($\hat{i}, \hat{j}, \hat{k}$), transformando o número puro em um vetor geométrico real.
 ---
 
-## 🧩 Princípio da Superposição
+## 🧩 Principle of Superposition and 3D Spatial Geometry
 
-Quando um sistema possui múltiplas cargas atuando no espaço, a força resultante sobre uma carga específica é a **soma vetorial** de todas as forças exercidas sobre ela individualmente pelas outras cargas:
-
-$$\vec{F}_{res} = \vec{F}_{1} + \vec{F}_{2} + \vec{F}_{3} + \dots = \sum_{i=1}^{n} \vec{F}_{i}$$
+When a system contains multiple charges interacting in space, the net force acting on a specific target charge is the vector sum of all the individual forces exerted on it by the other charges independently:
+$$\vec{F}_{\text{res}} = \vec{F}_{1} + \vec{F}_{2} + \vec{F}_{3} + \dots = \sum_{i=1}^{n} \vec{F}_{i}$$
 
 > [!CAUTION]
 > 
-> **Erro Clássico de Engenharia:** Nunca some os módulos das forças diretamente, a menos que todas as cargas estejam na mesma linha reta (colineares). Sempre decomponha as forças em suas componentes cartesianas ($\hat{i}, \hat{j}, \hat{k}$) antes de efetuar a soma.
+> **Classic Engineering Error:** Never add the magnitudes of the forces directly unless all charges are colinear (lying on the exact same straight line). Always decompose the forces into their Cartesian components ($i, j, k$) before performing the algebraic addition.
+
+### 📐 Determining Spatial Direction: Direction Cosines
+
+In a two-dimensional ($xy$) plane, the inclination of $\vec{F}_{\text{res}}$ is easily obtained via simple trigonometry using the tangent function ($\tan(\theta) = F_y / F_x$). However, in three-dimensional space ($xyz$), the net force points into a free vector space, and its orientation cannot be described by a single angle. Instead, we use **three directional angles** ($\alpha, \beta, \gamma$), which measure the vector force's inclination relative to the positive $x, y, z$ Cartesian axes, respectively.
+
+Each angle is determined independently using **Direction Cosines**, which project the component of each axis over the total magnitude of the net force vector $|\vec{F}_{\text{res}}| = \sqrt{F_x^2 + F_y^2 + F_z^2}$:
+
+$$\cos(\alpha) = \frac{F_x}{|\vec{F}_{\text{res}}|} \implies \alpha = \arccos\left(\frac{F_x}{|\vec{F}_{\text{res}}|}\right)$$
+$$\cos(\beta) = \frac{F_y}{|\vec{F}_{\text{res}}|} \implies \beta = \arccos\left(\frac{F_y}{|\vec{F}_{\text{res}}|}\right)$$
+$$\cos(\gamma) = \frac{F_z}{|\vec{F}_{\text{res}}|} \implies \gamma = \arccos\left(\frac{F_z}{|\vec{F}_{\text{res}}|}\right)$$
+
+> [!TIP]
+> 
+> **🧠 Developer's Insight (Math as the Language of the Universe & Physics 1 Connection):**
+> Remember from Mechanics/Statics when we operated with the equation $\vec{F} = |\vec{F}| \cdot \hat{u}_F$? The exact role of the force unit vector ($\hat{u}_F$) is to carry these cosines. If we expand the geometric unit vector by dividing its Cartesian components by its magnitude, the resulting coordinates are precisely the direction cosines:
+> $$\hat{u}_F = \frac{F_x}{|\vec{F}|}i + \frac{F_y}{|\vec{F}|}j + \frac{F_z}{|\vec{F}|}k = \cos(\alpha)i + \cos(\beta)j + \cos(\gamma)k$$
+> As a mathematical sanity check for validating algorithms and parsing scripts, the geometric sum of these directional cosines must always obey the identity: $\cos^2(\alpha) + \cos^2(\beta) + \cos^2(\gamma) = 1$.
