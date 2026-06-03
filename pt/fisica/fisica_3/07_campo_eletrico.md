@@ -16,7 +16,9 @@ Décadas mais tarde, **James Clerk Maxwell** (1831–1879) pegou a intuição pu
 
 ## 🧠 A Quebra Conceitual: Matéria vs. Alteração
 
-Para dominar a engenharia e a teoria de campos, você precisa destruir permanentemente um erro clássico de ensino médio: **O campo elétrico NÃO é a carga.** ### 1. A Carga como Qualidade Intrínseca ($1.602 \times 10^{-19} \ \text{C}$)
+Para dominar a engenharia e a teoria de campos, você precisa destruir permanentemente um erro clássico de ensino médio: **O campo elétrico NÃO é a carga.** 
+###  A Carga como Qualidade Intrínseca ($1.602 \times 10^{-19} \ \text{C}$)
+
 A matéria possui propriedades fundamentais que nós simplesmente aceitamos como parâmetros do universo: massa e carga elétrica. A menor quantidade de carga isolada na natureza é a **carga elementar**:
 
 $$e \approx 1.602 \times 10^{-19} \ \text{C}$$

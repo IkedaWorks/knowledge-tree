@@ -17,7 +17,7 @@ Decades later, **James Clerk Maxwell** (1831–1879) took Faraday's purely visua
 
 To master engineering and field theory, you must permanently destroy a classic high school misconception: **The electric field is NOT the charge.**
 
-### 1.Charge as an Intrinsic Quality ($1.602 \times 10^{-19} \ \text{C}$)
+### Charge as an Intrinsic Quality ($1.602 \times 10^{-19} \ \text{C}$)
 
 Matter possesses fundamental properties that we simply accept as parameters of the universe: mass and electric charge. The smallest isolated quantity of charge found in nature is the **elementary charge**:
 
@@ -25,13 +25,13 @@ $$e \approx 1.602 \times 10^{-19} \ \text{C}$$
 
 This number is an absolute scalar. It indicates the intensity of the "electric signature" that a particle (such as a proton or electron) possesses. It is an intrinsic property of matter.
 
-### 2. The Field as a Spatial Consequence
+### The Field as a Spatial Consequence
 
 The moment a particle containing this charge exists in the universe, the physical properties of the space surrounding it are modified. **The field is the physical consequence of the charge's existence.** The value $1.602 \times 10^{-19} \ \text{C}$ acts as a **scale factor**: it dictates the intensity of the vector perturbation that the particle will emanate into space.
 * If matter concentrates a large amount of charge, it generates an aggressive field perturbation.
 * If it has a single elementary charge, it alters space subtly, but the modification is absolutely present.
 
-### 3. The Mediator of Reality
+### The Mediator of Reality
 
 When a second charged particle enters this region, it does not interact directly with the first particle. In fact, it doesn't even know the first one exists! The second particle simply reacts locally to the new properties of the space it found already modified.
 
