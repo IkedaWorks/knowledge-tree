@@ -47,7 +47,7 @@ $$
 $$
 > [!NOTE]
 > 
-> **Perceba se você não entedeu o que aconteceu no processo acima, seu problema não é com essa matéria e sim com cálculo. Você deve revisar essa matéria porque senão vai sentir uma dificuldade extrema mesmo com essa explicação, convido você ver e como o halliday faz essa demostração, ele nem perde tempo mostrando o passo a passo, ele faz saltos gigantescos na resolução porque assume que você já domina o pré-requesitos dessa matéria.
+> **Perceba, se você não entendeu o que aconteceu no processo acima, seu problema não é com essa matéria e sim com cálculo. Você deve revisar essa matéria porque senão sentirá uma dificuldade extrema mesmo com essa explicação, convido você ver a demonstração do Halliday, ele nem perde tempo mostrando o passo a passo, ele faz saltos gigantescos na resolução porque assume que você já domina o pré-requesitos dessa matéria.**
 
 ---
 
@@ -71,7 +71,7 @@ As **Coordenadas Cilíndricas** são a evolução final desse sistema para o esp
 
 > ✈️ **A Analogia do Radar de Caça:** Imagine que você pilota um caça militar. Se o visor do seu radar exibisse um míssil inimigo em coordenadas cartesianas como $(3, 4, 5)$, você morreria tentando calcular mentalmente a diagonal tridimensional desse vetor.
 >
-> Por isso, telas de radar utilizam o sistema cilíndrico/polar. O painel é composto por círculos concêntricos: a distância direta até o alvo é o raio ($\rho$), a direção no horizonte (360°) é dada pelo ângulo ($\phi$), e a diferença de altitude é o eixo $z$ (altura). Você bate o olho e localiza a ameaça instantaneamente com apenas um eixo e um ângulo de varredura.
+> Por isso, telas de radar utilizam o sistema cilíndrico/polar. O painel é composto por círculos concêntricos: a distância direta até o alvo é o raio ($\rho$), a direção no horizonte (360°) é dada pelo ângulo ($\phi$), e a diferença de altitude é o eixo $z$ (altura). Você bate o olho e localiza a ameaça instantaneamente com apenas alguns eixos e um ângulo de varredura.
 
 > [!IMPORTANT]
 > 
@@ -96,8 +96,8 @@ $$z = z$$
 > [!TIP]
 > 
 > **Eu gosto de imaginar o seguinte cenário para entender isso:**
-> Eu percebo o mundo em coordenadas cartesianas, então temos os clássicos eixo (x,y,z), para converter eles nessa nova coordenada , basta a usar o plano xy com a base do seu cilindro. Então a base é um circulo, então preciso de um raio ($\rho$) rodando 360º nesse plano para formar ela, se desenhar esse raio, perceberá que poderá decompor ele no eixo x ou y de diversos jeitos, você pode ver isso com uma soma de vetores posições , pode usar trigonometria para chegar na relação acima, just do it.
-> Agora temos nossa base só falta nosso mastro, por enquanto esse processo converteu cartesiano $\rightarrow$ em polar , agora precisamos converter isso em cilíndrica, convenhamos um círculo com altura é o que chamamos de cilindro, por isso o nosso eixo $z$ serve de mastro, percebe ele não muda de cartesiano $\rightarrow$ cilíndrico.
+> Eu percebo o mundo em coordenadas cartesianas, então temos os clássicos eixo (x,y,z), para converter eles nessa nova coordenada , basta a usar o plano xy como a base do seu cilindro. Então a base é um círculo, então preciso de um raio ($\rho$) rodando 360º nesse plano para formar ela, se desenhar esse raio, perceberá que poderá decompor ele no eixo x ou y de diversos jeitos, você pode ver isso com uma soma de vetores posições , pode usar trigonometria para chegar na relação acima, just do it.
+> Agora temos nossa base só falta nosso mastro(altura desse cilíndro), por enquanto esse processo converteu cartesiano $\rightarrow$ em polar , agora precisamos converter isso em coordenadas cilíndricas, convenhamos um círculo com altura é o que chamamos de cilindro, por isso o nosso eixo $z$ serve de mastro, perceba que ele não muda de cartesiano $\rightarrow$ cilíndrico, é o mesmo vetor.
 
 
 **2. Tradução de Cartesianas para Cilíndricas (Volta):**
