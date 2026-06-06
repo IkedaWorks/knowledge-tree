@@ -101,7 +101,7 @@ Onde:
 
 > [!NOTE]
 > 
-> **Análise Dimensional de Feynman:** O expoente 3 no denominador não significa que o campo obedece a uma lei do inverso do cubo. O vetor $\vec{r}$ no numerador traz uma dimensão de comprimento ($[\text{L}]$), que cancela matematicamente uma dimensão de comprimento do denominador ($[\text{L}]^3$), mantendo a realidade física do inverso do quadrado ($[\text{L}]^{-2}$).
+> **Análise Dimensional:** O expoente 3 no denominador não significa que o campo obedece a uma lei do inverso do cubo. O vetor $\vec{r}$ no numerador traz uma dimensão de comprimento ($[\text{L}]$), que cancela matematicamente uma dimensão de comprimento do denominador ($[\text{L}]^3$), mantendo a realidade física do inverso do quadrado ($[\text{L}]^{-2}$).
 
 ### 💡 Intuição de Engenharia (Separação de Papéis)
 Olhando para a fórmula computacional expandida, a separação algébrica de papéis fica evidente:
