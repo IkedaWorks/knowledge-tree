@@ -126,7 +126,7 @@ $$\hat{a}_\rho = \cos(\phi)\hat{i} + \sin(\phi)\hat{j}$$
 
 > [!TIP]
 > 
-> Perceba que ele chama versor radial, então idependente do angulo que você selecionar o módulo dele sempre será 1, teste e chegue nas suas próprias conclusões.
+> Perceba que ele chama versor radial, então independente do ângulo que você selecionar, o módulo dele sempre será 1, teste e chegue nas suas próprias conclusões.
 > 
 
 Subtraindo os vetores para obter o **Vetor Posição Relativo ($\vec{r}_{\text{rel}}$)**:

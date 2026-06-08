@@ -41,7 +41,17 @@ A flat circular disk of radius $R$ is positioned horizontally in the $xy$-plane,
 - **b)** Evaluate the integral to determine the electric field vector $\vec{E}(z)$.
     
 - **c)** If the radius $R \to \infty$ (representing an infinite sheet of charge), deduce the resulting electric field vector and explain why its magnitude becomes completely invariant (independent) with respect to the distance $z$.
-    
+  
+---
+
+> [!CAUTION]
+> ### 🛑 ADVANCED ANALYTICAL ENGINEERING SECTION
+> The problems in this section present a drastic leap in complexity and are sourced from elite examinations (JEE Advanced and ITA). They demand mathematical tools and concepts that extend far beyond the standard homogeneous continuous distributions presented so far, such as:
+> * **Heterogeneous Charge Densities (non-constant $\lambda(x)$):** Requiring integration by partial fractions or advanced substitutions where geometry alone cannot simplify the integrand.
+> * **Macroscopic Approximations via Binomial Expansion:** Utilizing Newton's Binomial Theorem to approximate local electric fields ($x \ll a$), mapping complex Coulomb equations into linear restoring forces.
+> * **System Coupling (Electromagnetism + Mechanics):** Deriving second-order differential equations to prove Simple Harmonic Motion (SHM).
+>
+> It is highly recommended to proceed only if you are fully comfortable with power series expansions and line integrals in Calculus.
 
 ## 🔴 Section 3: Advanced Analytical Engineering (Hard Level)
 

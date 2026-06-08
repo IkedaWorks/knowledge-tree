@@ -34,6 +34,16 @@ Um disco plano circular de raio $R$ é posicionado horizontalmente no plano $xy$
 
 ---
 
+> [!CAUTION]
+> 
+> ### 🛑 SEÇÃO DE ENGENHARIA ANALÍTICA AVANÇADA
+> As questões desta seção apresentam um salto drástico de complexidade e foram extraídas de exames de altíssimo nível (JEE Advanced e ITA). Elas exigem ferramentas matemáticas e conceitos que extrapolam as distribuições contínuas homogêneas padrão apresentadas até aqui, tais como:
+> * **Densidades de Carga Heterogêneas ($\lambda(x)$ não-constante):** Exigem integração por frações parciais ou substituições avançadas onde a geometria não ajuda a simplificar o integrando.
+> * **Aproximações Macroscópicas via Expansão Binomial:** Uso do Teorema do Binômio de Newton para aproximar campos elétricos locais ($x \ll a$), transformando equações de Coulomb em forças lineares restauradoras.
+> * **Acoplamento de Sistemas (Eletromagnetismo + Mecânica):** Dedução de equações diferenciais de segunda ordem para provar Movimentos Harmônicos Simples (MHS).
+>
+> Recomenda-se avançar apenas se você já domina as técnicas de expansão em séries e integrais de linha em Cálculo.
+
 ## 🔴 Seção 3: Engenharia Analítica Avançada (Nível Difícil)
 
 ### Problema 3.1 (JEE Advanced - Dipolo Não-Uniforme Semi-Infinito)
