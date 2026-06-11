@@ -4,7 +4,7 @@ A Lei de Gauss é, essencialmente, a Lei de Coulomb sob uma perspectiva macrosc�
 
 Na engenharia, dominar a Lei de Gauss é a linha divisória entre passar horas resolvendo integrais monstruosas na mão ou desarmar o problema mentalmente usando apenas a simetria do espaço.
 
-## 🌬️ O Conceito de Fluxo: A Analogia do Vento e da Moldura
+## O Conceito de Fluxo: A Analogia do Vento e da Moldura
 
 Para compreender a mecânica de Gauss, precisamos primeiro traduzir o conceito de **Fluxo Elétrico** ($\Phi_E$). Fluxo não é uma propriedade exclusiva da carga fonte; ele é uma propriedade de uma superfície interativa.
 
@@ -19,7 +19,10 @@ Para mapear essa dependência angular na física, define-se o **Vetor de Área**
 $$d\vec{A} = \hat{n} \, dA$$
 
 <img src="/assets/fis3-eletromagnetismo-fluxo-cubo.svg" alt="Fluxo Elétrico no Cubo" width="450">
+
+
 ## 📐 O Formalismo Matemático: A Projeção Vetorial
+
 
 Dizer que o fluxo é a contagem de linhas de campo fornece o "tato visual", mas o rigor físico define o fluxo elétrico como a integral da componente normal do campo elétrico sobre a superfície.
 

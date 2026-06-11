@@ -5,7 +5,7 @@ Gauss's Law is, essentially, Coulomb's Law viewed through a macroscopic and geom
 
 In engineering, mastering Gauss's Law represents the dividing line between spending hours solving monstrous analytical integrals by hand or disarming the problem mentally using nothing but spatial symmetry.
 
-## 🌬️ The Concept of Flux: The Wind and the Frame Analogy
+## The Concept of Flux: The Wind and the Frame Analogy
 
 To comprehend the mechanics of Gauss, we must first translate the concept of **Electric Flux** ($\Phi_E$). Flux is not an exclusive property of a source charge; it is a property of an _interactive surface_.
 
