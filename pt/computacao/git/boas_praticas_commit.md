@@ -1,32 +1,43 @@
+# 🌳 Diretrizes de Commit (Conventional Commits)
 
-# 🌳 Boas Práticas de Commit 
+Este documento define o padrão de mensagens de commit para manter o histórico do **Project Yggdrasil** profissional, legível e preparado para futuras automações.
 
-Este guia define o padrão de mensagens de commit para manter o histórico do **Project Yggdrasil** profissional, legível e preparado para automações futuras.
+## 🏗️ Anatomia de um Commit
 
-## 🏗️ Estrutura da Mensagem
-`tipo(escopo): descrição curta em inglês`
+Sintaxe: tipo(escopo): descrição curta
+
+### 📋 Regras de Especificação
+
+* **Idioma:** Use inglês. Como as ferramentas de Git e os tipos padrão são globais, as descrições devem acompanhar esse padrão (ex: `add`, `fix`, `update`).
+* **Verbo no Imperativo:** Use o verbo no tempo imperativo e no presente (ex: `add` em vez de `added`).
+* **Limite de Caracteres:** A primeira linha deve ter no máximo **50 caracteres**.
+* **Foco no Escopo:** Sempre que possível, use parênteses para especificar a matéria ou ferramenta a que o commit se refere.
 
 ---
 
-## 🏷️ Tipos Principais 
+## 🏷️ Tipos Principais
 
-| Tipo         | Descrição                                                             | Exemplo                                  |
-| :----------- | :-------------------------------------------------------------------- | :--------------------------------------- |
-| **docs**     | Alterações em documentação, notas de estudo ou READMEs.               | `docs(git): add commit guidelines`       |
-| **feat**     | Adição de novo conteúdo ou funcionalidade (Scripts, novas matérias).  | `feat(circuits): add Kirchhoff's laws`   |
-| **refactor** | Reorganização de pastas ou arquivos sem mudar o conteúdo técnico.     | `refactor(physics): move statics assets` |
-| **fix**      | Correção de erros em fórmulas LaTeX, links ou bugs em scripts.        | `fix(latex): correct Maxwell equation`   |
-| **style**    | Formatação e ajustes visuais (Markdown, espaços) sem mudar o sentido. | `style(md): fix indentation in intro`    |
-| **chore**    | Manutenções de rotina (atualizar .gitignore, licenças).               | `chore: update license year`             |
+| Tipo | Descrição | Exemplo |
+| :--- | :--- | :--- |
+| **`docs`** | 📚 Alterações em documentação, notas de estudo ou READMEs. | `docs(git): add commit guidelines` |
+| **`feat`** | 🚀 Adição de novos conteúdos ou recursos funcionais (Scripts, matérias). | `feat(circuits): add Kirchhoff's laws` |
+| **`refactor`**| 🔄 Reorganização de pastas ou arquivos sem alterar o sentido do conteúdo. | `refactor(physics): move statics assets` |
+| **`fix`** | 🛠️ Correção de erros em fórmulas LaTeX, links quebrados ou bugs de script. | `fix(latex): correct Maxwell equation` |
+| **`style`** | 🎨 Formatação e ajustes visuais (Markdown, espaçamento) sem alterar o sentido. | `style(md): fix indentation in intro` |
+| **`chore`** | ⚙️ Manutenção de rotina (atualização de `.gitignore`, licenças ou metadados).| `chore: update license year` |
 
-## 💡 Regras de Ouro
+---
 
-1. **Use o Inglês:** Como o Git é uma ferramenta global e os tipos são em inglês, a descrição também deve ser (ex: *add*, *fix*, *update*).
-2. **Seja Breve:** A primeira linha do commit deve ter no máximo 50 caracteres.
-3. **Foco no Escopo:** Sempre que possível, use os parênteses para dizer a qual matéria ou ferramenta o commit se refere.
+## ⚙️ Referência de Escopos
+
+Sempre use um escopo preciso para isolar o impacto das alterações:
+* **Matérias Principais:** `physics`, `calculus`, `circuits`, `electromagnetism`
+* **Subtópicos e Ferramentas:** `statics`, `latex`, `git`, `python`
+
+---
 
 ## 🚀 Por que usar isso?
 
-1. **Histórico Profissional:** Demonstra domínio de ferramentas de mercado para recrutadores.
-2. **Busca Facilitada:** Permite filtrar mudanças rapidamente via terminal com `git log --grep`.
-3. **Automação:** Facilita a criação de scripts Python (Fase 2 do Roadmap) para gerar relatórios de progresso.
+1. **Histórico Profissional:** Demonstra domínio de fluxos de trabalho do padrão da indústria para recrutadores e colaboradores.
+2. **Busca Facilitada:** Permite filtragem rápida na linha de comando via terminal usando git log --grep.
+3. **Automação (Fase 2):** Facilita a execução de scripts em Python para varrer o histórico e gerar relatórios automatizados de progresso de estudo.
