@@ -1,23 +1,33 @@
 
-# Statistics and Probability
+# Probability, Statistics, and Stochastic Modeling
 
-Descriptive statistics and probability theory provide the mathematical tools required to extract meaningful insights from datasets, analyze uncertainties, and model random phenomena — core skills for computer engineering and the development of intelligent algorithms.
+This module consolidates the mathematical and computational framework required to quantify uncertainty, analyze experimental data dispersion, and model probabilistic phenomena. Rather than taking a purely theoretical approach, topics are dissected through the anatomy of their equations, connecting statistical formalism to the practical realities of engineering and algorithm development.
 
 ## 📌 Prerequisites
 
-For a solid understanding of this module, it is recommended to be familiar with:
-* **Basic Mathematics:** Elementary algebra, summation notation ($\sum$), and set theory.
-* **Calculus I:** Basic concepts of functions (essential for studying continuous distributions later on).
+* **Discrete Mathematics & Algebra:** Mastery of summations ($\sum$), set theory, and elementary algebra.
+* **Vector & Differential Calculus:** Partial derivatives, total differentials (essential for error propagation), and definite integrals (for continuous distributions).
 
----
+## 🗺️ Learning Roadmap & Note Structure
 
-## 🗺️ Learning Roadmap
+The module is structured chronologically and incrementally, divided into the following analytical fronts:
 
-This module is structured to follow a logical progression, moving from raw data analysis to advanced statistical modeling:
+### 01. Central Tendency Measures and Sample Behavior
+* **Focus:** Determining the center of gravity of raw data sets.
+* **Concepts:** Arithmetic mean, median, and mode. Analysis of symmetry and the impact of outliers on central tendency metrics.
 
-1. **Descriptive Statistics (Current Phase):** Understand the behavior of collected data through measures of central tendency and dispersion.
-2. **Probability Theory:** Study the likelihood of events and the behavior of random variables.
-3. **Probability Distributions:** Model real-world phenomena using discrete (Binomial, Poisson) and continuous (Normal/Gaussian) distributions.
-4. **Statistical Inference:** Make decisions and draw valid conclusions about a population based on data samples.
+### 02. Data Dispersion and the Anatomy of RMS
+* **Focus:** Quantifying the variability and noise inherent in any measurement process.
+* **Concepts:** Variance, Sample Standard Deviation ($N-1$) vs. Population Standard Deviation ($\sigma$). The formalism of Bessel's Correction (degrees of freedom) and the mathematical bridge to statistical effective value (Root Mean Square - RMS).
 
----
+### 03. Theoretical Metrology and Measurement Uncertainty
+* **Focus:** Calculating the reliability parameter and the geometric margin of doubt of an experimental result.
+* **Concepts:** Type A Uncertainty (statistical fluctuation dampened by $\sqrt{n}$), Type B Uncertainty (hardware limits normalized by $\sqrt{3}$), and Combined Quadratic Uncertainty ($u_c$). Expansion formalism ($U = k \cdot u_c$) and differential equations for Uncertainty Propagation in indirect measurements.
+
+### 04. Multivariate Analysis and Data Synchronicity
+* **Focus:** Mapping the joint behavior between two or more independent variables.
+* **Concepts:** Geometry of Sample Covariance, Pearson's Correlation Coefficient ($r$) as a vector normalization metric, and an introduction to linear regression models.
+
+### 05. Probability Theory and Stochastic Models
+* **Focus:** Transitioning from static data analysis to predictive modeling of random events.
+* **Concepts:** Sample space, axioms of probability, discrete random variables (Binomial, Poisson), and continuous random variables (Normal / Gaussian Distribution).
