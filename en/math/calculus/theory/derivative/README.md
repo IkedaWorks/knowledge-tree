@@ -7,7 +7,7 @@
 
 ### 📌 Prerequisites 
 
-- [Limits](./../limit/README.md) 
+- [Limits](en/math/calculus/theory/limit/README.md) 
     
 - Basic Algebra
     
