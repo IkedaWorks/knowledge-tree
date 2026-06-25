@@ -34,11 +34,11 @@ Não acredito em fórmulas "caixa-preta", onde você memoriza passos sem context
 
 #### 📍 Roteiro de Aprendizado
 
-1. 🔵 **[Limites e Continuidade](./limite/README.md)**
+1. 🔵 **[Limites e Continuidade](pt/matematica/calculo/teoria/limite/README.md)**
     
-2. 🟢 **[Derivadas](./derivada/README.md)**
+2. 🟢 **[Derivadas](pt/matematica/calculo/teoria/derivada/README.md)**
     
-3. 🔴 **[Integrais](./integral/README.md)**
+3. 🔴 **[Integrais](pt/matematica/calculo/teoria/integral/README.md)**
 
 
 ---
