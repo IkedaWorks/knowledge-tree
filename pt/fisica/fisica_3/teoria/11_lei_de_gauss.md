@@ -18,7 +18,7 @@ Para mapear essa dependência angular na física, define-se o **Vetor de Área**
 
 $$d\vec{A} = \hat{n} \, dA$$
 
-<img src="/assets/fis3-eletromagnetismo-fluxo-cubo.svg" alt="Fluxo Elétrico no Cubo" width="450">
+<img src="../../../../assets/fis3-eletromagnetismo-fluxo-cubo.svg" alt="Fluxo Elétrico no Cubo" width="450">
 
 
 ## 📐 O Formalismo Matemático: A Projeção Vetorial
@@ -93,7 +93,7 @@ $$\oint_{S} \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
     
 - **$Q_{\text{enc}}$ (Carga Enclausurada):** Funciona como um filtro lógico. Cargas localizadas fora da superfície gaussiana não entram no cômputo do fluxo líquido. As linhas de campo de uma carga externa perfuram a superfície para entrar (fluxo negativo) e a perfuram novamente para sair (fluxo positivo), gerando um saldo líquido nulo ($+1 - 1 = 0$).
 
-<img src="/assets/fis3-gauss-law.svg" alt="Lei de Gauss" width="450">
+<img src="../../../../assets/fis3-gauss-law.svg" alt="Lei de Gauss" width="450">
 
 ## 🛠️ O "Hack" da Simetria: Isolando o Campo Elétrico
 

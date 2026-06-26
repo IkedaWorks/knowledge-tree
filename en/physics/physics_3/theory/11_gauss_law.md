@@ -22,7 +22,7 @@ To map this angular dependence mathematically in physics, we define the **Area V
 
 $$d\vec{A} = \hat{n} \, dA$$
 
-<img src="/assets/fis3-eletromagnetismo-fluxo-cubo.svg" width="450">
+<img src="../../../../assets/fis3-eletromagnetismo-fluxo-cubo.svg" width="450">
 
 ## 📐 Mathematical Formalism: Vector Projection
 
@@ -96,7 +96,7 @@ $$\oint_{S} \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
 - **$Q_{\text{enc}}$ (Enclosed Charge):** Functions as a strict logical filter. Charges located outside the Gaussian surface are completely excluded from the net flux computation. The field lines originating from an external charge pierce the surface to enter (negative flux) and pierce it again to exit (positive flux), yielding a net flux contribution of precisely zero ($+1 - 1 = 0$).
     
 
-<img src="/assets/fis3-gauss-law.svg" alt="Gauss's Law" width="450">
+<img src="../../../../assets/fis3-gauss-law.svg" alt="Gauss's Law" width="450">
 ## 🛠️ The Symmetry "Hack": Isolating the Electric Field
 
 In practical engineering applications, we use Gauss's Law in reverse. We do not compute the flux; we already know the total flux (it is always $Q_{\text{enc}}/\varepsilon_0$). Instead, we exploit this known value to cleanly isolate the Electric Field ($\vec{E}$) without executing complex line parametrizations or brutal trigonometric substitutions.
