@@ -1,23 +1,32 @@
 
-<h1 align="center"> 📉 Limits Learning Path</h1>
+## 📉 Learning Path: Limits
 
-This README centralizes the study of limits, focusing on first principles and intuitive understanding.
+This index centralizes all limits content to guide your study sequence.
 
-## 🛤️ Progress Roadmap
+> **Study Note:** Dedicate your time to understanding, not memorizing. This is the first essential pillar to mastering Derivatives and Integrals. Anything you memorize without using frequently, your brain discards. To retain knowledge, the focus must be on the process and the logic behind the result.
 
-- [ ] [01. Definition of Limit](01_limit_definition.md) 
-- [ ] [02. Limit Laws](02_limit_laws.md) 
-- [ ] [03. Proving Limit Laws](03_proving_limit_laws.md) 
-- [ ] [04. Fundamental Limits](04_fundamental_limits.md) 
-- [ ] [05. Limits by Substitution](05_limits_by_substitution.md) 
-- [ ] [06. One-Sided Limits](06_one_sided_limits.md)  
-- [ ] [07. Limits at Infinity and Infinite Limits](07_Limits_at_Infinity_and_Infinite_Limits.md)  
-- [ ] [08. Squeeze Theorem](08_squeeze_theorem.md) 
-- [ ] [09. Continuity of Functions](09_continuity_of_functions.md) 
-- [ ] [10. Intermediate Value Theorem](10_intermediate_value_theorem.md) 
-- [ ] [11. Asymptotes](11_asymptotes.md) 
-- [ ] [12. Limits Review](12_limits_review.md) 
+### 📂 Topic Checklist
 
----
-> [!TIP]
-> **Feynman Challenge:** For each topic, try to explain *why* the formula exists before applying it to exercises.
+- [ ] 01. Definition of Limits
+    
+- [ ] 02. Properties of Limits
+    
+- [ ] 03. Proof of Properties
+    
+- [ ] 04. Fundamental Limits
+    
+- [ ] 05. Limits by Substitution
+    
+- [ ] 06. One-Sided Limits
+    
+- [ ] 07. Infinite Limits and Limits at Infinity
+    
+- [ ] 08. Squeeze Theorem
+    
+- [ ] 09. Continuity of Functions
+    
+- [ ] 10. Intermediate Value Theorem (IVT)
+    
+- [ ] 11. Asymptotes
+    
+- [ ] 12. General Review of Limits

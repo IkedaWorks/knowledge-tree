@@ -1,75 +1,64 @@
+## 🏛️ Caminho de Aprendizado: Integrais
 
----
+> **Nota Importante:** A integração é o processo fundamental para encontrar a área sob uma curva e a acumulação de quantidades. É a operação matemática inversa da diferenciação (derivada).
 
-### 🏛️ Integral — O terceiro pilar do cálculo
+### 📂 Grade de Tópicos
 
-> [!IMPORTANT] 
-> 
-> A integração é o processo fundamental de encontrar a área sob uma curva e a acumulação de quantidades. É a operação inversa da diferenciação.
+#### 1. Fundamentos
 
-#### 📂 Mapa de Conteúdo (MOC)
-
-##### 1. Fundamentos
-
-- [01 — Definição de Integrais](01_conceito_de_integral.md)
+- [ ] 01. Definição de Integrais
     
-- [02 — Integral Indefinida](02_integral_indefinida.md)
+- [ ] 02. Integral Indefinida
     
-- [03 — Integral Definida](03_integral_definida.md)
+- [ ] 03. Integral Definida
     
 
-##### 2. Teoremas Fundamentais
+#### 2. Teoremas Fundamentais
 
-- [04 — Teorema Fundamental do Cálculo](04_teorema_fundamental_do_calculo.md)
+- [ ] 04. Teorema Fundamental do Cálculo (TFC)
     
-- [05 — Demonstração do Teorema Fundamental](05_provando_o_tfc.md)
+- [ ] 05. Demonstração do Teorema Fundamental do Cálculo
     
-- [06 — Propriedades das Integrais Definidas](06_propriedades_de_integrais_definidas.md)
-    
-
-##### 3. Técnicas de Integração
-
-- [07 — Integrais Imediatas](07_integrais_imediatas.md)
-    
-- [08 — Integração por Substituição](08_metodo_da_substituicao.md)
-    
-- [09 — Mudança de Variável com Limites](09_substituicao_com_mudanca_de_limites.md)
-    
-- [10 — Substituição Trigonométrica](10_substituicao_trigonometrica.md)
-    
-- [11 — Integração por Partes](11_integracao_por_partes.md)
-    
-- [12 — Soma de Riemann](12_soma_de_riemann.md)
+- [ ] 06. Propriedades das Integrais Definidas
     
 
-##### 4. Aplicações
+#### 3. Técnicas de Integração
 
-- [13 — Calculando Áreas com Integrais](13_calculo_de_areas_com_integral.md)
+- [ ] 07. Integrais Imediatas
     
-
-##### 5. Métodos Algébricos
-
-- [14 — Divisão de Polinômios](14_divisao_de_polinomios.md)
+- [ ] 08. Integração por Substituição (Variável $u$)
     
-- [15 — Dispositivo de Briot-Ruffini](15_metodo_briot_ruffini.md)
+- [ ] 09. Mudança de Variável com Limites de Integração
     
-- [16 — Integração por Frações Parciais](16_decomposicao_por_fracao_parcial.md)
+- [ ] 10. Substituição Trigonométrica
     
-- [17 — Demonstração das Frações Parciais](17_provando_fracoes_parciais.md)
+- [ ] 11. Integração por Partes
     
-
-##### 6. Casos Especiais
-
-- [18 — Funções Contínuas por Partes](18_integral_de_função_continua_por_parte.md)
-    
-- [19 — Integrais Impróprias](19_integral_impropria.md)
-    
-- [20 — Integrais Trigonométricas](20_integrais_trigonometricas.md)
+- [ ] 12. Soma de Riemann
     
 
----
+#### 4. Aplicações
 
-> [!TIP]
-> 
->  **Insight do Engenheiro:** Sempre verifique se a função é contínua no intervalo antes de aplicar o Teorema Fundamental. Para descontinuidades, utilize Integrais Impróprias.
->  
+- [ ] 13. Cálculo de Áreas Utilizando Integrais
+    
+
+#### 5. Métodos Algébricos
+
+- [ ] 14. Divisão de Polinômios
+    
+- [ ] 15. Dispositivo de Briot-Ruffini
+    
+- [ ] 16. Integração por Frações Parciais
+    
+- [ ] 17. Demonstração do Método de Frações Parciais
+    
+
+#### 6. Casos Especiais
+
+- [ ] 18. Integração de Funções Contínuas por Partes
+    
+- [ ] 19. Integrais Impróprias
+    
+- [ ] 20. Integrais Trigonométricas
+    
+
