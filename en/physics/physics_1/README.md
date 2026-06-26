@@ -1,23 +1,34 @@
+## 🌌 Physics 1: Classical Mechanics
 
-# 🏛️ Classical Mechanics — Physics 1
+> **Study Note:** This index centralizes the progress of Classical Mechanics content to guide your study sequence and facilitate linear navigation through theory and practice topics.
 
-> [!IMPORTANT] 
-> 
-> Study mapping migrated from RemNote. Focus on **First Principles** and mathematical foundations for Engineering.
+### 📌 Learning Guides
 
-## 📂 Map of Content (MOC)
+- [ ] Physics 1 Roadmap
+    
 
-### 1. Core Roadmap & Theory
+### 📂 Topic Checklist
 
-* 01 — [ROADMAP](./01_roadmap_physics_1.md) 
-* 02 — [What is Mechanics?](./02_what_is_mechanics.md) 
-* 03 — [Physical Quantities](./03_physical_quantities.md) 
-* 04 — [Dimensional Analysis](./04_dimensional_analysis.md) 
-* 05 — [Geometric Fundamentals](./05_geometric_fundamentals.md) 
-* 06 — [Numerical Calculus & SI](./06_numerical_calculus.md) 
-* 08 — [Addition of Vectors](./08_addition_vectors.md)
-### 2. Practice & Exercises
+#### 1. Foundations of Physics
 
-* 07 — [Numerical Calculus Exercises](./07_numerical_calculus_exercises.md) 
-* 09 — [Force Vector Exercises (Easy)](./09_force_vectors_exercises_easy.md) 
----
+- [ ] 01. What is Mechanics?
+    
+- [ ] 02. Physical Quantities and the International System (SI)
+    
+- [ ] 03. Dimensional Analysis
+    
+- [ ] 04. Required Mathematical Foundations
+    
+
+#### 2. Vectors and Practical Tools
+
+- [ ] 05. Numerical Calculus Training
+    
+- [ ] 06. Vector Addition and Vector Decomposition
+    
+
+### 📝 Exercise Bank
+
+- [ ] Exercises: Numerical Calculus Practice
+    
+- [ ] Exercises: Vector Addition Practice

@@ -1,29 +1,34 @@
+## 🌌 Física 1: Mecânica Clássica
 
-> [!NOTE]
-> 
-> **Nota:** Esse index centraliza os links  que levam direto a o conteúdo, com o objetivo de facilitar a navegação.
+> **Nota de Estudo:** Este index centraliza o progresso do conteúdo de Mecânica Clássica para guiar a ordem dos seus estudos e facilitar a navegação linear pelos tópicos de teoria e prática.
 
+### 📌 Guias de Aprendizado
 
+- [ ] Roteiro de Estudos (Roadmap Física 1)
+    
 
-# 🌌 Física 1: Mecânica Clássica (MOC)
+### 📂 Grade de Conteúdo
 
+#### 1. Fundamentos da Física
 
-## 📂 Notas de Estudo:
+- [ ] 01. O que é Mecânica?
+    
+- [ ] 02. Grandezas Físicas e o Sistema Internacional (SI)
+    
+- [ ] 03. Análise Dimensional
+    
+- [ ] 04. Fundamentos Matemáticos Necessários
+    
 
-### Roadmap:
+#### 2. Vetores e Ferramentas Práticas
 
-- [ ] **[Roadmap Física 1](./01_roadmap_fisica_1.md)**
+- [ ] 05. Treinando Cálculos Numéricos
+    
+- [ ] 06. Soma de Vetores e Decomposição Vetorial
+    
 
-### Conteúdo:
+### 📝 Banco de Exercícios
 
-- [ ] **[O que é Mecânica ?](./02_definicao_de_mecanica.md)**
-- [ ] **[Grandezas](./03_grandezas.md)**
-- [ ] **[Análise Dimensional](./04_analise_dimensional.md)**
-- [ ] **[Fundamentos Matématicos Necessários](./05_fundamentos_geometricos.md)**
-- [ ] **[Treinando Cálculos Numéricos](./07_treinando_calculo_numerico.md)**
-- [ ] **[Soma de Vetores](08_soma_de_vetores.md)**
-
-## Exercícios:
-
-- [ ] **[Treinando Cálculo Numérico](./07_treinando_calculo_numerico.md)**
-- [ ] **[Exercícios de Soma de Vetores](./09_exercicios_soma_de_vetores.md)**
+- [ ] Exercícios: Treinando Cálculo Numérico
+    
+- [ ] Exercícios: Prática de Soma de Vetores
