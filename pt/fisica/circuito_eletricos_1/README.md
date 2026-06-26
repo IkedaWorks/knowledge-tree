@@ -4,7 +4,7 @@ Este documento serve como a **Central de Navegação** para o módulo de Circuit
 
 > [!NOTE] 
 > 
-> Para uma explicação detalhada sobre a sequência de aprendizagem, consulte o **[ROADMAP](./01_roadmap_circuitos_eletricos_1.md)**. Para o conteúdo das matérias, acesse as notas individuais listadas abaixo.
+> Para uma explicação detalhada sobre a sequência de aprendizagem, consulte o **[ROADMAP](01_roadmap_circuitos_eletricos_1.md)**. Para o conteúdo das matérias, acesse as notas individuais listadas abaixo.
 
 ---
 
@@ -12,9 +12,9 @@ Este documento serve como a **Central de Navegação** para o módulo de Circuit
 
 ### 🏗️ Estrutura Fundamental
 
-1. [Roadmap de Aprendizado](./01_roadmap_circuitos_eletricos_1.md)
+1. [Roadmap de Aprendizado](01_roadmap_circuitos_eletricos_1.md)
     
-2. [Conceitos Básicos](./02_conceitos_basicos.md)
+2. [Conceitos Básicos](02_conceitos_basicos.md)
     
 - Conveção para Bipolos
     

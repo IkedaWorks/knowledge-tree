@@ -5,7 +5,7 @@ This document serves as the **Navigation Hub** for the Electrical Circuits I mod
 
 > [!NOTE] 
 > 
-> For a detailed explanation of the learning sequence, please refer to the **[Roadmap](./01_roadmap_electrical_circuits_1.md)**. For subject-specific content, access the individual notes listed below.
+> For a detailed explanation of the learning sequence, please refer to the **[Roadmap](01_roadmap_electrical_circuits_1.md)**. For subject-specific content, access the individual notes listed below.
 
 ---
 
@@ -13,9 +13,9 @@ This document serves as the **Navigation Hub** for the Electrical Circuits I mod
 
 ### 🏗️ Fundamental Structure
 
-1.  [Learning Roadmap](./01_roadmap_electrical_circuits_1.md)
+1.  [Learning Roadmap](01_roadmap_electrical_circuits_1.md)
     
-2.  [Basic Concepts](./02_basic_concepts.md)
+2.  [Basic Concepts](02_basic_concepts.md)
     
 
 - Sign Convention for Bipoles
