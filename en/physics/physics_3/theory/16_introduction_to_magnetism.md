@@ -73,6 +73,8 @@ Thanks to Hund's Rule, Iron ends up with **4 unpaired electrons pointing in the 
 
 ## Anatomy of the Dipole: Why Do Field Lines Loop?
 
+<img src="../../../../assets/magnet_fieldlines_dipoles.webp" alt="magnetic field" width="400px">
+
 Now that we understand that the electron is the smallest magnetic unit in the universe and that it is inherently a dipole, we must observe how this alters the geometry of space.
 
 In electrostatics, life was straightforward. An isolated positive charge (monopole) spat out electric field lines that traveled in straight lines out to infinity. The lines had a distinct beginning (source) and an end (sink).

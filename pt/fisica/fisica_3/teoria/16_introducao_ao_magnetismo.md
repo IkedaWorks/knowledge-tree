@@ -73,7 +73,7 @@ Graças à Regra de Hund, o Ferro termina com **4 elétrons desalinhados e apont
 
 ## A Anatomia do Dipolo: Por que as Linhas de Força Giram?
 
-<img src="./../../../assets/magnet_fieldlines_dipoles.webp" alt="magnetic field" width="400px">
+<img src="../../../../assets/magnet_fieldlines_dipoles.webp" alt="magnetic field" width="400px">
 
 Agora que entendemos que o elétron é a menor unidade magnética do universo e que ele é um **dipolo**, precisamos observar como isso altera a geometria do espaço.
 
