@@ -7,7 +7,7 @@
     
 - Em outras palavras, os circuitos elétricos são a arte de combinar componentes eletrônicos de um jeito que funcionem para atender o objetivo buscado.
     
-![Circuito Elétrico](circuito-eletrico.png)
+![Circuito Elétrico](../../../../assets/circuito-eletrico.png)
 
 
 ### Bipolo
@@ -21,12 +21,12 @@
 
 São os componentes que são capazes de fornecer energia para o circuito, eles são representados por esses símbolos abaixo:
 
-![Bipolos Ativos](bipolos-ativos.png)
+![Bipolos Ativos](../../../../assets/bipolos-ativos.png)
 ### Bipolos Passivos
 
 São os elementos que consomem energia no circuito. Alguns exemplos deles são os resistores, capacitores e indutores.
 
-![Bipolos Passivos](bipolos-passivos.png)
+![Bipolos Passivos](../../../../assets/bipolos-passivos.png)
 
 ### Corrente Elétrica
 

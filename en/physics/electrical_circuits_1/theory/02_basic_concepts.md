@@ -8,7 +8,7 @@
     
 - In other words, electric circuits are the art of combining electronic components in a way that they work to achieve a desired goal.
 
-![Circuito Elétrico](circuito-eletrico.png)
+![Circuito Elétrico](../../../../assets/circuito-eletrico.png)
 
 ### Bipole (Two-terminal element)
 
@@ -21,7 +21,7 @@
 
 Components capable of supplying energy to the circuit. They are represented by the symbols below:
 
-![Active Bipoles](active-bipoles.png)
+![Active Bipoles](../../../../assets/active-bipoles.png)
 
 ### Passive Bipoles
 
