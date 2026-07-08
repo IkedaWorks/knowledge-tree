@@ -22,7 +22,7 @@ Na estática, raramente lidamos com uma única força isolada. A necessidade de 
 
 Este é o método fundamental, mas cuidado: ele é restrito estritamente à soma de **apenas duas forças** que partem de um mesmo ponto. A resultante é a diagonal do paralelogramo formado pelas componentes. Se você tiver três forças, precisará somar duas, encontrar uma resultante parcial e depois somá-la com a terceira.
 
-![Regra do Paralelogramo](../../../../assets/parallelogram-law.webp)
+![Regra do Paralelogramo](../../../../../assets/parallelogram-law.webp)
 ## A Regra do Triângulo e a Poligonal
 
 Para otimizar o cálculo, usamos a regra do triângulo, que nada mais é do que a metade do paralelogramo. Você posiciona a extremidade da primeira força na origem da segunda; a resultante será o vetor que fecha esse triângulo.
@@ -32,12 +32,12 @@ Quando o sistema possui múltiplas forças (três ou mais), evoluímos para a re
 Exemplo regra do triângulo:
 
 
-![triangle law](../../../../assets/triangle-law.webp)
+![triangle law](../../../../../assets/triangle-law.webp)
 
 Exemplo regra da poligonal:
 
 
-![Polygonal Law](../../../../assets/polygonal-law.webp)
+![Polygonal Law](../../../../../assets/polygonal-law.webp)
 
 ## Dinâmica do Raciocínio
 
@@ -70,7 +70,7 @@ Um parafuso de fixação em uma base de aço está sujeito a duas forças de tra
 
 ## Representação Visual
 
-![Exercicio 1](../../../../assets/fisica-1-exemplo-soma-vetores.webp)
+![Exercicio 1](../../../../../assets/fisica-1-exemplo-soma-vetores.webp)
 
 ---
 

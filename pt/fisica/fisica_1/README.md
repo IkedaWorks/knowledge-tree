@@ -45,3 +45,18 @@ O conteúdo avança de forma linear, partindo da pura geometria da trajetória a
 * **Momento de Inércia e Segunda Lei para Rotações:** A resistência escalar de um corpo ao giro e a relação fundamental entre torque e aceleração angular ($\tau = I\alpha$).
 * **Momento Angular ($\vec{L}$) e Torque como Derivada:** O desdobramento do movimento linear para o espaço rotacional. O momento angular definido via produto vetorial ($\vec{L} = \vec{r} \times \vec{p}$) e o torque provado como a sua derivada temporal direta ($\vec{\tau} = d\vec{L}/dt$).
 * **Conservação do Momento Angular:** Fenômenos onde o torque externo é nulo ($\vec{\tau} = 0$), gerando a conservação de $\vec{L}$ e efeitos como a precessão e o comportamento giroscópico.
+
+## Critérios de Progressão e Avanço
+
+- **Validação de Pré-requisito:** A transição da cinemática para a dinâmica exige o domínio completo de cálculo diferencial. A entrada em rotação exige domínio absoluto de produto vetorial e momento de inércia.
+    
+- **Metodologia de Estudo Ativo:** Substituição de fórmulas prontas por deduções partindo de princípios fundamentais. Resolução de problemas literais antes da substituição numérica para validar a lógica dimensional.
+    
+- **Integração de Bibliografia:** Utilização do Halliday para estrutura de problemas e rigor básico. Utilização das Lições de Feynman para fundamentação teórica e física moderna aplicada à mecânica.
+    
+
+> [!TIP]
+> 
+> **Tip**
+> 
+> **Engineer's Insight:** Se você for engenheiro, recomendo o **Hibbeler** também, lá você encontra exercícios que mostram mais a realidade do que é ser um engenheiro.

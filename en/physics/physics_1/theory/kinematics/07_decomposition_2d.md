@@ -13,7 +13,7 @@ This means your diagonal force, on its own, is playing two roles at once. Decomp
 
 To discover the exact magnitude of these partial forces, we need to look at the hidden geometry that emerges when we sketch these effects onto the Cartesian plane. If we project the tip of the original force vector onto both the horizontal and vertical axes, we enclose a perfect geometric shape.
 
-![first example of vector decomposition](../../../../assets/fis1-decomposicao-2d.svg)
+![first example of vector decomposition](../../../../../assets/fis1-decomposicao-2d.svg)
 
 If you look closely at this drawing, you will see a right triangle where the actual force is the hypotenuse, and the effects we want to discover are the legs (catheti). Our ancestors realized that the ratio between the sides of a right triangle never changes if the angle remains the same. They assigned names to these fixed proportions.
 
@@ -37,7 +37,7 @@ Notice that the formula is not a physical dogma or a magical property of mechani
 
 This is why memorizing that the horizontal axis always takes the cosine and the vertical axis always takes the sine is a mistake that usually costs students dearly on exams. The cosine is strictly tied to the adjacent leg—meaning the one attached to the angle. If the scenario changes and the problem provides the angle measured from the vertical axis, that entire memorized rule collapses.
 
-![second example of vector decomposition](../../../../assets/fis1-decomposicao-2d-invertida.svg)
+![second example of vector decomposition](../../../../../assets/fis1-decomposicao-2d-invertida.svg)
 
 Looking at the geometry of this new scenario, we notice that the component attached to the angle is now the vertical one. Therefore, the cosine relationship belongs to it:
 

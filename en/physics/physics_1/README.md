@@ -57,3 +57,16 @@ The content advances linearly, starting from the pure geometry of trajectories t
 - **Angular Momentum ($\vec{L}$) and Torque as a Derivative:** Translating linear motion into rotational space. Angular momentum defined via cross product ($\vec{L} = \vec{r} \times \vec{p}$) and torque proven to be its direct time derivative ($\vec{\tau} = d\vec{L}/dt$).
     
 - **Conservation of Angular Momentum:** Phenomena where net external torque is zero ($\vec{\tau} = 0$), leading to the conservation of $\vec{L}$, precession, and gyroscopic behavior.
+  
+## Progression and Advancement Criteria
+
+- **Prerequisite Validation:** The transition from kinematics to dynamics requires complete mastery of differential calculus. Entering rotational dynamics requires absolute mastery of cross products and moment of inertia.
+    
+- **Active Study Methodology:** Replacing "ready-to-use" formulas with derivations starting from fundamental principles. Solving literal problems before numerical substitution to validate dimensional logic.
+    
+- **Bibliography Integration:** Using Halliday for problem structure and basic rigor. Using Feynman Lectures for theoretical foundation and modern physics applied to mechanics.
+    
+
+> [!TIP]
+> 
+> **Engineer's Insight:** If you are an engineer, I also recommend Hibbeler; there you will find exercises that better reflect the reality of engineering practice.

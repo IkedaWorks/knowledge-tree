@@ -11,7 +11,7 @@ Isso significa que a sua força diagonal, sozinha, está desempenhando dois pap�
 
 Para descobrir o tamanho exato dessas forças parciais, precisamos olhar para a geometria oculta que surge quando desenhamos esses efeitos no plano cartesiano. Se projetarmos a ponta do vetor força original até o eixo horizontal e até o eixo vertical, nós fechamos uma figura geométrica perfeita.
 
-![Exemplo 1 de decomposição de vetores cartesianos](../../../../assets/fis1-decomposicao-2d.svg)
+![Exemplo 1 de decomposição de vetores cartesianos](../../../../../assets/fis1-decomposicao-2d.svg)
 
 Se você olhar fixamente para esse desenho, vai enxergar um triângulo retângulo onde a força real é a hipotenusa, e os efeitos que queremos descobrir são os catetos. Nossos ancestrais perceberam que a proporção entre os lados de um triângulo retângulo nunca muda se o ângulo for o mesmo. Eles deram nomes a essas proporções fixas.
 
@@ -35,7 +35,7 @@ Perceba que a fórmula não é um dogma físico ou uma propriedade mágica da me
 
 É por isso que decorar que o eixo horizontal sempre recebe o cosseno e o eixo vertical sempre recebe o seno é um erro que costuma cobrar caro nas provas. O cosseno está estritamente amarrado ao cateto adjacente, ou seja, àquele que está colado ao ângulo. Se a situação mudar e o problema fornecer o ângulo medido a partir do eixo vertical, toda a regra decorada desmorona.
 
-![exemplo 2 de decomposição de vetores](../../../../assets/fis1-decomposicao-2d-invertida.svg)
+![exemplo 2 de decomposição de vetores](../../../../../assets/fis1-decomposicao-2d-invertida.svg)
 
 Olhando a geometria desse novo cenário, percebemos que quem está colado ao ângulo agora é a componente vertical. Logo, a proporção do cosseno pertence a ela:
 

@@ -17,7 +17,7 @@ In statics, we rarely deal with a single isolated force. The need to find a resu
 This is the fundamental method, strictly restricted to the sum of only two forces acting from the same point. The resultant is the diagonal of the parallelogram formed by the components.
 
 
-![parallelogram law](../../../../assets/parallelogram-law.webp)
+![parallelogram law](../../../../../assets/parallelogram-law.webp)
 ### The Triangle and Polygon Rules
 
 To optimize calculations, we use the triangle rule (half of a parallelogram). You place the tip of the first force at the origin of the second; the resultant will be the vector that closes this triangle.
@@ -26,11 +26,11 @@ When the system has multiple forces (three or more), we evolve to the **polygon 
 
 Example of Triangle Law:
 
-![triangle law](../../../../assets/triangle-law.webp)
+![triangle law](../../../../../assets/triangle-law.webp)
 
 Example of Polygonal Law:
 
-![polygonal law](../../../../assets/polygonal-law.webp)
+![polygonal law](../../../../../assets/polygonal-law.webp)
 
 ## Reasoning Dynamics
 
@@ -52,7 +52,7 @@ The mathematics validates the drawing. Imagine a navigation route: the Law of Co
 A fastening bolt in a steel base is subjected to two pulling forces exerted by ropes, $\vec{F_1}$ and $\vec{F_2}$. Force $\vec{F_1}$ has a magnitude of $200\text{ N}$ at $20^\circ$ with the horizontal, while $\vec{F_2}$ has $300\text{ N}$ at $10^\circ$ with the vertical. Determine the magnitude of the resultant force ( $\vec{F_R}$ ) and its direction relative to the positive x-axis.
 
 ### Visual Representation
-![Resultant Force Diagram](../../../../assets/fisica-1-exemplo-soma-vetores.webp)
+![Resultant Force Diagram](../../../../../assets/fisica-1-exemplo-soma-vetores.webp)
 
 ### Solution
 
