@@ -1,21 +1,21 @@
 
-# 📐 Teoria: Distribuições Lineares — A Dedução Genérica do Anel Carregado
+#  Teoria: Distribuições Lineares — A Dedução Genérica do Anel Carregado
 
 O cálculo do campo elétrico para um anel carregado é um dos exemplos mais elegantes de como a geometria e a simetria trabalham juntas na engenharia. Como o anel é um corpo curvo e vazado, a Lei de Gauss se torna completamente inútil aqui, pois é impossível desenhar uma superfície gaussiana onde o campo seja constante. Este problema exige a aplicação direta da Lei de Coulomb infinitesimal, servindo como a fundação mecânica para entender discos e bobinas magnéticas mais complexas.
 
 ---
 
-## 🌎 O Cenário de Análise e a Escolha dos Eixos
+##  O Cenário de Análise e a Escolha dos Eixos
 
 Imagine um anel condutor fino de raio $R$ que carrega uma carga linear total $Q$ distribuída de forma perfeitamente uniforme. Para aproveitar a simetria de rotação do corpo, posicionamos o anel deitado exatamente sobre o plano $xy$, com o seu centro coincidindo com a origem $(0, 0, 0)$. Nosso objetivo é calcular o campo elétrico líquido $\vec{E}$ em um ponto alvo $P$ localizado ao longo do eixo central de simetria (o eixo $z$) a uma altura $z$.
 
 
 
-> 💡 **Insight de Engenharia:** Por que alinhar o ponto $P$ estritamente no eixo central $z$? Ao longo do eixo do anel, a distância de qualquer pedaço de carga $dq$ até o ponto $P$ é exatamente a mesma. Se tentássemos calcular o campo em um ponto fora do eixo (deslocado em $x$ ou $y$), a distância até as cargas mudaria a cada grau de rotação, transformando a integral em uma aberração matemática insolúvel por funções elementares. Na engenharia, alinhar os eixos com o centro de massa é a regra de ouro para simplificar a natureza.
+>  **Insight de Engenharia:** Por que alinhar o ponto $P$ estritamente no eixo central $z$? Ao longo do eixo do anel, a distância de qualquer pedaço de carga $dq$ até o ponto $P$ é exatamente a mesma. Se tentássemos calcular o campo em um ponto fora do eixo (deslocado em $x$ ou $y$), a distância até as cargas mudaria a cada grau de rotação, transformando a integral em uma aberração matemática insolúvel por funções elementares. Na engenharia, alinhar os eixos com o centro de massa é a regra de ouro para simplificar a natureza.
 
 ---
 
-## 🛠️ O Pipeline de Resolução (Algoritmo de 4 Passos)
+##  O Pipeline de Resolução (Algoritmo de 4 Passos)
 
 ### Passo 1: Transição do Modelo de Ponto para o Infinitesimal (A Física)
 
@@ -105,7 +105,7 @@ $$
 
 ---
 
-## 🏁 O Salto Final: Fronteiras de Contorno
+##  O Salto Final: Fronteiras de Contorno
 
 Como definimos no Passo 1 que a carga total do anel é dada pelo produto do perímetro pela densidade linear ($Q = 2\pi R \lambda$), podemos substituir esse bloco macroscópico diretamente no numerador.
 

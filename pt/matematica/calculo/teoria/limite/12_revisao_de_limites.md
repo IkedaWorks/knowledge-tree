@@ -5,7 +5,7 @@ Esta nota contém a resolução detalhada dos problemas de nível médio para f�
 
 ---
 
-### 🚀 1. O Limite Geométrico (Conexão Arco-Corda)
+###  1. O Limite Geométrico (Conexão Arco-Corda)
 **Problema:** Calcule $\lim_{x \to 0} \frac{1 - \cos(x)}{x^2}$
 
 * **A Estratégia:** Multiplicar pelo conjugado para transformar cosseno em seno.
@@ -21,7 +21,7 @@ Esta nota contém a resolução detalhada dos problemas de nível médio para f�
 
 ---
 
-### 📉 2. A "Mágica" da Substituição de Euler
+###  2. A "Mágica" da Substituição de Euler
 **Problema:** Calcule $\lim_{x \to \infty} \left( \frac{x + 6}{x + 1} \right)^{x+3}$
 
 * **A Estratégia:** Transformar na base $e$ usando a forma $\lim (1 + 1/u)^u$.
@@ -36,7 +36,7 @@ Esta nota contém a resolução detalhada dos problemas de nível médio para f�
 
 ---
 
-### 📐 3. Manipulação Exponencial Dupla
+###  3. Manipulação Exponencial Dupla
 **Problema:** Calcule $\lim_{x \to 0} \frac{a^x - b^x}{x}$
 
 * **A Estratégia:** Fazer aparecer a estrutura do Limite Fundamental Exponencial ($\frac{a^x-1}{x}$).
@@ -52,7 +52,7 @@ Esta nota contém a resolução detalhada dos problemas de nível médio para f�
 
 ---
 
-### 🔗 4. O Sanduíche com Parte Inteira (Padrão JEE)
+###  4. O Sanduíche com Parte Inteira (Padrão JEE)
 **Problema:** Calcule $\lim_{x \to \infty} \frac{\lfloor x \rfloor}{x}$, onde $\lfloor x \rfloor$ é a parte inteira de $x$.
 
 * **A Estratégia:** Usar a definição da função escada para esmagar o limite.
@@ -67,7 +67,7 @@ Esta nota contém a resolução detalhada dos problemas de nível médio para f�
 
 ---
 
-### 🧪 5. Limite com Raiz Conjugada de Alta Ordem
+###  5. Limite com Raiz Conjugada de Alta Ordem
 **Problema:** Calcule $\lim_{x \to 7} \frac{\sqrt{x+2} - 3}{x - 7}$
 
 * **A Estratégia:** Eliminar a raiz que causa o $0/0$ usando o conjugado.

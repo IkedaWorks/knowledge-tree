@@ -1,10 +1,10 @@
-# 🏛️ Physics I — Classical Mechanics
+#  Physics I — Classical Mechanics
 
 Welcome to the central hub for Physics I studies. This space is dedicated to the conceptual, mathematical, and intuitive exploration of **Classical Mechanics** — the analytical foundation describing the motion of matter on a macroscopic scale and the fundamental interactions governing engineering, from the equilibrium of rigid structures to the dynamics of rotating systems.
 
 The goal of these notes is to build a deep understanding of how bodies and systems interact with forces, focusing on developing **geometric intuition** to set up and interpret equations of motion using calculus, rejecting the mere memorization of ready-made formulas ("black-box method").
 
-## 🛠️ Prerequisites and the Role of Calculus
+##  Prerequisites and the Role of Calculus
 
 Physics I uses Differential and Integral Calculus as its natural modeling language. We do not study motion merely through average changes ($\Delta$), but as instantaneous rates of change and continuous accumulations across time and space:
 
@@ -15,11 +15,11 @@ Physics I uses Differential and Integral Calculus as its natural modeling langua
 - **Coordinate Systems:** Intuition on using polar and cylindrical coordinates when dealing with problems exhibiting circular symmetry or rotational axes.
     
 
-> 💡 **Note on the University vs. High School Approach**
+>  **Note on the University vs. High School Approach**
 > 
 > When we learn Mechanics in high school, equations look like a collection of isolated cases ($F = ma$, $v = v_0 + at$, $\tau = F \cdot d$). However, you fundamentally need **Calculus I and Vectors** at the university level to understand that all of classical mechanics unfolds organically from core principles of differentiation and geometry. Taking this module alongside Calculus transforms your perception of the subject entirely.
 
-## 🗺️ Learning Roadmap
+##  Learning Roadmap
 
 The content advances linearly, starting from the pure geometry of trajectories to the laws governing forces and multi-dimensional rotational dynamics:
 
@@ -31,7 +31,7 @@ The content advances linearly, starting from the pure geometry of trajectories t
     
 - **Angular Kinematics and Circular Motion:** The geometric definition of the radian ($\theta = s/r$), angular velocity ($\omega$), and the derivation of centripetal acceleration ($a_c$) via related rates of the velocity vector.
     
-### ⚡ Block 2: Dynamics and Newton's Laws (The Causes of Motion)
+###  Block 2: Dynamics and Newton's Laws (The Causes of Motion)
 
 - **Newton's Laws and Linear Momentum:** The modern concept of Force as the time rate of change of momentum ($\vec{F} = d\vec{p}/dt$). Applications involving friction, inclined planes, and drag forces.
     

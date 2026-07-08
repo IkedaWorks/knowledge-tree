@@ -3,7 +3,7 @@
 
 The derivative of a function at a point is its **instantaneous rate of change**. Geometrically, it represents the **slope** (gradient) of the tangent line to the graph at that specific point.
 
-## 💡 The Speedometer Intuition
+##  The Speedometer Intuition
 
 Imagine you are driving a car:
 
@@ -14,11 +14,11 @@ Imagine you are driving a car:
 - **Derivative:** This is the number that appears on your **speedometer** at the exact millisecond you look at it. It is your velocity "now"—the instantaneous variation.
     
 
-## 📐 Geometric Construction (From Secant to Tangent)
+##  Geometric Construction (From Secant to Tangent)
 
 To find the slope at a single point ($P$), mathematics typically requires two points to draw a line. The trick is to take point $P$ and a very close point $Q$, then decrease the distance between them ($h$) until it is **almost zero**.
 
-## 🛠️ The Formal Definition (Newton's Limit)
+##  The Formal Definition (Newton's Limit)
 
 The derivative of $f(x)$, denoted as $f'(x)$ or $\frac{dy}{dx}$, is defined by the limit of the difference quotient:
 
@@ -26,7 +26,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
 
-## 📝 Step-by-Step Proofs
+##  Step-by-Step Proofs
 
 Using the formal definition to derive simple functions proves the origin of the "rules" used later in Calculus.
 
@@ -60,7 +60,7 @@ Using the formal definition to derive simple functions proves the origin of the 
 
 ---
 
-## 🧠 Important Observations
+##  Important Observations
 
 It is fundamental to understand that the derivative is **not** the tangent line itself. Instead, it is the function that determines the **slope** at every point of the original function.
 

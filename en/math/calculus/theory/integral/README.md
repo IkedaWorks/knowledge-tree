@@ -1,8 +1,8 @@
-## 🏛️ Learning Path: Integrals
+##  Learning Path: Integrals
 
 > **Important Note:** Integration is the fundamental process of finding the area under a curve and the accumulation of quantities. It is the inverse mathematical operation of differentiation.
 
-### 📂 Topic Checklist
+###  Topic Checklist
 
 #### 1. Foundations
 

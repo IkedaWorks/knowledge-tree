@@ -1,4 +1,4 @@
-## 🏛️ Physical Quantities — (What are Quantities and why do we Measure?)
+##  Physical Quantities — (What are Quantities and why do we Measure?)
 
 > [!IMPORTANT]
 > 
@@ -6,13 +6,13 @@
 
 ---
 
-### ⚖️ The Need for Reference
+###  The Need for Reference
 
 Measuring is, essentially, an act of comparison. The standard (**unit**) is the social contract of science. Without a unique reference, nothing in the world would fit together. Measurement ensures that an engineer's design is understood universally.
 
 ---
 
-### 📏 The Anatomy of Quantities and the International System
+###  The Anatomy of Quantities and the International System
 
 Not all quantities are born equal. In Mechanics, we divide the world into two groups:
 
@@ -33,7 +33,7 @@ Not all quantities are born equal. In Mechanics, we divide the world into two gr
 
 ---
 
-### 🔄 The Art of Translation: Main Conversions and Scales
+###  The Art of Translation: Main Conversions and Scales
 
 The International System is decimal. Changing scales is, almost always, moving the decimal point through powers of 10.
 

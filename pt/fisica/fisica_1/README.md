@@ -1,6 +1,6 @@
 
 
-# 🏛️ Física I — Mecânica Clássica
+#  Física I — Mecânica Clássica
 
 Bem-vindo ao núcleo de estudos de Física I. Este espaço é dedicado à exploração conceitual, matemática e intuitiva da **Mecânica Clássica** — a fundação analítica que descreve o movimento da matéria em escala macroscópica e as interações fundamentais que regem a engenharia, desde o equilíbrio de estruturas rígidas até a dinâmica de sistemas em rotação.
 
@@ -8,7 +8,7 @@ O objetivo destas notas é construir uma compreensão profunda de como corpos e 
 
 ---
 
-## 🛠️ Pré-requisitos e o Papel do Cálculo
+##  Pré-requisitos e o Papel do Cálculo
 
 Física I usa a matemática do Cálculo Diferencial e Integral como a sua linguagem natural de modelagem. Não estudamos o movimento apenas através de variações médias ($\Delta$), mas sim como taxas de variação instantâneas e acúmulos contínuos no tempo e no espaço:
 
@@ -18,7 +18,7 @@ Física I usa a matemática do Cálculo Diferencial e Integral como a sua lingua
 
 ---
 
-## 🗺️ Fluxo de Aprendizado (Roadmap)
+##  Fluxo de Aprendizado (Roadmap)
 
 O conteúdo avança de forma linear, partindo da pura geometria da trajetória até as leis que regem as forças e as dinâmicas de rotação em múltiplas dimensões:
 

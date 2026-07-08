@@ -3,7 +3,7 @@
 
 This note explores the behavior of functions at their extremes: when the input ( $x$ ) grows without bound or when the output ( $f(x)$ ) explodes toward immeasurable values.
 
-## 📐 Fundamental Identities
+##  Fundamental Identities
 
 To resolve these limits rigorously, we rely on two fundamental identities:
 
@@ -22,7 +22,7 @@ To resolve these limits rigorously, we rely on two fundamental identities:
 
 ---
 
-## 🚀 How to Apply: Limits at Infinity ($x \to \infty$)
+##  How to Apply: Limits at Infinity ($x \to \infty$)
 
 The objective here is to force the appearance of terms in the form $k/x^n$ so they become zero.
 
@@ -50,7 +50,7 @@ The objective here is to force the appearance of terms in the form $k/x^n$ so th
 
 ---
 
-## 💥 How to Apply: Infinite Limits ($x \to a$)
+##  How to Apply: Infinite Limits ($x \to a$)
 
 In this case, $x$ tends toward a real number, but the denominator tends toward zero, resulting in division by "almost nothing".
 
@@ -67,7 +67,7 @@ In this case, $x$ tends toward a real number, but the denominator tends toward z
 
 ---
 
-## 💡 Shortcuts
+##  Shortcuts
 
 - **At Infinity ($x \to \infty$):**
     

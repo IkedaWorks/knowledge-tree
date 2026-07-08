@@ -3,11 +3,11 @@
 
 Limit laws are the rules that allow you to "slice" a complex function into simple pieces. They prove that the limit is a predictable operator: it distributes across basic arithmetic operations without altering the final result.
 
-## 🧠 The Intuition of "Independence"
+##  The Intuition of "Independence"
 
 If you have two events happening simultaneously, the overall trend is simply the combination of individual trends. The limit "enters" the sum, the root, the exponent, and the cosine as if they were transparent.
 
-## 📐 Fundamental Properties
+##  Fundamental Properties
 
 Assume that $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$.
 
@@ -38,7 +38,7 @@ Assume that $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$.
     $$\lim_{x \to a} \ln(f(x)) = \ln(L)$$
     
 
-## 🏆 The Golden Rule (Polynomials)
+##  The Golden Rule (Polynomials)
 
 For any polynomial $P(x)$, the limit is simply found through **direct substitution**:
 
@@ -50,7 +50,7 @@ $$\lim_{x \to a} P(x) = P(a)$$
 
 ---
 
-## 📝 Step-by-Step Examples
+##  Step-by-Step Examples
 
 ### Example 1: The "Combo" (Root + Polynomial)
 
@@ -74,7 +74,7 @@ $$\lim_{x \to a} P(x) = P(a)$$
 
 ---
 
-## 💡 Survival Strategies
+##  Survival Strategies
 
 - **The Substitution Mantra:** Your first attempt should always be substituting $x$ for the target value ($a$). If the result is a real number, you are finished. The laws guarantee this works for polynomials, sines, and roots.
     

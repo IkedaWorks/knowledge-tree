@@ -36,7 +36,7 @@ Often, you must "prepare" the function algebraically before integrating:
 
 ---
 
-## 📊 Table of Immediate Integrals
+##  Table of Immediate Integrals
 
 | Function $f(x)$  | Integral $\int f(x) \, dx$ | Observation                                          |
 | :--------------- | :------------------------- | :--------------------------------------------------- |

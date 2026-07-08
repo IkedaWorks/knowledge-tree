@@ -73,6 +73,6 @@ $$\int_{-1}^{3} f(x) \, dx = \int_{-1}^{0} (-x) \, dx + \int_{0}^{2} (x) \, dx +
 
 ---
 
-### 💡 Dica de Verificação Geométrica
+###  Dica de Verificação Geométrica
 
 Para confirmar o resultado, desenhe o gráfico. Nesse caso, você verá três triângulos formados entre a função e o eixo $x$. Calcule a área de cada um ($Base \cdot Altura / 2$) e some. O resultado deve ser exatamente **3**.

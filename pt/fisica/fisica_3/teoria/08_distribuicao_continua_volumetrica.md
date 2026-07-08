@@ -1,20 +1,20 @@
-# 📐 Teoria: Distribuições Volumétricas — A Dedução Genérica da Esfera Carregada
+#  Teoria: Distribuições Volumétricas — A Dedução Genérica da Esfera Carregada
 
 O cálculo do campo elétrico para corpos tridimensionais expande nossa modelagem infinitesimal de uma superfície bidimensional para um volume real. Utilizando a simetria radial e o sistema de coordenadas esféricas, conseguimos traduzir a carga espalhada em um corpo sólido com precisão cirúrgica. Este documento apresenta a dedução geral para uma esfera sólida uniformemente carregada, a fundação definitiva para blindagens eletrostáticas e aplicações avançadas da Lei de Gauss.
 
 ---
 
-## 🌎 O Cenário de Análise e a Escolha dos Eixos
+##  O Cenário de Análise e a Escolha dos Eixos
 
 Imagine uma esfera sólida e não-condutora de raio $R$ que carrega uma carga volumétrica total $Q$ distribuída uniformemente. Para extrair o máximo de rendimento das simetrias nativas da natureza, posicionamos o centro da esfera perfeitamente sobre a origem do sistema de coordenadas $(0, 0, 0)$. Nosso objetivo é mapear o campo elétrico $\vec{E}$ em qualquer ponto do espaço a uma distância radial $r$ do centro.
 
 
 
-> 💡 **Insight de Engenharia:** Por que engessamos o centro da esfera na origem e abandonamos o sistema cilíndrico/cartesiano? Uma esfera possui simetria radial perfeita. Se tentássemos fatiar esse corpo usando pequenos cubos cartesianos ($dx \cdot dy \cdot dz$), os limites de integração gerariam equações polinomiais tridimensionais intratáveis. Ao utilizarmos o centro como a nossa origem global, transformamos a varredura tridimensional em uma análise que depende estritamente de apenas uma variável: a distância linear até o centro.
+>  **Insight de Engenharia:** Por que engessamos o centro da esfera na origem e abandonamos o sistema cilíndrico/cartesiano? Uma esfera possui simetria radial perfeita. Se tentássemos fatiar esse corpo usando pequenos cubos cartesianos ($dx \cdot dy \cdot dz$), os limites de integração gerariam equações polinomiais tridimensionais intratáveis. Ao utilizarmos o centro como a nossa origem global, transformamos a varredura tridimensional em uma análise que depende estritamente de apenas uma variável: a distância linear até o centro.
 
 ---
 
-## 🛠️ O Pipeline de Resolução (Algoritmo de 4 Passos)
+##  O Pipeline de Resolução (Algoritmo de 4 Passos)
 
 ### Passo 1: Transição do Modelo de Superfície para o Volumétrico (A Física)
 
@@ -131,7 +131,7 @@ $$
 
 ---
 
-## 🏁 O Salto Final: Fronteiras de Contorno
+##  O Salto Final: Fronteiras de Contorno
 
 Unindo as duas soluções em termos da carga total da esfera, podemos substituir a definição macroscópica de densidade volumétrica para obter as equações de engenharia.
 

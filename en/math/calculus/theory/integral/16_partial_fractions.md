@@ -78,7 +78,7 @@ $$\frac{P(x)}{Q(x)} = \text{Quotient}(x) + \frac{\text{Remainder}(x)}{Q(x)}$$
 
 ---
 
-## 💡 Special Cases: Arctangent
+##  Special Cases: Arctangent
 
 If the denominator is a second-degree polynomial that has no real roots (such as $x^2 + 4$), PFD does not result in a $\ln$, but rather an **Arctangent**:
 

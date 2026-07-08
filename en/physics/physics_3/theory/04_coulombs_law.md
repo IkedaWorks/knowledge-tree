@@ -4,7 +4,7 @@ Coulomb's Law describes the interaction between point electric charges at rest. 
 
 ---
 
-## 📜 Historical Context and the Torsion Balance
+##  Historical Context and the Torsion Balance
 
 Formulated by French physicist Charles-Augustin de Coulomb in 1785, this law quantifies the force of attraction or repulsion between two charges. Since simulation software and multimeters did not exist at the time, Coulomb engineered an extremely sensitive mechanical apparatus known as the **Torsion Balance**.
 
@@ -38,7 +38,7 @@ $$F = k \frac{|q_1 \cdot q_2|}{r^2}$$
 
 ---
 
-## 🔬 Mathematical Vector Definition
+##  Mathematical Vector Definition
 
 Although Coulomb deduced the relationship in a scalar manner, engineering and Vector Calculus demand a vector approach to model complex three-dimensional systems. 
 
@@ -50,7 +50,7 @@ $$k = \frac{1}{4\pi\epsilon_0} \approx 8.99 \times 10^9 \ \text{N}\cdot\text{m}^
 
 ---
 
-## 🌐 The Hidden Geometry of Coulomb's Law ($4\pi r^2$)
+##  The Hidden Geometry of Coulomb's Law ($4\pi r^2$)
 
 If we rewrite Coulomb's Law by expanding $k$, the equation reveals a striking geometric meaning:
 
@@ -62,7 +62,7 @@ As the distance ($r$) increases, the constant "energy" of the source charge's fi
 
 ---
 
-## 🎯 Vector Notation (The Transition to Vector Calculus)
+##  Vector Notation (The Transition to Vector Calculus)
 
 To understand the engineering formulation, we must divide the phenomenon into its pure intensity (magnitude) and its spatial orientation, recognizing that both pieces of information stem from the same source: the **relative position vector**.
 
@@ -109,7 +109,7 @@ $$\vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^2} \cdot \left( \frac{\vec{r}_{1\to
 > 
 > **Physical Verification (Dimensional Analysis):** Coulomb's Law never stopped being an inverse-square law. The exponent 3 in the denominator does not indicate an inverse-cube law. It arises because the full position vector ($\vec{r}_{1\to2}$) in the numerator brings an extra dimension of length ($[\text{L}]$) that must be mathematically canceled out by the extra term in the denominator, keeping the final unit strictly in Newtons.
 
-### 💡 Engineering Intuition (Separation of Concerns)
+###  Engineering Intuition (Separation of Concerns)
 
 Looking at the expanded final formula, the separation of properties becomes evident:
 
@@ -120,7 +120,7 @@ $$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{|\vec{r}_{1\to2}|^
 
 ---
 
-## 🧩 Principle of Superposition and Spatial Geometry (3D)
+##  Principle of Superposition and Spatial Geometry (3D)
 
 When a system contains multiple charges acting in space, the net resultant force on a specific charge is the vector sum of all individual forces exerted on it by the other charges:
 
@@ -132,7 +132,7 @@ $$\vec{F}_{\text{res}} = \vec{F}_{1} + \vec{F}_{2} + \vec{F}_{3} + \dots = \sum_
 
 ---
 
-## 📐 Determining Spatial Direction: Direction Cosines
+##  Determining Spatial Direction: Direction Cosines
 
 In a two-dimensional plane ($xy$), the inclination of $\vec{F}_{\text{res}}$ is easily obtained via simple trigonometry using the tangent function ($\tan(\theta) = F_y / F_x$). However, in three-dimensional space ($xyz$), the resultant force points in an arbitrary direction, and its orientation cannot be described by a single angle. Instead, we use three directional angles $(\alpha, \beta, \gamma)$ that measure the inclination of the force vector relative to the positive Cartesian $x, y, z$ axes, respectively.
 

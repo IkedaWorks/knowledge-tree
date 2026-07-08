@@ -2,7 +2,7 @@
 
 A Lei de Coulomb trata da interação de cargas elétricas puntiformes (pontuais) em repouso. Como estamos falando da interação de um campo elétrico com uma carga elétrica, descrevemos esse fenômeno por meio de uma força elétrica, que serve como a fundação de toda a eletrostática.
 
-## 📜 Contexto Histórico e a Balança de Torção
+##  Contexto Histórico e a Balança de Torção
 Formulada pelo físico francês Charles Augustin de Coulomb em 1785, esta lei quantifica a força de atração ou repulsão entre duas cargas. Como na época não existiam softwares de simulação ou multímetros, Coulomb desenvolveu um aparato mecânico extremamente sensível chamado Balança de Torção.
 
 ### O Processo Experimental: Medindo o Invisível Antes do Elétron
@@ -31,7 +31,7 @@ $$F = k \frac{|q_1 \cdot q_2|}{r^2}$$
 
 ---
 
-## 🔬 O Conceito Matemático Vetorial
+##  O Conceito Matemático Vetorial
 Embora Coulomb tenha deduzido a relação de forma escalar, a engenharia e o Cálculo III exigem a abordagem vetorial para modelar sistemas tridimensionais complexos. 
 
 A magnitude da força é ditada pela constante eletrostática ($k$), que esconde uma profunda propriedade geométrica do espaço:
@@ -40,7 +40,7 @@ $$k = \frac{1}{4\pi\epsilon_0} \approx 8,99 \times 10^9 \ \text{N}\cdot\text{m}^
 
 * **Permissividade do Vácuo ($\epsilon_0 \approx 8,85 \times 10^{-12} \ \text{C}^2/\text{N}\cdot\text{m}^2$):** É a constante física que dita a "permissão" ou o grau de facilidade que o vácuo oferece para a propagação de linhas de campo elétrico. Ela é a base para o entendimento futuro de Potencial Elétrico, Capacitância (comportamento de dielétricos) e das próprias Equações de Maxwell.
 
-### 🌐 A Geometria Oculta da Lei de Coulomb ($4\pi r^2$)
+###  A Geometria Oculta da Lei de Coulomb ($4\pi r^2$)
 Se reescrevermos a Lei de Coulomb substituindo o valor de $k$, a equação gains um significado geométrico brutal:
 
 $$F = \frac{1}{4\pi\epsilon_0} \frac{|q_1 \cdot q_2|}{r^2} \implies F = \frac{|q_1 \cdot q_2|}{\mathbf{(4\pi r^2)} \epsilon_0}$$
@@ -51,7 +51,7 @@ O termo $4\pi r^2$ é rigorosamente a fórmula da área superficial de uma esfer
 
 ---
 
-## 🎯 Notação Vetorial (A Transição para o Cálculo Vetorial)
+##  Notação Vetorial (A Transição para o Cálculo Vetorial)
 Para entender a formulação de engenharia, precisamos dividir o fenômeno entre a sua intensidade pura e a sua orientação no espaço, compreendendo que ambas as informações nascem do mesmo lugar: o vetor posição relativo.
 
 ### 1. O Vetor Posição Relativo ($\vec{r}_{1\to2}$) como Origem de Tudo
@@ -96,7 +96,7 @@ $$\vec{F}_{1\to2} = k \frac{q_1 \cdot q_2}{r^2} \cdot \left( \frac{\vec{r}_{1\to
 > 
 > **Atenção Física (Análise Dimensional):** A Lei de Coulomb nunca deixou de ser do inverso do quadrado. O expoente 3 no denominador não indica uma lei do inverso do cubo. Ele surge porque o vetor posição completo ($\vec{r}_{1\to2}$) no numerador traz consigo uma dimensão extra de comprimento ($[\text{L}]$) que precisa ser matematicamente cancelada pelo termo extra no denominador, mantendo a unidade final estritamente em Newtons.
 
-### 💡 Intuição de Engenharia (Separação de Papéis)
+###  Intuição de Engenharia (Separação de Papéis)
 Olhando para a fórmula final expansiva, a separação de propriedades fica evidente:
 
 $$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{|\vec{r}_{1\to2}|^3} \right)}_{\text{Sopa de Escalares (Tamanho)}} \cdot \underbrace{\vec{r}_{1\to2}}_{\text{Vetor Relativo (Direção)}}$$
@@ -106,7 +106,7 @@ $$\vec{F}_{1\to2} = \underbrace{\left( k \frac{q_1 \cdot q_2}{|\vec{r}_{1\to2}|^
 
 ---
 
-## 🧩 Princípio da Superposição e Geometria no Espaço (3D)
+##  Princípio da Superposição e Geometria no Espaço (3D)
 Quando um sistema possui múltiplas cargas atuando no espaço, a força resultante sobre uma carga específica é a soma vetorial de todas as forças exercidas sobre ela individualmente pelas outras cargas:
 
 $$\vec{F}_{\text{res}} = \vec{F}_{1} + \vec{F}_{2} + \vec{F}_{3} + \dots = \sum_{i=1}^{n} \vec{F}_{i}$$
@@ -115,7 +115,7 @@ $$\vec{F}_{\text{res}} = \vec{F}_{1} + \vec{F}_{2} + \vec{F}_{3} + \dots = \sum_
 > 
 > **Erro Clássico de Engenharia:** Nunca some os módulos das forças diretamente, a menos que todas as cargas estejam na mesma linha reta (colineares). Sempre decomponha as forças em suas componentes cartesianas ($i, j, k$) antes de efetuar a soma.
 
-### 📐 Determinação da Direção Espacial: Cossenos Diretores
+###  Determinação da Direção Espacial: Cossenos Diretores
 No plano bidimensional ($xy$), a inclinação de $\vec{F}_{\text{res}}$ é obtida facilmente via trigonometria simples utilizando a tangente ($\tan(\theta) = F_y / F_x$). No entanto, no espaço tridimensional ($xyz$), a força resultante aponta para uma direção livre e sua orientação não pode ser descrita por um único ângulo. Em vez disso, utilizamos **três ângulos direcionais** ($\alpha, \beta, \gamma$), que medem a inclinação do vetor força em relação aos eixos cartesianos positivos $x, y, z$, respectivamente.
 
 A determinação de cada ângulo é feita de forma independente por meio dos **Cossenos Diretores**, que projetam a componente de cada eixo sobre o módulo total do vetor força resultante $|\vec{F}_{\text{res}}| = \sqrt{F_x^2 + F_y^2 + F_z^2}$:

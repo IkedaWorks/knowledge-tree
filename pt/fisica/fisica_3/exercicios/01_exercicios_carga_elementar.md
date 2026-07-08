@@ -3,7 +3,7 @@
 Nesta nota estão concentrados os problemas práticos para calibração dos conceitos de quantização de carga e conservação de sistemas eletrostáticos.
 
 ---
-## 📝 Enunciados dos Exercícios
+##  Enunciados dos Exercícios
 
 ### Questão 01
 Um corpo condutor inicialmente neutro é eletrizado e passa a exibir uma carga elétrica líquida estável de $Q = 4,8\ \mu\text{C}$.
@@ -37,7 +37,7 @@ Determine as cargas finais $Q'_A$ e $Q'_B$ de cada esfera após o equilíbrio.
 
 ---
 
-## 🛠️ Gabarito e Resoluções Passo a Passo
+##  Gabarito e Resoluções Passo a Passo
 
 ### Resolução da Questão 01
 

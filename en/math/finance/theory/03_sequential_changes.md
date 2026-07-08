@@ -33,7 +33,7 @@ Since 0.99 represents 99% of the original value, it proves that the net effect o
 
 $$1 - 0.99 = 0.01$$
 
-> ⚠️ **Cumulative Law:** Whenever percentages are applied sequentially to the same quantity, the effects compound because the calculation baseline is dynamic:
+>  **Cumulative Law:** Whenever percentages are applied sequentially to the same quantity, the effects compound because the calculation baseline is dynamic:
 > * Sequential increases accumulate **more** than the simple arithmetic sum of the rates.
 > * Sequential decreases reduce **less** than the simple arithmetic sum of the rates.
 
@@ -71,4 +71,4 @@ Since 0.80 is less than 1, a decrease (discount) is required. The exact discount
 
 $$\text{Discount} = 1 - 0.80 = 0.20 \implies 20\%$$
 
-> 🎯 **Conclusion:** To nullify a 25% increase, one does not apply a 25% discount, but rather an exact discount of 20%. Structured percentage variation ensures mathematical control and predictability over dynamic pricing pipelines.
+>  **Conclusion:** To nullify a 25% increase, one does not apply a 25% discount, but rather an exact discount of 20%. Structured percentage variation ensures mathematical control and predictability over dynamic pricing pipelines.

@@ -5,7 +5,7 @@
 
 One-sided limits are the investigation of a function's behavior when we approach a point  $a$  from only one side. It is mathematics' "agreement" test.
 
-## 🌉 The Broken Bridge Intuition
+##  The Broken Bridge Intuition
 Imagine a road leading to a bridge:
 
 - **Scenario A:** If you come from the left and the road takes you to a height of 10 meters, and from the right it also takes you to 10 meters, the bridge exists and is continuous at that point.
@@ -13,11 +13,11 @@ Imagine a road leading to a bridge:
 - **Scenario B:** If the left side takes you to 10 meters and the right side takes you to a 2-meter abyss, there is a jump (discontinuity). You do not have a "single destination"; therefore, you do not have a global limit.
     
 
-## 📐 Formalization and Examples
+##  Formalization and Examples
 
 We say that a one-sided limit exists if the function tends toward a value as $x$ approaches $a$ through values strictly greater than $a$ ( $a^+$ ) or strictly smaller than  $a$  ( $a^-$ ).
 
-### 🏆 The Existence Theorem
+###  The Existence Theorem
 
 The global limit $\lim_{x \to a} f(x) = L$ exists if, and only if:
 
@@ -25,7 +25,7 @@ $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
 
 ---
 
-## 📝 Example 1: The Jump (Non-Existent Limit)
+##  Example 1: The Jump (Non-Existent Limit)
 
 **Function:** $f(x) = \frac{|x-3|}{x-3}$ at point $a = 3$.
 
@@ -40,7 +40,7 @@ $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
     **Verdict:** Since $1 \neq -1$, the limit $\lim_{x \to 3} f(x)$ **does not exist**.
     
 
-## 📝 Example 2: The Connection (Existent Limit)
+##  Example 2: The Connection (Existent Limit)
 
 **Piecewise function:**
 
@@ -61,7 +61,7 @@ $$
 
 ---
 
-## 💡 Shortcuts
+##  Shortcuts
 
 - **The Exponent Shortcut:** The minus ($-$) or plus ($+$) sign in the superscript of the number does not indicate the sign of the number itself, but the "direction of the wind."
     

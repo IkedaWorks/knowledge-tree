@@ -36,7 +36,7 @@ You achieve the exact same result with a single operation.
 
 > [!NOTE]
 > 
-> 💡 **Developer Note:** If you are programming a simulation or financial API, you should always use this second method. By reducing the number of arithmetic operations inside your code, you eliminate redundant computational steps, leading to a faster and more efficient execution.
+>  **Developer Note:** If you are programming a simulation or financial API, you should always use this second method. By reducing the number of arithmetic operations inside your code, you eliminate redundant computational steps, leading to a faster and more efficient execution.
 
 
 

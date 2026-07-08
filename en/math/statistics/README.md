@@ -3,12 +3,12 @@
 
 This module consolidates the mathematical and computational framework required to quantify uncertainty, analyze experimental data dispersion, and model probabilistic phenomena. Rather than taking a purely theoretical approach, topics are dissected through the anatomy of their equations, connecting statistical formalism to the practical realities of engineering and algorithm development.
 
-## 📌 Prerequisites
+##  Prerequisites
 
 * **Discrete Mathematics & Algebra:** Mastery of summations ($\sum$), set theory, and elementary algebra.
 * **Vector & Differential Calculus:** Partial derivatives, total differentials (essential for error propagation), and definite integrals (for continuous distributions).
 
-## 🗺️ Learning Roadmap & Note Structure
+##  Learning Roadmap & Note Structure
 
 The module is structured chronologically and incrementally, divided into the following analytical fronts:
 

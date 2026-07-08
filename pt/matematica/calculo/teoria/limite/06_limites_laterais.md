@@ -4,24 +4,24 @@
 **Definição e Intuição:**
 Limites laterais são a investigação do comportamento de uma função quando nos aproximamos de um ponto $a$ por apenas um dos lados. É o teste de "concordância" da matemática.
 
-### 🌉 A Intuição da Ponte Rompida 
+###  A Intuição da Ponte Rompida 
 Imagine uma estrada que leva a uma ponte:
 * **Cenário A:** Se você vem pela esquerda e a estrada te leva a uma altura de 10 metros, e pela direita ela também te leva a 10 metros, a ponte existe e é contínua naquele ponto.
 * **Cenário B:** Se o lado esquerdo te leva a 10 metros e o direito te leva a um abismo de 2 metros, há um salto (**descontinuidade**). Você não tem um "destino único", portanto, não tem um limite global.
 
 ---
 
-## 📐 Formalização e Exemplos
+##  Formalização e Exemplos
 
 Dizemos que o limite lateral existe se a função tende a um valor conforme $x$ se aproxima de $a$ por valores estritamente maiores ($a^+$) ou menores ($a^-$).
 
-### 🏆 O Teorema da Existência
+###  O Teorema da Existência
 O limite global $\lim_{x \to a} f(x) = L$ só existe se, e somente se:
 $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$$
 
 
 
-### 📝 Exemplo 1: O Salto (Limite Inexistente)
+###  Exemplo 1: O Salto (Limite Inexistente)
 Função: $f(x) = \frac{|x-3|}{x-3}$ no ponto $a = 3$.
 
 1.  **Pela Direita ($3^+$):** Para $x > 3$, o módulo é positivo:
@@ -32,7 +32,7 @@ Função: $f(x) = \frac{|x-3|}{x-3}$ no ponto $a = 3$.
 
 
 
-### 📝 Exemplo 2: A Conexão (Limite Existente)
+###  Exemplo 2: A Conexão (Limite Existente)
 Função definida por partes:
 
 $$ 
@@ -49,7 +49,7 @@ $$
 
 ---
 
-## 💡 Macetes 
+##  Macetes 
 
 * **O Macete do Expoente:** O sinal de menos ($a^-$) ou mais ($a^+$) no expoente do número não indica o sinal do número, mas a **direção do vento**.
     * $0^-$ significa "venho da esquerda do zero" (ex: $-0,001$).

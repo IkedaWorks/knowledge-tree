@@ -1,11 +1,11 @@
 
-## 📉 Learning Path: Limits
+##  Learning Path: Limits
 
 This index centralizes all limits content to guide your study sequence.
 
 > **Study Note:** Dedicate your time to understanding, not memorizing. This is the first essential pillar to mastering Derivatives and Integrals. Anything you memorize without using frequently, your brain discards. To retain knowledge, the focus must be on the process and the logic behind the result.
 
-### 📂 Topic Checklist
+###  Topic Checklist
 
 - [ ] 01. Definition of Limits
     

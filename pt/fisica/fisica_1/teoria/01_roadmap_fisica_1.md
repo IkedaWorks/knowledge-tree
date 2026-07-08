@@ -1,6 +1,6 @@
 
 
-# 🏛️ Mecânica Clássica
+#  Mecânica Clássica
 
 > [!IMPORTANT]
 > 
@@ -8,7 +8,7 @@
 > 
 > A compreensão da mecânica no nível Halliday ou Feynman é impossível sem a formalização prévia destes tópicos.
 
-### 🧮 Requisitos Matemáticos
+###  Requisitos Matemáticos
 
 1. **Cálculo Diferencial e Integral**
     
@@ -33,7 +33,7 @@
     - Verificação de consistência dimensional em equações literais.
         
 
-### 🍎 Núcleo da Mecânica
+###  Núcleo da Mecânica
 
 1. **Cinemática Escalar e Vetorial**
     
@@ -58,7 +58,7 @@
     - Teorema do impulso e conservação do momento linear em colisões.
         
 
-### 🎡 Dinâmica de Sistemas e Rotação
+###  Dinâmica de Sistemas e Rotação
 
 1. **Sistemas de Partículas**
     
@@ -79,7 +79,7 @@
     - Condições formais de equilíbrio estático para corpos rígidos.
         
 
-### 🎯 Critérios de Progressão e Avanço
+###  Critérios de Progressão e Avanço
 
 - **Validação de Pré-requisito:** A transição da cinemática para a dinâmica exige o domínio completo de cálculo diferencial. A entrada em rotação exige domínio absoluto de produto vetorial e momento de inércia.
     

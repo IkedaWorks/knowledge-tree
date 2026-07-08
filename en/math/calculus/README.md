@@ -1,9 +1,9 @@
 
-# 🗺️ Calculus Roadmap: An Introduction
+#  Calculus Roadmap: An Introduction
 
 To master Calculus with the highest level of excellence, a solid foundation in **Pre-Calculus** is mandatory. Gaps in basic mathematics are often the primary obstacle; skipping these fundamentals will make advanced topics significantly more difficult.
 
-## 🛠️ Essential Prerequisites (What You Must Know)
+##  Essential Prerequisites (What You Must Know)
 Before diving into limits or derivatives, you must have a deep understanding of:
 
 *   **Functions:** The most critical content of all.
@@ -14,7 +14,7 @@ Before diving into limits or derivatives, you must have a deep understanding of:
 
 ---
 
-## 🧠 My Learning Philosophy
+##  My Learning Philosophy
 I prioritize **formalization** over rote memorization. I do not believe in "black-box" formulas where steps are memorized without context. 
 
 Instead, I apply the **Feynman Technique**: if you cannot explain something simply from first principles, you haven't understood it yet. This repository is built on the belief that **derivation is the key to mastery.**
@@ -24,15 +24,15 @@ Instead, I apply the **Feynman Technique**: if you cannot explain something simp
 
 ---
 
-## 🧮 Calculus Index (Learning Roadmap)
+##  Calculus Index (Learning Roadmap)
 
-### 🔵 1. Limits and Continuity
+###  1. Limits and Continuity
 *   The concept of infinitesimals.
 *   Limit laws and algebraic techniques.
 *   Continuity and the Intermediate Value Theorem.
 * [ ] **[LIMITS](theory/limit/README.md)**
 
-### 🟢 2. Derivatives (Calculus in Motion)
+###  2. Derivatives (Calculus in Motion)
 *   The definition of the derivative.
 *   Rules of differentiation (Power, Product, Quotient, Chain Rule).
 *   Implicit differentiation and Related Rates.
@@ -40,7 +40,7 @@ Instead, I apply the **Feynman Technique**: if you cannot explain something simp
 *   Taylor and Maclaurin Series.
 * [ ] **[Derivatives](theory/derivative/README.md)**
 
-### 🔴 3. Integrals (The Area Under the Curve)
+###  3. Integrals (The Area Under the Curve)
 *   Antiderivatives and Indefinite Integrals.
 *   Riemann Sums and the Fundamental Theorem of Calculus.
 *   Integration Techniques (Substitution, Parts, Partial Fractions).
@@ -48,7 +48,7 @@ Instead, I apply the **Feynman Technique**: if you cannot explain something simp
 - [ ] **[Integrals](theory/integral/README.md)**
 ---
 
-## 📚 Resources and References
+##  Resources and References
 
 *   **Primary Textbook:** Stewart, James. *Calculus: Concepts and Contexts* (or *Early Transcendentals*).
 *   **Secondary Reference:** Halliday & Resnick. *Fundamentals of Physics* (Applied Calculus).

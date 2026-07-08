@@ -5,7 +5,7 @@ This note contains detailed resolutions for problems ranging from easy to medium
 
 ---
 
-### 🚀 1. The Geometric Limit (Arc-Chord Connection)
+###  1. The Geometric Limit (Arc-Chord Connection)
 
 **Problem:** Calculate $\lim_{x \to 0} \frac{1 - \cos(x)}{x^2}$
 
@@ -32,7 +32,7 @@ This note contains detailed resolutions for problems ranging from easy to medium
 
 ---
 
-### 📉 2. The "Magic" of Euler Substitution
+###  2. The "Magic" of Euler Substitution
 
 **Problem:** Calculate $\lim_{x \to \infty} \left( \frac{x + 6}{x + 1} \right)^{x+3}$
 
@@ -57,7 +57,7 @@ This note contains detailed resolutions for problems ranging from easy to medium
 
 ---
 
-### 📐 3. Double Exponential Manipulation
+###  3. Double Exponential Manipulation
 
 **Problem:** Calculate $\lim_{x \to 0} \frac{a^x - b^x}{x}$
 
@@ -82,7 +82,7 @@ This note contains detailed resolutions for problems ranging from easy to medium
 
 ---
 
-### 🔗 4. The Squeeze Theorem with Floor Function (JEE Standard)
+###  4. The Squeeze Theorem with Floor Function (JEE Standard)
 
 **Problem:** Calculate $\lim_{x \to \infty} \frac{\lfloor x \rfloor}{x}$, where $\lfloor x \rfloor$ is the floor (integer part) of $x$.
 
@@ -107,7 +107,7 @@ This note contains detailed resolutions for problems ranging from easy to medium
 
 ---
 
-### 🧪 5. Limit with High-Order Conjugate Root
+###  5. Limit with High-Order Conjugate Root
 
 **Problem:** Calculate $\lim_{x \to 7} \frac{\sqrt{x+2} - 3}{x - 7}$
 

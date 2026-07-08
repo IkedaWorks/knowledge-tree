@@ -5,7 +5,7 @@
 
 Asymptotes are lines that the graph of a function approaches infinitely but never touches (or touches only at infinity). They function as "guides" or "tracks" that dictate the direction of the function in its extreme states.
 
-## 🛤️ The Tracks Analogy 
+##  The Tracks Analogy 
 
 - **Vertical Asymptote:** Think of it as a wall. Where the function tries to pass, it is instead thrown toward infinity (either upward or downward).
     
@@ -14,7 +14,7 @@ Asymptotes are lines that the graph of a function approaches infinitely but neve
 
 ---
 
-## 📐 Formalization and Examples
+##  Formalization and Examples
 
 ### 1. Vertical Asymptotes (VA)
 
@@ -71,7 +71,7 @@ These occur when the degree of the numerator is exactly one higher than that of 
 
 ---
 
-## 💡 Shortcuts and Fast Resolution
+##  Shortcuts and Fast Resolution
 
 - **Polynomial Division Shortcut:** If you want to find the slant asymptote without using the $m$ and $n$ limits, simply perform Euclidean division (long division) of the numerator by the denominator. The quotient of the division will be the equation of your line $y = mx + n$.
     
@@ -86,7 +86,7 @@ These occur when the degree of the numerator is exactly one higher than that of 
     - **Numerator Degree > Denominator Degree + 1:** There are no HA or SA (the function explodes in a curve).
         
 
-⚠️ **Warning regarding VA:** Not every point that makes the denominator zero is a VA. If the point also makes the numerator zero ($0/0$), it might just be a removable hole. Always calculate the limit to be sure it actually goes to infinity.
+ **Warning regarding VA:** Not every point that makes the denominator zero is a VA. If the point also makes the numerator zero ($0/0$), it might just be a removable hole. Always calculate the limit to be sure it actually goes to infinity.
 
 > [!TIP]
 > 

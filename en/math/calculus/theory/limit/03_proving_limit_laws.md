@@ -3,11 +3,11 @@
 
 Proving limit laws means demonstrating that controlling the input error ($\delta$) is sufficient to guarantee output precision ($\epsilon$), even when combining two different functions.
 
-## ⚙️ The "Coupled Gear" Intuition
+##  The "Coupled Gear" Intuition
 
 Imagine two independent machines ($f$ and $g$). If both are precise, their combination (sum or product) must also be precise. The challenge of a formal proof is discovering the new "adjustment" ($\delta_{total}$) that satisfies the requirements of both machines simultaneously.
 
-## 📐 Formalization of Proofs
+##  Formalization of Proofs
 
 For all proofs below, we start with the premise that the individual limits exist:
 
@@ -48,7 +48,7 @@ For all proofs below, we start with the premise that the individual limits exist
 - **Conclusion:** The constant merely scales the error (like amplifier gain), but it does not prevent the limit's convergence.
     
 
-## 🧠 Engineer's Insight
+##  Engineer's Insight
 
 In formal proofs, using $\min(\delta_1, \delta_2, \dots)$ is like designing a fault-tolerant system: you identify the most sensitive component (the smallest delta) and adjust the entire system based on it to ensure everything stays within the safety margin ($\epsilon$).
 

@@ -1,11 +1,11 @@
 
-### 🏛️ Classical Mechanics 
+###  Classical Mechanics 
 
 > [!IMPORTANT]
 > 
 > **Important:** Mastery of mechanics at the Halliday or Feynman level is impossible without prior formalization of these topics.
 
-#### 🧮 Mathematical Requirements
+####  Mathematical Requirements
 
 - **Differential and Integral Calculus:**
     
@@ -38,7 +38,7 @@
     - Dimensional consistency verification in literal equations.
         
 
-#### 🍎 Core Mechanics
+####  Core Mechanics
 
 - **Scalar and Vector Kinematics:**
     
@@ -67,7 +67,7 @@
     - Impulse theorem and conservation of linear momentum in collisions.
         
 
-#### 🎡 Systems Dynamics and Rotation
+####  Systems Dynamics and Rotation
 
 - **Systems of Particles:**
     
@@ -94,7 +94,7 @@
     - Formal static equilibrium conditions for rigid bodies.
         
 
-#### 🎯 Progression and Advancement Criteria
+####  Progression and Advancement Criteria
 
 - **Prerequisite Validation:** The transition from kinematics to dynamics requires complete mastery of differential calculus. Entering rotational dynamics requires absolute mastery of cross products and moment of inertia.
     

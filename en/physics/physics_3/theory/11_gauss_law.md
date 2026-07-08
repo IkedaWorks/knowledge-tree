@@ -1,5 +1,5 @@
 
-# 📐 Theory: Electric Flux and the Genesis of Gauss's Law
+#  Theory: Electric Flux and the Genesis of Gauss's Law
 
 Gauss's Law is, essentially, Coulomb's Law viewed through a macroscopic and geometric lens. While Coulomb focuses on the brute-force, pair-by-pair force calculated between isolated charges, Gauss shifts the paradigm to the modification of space itself, treating the electric field as an imaginary fluid and computing how it interacts with closed three-dimensional boundaries.
 
@@ -24,7 +24,7 @@ $$d\vec{A} = \hat{n} \, dA$$
 
 <img src="../../../../assets/fis3-eletromagnetismo-fluxo-cubo.svg" width="450">
 
-## 📐 Mathematical Formalism: Vector Projection
+##  Mathematical Formalism: Vector Projection
 
 Stating that flux is a count of field lines provides an intuitive visual grasp, but physical rigor defines electric flux as the integral of the normal component of the electric field over a surface.
 
@@ -45,7 +45,7 @@ $$d\Phi_E = E_n \cdot dA = (E \cos(\theta)) dA = \vec{E} \cdot d\vec{A}$$
 
 If the normal component points outward from the surface (exit), the dot product yields a positive flux ($0^\circ \le \theta < 90^\circ$). If it points inward (entry), the dot product yields a negative flux ($90^\circ < \theta \le 180^\circ$).
 
-## 🎈 Gauss's Intuition: The Lightbulb and the Balloon
+##  Gauss's Intuition: The Lightbulb and the Balloon
 
 The revolutionary insight of Carl Friedrich Gauss was to close this surface. Imagine a point-source lightbulb turned on in a vacuum, emitting rays of light symmetrically in all directions (our positive source charge $+Q$). If we enclose this lightbulb inside a rubber balloon, tightly tied at the neck, every single ray of light emitted will be forced to pierce the rubber membrane to escape into space.
 
@@ -53,7 +53,7 @@ If we squeeze the balloon—making it oval, wrinkled, or completely asymmetrical
 
 Gauss realized that the net electric flux through _any_ closed surface (which we call a **Gaussian Surface**) is a mathematical constant that depends solely and exclusively on the net charge trapped within its interior ($Q_{\text{enc}}$). The geometry of the boundary shell is irrelevant to the final flux balance.
 
-## 📐 The Formal Link: Geometric Cancellation and the Solid Angle
+##  The Formal Link: Geometric Cancellation and the Solid Angle
 
 To transform the intuition of the deformed balloon into a rigorous mathematical theorem, Gauss utilized the geometric definition of a **Solid Angle** ($\Omega$). While a 2D planar angle measures the opening of a circular arc ($\theta = s/r$, in radians), a 3D solid angle measures the volumetric opening of a cone projecting an area onto a spherical cap. Its unit is the _steradian_ (sr).
 
@@ -83,7 +83,7 @@ $$\Phi_E = \frac{q}{\varepsilon_0}$$
 
 This formal proof demonstrates that no matter how chaotic, wrinkled, or distant the three-dimensional shell is, the attenuation of the field via the inverse-square law ($1/r^2$) is compensated dollar-for-dollar by the growth of the surface area proportional to the square of the distance ($r^2$). The surface integral acts as a flawless geometric detector, whose balance sheet depends exclusively on the magnitude of the scalar source $q$.
 
-## 🧠 Anatomy of the Sovereign Equation
+##  Anatomy of the Sovereign Equation
 
 When generalized to systems containing multiple charges, the equation consolidated by Gauss is written as:
 
@@ -97,7 +97,7 @@ $$\oint_{S} \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
     
 
 <img src="../../../../assets/fis3-gauss-law.svg" alt="Gauss's Law" width="450">
-## 🛠️ The Symmetry "Hack": Isolating the Electric Field
+##  The Symmetry "Hack": Isolating the Electric Field
 
 In practical engineering applications, we use Gauss's Law in reverse. We do not compute the flux; we already know the total flux (it is always $Q_{\text{enc}}/\varepsilon_0$). Instead, we exploit this known value to cleanly isolate the Electric Field ($\vec{E}$) without executing complex line parametrizations or brutal trigonometric substitutions.
 
@@ -122,6 +122,6 @@ Isolating the electric field magnitude $E$:
 
 $$E = \frac{1}{4\pi\varepsilon_0} \frac{Q}{r^2}$$
 
-## 🏁 Conclusion and Consistency
+##  Conclusion and Consistency
 
 Observe the elegance of this closure: **Coulomb's Law has been derived cleanly, directly, and conceptually from Gauss's Law.** Both equations describe the exact same underlying physics. However, while Coulomb constructs the system piece by piece from the ground up, Gauss leverages the geometric architecture of space to bypass analytical complexity entirely.

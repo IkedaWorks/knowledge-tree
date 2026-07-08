@@ -6,7 +6,7 @@ This note compiles practical problems designed to calibrate the concepts of char
 
 ---
 
-## 📝 Exercise Statements
+##  Exercise Statements
 
 ### Question 01
 An initially neutral conductive body is electrified and now exhibits a stable net electric charge of $Q = +4.8\ \mu\text{C}$.
@@ -35,7 +35,7 @@ Determine the final charges $Q'_A$ and $Q'_B$ of each sphere after equilibrium.
 
 ---
 
-## 🛠️ Answer Key and Step-by-Step Solutions
+##  Answer Key and Step-by-Step Solutions
 
 ### Solution to Question 01
 **Item a):** There is a shortage of electrons. The positive sign of the net charge ($Q > 0$) indicates that the charge balance broke in favor of the protons, meaning the body lost electrons (the only charges with the mobility to leave the atomic lattice).

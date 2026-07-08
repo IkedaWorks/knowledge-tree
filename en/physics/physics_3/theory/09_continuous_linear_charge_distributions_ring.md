@@ -1,21 +1,21 @@
 
-# 📐 Theory: Linear Distributions — Generic Derivation of a Charged Ring
+#  Theory: Linear Distributions — Generic Derivation of a Charged Ring
 
 The calculation of the electric field for a charged ring is an elegant demonstration of how geometry and symmetry work together in engineering. Because the ring is a hollow, curved body, Gauss's Law becomes completely useless here, as it is impossible to draw a Gaussian surface where the field remains constant. This problem requires the direct application of infinitesimal Coulomb's Law, serving as the mechanical foundation for understanding discs and more complex magnetic coils.
 
 ---
 
-## 🌎 Analysis Scenario and Axis Selection
+##  Analysis Scenario and Axis Selection
 
 Imagine a thin conducting ring of radius $R$ carrying a total linear charge $Q$ distributed perfectly uniformly. To take advantage of the body's rotational symmetry, we place the ring flat on the $xy$-plane, centered precisely at the origin $(0, 0, 0)$. Our goal is to calculate the net electric field $\vec{E}$ at a target point $P$ located along the central symmetry axis (the $z$-axis) at a height $z$.
 
 
 
-> 💡 **Engineering Insight:** Why lock target point $P$ strictly to the central $z$-axis? Along the axis of the ring, the distance from any single piece of charge $dq$ to point $P$ is exactly the same. If we tried to calculate the field at an off-axis point (shifted in $x$ or $y$), the distance to the charges would vary with every single degree of rotation, turning the integral into an algebraic monster insoluble by elementary functions. In engineering, aligning your axes with the center of mass is the golden rule to simplify nature.
+>  **Engineering Insight:** Why lock target point $P$ strictly to the central $z$-axis? Along the axis of the ring, the distance from any single piece of charge $dq$ to point $P$ is exactly the same. If we tried to calculate the field at an off-axis point (shifted in $x$ or $y$), the distance to the charges would vary with every single degree of rotation, turning the integral into an algebraic monster insoluble by elementary functions. In engineering, aligning your axes with the center of mass is the golden rule to simplify nature.
 
 ---
 
-## 🛠️ The Resolution Pipeline (4-Step Algorithm)
+##  The Resolution Pipeline (4-Step Algorithm)
 
 ### Step 1: Transitioning from the Point-Charge to the Infinitesimal Model (The Physics)
 
@@ -105,7 +105,7 @@ $$
 
 ---
 
-## 🏁 The Final Leap: Boundary Contours
+##  The Final Leap: Boundary Contours
 
 Since we defined in Step 1 that the total charge of the ring is the perimeter multiplied by the linear density ($Q = 2\pi R \lambda$), we can substitute this macro block directly into the numerator.
 

@@ -1,9 +1,9 @@
 
-## 🏛️ Recommended Exercises: Statics & Vector Mechanics
+##  Recommended Exercises: Statics & Vector Mechanics
 
 This note serves as a curated guide to mastering **Resultant Forces** and **Force Decomposition**, particularly focusing on **Non-Orthogonal (Oblique) Axes**. This selection emphasizes the transition from basic trigonometry to advanced engineering intuition.
 
-### 📚 Core Bibliography
+###  Core Bibliography
 
 - **Hibbeler, R. C.** — _Engineering Mechanics: Statics_ (14th Edition).
     
@@ -14,7 +14,7 @@ This note serves as a curated guide to mastering **Resultant Forces** and **Forc
 
 ---
 
-### 📝 Curated Exercise List
+###  Curated Exercise List
 
 #### **1. R. C. Hibbeler: The Engineering Standard**
 
@@ -51,7 +51,7 @@ Recommended for developing an "Engineer's Intuition" regarding the nature of phy
 
 ---
 
-### ⚠️ Engineer's Insight: The Ultimate Tool
+###  Engineer's Insight: The Ultimate Tool
 
 When dealing with oblique axes (like structural members AB and AC), the **Law of Sines** is the definitive method to avoid geometric errors:
 

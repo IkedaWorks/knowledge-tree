@@ -3,7 +3,7 @@
 
 This directory centralizes all binary files, vector diagrams, and media assets used across the engineering study notes.
 
-## 🛠 Guidelines for Contributors
+##  Guidelines for Contributors
 
 To ensure repository performance and cross-platform compatibility (Obsidian/GitHub), please follow these standards:
 
@@ -38,7 +38,7 @@ Use a hybrid approach to distinguish between content and assets, ensuring compat
 
 Este diretório centraliza todos os arquivos binários, diagramas vetoriais e ativos de mídia utilizados em todas as notas de estudo de engenharia.
 
-## 🛠 Diretrizes para Colaboradores 
+##  Diretrizes para Colaboradores 
 
 Para garantir o desempenho do repositório e a compatibilidade entre plataformas (Obsidian/GitHub), siga estes padrões:
 

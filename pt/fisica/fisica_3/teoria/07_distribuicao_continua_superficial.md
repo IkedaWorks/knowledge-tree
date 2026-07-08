@@ -1,21 +1,21 @@
 
-# 📐 Teoria: Distribuições Superficiais — A Dedução Genérica do Disco Carregado
+#  Teoria: Distribuições Superficiais — A Dedução Genérica do Disco Carregado
 
 O cálculo do campo elétrico para superfícies carregadas bidimensionais expande nossa modelagem infinitesimal de uma linha 1D para uma superfície 2D. Utilizando as fundações cilíndricas já estabelecidas nos problemas de linhas de carga, conseguimos resolver distribuições superficiais com o mínimo de atrito algébrico. Este documento apresenta a dedução geral para um disco plano uniformemente carregado, um precursor clássico para entender planos infinitos e capacitores de placas paralelas.
 
 ---
 
-## 🌎 O Cenário de Análise e a Escolha dos Eixos
+##  O Cenário de Análise e a Escolha dos Eixos
 
 Imagine um disco plano, circular e não-condutor de raio $R$ que carrega uma carga superficial uniforme. Para maximizar a simetria geométrica, posicionamos o disco plano sobre o plano $xy$, centrado perfeitamente na origem $(0, 0, 0)$. Nosso objetivo é calcular o campo elétrico líquido $\vec{E}$ em um ponto alvo $P$ localizado ao longo do eixo de simetria central (o eixo $z$) a uma altura $z$.
 
 
 
-> 💡 **Insight de Engenharia:** Por que travar o ponto $P$ estritamente no eixo central $z$? Assim como no caso do fio, escolher o eixo central cria uma estrutura de simetria rotacional. Se tentássemos calcular o campo em um ponto fora do eixo central, a simetria azimutal seria quebrada, forçando-nos a resolver o problema usando integrais elípticas que não podem ser avaliadas em termos de funções elementares. Manter $P$ no eixo transforma um potencial pesadelo em cálculo limpo e manejável.
+>  **Insight de Engenharia:** Por que travar o ponto $P$ estritamente no eixo central $z$? Assim como no caso do fio, escolher o eixo central cria uma estrutura de simetria rotacional. Se tentássemos calcular o campo em um ponto fora do eixo central, a simetria azimutal seria quebrada, forçando-nos a resolver o problema usando integrais elípticas que não podem ser avaliadas em termos de funções elementares. Manter $P$ no eixo transforma um potencial pesadelo em cálculo limpo e manejável.
 
 ---
 
-## 🛠️ O Pipeline de Resolução (Algoritmo de 4 Passos)
+##  O Pipeline de Resolução (Algoritmo de 4 Passos)
 
 ### Passo 1: Transição do Modelo de Linha para o de Superfície (A Física)
 
@@ -145,7 +145,7 @@ $$
 
 ---
 
-## 🏁 O Salto Final: Fronteiras de Contorno
+##  O Salto Final: Fronteiras de Contorno
 
 Recombinando este valor de integração concluído com as constantes que isolamos fora do bloco no **Passo 3**, obtemos nossa equação de engenharia consolidada para o campo elétrico de um disco finito:
 

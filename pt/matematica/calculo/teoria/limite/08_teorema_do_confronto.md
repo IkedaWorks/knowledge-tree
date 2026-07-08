@@ -4,7 +4,7 @@
 **Definição e Intuição:**
 O Teorema do Sanduíche (ou Teorema do Confronto) serve para encontrar o limite de uma função "complicada" comprimindo-a entre duas funções "simples" que têm o mesmo limite.
 
-### 🏃 A Intuição do Corredor (Realidade)
+###  A Intuição do Corredor (Realidade)
 Imagine que você está caminhando em um corredor estreito:
 * À sua esquerda existe uma parede móvel ( $g(x)$ ).
 * À sua direita existe outra parede móvel ( $h(x)$ ).
@@ -12,7 +12,7 @@ Imagine que você está caminhando em um corredor estreito:
 
 ---
 
-## 📐 Formalização e o Exemplo Clássico
+##  Formalização e o Exemplo Clássico
 
 **A Regra Matemática:**
 Se $g(x) \leq f(x) \leq h(x)$ para todos os valores próximos de $a$, e se:
@@ -22,7 +22,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 
 
-### 📝 Exemplo Passo a Passo: $\lim_{x \to \infty} \frac{\text{sen}(x)}{x}$
+###  Exemplo Passo a Passo: $\lim_{x \to \infty} \frac{\text{sen}(x)}{x}$
 
 1.  **Identifique a oscilação:** O $\text{sen}(x)$ não tem limite no infinito (fica subindo e descendo entre -1 e 1).
 2.  **Crie o "Sanduíche" (Limites Físicos):** Sabemos que o seno está sempre preso:
@@ -36,7 +36,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## 💡 Macetes e Casos de Prova
+##  Macetes e Casos de Prova
 
 * **O Macete do "Limitado $\times$ Zero":** Sempre que você tiver uma função limitada (como seno ou cosseno) multiplicada por algo que vai a zero, o resultado do limite será sempre **Zero**.
 * **Como identificar no papel:** Se você tentar substituir e der "Oscilação / Infinito", é Sanduíche na certa.
@@ -48,7 +48,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## 📝 Seção de Exemplos Práticos
+##  Seção de Exemplos Práticos
 
 ### Exemplo 1: O Cosseno ao Quadrado (Intervalo 0 a 1)
 Calcule: $\lim_{x \to \infty} \frac{\cos^2(x)}{x^2 + 5}$
@@ -70,7 +70,7 @@ Calcule: $\lim_{x \to \infty} \frac{\text{arctg}(x)}{x}$
 
 ---
 
-### ⚠️ Atenção: Por que Tangente e Cossecante NÃO entram no Sanduíche?
+###  Atenção: Por que Tangente e Cossecante NÃO entram no Sanduíche?
 * **Tangente ($\text{tg } x$):** Explode para o infinito em vários pontos ($\pi/2, 3\pi/2$). Não é limitada.
 * **Cossecante ($\text{cosec } x$):** É $1/\text{sen } x$. Se o seno vai para zero, ela explode.
 

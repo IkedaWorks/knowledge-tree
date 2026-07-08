@@ -1,9 +1,9 @@
 
-## 🗺️ Roteiro de Cálculo: Uma Introdução
+##  Roteiro de Cálculo: Uma Introdução
 
 Para dominar o Cálculo com o mais alto nível de excelência, uma base sólida em **Pré-Cálculo** é obrigatória. No Brasil, a matemática básica é frequentemente um obstáculo; no entanto, pular esses fundamentos tornará os tópicos avançados significativamente mais difíceis.
 
-### 🛠️ Pré-requisitos Essenciais (O que você deve saber)
+###  Pré-requisitos Essenciais (O que você deve saber)
 
 Antes de mergulhar em limites ou derivadas, você deve ter uma compreensão profunda de:
 
@@ -20,7 +20,7 @@ Antes de mergulhar em limites ou derivadas, você deve ter uma compreensão prof
 
 ---
 
-### 🧠 Minha Filosofia de Aprendizado
+###  Minha Filosofia de Aprendizado
 
 Eu priorizo o **processo de formalização** em vez da memorização mecânica (**decoreba**).
 
@@ -28,21 +28,21 @@ Não acredito em fórmulas "caixa-preta", onde você memoriza passos sem context
 
 ---
 
-### 🧮 Índice de Cálculo
+###  Índice de Cálculo
 
 > "Se você não consegue explicar algo de forma simples, você não entendeu bem o suficiente." — Richard Feynman
 
 #### 📍 Roteiro de Aprendizado
 
-1. 🔵 **[Limites e Continuidade](./teoria/limite/README.md)**
+1.  **[Limites e Continuidade](./teoria/limite/README.md)**
     
-2. 🟢 **[Derivadas](./teoria/derivada/README.md)**
+2.  **[Derivadas](./teoria/derivada/README.md)**
     
-3. 🔴 **[Integrais](./teoria/integral/README.md)**
+3.  **[Integrais](./teoria/integral/README.md)**
 
 
 ---
-#### 📚 Recursos e Referências
+####  Recursos e Referências
 
 - **Livro Principal:** Stewart, James. _Cálculo: Conceitos e Contextos_ (ou _Early Transcendentals_).
     

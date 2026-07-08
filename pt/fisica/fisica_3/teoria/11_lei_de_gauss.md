@@ -1,4 +1,4 @@
-# 📐 Teoria: O Fluxo Elétrico e a Gênese da Lei de Gauss
+#  Teoria: O Fluxo Elétrico e a Gênese da Lei de Gauss
 
 A Lei de Gauss é, essencialmente, a Lei de Coulomb sob uma perspectiva macroscópica e geométrica. Enquanto Coulomb foca na força bruta calculada par a par entre cargas isoladas, Gauss muda o foco para a modificação do espaço, tratando o campo elétrico como um fluido imaginário e calculando como ele interage com fronteiras tridimensionais fechadas.
 
@@ -21,7 +21,7 @@ $$d\vec{A} = \hat{n} \, dA$$
 <img src="../../../../assets/fis3-eletromagnetismo-fluxo-cubo.svg" alt="Fluxo Elétrico no Cubo" width="450">
 
 
-## 📐 O Formalismo Matemático: A Projeção Vetorial
+##  O Formalismo Matemático: A Projeção Vetorial
 
 
 Dizer que o fluxo é a contagem de linhas de campo fornece o "tato visual", mas o rigor físico define o fluxo elétrico como a integral da componente normal do campo elétrico sobre a superfície.
@@ -43,7 +43,7 @@ $$d\Phi_E = E_n \cdot dA = (E \cos(\theta)) dA = \vec{E} \cdot d\vec{A}$$
 
 Se a componente normal aponta para fora da superfície (saída), o produto escalar resulta em um fluxo positivo ($0^\circ \le \theta < 90^\circ$). Se aponta para dentro (entrada), o produto escalar resulta em um fluxo negativo ($90^\circ < \theta \le 180^\circ$).
 
-## 🎈 A Intuição de Gauss: A Lâmpada e a Bexiga
+##  A Intuição de Gauss: A Lâmpada e a Bexiga
 
 O insight revolucionário de Carl Friedrich Gauss foi fechar essa superfície. Imagine uma lâmpada pontual acesa no vácuo emitindo raios de luz simetricamente para todas as direções (nossa carga fonte $+Q$). Se enclausurarmos essa lâmpada dentro de uma bexiga de borracha perfeitamente amarrada, todos os raios de luz emitidos serão obrigados a perfurar a borracha para escapar para o espaço.
 
@@ -51,7 +51,7 @@ Se espremermos a bexiga, tornando-a oval, enrugada ou totalmente assimétrica, o
 
 Gauss percebeu que o fluxo elétrico líquido através de qualquer superfície fechada (que batizamos de **Superfície Gaussiana**) é uma constante matemática que depende única e exclusivamente da quantidade de carga aprisionada no seu interior ($Q_{\text{enc}}$). A geometria da casca é irrelevante para o balanço final de fluxo.
 
-## 📐 O Elo Formal: O Cancelamento Geométrico e o Ângulo Sólido
+##  O Elo Formal: O Cancelamento Geométrico e o Ângulo Sólido
 
 Para transformar a intuição da bexiga deformada em um teorema matemático rigoroso, Gauss recorreu à definição geométrica de **ângulo sólido** ($\Omega$). Enquanto um ângulo plano em 2D mede a abertura de um arco de circunferência ($\theta = s/r$, em radianos), o ângulo sólido em 3D mede a abertura de um cone cônico que projeta uma área sobre uma calota esférica. Sua unidade é o esterorradiano (sr).
 
@@ -81,7 +81,7 @@ $$\Phi_E = \frac{q}{\varepsilon_0}$$
 
 Este formalismo prova que, independentemente de quão caótica, enrugada ou distante seja a casca tridimensional, a diluição do campo pelo inverso do quadrado da distância ($1/r^2$) é compensada na mesma moeda pelo crescimento da área proporcional ao quadrado da distância ($r^2$). A integral de superfície atua como um detector geométrico perfeito, cujo saldo depende apenas da magnitude da fonte escalar $q$.
 
-## 🧠 Anatomia da Equação Soberana
+##  Anatomia da Equação Soberana
 
 A equação consolidada por Gauss para múltiplos sistemas de cargas é escrita como:
 
@@ -95,7 +95,7 @@ $$\oint_{S} \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
 
 <img src="../../../../assets/fis3-gauss-law.svg" alt="Lei de Gauss" width="450">
 
-## 🛠️ O "Hack" da Simetria: Isolando o Campo Elétrico
+##  O "Hack" da Simetria: Isolando o Campo Elétrico
 
 Nos problemas reais de engenharia, nós usamos a Lei de Gauss de trás para frente. Nós não calculamos o fluxo; nós já sabemos o valor do fluxo total (ele vale $Q_{\text{enc}}/\varepsilon_0$). Nós usamos esse resultado conhecido para isolar o Campo Elétrico ($\vec{E}$) sem a necessidade de parametrizações de linha complexas ou substituições trigonométricas brutas.
 
@@ -120,6 +120,6 @@ Isolando o campo elétrico $E$:
 
 $$E = \frac{1}{4\pi\varepsilon_0} \frac{Q}{r^2}$$
 
-## 🏁 Conclusão e Consistência
+##  Conclusão e Consistência
 
 Repare na elegância do encerramento: a Lei de Coulomb foi deduzida de forma limpa, direta e conceitual através da Lei de Gauss. Ambas as equações descrevem a mesma física, mas enquanto Coulomb monta o cenário peça por peça, Gauss utiliza a armadura geométrica do espaço para desarmar a complexidade do cálculo.

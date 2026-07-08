@@ -31,7 +31,7 @@ If the derivative of position is velocity, then:
 
 ---
 
-## 🧠 Final Reflection on Learning
+##  Final Reflection on Learning
 By now, you have likely realized that the difficulty in this subject is often not Calculus itself, but rather the lack of a strong foundation in **Basic Mathematics**: trigonometry, algebra, geometry, factorization, and basic operations.
 
 If you struggle with a specific part of Calculus, reflect on this: the problem is likely in your basic math. **Calculus itself is not "hard," but it is complex and realistic.** It demands that your foundational tools are sharp so you can focus on the high-level concepts.

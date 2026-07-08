@@ -5,7 +5,7 @@
 
 The **Squeeze Theorem** (also known as the **Sandwich Theorem** or **Confrontation Theorem**) is used to find the limit of a "complicated" function by compressing it between two "simple" functions that share the same limit.
 
-## 🏃 The Hallway Intuition (Reality)
+##  The Hallway Intuition (Reality)
 
 Imagine you are walking down a narrow hallway:
 
@@ -16,7 +16,7 @@ Imagine you are walking down a narrow hallway:
 - If both walls taper and meet exactly at a door ( $L$ ), you, who are in the middle ( $f(x)$ ), have no choice but to pass through that same door.
     
 
-## 📐 Formalization and the Classic Example
+##  Formalization and the Classic Example
 
 **The Mathematical Rule:**
 
@@ -30,7 +30,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## 📝 Step-by-Step Example: $\lim_{x \to \infty} \frac{\sin(x)}{x}$
+##  Step-by-Step Example: $\lim_{x \to \infty} \frac{\sin(x)}{x}$
 
 1. **Identify the oscillation:** $\sin(x)$ has no limit at infinity (it keeps rising and falling between $-1$ and $1$).
     
@@ -51,7 +51,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## 💡 Shortcuts and Exam Cases
+##  Shortcuts and Exam Cases
 
 - **The "Bounded $\times$ Zero" Shortcut:** Whenever you have a **bounded function** (like sine or cosine) multiplied by something that **goes to zero**, the result of the limit will always be **Zero**.
     
@@ -68,7 +68,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## 📝 Practical Examples Section
+##  Practical Examples Section
 
 ### Example 1: Squared Cosine (Interval 0 to 1)
 
@@ -105,7 +105,7 @@ $$\lim_{x \to a} f(x) = L$$
 
 ---
 
-## ⚠️ Attention: Why Tangent and Cosecant do NOT fit the Sandwich?
+##  Attention: Why Tangent and Cosecant do NOT fit the Sandwich?
 
 - **Tangent ($\tan x$):** Explodes to infinity at multiple points ($\pi/2, 3\pi/2$). It is **not bounded**.
     

@@ -1,5 +1,5 @@
 
-# 🏛️ O que são Grandezas e por que Medimos ?
+#  O que são Grandezas e por que Medimos ?
  
 > [!IMPORTANT]
 > 
@@ -7,13 +7,13 @@
 > 
 > A Física nasce quando decidimos que o adjetivo não basta; precisamos da **Grandeza**. Grandeza é tudo aquilo que pode ser quantificado; é a propriedade do objeto que aceita um número. Altura, massa, temperatura e tempo são grandezas porque podemos aplicar uma escala nelas.
 
-### ⚖️ A Necessidade da Referência
+###  A Necessidade da Referência
 
 Medir é, essencialmente, um ato de comparação. O padrão (unidade) é o contrato social da ciência. Sem uma referência única, nada no mundo se encaixaria. A medição garante que o projeto de um engenheiro seja compreendido universalmente.
 
 ---
 
-### 📏 A Anatomia das Grandezas e o Sistema Internacional
+###  A Anatomia das Grandezas e o Sistema Internacional
 
 Nem todas as grandezas nascem iguais. Na Mecânica, dividimos o mundo em dois grupos:
 
@@ -34,7 +34,7 @@ Nem todas as grandezas nascem iguais. Na Mecânica, dividimos o mundo em dois gr
 
 ---
 
-### 🔄 A Arte da Tradução: Principais Conversões e Escalas
+###  A Arte da Tradução: Principais Conversões e Escalas
 
 O Sistema Internacional é decimal. Mudar de escala é, quase sempre, deslocar a vírgula através de potências de 10.
 

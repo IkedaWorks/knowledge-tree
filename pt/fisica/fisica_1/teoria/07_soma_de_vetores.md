@@ -1,5 +1,5 @@
 
-# 🏛️ Adição de Forças Planas: Geometria e Rigor
+#  Adição de Forças Planas: Geometria e Rigor
 
 > [!IMPORTANT] 
 > 
@@ -50,7 +50,7 @@ A Lei dos Cossenos entra aqui para medir o "comprimento" dessa rota final quando
 
 Para resolver exercícios com precisão, o foco deve estar na montagem do triângulo de forças e na identificação dos ângulos internos.
 
-# 🔩 Exercício 01: Soma Geométrica em Parafuso de Fixação
+#  Exercício 01: Soma Geométrica em Parafuso de Fixação
 
 > [!IMPORTANT] 
 > 

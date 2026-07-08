@@ -4,13 +4,13 @@
 **Definição e Intuição:**
 Uma função é contínua se você consegue desenhar o gráfico dela sem tirar a caneta do papel. Se houver um buraco, um salto ou uma explosão vertical, a continuidade foi quebrada.
 
-### 💡 A Intuição do Interruptor 
+###  A Intuição do Interruptor 
 * **Contínuo:** É como um *dimmer* de luz. Você gira e a luminosidade aumenta suavemente de 0% a 100%, passando por todos os valores intermediários.
 * **Descontínuo:** É um interruptor comum (liga/desliga). Você está no 0 e, num estalo, pula para o 1. Não existe o "0,5" no momento do clique. Há um salto.
 
 ---
 
-## 📐 Formalização (O Teste dos 3 Passos)
+##  Formalização (O Teste dos 3 Passos)
 
 Para dizer que uma função é contínua em um ponto específico $x = a$, ela precisa passar em três testes obrigatórios:
 
@@ -18,7 +18,7 @@ Para dizer que uma função é contínua em um ponto específico $x = a$, ela pr
 2.  **O limite existe no ponto?** $\lim_{x \to a} f(x)$ precisa existir (limites laterais iguais).
 3.  **O limite é igual ao valor da função?** $\lim_{x \to a} f(x) = f(a)$. O "alvo" da tendência tem que ser exatamente onde o ponto real está desenhado.
 
-### 📝 Exemplo Passo a Passo: Verificando a Continuidade
+###  Exemplo Passo a Passo: Verificando a Continuidade
 Verifique se $f(x) = \frac{x^2 - 1}{x - 1}$ é contínua em $x = 1$.
 
 * **Passo 1 ($f(1)$ existe?):** $f(1) = \frac{1^2 - 1}{1 - 1} = \frac{0}{0}$. Não existe.
@@ -26,7 +26,7 @@ Verifique se $f(x) = \frac{x^2 - 1}{x - 1}$ é contínua em $x = 1$.
 
 ---
 
-## 🛠️ Tipos de Descontinuidade e Macetes
+##  Tipos de Descontinuidade e Macetes
 
 Existem três formas principais de "quebrar" uma função:
 
@@ -41,7 +41,7 @@ Existem três formas principais de "quebrar" uma função:
 
 ---
 
-## 📝 Seção de Exemplos e Exercícios
+##  Seção de Exemplos e Exercícios
 
 ### Exemplo 1: O "Conserto" de Função
 Determine $k$ para que $f(x)$ seja contínua em $x = 2$:
@@ -78,7 +78,7 @@ $$
 
 ---
 
-## 📜 O Teorema do Valor Intermediário (TVI)
+##  O Teorema do Valor Intermediário (TVI)
 Se uma função é contínua em um intervalo e ela começa no $y = -2$ e termina no $y = 5$, ela obrigatoriamente passou pelo zero (ou por qualquer valor entre -2 e 5) em algum momento.
 * **Macete:** Se você atravessou a rua, em algum momento você esteve exatamente no meio dela. Isso prova que equações têm raízes sem precisar resolvê-las.
 
@@ -86,7 +86,7 @@ Se uma função é contínua em um intervalo e ela começa no $y = -2$ e termina
 
 ---
 
-## 💡 Macetes de Resolução
+##  Macetes de Resolução
 * **Polinômios são "Bonzinhos":** Se a função for apenas um polinômio simples, ela é contínua em toda a reta real.
 * **Onde procurar problemas:** As descontinuidades moram onde o **denominador zera** ou onde a função **"muda de regra"**.
 * **Dica Visual:** Se o limite lateral deu diferente, é um **Salto**. Se o limite deu igual, mas a função não existe ali, é um **Buraco**.

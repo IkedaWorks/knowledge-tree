@@ -6,7 +6,7 @@ The goal of these notes is to build a solid understanding of how electric and ma
 
 ---
 
-## 🛠 Prerequisites and the Role of Calculus
+##  Prerequisites and the Role of Calculus
 
 Physics III uses Calculus as a practical modeling tool. We will not pursue pure mathematical derivations from scratch, but rather the ability to translate a physical problem into familiar mathematical operations:
 
@@ -18,7 +18,7 @@ Physics III uses Calculus as a practical modeling tool. We will not pursue pure 
 
 ---
 
-## 🗺 Learning Flow (Roadmap)
+##  Learning Flow (Roadmap)
 
 The content progresses linearly from isolated static phenomena to the full unification of dynamic fields and electromagnetic waves:
 

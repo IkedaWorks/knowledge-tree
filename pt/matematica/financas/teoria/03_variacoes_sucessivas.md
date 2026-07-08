@@ -31,7 +31,7 @@ $$\text{Fator de Variação} = \frac{\text{Valor Final}}{\text{Valor Inicial}} =
 
 Como 0,99 representa 99% do valor original, prova-se que o saldo líquido de um aumento de 10% seguido de um desconto de 10% é, na realidade, um **desconto real de 1%** ( $1 - 0,99 = 0,01$ ).
 
-> ⚠️ **Lei Acumulativa:** Toda vez que porcentagens são aplicadas de forma sucessiva sobre uma mesma grandeza, os efeitos se multiplicam em cadeia porque a base de cálculo é dinâmica:
+>  **Lei Acumulativa:** Toda vez que porcentagens são aplicadas de forma sucessiva sobre uma mesma grandeza, os efeitos se multiplicam em cadeia porque a base de cálculo é dinâmica:
 > * Aumentos sucessivos acumulam **mais** do que a soma aritmética das taxas.
 > * Descontos sucessivos reduzem **menos** do que a soma aritmética das taxas.
 
@@ -67,4 +67,4 @@ Como 0,80 é menor que 1, identifica-se a necessidade de um desconto. A taxa exa
 
 $$\text{Desconto} = 1 - 0,80 = 0,20 \implies 20\%$$
 
-> 🎯 **Conclusão:** Para anular um aumento de 25%, não se aplica um desconto de 25%, mas sim um desconto exato de 20%. A variação percentual estruturada garante o controle matemático e a previsibilidade dos fluxos dinâmicos de preço.
+>  **Conclusão:** Para anular um aumento de 25%, não se aplica um desconto de 25%, mas sim um desconto exato de 20%. A variação percentual estruturada garante o controle matemático e a previsibilidade dos fluxos dinâmicos de preço.

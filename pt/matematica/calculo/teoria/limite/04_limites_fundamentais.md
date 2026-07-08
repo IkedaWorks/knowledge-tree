@@ -3,14 +3,14 @@
 
 Limites fundamentais são resultados provados matematicamente que servem como base para resolver limites mais complexos. Eles são "atalhos" oficiais para situações de indeterminação ($\frac{0}{0}$ ou $1^{\infty}$) que aparecem com frequência na física e na engenharia.
 
-### 🧠 A Intuição da Aproximação Local 
+###  A Intuição da Aproximação Local 
 
 - **Trigonométrico:** Diz que, muito perto do zero, a curva do $\text{sen}(x)$ se comporta exatamente como a reta $y = x$. Por isso, a razão entre eles é $1$.
     
 - **Exponencial:** Define a base $e$ (número de Euler) como o resultado de um crescimento contínuo e infinito. É a base de todos os processos de crescimento natural.
     
 
-### 📐 Formalização e Exemplos
+###  Formalização e Exemplos
 
 #### 1. Limite Fundamental Trigonométrico
 
@@ -46,7 +46,7 @@ $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
 
 ---
 
-### 💡 Macetes de Ouro
+###  Macetes de Ouro
 
 - **O Macete do Argumento:** Para os limites trigonométricos e logarítmicos, não importa o "lixo" que está dentro, desde que esse "lixo" tenda a zero e seja igual ao denominador.
     
@@ -56,7 +56,7 @@ $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
 ---
 
 
-### 📝 Seção Prática: 10 Exercícios com Demonstração (Base para Derivadas)
+###  Seção Prática: 10 Exercícios com Demonstração (Base para Derivadas)
 
 Estes exercícios focam na manipulação de argumentos e identificação de padrões fundamentais.
 

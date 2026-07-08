@@ -2,12 +2,12 @@
 
 Este módulo reúne o arcabouço matemático e computacional necessário para quantificar a incerteza, analisar a dispersão de dados experimentais e modelar fenômenos probabilísticos. Em vez de uma abordagem puramente teórica, os tópicos são dissecados a partir da anatomia de suas equações, conectando o formalismo estatístico à realidade prática da engenharia e do desenvolvimento de algoritmos.
 
-## 📌 Pré-requisitos
+##  Pré-requisitos
 
 * **Matemática Discreta e Álgebra:** Manipulação de somatórios ($\sum$), teoria de conjuntos e álgebra elementar.
 * **Cálculo Vetorial e Diferencial:** Derivadas parciais, diferenciais totais (essenciais para propagação de erros) e integrais definidas (para distribuições contínuas).
 
-## 🗺️ Roteiro de Aprendizado e Estrutura de Notas
+##  Roteiro de Aprendizado e Estrutura de Notas
 
 O módulo é estruturado de forma cronológica e incremental, dividindo-se nas seguintes frentes analíticas:
 

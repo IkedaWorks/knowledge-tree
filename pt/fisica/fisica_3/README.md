@@ -6,7 +6,7 @@ O objetivo destas notas é construir uma compreensão sólida de como os campos 
 
 ---
 
-## 🛠 Pré-requisitos e o Papel do Cálculo
+##  Pré-requisitos e o Papel do Cálculo
 
 Física III usa a matemática do Cálculo como uma ferramenta prática de modelagem. Não buscaremos deduções matemáticas puras do zero, mas sim a habilidade de traduzir um problema físico em ferramentas matemáticas conhecidas:
 
@@ -18,7 +18,7 @@ Física III usa a matemática do Cálculo como uma ferramenta prática de modela
 
 ---
 
-## 🗺 Fluxo de Aprendizado (Roadmap)
+##  Fluxo de Aprendizado (Roadmap)
 
 O conteúdo avança linearmente partindo dos fenômenos estáticos isolados até a unificação completa dos campos dinâmicos e ondas eletromagnéticas:
 

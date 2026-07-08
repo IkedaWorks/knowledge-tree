@@ -1,11 +1,11 @@
 
-## 📈 Finance & Wealth Management
+##  Finance & Wealth Management
 
 Welcome to the Finance and Asset Modeling core. This space is dedicated to the conceptual, mathematical, and practical exploration of wealth management, investment engineering, and financial algorithms.
 
 The goal of these notes is to bridge the gap between abstract mathematical models and practical financial decisions, creating scalable frameworks to track, simulate, and optimize asset growth.
 
-## 🛠️ Repository Structure
+##  Repository Structure
 
 To maintain a clean and modular ecosystem, the international documentation focuses strictly on universal financial principles and programmatic tools:
 
@@ -35,7 +35,7 @@ A macro view of financial instruments, focusing on logic rather than specific lo
 
 Modular scripts (implemented in C, Python, and other low-level or scripting languages) designed to automate financial projections, parse historical yield data, and output real net-worth simulations.
 
-## 🚀 Contribution Guidelines
+##  Contribution Guidelines
 
 Contributions are highly encouraged! To maintain the repository's high standards, all contributors must adhere to our core project standards found in our [CONTRIBUTING.md](./../../../CONTRIBUTING.md). Additionally, please follow these guidelines for this specific directory:
 

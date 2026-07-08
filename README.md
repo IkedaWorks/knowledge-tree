@@ -9,11 +9,11 @@ The **Project Yggdrasil** is more than a simple repository of notes; it is an am
 
 The goal is to move beyond static information. We are cultivating a living knowledge base where every file is a node, and every backlink is a root, ensuring that no concept exists in isolation.
 
-## 🏛️ The Vision
+##  The Vision
 
 This project is a long-term commitment to the craft of structured learning. In an era of fragmented information, Yggdrasil stands as a testament to deep focus and technical rigor. It is designed to evolve from a personal "vault" into an intelligent system capable of guiding learners through the complex forest of modern science and engineering.
 
-## ⚙️ Technical Requirements & Standards
+##  Technical Requirements & Standards
 
 To ensure this ecosystem grows with stability and remains accessible across all platforms, we follow a strict set of architectural principles:
 
@@ -26,7 +26,7 @@ To ensure this ecosystem grows with stability and remains accessible across all 
 > [!IMPORTANT]
 > **For detailed technical specifications, syntax rules (LaTeX/Markdown), and branching policies, please refer to our [Contributing Guidelines](./CONTRIBUTING.md).**
 
-## 🗺️ Roadmap to Yggdrasil
+##  Roadmap to Yggdrasil
 This roadmap tracks the evolution from a static knowledge base to an intelligent ecosystem:
 
 - [x] **Phase 1: Roots** – Establishment of the core bilingual structure with initial knowledge nodes.
@@ -36,7 +36,7 @@ This roadmap tracks the evolution from a static knowledge base to an intelligent
 
 
 
-## ⚖️ License & Ethics
+##  License & Ethics
 
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE.md) file for details.
 

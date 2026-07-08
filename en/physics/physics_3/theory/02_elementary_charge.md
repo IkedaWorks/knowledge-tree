@@ -1,5 +1,5 @@
 
-# Elementary Charge ⚡
+# Elementary Charge 
 
 In our previous exploration, we established that matter is fundamentally recognized by how it interacts with the fields of nature through its intrinsic properties. Now, it is time to look at the microscopic building blocks responsible for these interactions and formalize the mathematics that govern them.
 

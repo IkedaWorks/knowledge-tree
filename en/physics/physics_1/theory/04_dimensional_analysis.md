@@ -1,4 +1,4 @@
-## 🏛️ Dimensional Analysis — (Essence of Dimensions and the Chain Rule)
+##  Dimensional Analysis — (Essence of Dimensions and the Chain Rule)
 
 > [!IMPORTANT]
 > 
@@ -6,7 +6,7 @@
 
 ---
 
-### ⚛️ The Three Master Dimensions
+###  The Three Master Dimensions
 
 In the universe of classical mechanics, everything boils down to:
 
@@ -17,7 +17,7 @@ In the universe of classical mechanics, everything boils down to:
 - **Time:** $[T]$
     
 
-### ⚖️ The Principle of Homogeneity
+###  The Principle of Homogeneity
 
 You can only add or equate quantities that have the **same dimension**. You cannot add $2 \text{ meters}$ to $3 \text{ seconds}$. If an equation states that $A = B + C$, then $A$, $B$, and $C$ must have the same dimensional identity.
 
@@ -26,7 +26,7 @@ You can only add or equate quantities that have the **same dimension**. You cann
 
 ---
 
-### ⛓️ The Chain Rule (Conversion Factors)
+###  The Chain Rule (Conversion Factors)
 
 Halliday calls this the "Chain-Rule Method," and it is the safest way to switch units without losing the physical value. Instead of "rule of three" methods that confuse where to multiply or divide, we use the **unit fraction**.
 
@@ -52,7 +52,7 @@ Halliday calls this the "Chain-Rule Method," and it is the safest way to switch 
 
 ---
 
-### 🛠️ The Engineer's Rigor
+###  The Engineer's Rigor
 
 Dimensional analysis is the "debugging" tool of Physics. Before putting numbers into the calculator, **check the letters**. If the dimensional analysis checks out, half the problem is already solved.
 

@@ -1,21 +1,21 @@
 
-# 📐 Theory: Volumetric Distributions — Generic Derivation of a Charged Sphere
+#  Theory: Volumetric Distributions — Generic Derivation of a Charged Sphere
 
 The calculation of the electric field for three-dimensional bodies expands our infinitesimal modeling from a two-dimensional surface to a true volume. By utilizing radial symmetry and the spherical coordinate system, we can map the charge scattered across a solid body with surgical precision. This document outlines the general derivation for a uniformly charged solid sphere, the definitive foundation for electrostatic shielding and advanced applications of Gauss's Law.
 
 ---
 
-## 🌎 Analysis Scenario and Axis Selection
+##  Analysis Scenario and Axis Selection
 
 Imagine a solid, non-conducting sphere of radius $R$ carrying a uniform total volumetric charge $Q$. To extract maximum efficiency from nature's native symmetries, we place the center of the sphere perfectly at the origin of our coordinate system $(0, 0, 0)$. Our goal is to map the electric field $\vec{E}$ at any point in space located at a radial distance $r$ from the center.
 
 
 
-> 💡 **Engineering Insight:** Why lock the center of the sphere to the origin and abandon the cylindrical/Cartesian systems? A sphere features perfect radial symmetry. If we tried to slice this body using tiny Cartesian cubes ($dx \cdot dy \cdot dz$), the integration limits would yield intractable three-dimensional polynomial equations. By using the center as our global origin, we collapse the three-dimensional sweep into an analysis that depends strictly on a single variable: the linear distance to the center.
+>  **Engineering Insight:** Why lock the center of the sphere to the origin and abandon the cylindrical/Cartesian systems? A sphere features perfect radial symmetry. If we tried to slice this body using tiny Cartesian cubes ($dx \cdot dy \cdot dz$), the integration limits would yield intractable three-dimensional polynomial equations. By using the center as our global origin, we collapse the three-dimensional sweep into an analysis that depends strictly on a single variable: the linear distance to the center.
 
 ---
 
-## 🛠️ The Resolution Pipeline (4-Step Algorithm)
+##  The Resolution Pipeline (4-Step Algorithm)
 
 ### Step 1: Transitioning from the Surface Model to the Volumetric Model (The Physics)
 
@@ -132,7 +132,7 @@ $$
 
 ---
 
-## 🏁 The Final Leap: Boundary Contours
+##  The Final Leap: Boundary Contours
 
 Combining both solutions in terms of the total charge of the sphere, we can substitute the macroscopic definition of volumetric density to obtain our consolidated engineering equations.
 

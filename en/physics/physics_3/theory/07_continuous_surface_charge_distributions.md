@@ -1,21 +1,21 @@
 
-# 📐 Theory: Surface Distributions — Generic Derivation of a Charged Disk
+#  Theory: Surface Distributions — Generic Derivation of a Charged Disk
 
 The calculation of the electric field for two-dimensional charged surfaces expands our infinitesimal modeling from a 1D line to a 2D surface. By building upon the cylindrical foundations established in line charge problems, we can resolve surface distributions with minimal algebraic friction. This document outlines the general derivation for a uniformly charged flat disk, a classic precursor to understanding infinite sheets and parallel-plate capacitors.
 
 ---
 
-## 🌎 Analysis Scenario and Axis Selection
+##  Analysis Scenario and Axis Selection
 
 Imagine a flat, circular, non-conducting disk of radius $R$ carrying a uniform surface charge. To maximize geometric symmetry, we place the disk flat on the $xy$-plane, centered perfectly at the origin $(0, 0, 0)$. Our goal is to calculate the net electric field $\vec{E}$ at a target point $P$ located along the central symmetry axis (the $z$-axis) at a height $z$.
 
 
 
-> 💡 **Engineering Insight:** Why lock point $P$ strictly to the central $z$-axis? Just like with the wire, choosing the central axis builds a framework of rotational symmetry. If we tried to calculate the field at a point off the central axis, the azimuthal symmetry would break, forcing us to solve the problem using elliptic integrals that cannot be evaluated in terms of elementary functions. Keeping $P$ on the axis turns a potential nightmare into clean, manageable calculus.
+>  **Engineering Insight:** Why lock point $P$ strictly to the central $z$-axis? Just like with the wire, choosing the central axis builds a framework of rotational symmetry. If we tried to calculate the field at a point off the central axis, the azimuthal symmetry would break, forcing us to solve the problem using elliptic integrals that cannot be evaluated in terms of elementary functions. Keeping $P$ on the axis turns a potential nightmare into clean, manageable calculus.
 
 ---
 
-## 🛠️ The Resolution Pipeline (4-Step Algorithm)
+##  The Resolution Pipeline (4-Step Algorithm)
 
 ### Step 1: Transitioning from the Line Model to the Surface Model (The Physics)
 
@@ -145,7 +145,7 @@ $$
 
 ---
 
-## 🏁 The Final Leap: Boundary Contours
+##  The Final Leap: Boundary Contours
 
 Recombining this completed integration value with the constants we isolated outside the block in **Step 3**, we get our consolidated engineering equation for the electric field of a finite disk:
 

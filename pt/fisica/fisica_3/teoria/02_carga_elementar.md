@@ -1,5 +1,5 @@
 
-# Carga Elementar ⚡
+# Carga Elementar 
 
 Na nossa exploração anterior, estabelecemos que a matéria é fundamentalmente reconhecida pela forma como interage com os campos da natureza através das suas propriedades intrínsecas. Agora, é o momento de olharmos para os blocos de construção microscópicos responsáveis por essas interações e formalizarmos a matemática que os governa.
 

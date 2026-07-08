@@ -1,5 +1,5 @@
 
-# 🌐 Engenharia de Redes: A Arquitetura do Caos Organizado
+#  Engenharia de Redes: A Arquitetura do Caos Organizado
 
 A internet é, fundamentalmente, uma vitória da lógica sobre a entropia. O que o usuário comum enxerga como uma nuvem abstrata de conectividade instantânea é, na realidade, a maior e mais complexa infraestrutura de engenharia já construída pela humanidade operando em um ambiente inerentemente hostil. Estudar redes sob a ótica deste ecossistema significa rejeitar abstrações superficiais para dissecar os mecanismos determinísticos que forçam bilhões de dispositivos heterogêneos a conversarem em uma linguagem universal e matemática.
 

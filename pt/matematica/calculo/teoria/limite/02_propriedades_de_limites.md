@@ -3,12 +3,12 @@
 
 As propriedades dos limites são as regras que permitem "fatiar" uma função complexa em pedaços simples. Elas provam que o limite é um **operador previsível**: ele se distribui pelas operações aritméticas básicas sem alterar o resultado final.
 
-### 🧠 A Intuição da "Independência"
+###  A Intuição da "Independência"
 Se você tem duas coisas acontecendo ao mesmo tempo, a tendência do conjunto é apenas a combinação das tendências individuais. O limite "entra" na soma, na raiz, no expoente e no cosseno como se eles fossem transparentes.
 
 ---
 
-## 📐 Propriedades Fundamentais
+##  Propriedades Fundamentais
 Considere que $\lim_{x \to a} f(x) = L$ e $\lim_{x \to a} g(x) = M$.
 
 1.  **Soma e Subtração:** O limite da soma é a soma dos limites.
@@ -25,14 +25,14 @@ Considere que $\lim_{x \to a} f(x) = L$ e $\lim_{x \to a} g(x) = M$.
     $$\lim_{x \to a} \cos(f(x)) = \cos(L)$$
     $$\lim_{x \to a} \ln(f(x)) = \ln(L)$$
 
-### 🏆 A Regra de Ouro (Polinômios)
+###  A Regra de Ouro (Polinômios)
 Para qualquer polinômio $P(x)$, o limite é apenas a substituição direta:
 $$\lim_{x \to a} P(x) = P(a)$$
 *OBS: Esta é a propriedade mais utilizada, pois muitas funções complexas podem ser tratadas como polinômios localmente.*
 
 ---
 
-## 📝 Exemplos Passo a Passo
+##  Exemplos Passo a Passo
 
 ### Exemplo 1: O "Combo" (Raiz + Polinômio)
 Calcule $\lim_{x \to 4} \sqrt{3x^2 - 11x + 2}$.
@@ -47,7 +47,7 @@ Calcule $\lim_{x \to 0} \cos(x^2 + \pi)$.
 
 ---
 
-## 💡 Macetes de Sobrevivência 
+##  Macetes de Sobrevivência 
 
 * **O Mantra da Substituição:** Sua primeira tentativa deve ser sempre substituir $x$ pela tendência ($a$). Se o resultado for um número real, o exercício acabou. As propriedades garantem que isso funciona para polinômios, senos e raízes.
 * **O Sinal Vermelho ($0/0$):** Se ao substituir você encontrar uma indeterminação $0/0$:

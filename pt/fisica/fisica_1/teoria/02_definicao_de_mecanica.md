@@ -1,5 +1,5 @@
 
-# 🏛️ A Natureza da Mecânica Clássica
+#  A Natureza da Mecânica Clássica
 
 > [!IMPORTANT]
 > 
@@ -7,7 +7,7 @@
 > 
 > Imagine que você está observando o mundo e decide que ele não é um caos de eventos aleatórios, mas um sistema de regras que podem ser escritas. A Mecânica Clássica é a tentativa de prever o futuro das coisas tangíveis. Se você a entende, deixa de ser um espectador para se tornar o arquiteto das engrenagens da realidade.
 
-### 🔍 As Três Perguntas Fundamentais
+###  As Três Perguntas Fundamentais
 
 O grande erro do iniciante é achar que estudar física é aprender fórmulas. Na verdade, é aprender a separar o mundo em três perguntas:
 
@@ -26,7 +26,7 @@ O grande erro do iniciante é achar que estudar física é aprender fórmulas. N
 
 ---
 
-### 📐 A Divisão Formal da Mecânica Clássica
+###  A Divisão Formal da Mecânica Clássica
 
 #### 1. Pela Natureza da Investigação: Cinemática vs. Dinâmica
 
@@ -46,7 +46,7 @@ O grande erro do iniciante é achar que estudar física é aprender fórmulas. N
 
 ---
 
-### 🌌 Afinal, o que é a Mecânica?
+###  Afinal, o que é a Mecânica?
 
 A Mecânica é a gramática fundamental da natureza. É a ciência que traduz a persistência da matéria e a inevitabilidade das interações na linguagem rigorosa do cálculo. Sob o aparente caos, reside uma ordem geométrica e causal onde o presente é o eco do passado e o rascunho do futuro. Estudar Mecânica é aprender a ler o pensamento do universo através das engrenagens da realidade.
 

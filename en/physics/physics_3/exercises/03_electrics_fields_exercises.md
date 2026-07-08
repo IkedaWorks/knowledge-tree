@@ -4,9 +4,9 @@
 
 This module contains a progressive set of problems designed to evaluate your spatial intuition, continuous integration skills, and mastery of foundational physics and mathematics concepts.
 
-> 💡 **Metacognitive Rule for Engineering Studies:** Do not skip straight to the Solutions Manual. Force your brain to model the boundary conditions, sketch the relative position vectors on paper, and perform a dimensional analysis of your final algebraic expression before checking the resolution. True engineering competence is built during the translation of the problem, not in the passive reading of answers.
+>  **Metacognitive Rule for Engineering Studies:** Do not skip straight to the Solutions Manual. Force your brain to model the boundary conditions, sketch the relative position vectors on paper, and perform a dimensional analysis of your final algebraic expression before checking the resolution. True engineering competence is built during the translation of the problem, not in the passive reading of answers.
 
-## 🟢 Section 1: Foundations and Kinematics (Easy Level)
+##  Section 1: Foundations and Kinematics (Easy Level)
 
 ### Problem 1.1 (Kinematics and Equilibrium of Multiple Charges)
 
@@ -17,7 +17,7 @@ A point charge $q_1 = +4.0\ \mu\text{C}$ is fixed at the spatial origin $(0,0,0)
 - **b)** If the ball has a mass $m = 2.0\text{ g}$ and a charge $Q = +1.0\ \mu\text{C}$, and is released from rest at $x = 1.0\text{ m}$, calculate its instantaneous initial acceleration vector $\vec{a}$ using Newton's Second Law.
     
 
-## 🟡 Section 2: Symmetry and Contour Integration (Medium Level)
+##  Section 2: Symmetry and Contour Integration (Medium Level)
 
 ### Problem 2.1 (Modified Halliday - Finite Charged Rod with Linear Deflection)
 
@@ -45,7 +45,7 @@ A flat circular disk of radius $R$ is positioned horizontally in the $xy$-plane,
 ---
 
 > [!CAUTION]
-> ### 🛑 ADVANCED ANALYTICAL ENGINEERING SECTION
+> ###  ADVANCED ANALYTICAL ENGINEERING SECTION
 > The problems in this section present a drastic leap in complexity and are sourced from elite examinations (JEE Advanced and ITA). They demand mathematical tools and concepts that extend far beyond the standard homogeneous continuous distributions presented so far, such as:
 > * **Heterogeneous Charge Densities (non-constant $\lambda(x)$):** Requiring integration by partial fractions or advanced substitutions where geometry alone cannot simplify the integrand.
 > * **Macroscopic Approximations via Binomial Expansion:** Utilizing Newton's Binomial Theorem to approximate local electric fields ($x \ll a$), mapping complex Coulomb equations into linear restoring forces.
@@ -53,7 +53,7 @@ A flat circular disk of radius $R$ is positioned horizontally in the $xy$-plane,
 >
 > It is highly recommended to proceed only if you are fully comfortable with power series expansions and line integrals in Calculus.
 
-## 🔴 Section 3: Advanced Analytical Engineering (Hard Level)
+##  Section 3: Advanced Analytical Engineering (Hard Level)
 
 ### Problem 3.1 (JEE Advanced - Semi-Infinite Non-Uniform Dipole)
 
@@ -77,7 +77,7 @@ Two identical positive point charges $+Q$ are fixed on the $y$-axis at coordinat
 - **c)** Show that for small displacements ($x \ll a$), the target charge $-q$ executes Simple Harmonic Motion (SHM) and derive the algebraic expression for its angular frequency $\omega$.
     
 
-## 🔬 Section 4: Solutions Manual
+##  Section 4: Solutions Manual
 
 ### Solution 1.1 (Easy)
 

@@ -5,18 +5,18 @@
 
 **Objetivo Principal:** Revelar um Limite Fundamental escondido na expressão original.
 
-### 🔍 Quando usar?
+###  Quando usar?
 * Quando o limite resulta em indeterminação ($\frac{0}{0}$).
 * Quando a variável $x$ tende a um valor específico $a$ (ex: $x \to \pi$, $x \to 2$).
 * Quando há termos como $(x - a)$ no denominador ou dentro de funções trigonométricas/logarítmicas.
 
-### 📐 O Teorema por trás (Limite da Composta)
+###  O Teorema por trás (Limite da Composta)
 Se $u = g(x)$ e $g(x)$ é contínua, então:
 $$\lim_{x \to a} f(g(x)) = \lim_{u \to L} f(u), \quad \text{onde } L = \lim_{x \to a} g(x)$$
 
 ---
 
-## 🤖 Passo a Passo (Algoritmo de Resolução)
+##  Passo a Passo (Algoritmo de Resolução)
 
 1.  **Definir a nova variável:** Geralmente $u = x - (\text{valor para onde } x \text{ tende})$.
 2.  **Isolar o $x$:** Se $u = x - a$, então $x = u + a$.
@@ -26,7 +26,7 @@ $$\lim_{x \to a} f(g(x)) = \lim_{u \to L} f(u), \quad \text{onde } L = \lim_{x \
 
 ---
 
-## 📝 Exemplo Prático (O caso do $\pi$)
+##  Exemplo Prático (O caso do $\pi$)
 Calcule $\lim_{x \to \pi} \frac{\text{sen}(x)}{x - \pi}$
 
 1.  **Mudança:** $u = x - \pi \implies x = u + \pi$
@@ -37,7 +37,7 @@ Calcule $\lim_{x \to \pi} \frac{\text{sen}(x)}{x - \pi}$
 
 ---
 
-## 🧠 Por que isso funciona? 
+##  Por que isso funciona? 
 É como **mudar a origem do gráfico**. Em vez de olhar para o que acontece lá no ponto $x = \pi$, você "arrasta" o gráfico para a origem $(0,0)$ para usar as propriedades que você já conhece do Limite Fundamental Trigonométrico. Você simplifica o sistema de coordenadas para facilitar a análise do erro.
 
 > [!TIP]

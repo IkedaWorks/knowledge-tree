@@ -74,7 +74,7 @@ $$\frac{x^3}{3} + \frac{x^2}{2} + 3x + 4\ln|x - 1| + C$$
 
 ---
 
-### 💡 Dicas e Curiosidades
+###  Dicas e Curiosidades
 
 - **Briot-Ruffini:** Se o seu divisor for do tipo $(x - a)$, você pode usar o dispositivo prático de Briot-Ruffini para ganhar tempo. É muito mais rápido que o método da chave!
     

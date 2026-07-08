@@ -7,7 +7,7 @@
 
 ---
 
-## 🔍 When to use it?
+##  When to use it?
 
 - When the limit results in an indeterminate form $\frac{0}{0}$.
     
@@ -16,7 +16,7 @@
 - When terms like $(x - a)$ appear in the denominator or inside trigonometric/logarithmic functions.
     
 
-## 📐 The Theorem Behind (Limit of a Composite Function)
+##  The Theorem Behind (Limit of a Composite Function)
 
 If $u = g(x)$ and $g(x)$ is continuous, then:
 
@@ -24,7 +24,7 @@ $$\lim_{x \to a} f(g(x)) = \lim_{u \to L} f(u), \quad \text{where } L = \lim_{x 
 
 ---
 
-## 🤖 Step-by-Step (The Resolution Algorithm)
+##  Step-by-Step (The Resolution Algorithm)
 
 1. **Define the new variable:** Usually $u = x - (\text{the value } x \text{ is tending toward})$.
     
@@ -39,7 +39,7 @@ $$\lim_{x \to a} f(g(x)) = \lim_{u \to L} f(u), \quad \text{where } L = \lim_{x 
 
 ---
 
-## 📝 Practical Example (The Case of $\pi$)
+##  Practical Example (The Case of $\pi$)
 
 **Calculate:** $\lim_{x \to \pi} \frac{\sin(x)}{x - \pi}$
 
@@ -56,7 +56,7 @@ $$\lim_{x \to a} f(g(x)) = \lim_{u \to L} f(u), \quad \text{where } L = \lim_{x 
 
 ---
 
-## 🧠 Why does this work?
+##  Why does this work?
 
 It is like shifting the origin of a graph. Instead of looking at what happens way over at $x = \pi$, you "drag" the graph back to the origin $(0,0)$ to use the properties you already know from the **Fundamental Trigonometric Limit**. You simplify the coordinate system to make the error analysis easier.
 

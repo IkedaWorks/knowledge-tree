@@ -1,20 +1,20 @@
-# 📐 Teoria: Distribuições Lineares — A Dedução Genérica do Fio Carregado
+#  Teoria: Distribuições Lineares — A Dedução Genérica do Fio Carregado
 
 O cálculo do campo elétrico para corpos macroscópicos consiste em transformar a Lei de Coulomb discreta em uma operação de limite contínuo. Compreender a mecânica desta dedução evita a necessidade de decorar fórmulas e constrói a base geométrica necessária para o eletromagnetismo de nível superior.
 
 ---
 
-## 🌎 O Cenário de Análise e a Escolha dos Eixos
+##  O Cenário de Análise e a Escolha dos Eixos
 
 Imagine um fio condutor retilíneo, de espessura e volume desprezíveis, posicionado exatamente ao longo do **eixo $z$**. Nosso objetivo é mapear o campo elétrico gerado por esse corpo em um ponto $P$ qualquer localizado no espaço.
 
 
 
-> 💡 **Insight de Engenharia:** Por que engessamos o problema em um eixo específico? Escolhemos o eixo $z$ para criar simetria artificial. Se o fio estivesse jogado na diagonal de um cubo, o problema exigiria trabalhar com equações diferenciais tridimensionais simultâneas em Álgebra Linear. Ao alinhar o fio ao eixo $z$ e escolher o ponto $P$ perpendicular a ele, simplificamos radicalmente a trigonometria nativa da natureza.
+>  **Insight de Engenharia:** Por que engessamos o problema em um eixo específico? Escolhemos o eixo $z$ para criar simetria artificial. Se o fio estivesse jogado na diagonal de um cubo, o problema exigiria trabalhar com equações diferenciais tridimensionais simultâneas em Álgebra Linear. Ao alinhar o fio ao eixo $z$ e escolher o ponto $P$ perpendicular a ele, simplificamos radicalmente a trigonometria nativa da natureza.
 
 ---
 
-## 🛠️ O Pipeline de Resolução (Algoritmo de 4 Passos)
+##  O Pipeline de Resolução (Algoritmo de 4 Passos)
 
 ### Passo 1: Transição do Modelo Pontual para o Infinitesimal (A Física)
 
@@ -69,7 +69,7 @@ As **Coordenadas Cilíndricas** são a evolução final desse sistema para o esp
 
 
 
-> ✈️ **A Analogia do Radar de Caça:** Imagine que você pilota um caça militar. Se o visor do seu radar exibisse um míssil inimigo em coordenadas cartesianas como $(3, 4, 5)$, você morreria tentando calcular mentalmente a diagonal tridimensional desse vetor.
+>  **A Analogia do Radar de Caça:** Imagine que você pilota um caça militar. Se o visor do seu radar exibisse um míssil inimigo em coordenadas cartesianas como $(3, 4, 5)$, você morreria tentando calcular mentalmente a diagonal tridimensional desse vetor.
 >
 > Por isso, telas de radar utilizam o sistema cilíndrico/polar. O painel é composto por círculos concêntricos: a distância direta até o alvo é o raio ($\rho$), a direção no horizonte (360°) é dada pelo ângulo ($\phi$), e a diferença de altitude é o eixo $z$ (altura). Você bate o olho e localiza a ameaça instantaneamente com apenas alguns eixos e um ângulo de varredura.
 
@@ -80,7 +80,7 @@ As **Coordenadas Cilíndricas** são a evolução final desse sistema para o esp
 >
 > O sistema **Cilíndrico** é o verdadeiro soberano das provas. Quando você chegar na Lei de Gauss, verá que superfícies gaussianas cilíndricas são usadas para resolver fios, cabos coaxiais e placas planas infinitas (onde a base do cilindro fica no plano $xy$ e a altura acompanha as linhas de campo). Dominar o kit cilíndrico agora é o que vai te poupar de chorar no próximo capítulo.
 
-#### 🧰 O Kit de Conversão Cilíndrico Completo
+####  O Kit de Conversão Cilíndrico Completo
 
 Para transitar livremente entre os dois mundos durante a montagem das integrais, você precisa ter em mente as equações de ida e de volta do sistema:
 
@@ -114,7 +114,7 @@ $$z = z$$
 1. **Vetor onde está a carga ($\vec{r}'$):** O elemento de carga está localizado sobre o fio (o mastro central $z$). Logo, sua distância radial até o centro é zero ($\rho = 0$). Esse vetor só possui altura: $\vec{r}' = z'\hat{k}$.
 2. **Vetor onde está o ponto alvo $P$ ($\vec{r}$):** Usando o modo radar, dizemos que o ponto $P$ está a uma distância radial $\rho$ do mastro, apontando para fora em uma direção unitária que chamaremos de $\hat{a}_\rho$: $\vec{r} = \rho\hat{a}_\rho + z\hat{k}$.
 
-> 🚨 **O Versor Radial  ($\hat{a}_\rho$):** Ao contrário dos vetores cartesianos fixos ($\hat{i}, \hat{j}, \hat{k}$), o versor $\hat{a}_\rho$ é dinâmico e depende estritamente do ângulo de rotação $\phi$ do radar:
+>  **O Versor Radial  ($\hat{a}_\rho$):** Ao contrário dos vetores cartesianos fixos ($\hat{i}, \hat{j}, \hat{k}$), o versor $\hat{a}_\rho$ é dinâmico e depende estritamente do ângulo de rotação $\phi$ do radar:
 
 $$\hat{a}_\rho = \cos(\phi)\hat{i} + \sin(\phi)\hat{j}$$
 
@@ -199,7 +199,7 @@ O segredo desse método foi transformar uma soma polinomial com potência fracio
 
 ---
 
-## 🏁 O Salto Final: Fronteiras de Contorno
+##  O Salto Final: Fronteiras de Contorno
 
 Como a integral do cosseno é o seno ($\int \cos\theta d\theta = \sin\theta$), basta aplicar os limites geométricos do corpo físico analisado.
 
@@ -225,7 +225,7 @@ $$
 \int_{\theta_1}^{\theta_2} \cos(\theta)d\theta = \left[ \sin(\theta_2) - \sin(\theta_1) \right]
 $$
 
-> ⚠️ **Atenção à Quebra de Simetria:** Se o ponto $P$ estiver deslocado para perto de uma das pontas do fio finito (fora da mediatriz), o Filtro de Simetria do **Passo 3** falha. Como as cargas de cima e de baixo não se balanceiam perfeitamente, a componente vertical $\hat{k}$ não zera. O campo elétrico resultará em uma força diagonal oblíqua, empurrando o ponto para longe na direção radial ($\hat{a}_\rho$) e puxando/empurrando lateralmente na direção do mastro ($\hat{k}$).
+>  **Atenção à Quebra de Simetria:** Se o ponto $P$ estiver deslocado para perto de uma das pontas do fio finito (fora da mediatriz), o Filtro de Simetria do **Passo 3** falha. Como as cargas de cima e de baixo não se balanceiam perfeitamente, a componente vertical $\hat{k}$ não zera. O campo elétrico resultará em uma força diagonal oblíqua, empurrando o ponto para longe na direção radial ($\hat{a}_\rho$) e puxando/empurrando lateralmente na direção do mastro ($\hat{k}$).
 
 Para não ter que calcular ângulos abstratos em graus na prova, os engenheiros extraem o valor do seno diretamente do triângulo retângulo ($\sin(\theta) = \frac{\text{Cateto Oposto}}{\text{Hipotenusa}}$):
 

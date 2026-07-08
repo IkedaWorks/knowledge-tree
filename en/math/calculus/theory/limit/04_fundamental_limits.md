@@ -3,14 +3,14 @@
 
 Fundamental limits are mathematically proven results that serve as a foundation for solving more complex limits. They act as "official shortcuts" for indeterminate forms ($\frac{0}{0}$ or $1^{\infty}$) that frequently appear in physics and engineering.
 
-## 🧠 Intuition: Local Approximation
+##  Intuition: Local Approximation
 
 - **Trigonometric:** States that very close to zero, the curve of $\sin(x)$ behaves exactly like the line $y = x$. Therefore, their ratio is 1.
     
 - **Exponential:** Defines the base $e$ (Euler's number) as the result of continuous and infinite growth. It is the foundation of all natural growth processes.
     
 
-## 📐 Formalization and Examples
+##  Formalization and Examples
 
 ### 1. Fundamental Trigonometric Limit
 
@@ -43,7 +43,7 @@ When the base is not $e$, the result involves an adjustment for the natural loga
 
 $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
 
-## 💡 Golden Tips
+##  Golden Tips
 
 - **The Argument Strategy:** For trigonometric and logarithmic limits, the specific expression inside does not matter, as long as that expression tends toward zero and matches the denominator exactly.
     
@@ -52,7 +52,7 @@ $$\lim_{x \to 0} \frac{\log_a(1+x)}{x} = \log_a(e) = \frac{1}{\ln(a)}$$
 
 ---
 
-## 📝 Practice Section: 10 Exercises (Foundations for Derivatives)
+##  Practice Section: 10 Exercises (Foundations for Derivatives)
 
 ### Block 1: Trigonometric Pattern ($\lim_{u \to 0} \frac{\sin(u)}{u} = 1$)
 

@@ -1,4 +1,4 @@
-# ⚡ Electrical Circuits I
+#  Electrical Circuits I
 
 This document serves as the entry portal for the **Electrical Circuits I** module. The structure is modularly designed to segregate conceptual learning from practical application.
 

@@ -1,20 +1,20 @@
 
-# 🌌 Base de Conhecimento de Física
+#  Base de Conhecimento de Física
 
 Este diretório centraliza meus estudos estruturados de Física, organizados pelos pilares fundamentais da engenharia.
 
-## 📂 Índice de Hierarquia
+##  Índice de Hierarquia
 
-- ⚡ **[Circuitos Elétricos I](./circuito_eletricos_1/README.md)**: Análise de circuitos DC, Leis de Kirchhoff e Teoremas de Redes.
+-  **[Circuitos Elétricos I](./circuito_eletricos_1/README.md)**: Análise de circuitos DC, Leis de Kirchhoff e Teoremas de Redes.
     
-- 🏛️ **[Física I (Mecânica)](./fisica_1/README.md)**: Mecânica Clássica, Estática e Cinemática.
+-  **[Física I (Mecânica)](./fisica_1/README.md)**: Mecânica Clássica, Estática e Cinemática.
     
-- 🔥 **Física II**: (Em breve) Termodinâmica, Ondas e Óptica.
+-  **Física II**: (Em breve) Termodinâmica, Ondas e Óptica.
     
-- 🧲 **[Física III (Eletromagnetismo)](./fisica_3/README.md)**: Eletromagnetismo e Física Moderna.
+-  **[Física III (Eletromagnetismo)](./fisica_3/README.md)**: Eletromagnetismo e Física Moderna.
     
 
-## 🛠 Metodologia de Estudo
+##  Metodologia de Estudo
 
 - **Dedução:** Foco total em entender a origem das fórmulas através do cálculo diferencial e integral (rejeição ao método "caixa-preta").
     

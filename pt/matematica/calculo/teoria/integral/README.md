@@ -1,8 +1,8 @@
-## 🏛️ Caminho de Aprendizado: Integrais
+##  Caminho de Aprendizado: Integrais
 
 > **Nota Importante:** A integração é o processo fundamental para encontrar a área sob uma curva e a acumulação de quantidades. É a operação matemática inversa da diferenciação (derivada).
 
-### 📂 Grade de Tópicos
+###  Grade de Tópicos
 
 #### 1. Fundamentos
 

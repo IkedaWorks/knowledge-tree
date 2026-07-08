@@ -1,5 +1,5 @@
 
-# 🏛️ Addition of Planar Forces: Geometry and Rigor
+#  Addition of Planar Forces: Geometry and Rigor
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ The mathematics validates the drawing. Imagine a navigation route: the Law of Co
 
 ***
 
-# 🔩 Exercise 01: Geometric Addition on a Fastening Bolt
+#  Exercise 01: Geometric Addition on a Fastening Bolt
 
 > [!IMPORTANT] 
 > 

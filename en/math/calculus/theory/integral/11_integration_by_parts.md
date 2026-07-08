@@ -56,7 +56,7 @@ Integration by Parts is simply the "Way Back" from the Product Rule.
 
 ---
 
-## ⚠️ Golden Rules for Success
+##  Golden Rules for Success
 
 *   **Simplification:** Before solving the second integral ($\int v \, du$), simplify the expression inside as much as possible.
 *   **Use Parentheses:** Always wrap the contents of your integral in parentheses to avoid confusing the integrand with the differential $dx$.

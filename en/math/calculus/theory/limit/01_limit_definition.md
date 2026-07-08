@@ -3,7 +3,7 @@
 
 The limit is the tool that formalizes the idea of **closeness without contact**. It answers the question: "Toward what value does the function point as $x$ approaches a target, even if the function does not exist at that target?"
 
-## 🎯 The Sniper Analogy 
+##  The Sniper Analogy 
 
 Imagine a sniper adjusting a rifle scope. He cannot touch the target 1 km away, but he can adjust the rifle controls so the projectile passes as close as possible to the center.
 
@@ -14,13 +14,13 @@ Imagine a sniper adjusting a rifle scope. He cannot touch the target 1 km away, 
 - **The Allowed Error ($\epsilon$):** The radius of the circle on the target that defines a "good shot."
     
 
-## ⚡ Application in Physics III
+##  Application in Physics III
 
 This is vital for defining **Charge Density**. When we state that $\rho = \frac{dq}{dV}$, we are applying a limit where the volume $dV$ shrinks to almost zero. We cannot have a zero volume (physical impossibility), but the limit tells us the density at that theoretical "point."
 
 ---
 
-## 🛠️ Formalization: The $\epsilon - \delta$ Challenge
+##  Formalization: The $\epsilon - \delta$ Challenge
 
 The formal definition exists to eliminate subjectivity. What is "close" to a human might not be "close" for a particle accelerator. The pair $(\epsilon, \delta)$ quantifies this proximity.
 
@@ -34,7 +34,7 @@ $$0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$$
 
 ---
 
-## 📝 Formal Example 1: Linear Function
+##  Formal Example 1: Linear Function
 
 **Prove that** $\lim_{x \to 4} (2x - 5) = 3$.
 
@@ -47,7 +47,7 @@ $$0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$$
 4. **Conclusion:** We choose $\delta = \frac{\epsilon}{2}$. If someone demands an error of $0.01$, we simply need to stay within $0.005$ of $x = 4$.
     
 
-## 📝 Formal Example 2: Constant Function
+##  Formal Example 2: Constant Function
 
 **Prove that** $\lim_{x \to a} c = c$.
 
@@ -62,7 +62,7 @@ $$0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$$
 
 ---
 
-## 🧠 Conceptual Shortcuts
+##  Conceptual Shortcuts
 
 - **$\epsilon$ (Epsilon)** is the **ceiling and floor**: It bounds the y-axis. It is the allowed error margin in the **output (sensor)**.
     

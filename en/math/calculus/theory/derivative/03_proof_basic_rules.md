@@ -7,7 +7,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
 
-### ➕ Sum Rule
+###  Sum Rule
 
 **Rule:** $(u + v)' = u' + v'$
 
@@ -28,7 +28,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
 
-### ✖️ Product Rule
+###  Product Rule
 
 **Rule:** $(u \cdot v)' = u'v + uv'$
 
@@ -59,7 +59,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
 
-### 📉 Power Rule (Example for $n = 2$)
+###  Power Rule (Example for $n = 2$)
 
 **Rule Example:** $(x^2)' = 2x$
 
@@ -78,7 +78,7 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 ---
 
-### ➗ Quotient Rule
+###  Quotient Rule
 
 **Rule:** $\left( \frac{f}{g} \right)' = \frac{f'g - fg'}{g^2}$
 

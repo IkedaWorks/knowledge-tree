@@ -81,7 +81,7 @@ A Integração por Partes é o "Caminho de Volta" da Regra do Produto.
 
 ---
 
-### ⚠️ Regras de Ouro para Não Errar
+###  Regras de Ouro para Não Errar
 
 1. **Simplificação:** Antes de resolver a segunda integral ($\int v \, du$), simplifique ao máximo o que estiver lá dentro. A multiplicação de integrais não é direta; você precisa ter um termo limpo para integrar.
     

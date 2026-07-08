@@ -1,6 +1,6 @@
 
 
-# 🏛️ Diretrizes de Precisão e Representação
+#  Diretrizes de Precisão e Representação
 
 > [!IMPORTANT]
 > 
@@ -8,7 +8,7 @@
 > 
 > Na engenharia, um número isolado é insuficiente. A integridade de um projeto depende da correta manipulação de **Algarismos Significativos (AS)** e da aplicação rigorosa dos prefixos do Sistema Internacional (SI). O rigor aqui aplicado visa eliminar ambiguidades e garantir uma comunicação técnica universal.
 
-### 🔢 A Anatomia dos Algarismos Significativos (AS)
+###  A Anatomia dos Algarismos Significativos (AS)
 
 Na engenharia mecânica (padrão Hibbeler), a precisão é padronizada em **3 algarismos significativos**. A contagem segue regras rígidas:
 
@@ -31,7 +31,7 @@ Na engenharia mecânica (padrão Hibbeler), a precisão é padronizada em **3 al
 
 ---
 
-### 📏 Unidades de Referência na Mecânica (SI)
+###  Unidades de Referência na Mecânica (SI)
 
 A mecânica clássica trabalha com o sistema de unidades de base focado em:
 
@@ -57,7 +57,7 @@ Prefixos são multiplicadores da unidade base (exceto para massa, onde multiplic
 
 ---
 
-### 🛡️ Protocolo de Representação
+###  Protocolo de Representação
 
 Para que o material seja aceito em padrões internacionais, siga este fluxo:
 
@@ -80,7 +80,7 @@ Para que o material seja aceito em padrões internacionais, siga este fluxo:
 
 ---
 
-### 💡 Epifania: O Erro de Escala
+###  Epifania: O Erro de Escala
 
 A maior falha de um estudante é confundir o prefixo da unidade com o valor numérico.
 

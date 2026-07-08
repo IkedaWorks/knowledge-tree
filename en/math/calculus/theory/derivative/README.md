@@ -1,8 +1,8 @@
-## 📈 Learning Path: Derivatives
+##  Learning Path: Derivatives
 
 > **Objective:** By completing this path, you will be able to solve real-world problems and proceed to the final pillar of calculus: Integrals.
 
-### 📌 Prerequisites
+###  Prerequisites
 
 Before you begin, ensure you have a solid understanding of:
 
@@ -13,7 +13,7 @@ Before you begin, ensure you have a solid understanding of:
 - [ ] Geometry
     
 
-### 📂 Topic Checklist
+###  Topic Checklist
 
 #### 1. Foundations
 

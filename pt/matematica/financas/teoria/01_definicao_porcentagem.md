@@ -44,6 +44,6 @@ Sempre que você estiver diante de uma situação onde conhece uma parcela de um
     Dividimos tanto o numerador quanto o denominador pelo mesmo número até não ser mais possível dividi-los por inteiros. Perceba, de forma intuitiva, que $50\%$ é exatamente equivalente a $\frac{1}{2}$ (metade) do peso atual.
     
 
-> 🎯 **Em outras palavras:** A porcentagem é a referência que você multiplica ou encontra para facilitar cálculos de uma parte em relação a um todo.
+>  **Em outras palavras:** A porcentagem é a referência que você multiplica ou encontra para facilitar cálculos de uma parte em relação a um todo.
 > 
 > A porcentagem é uma **proporção direta** onde um dos termos é fixo ($100$). Isso nos permite comparar grandezas de universos totalmente diferentes como se elas estivessem posicionadas na mesma régua.

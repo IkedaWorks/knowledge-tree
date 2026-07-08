@@ -1,4 +1,4 @@
-## 🏛️ Geometric Fundamentals — (Geometric Foundations for Higher Physics)
+##  Geometric Fundamentals — (Geometric Foundations for Higher Physics)
 
 > [!IMPORTANT]
 > 

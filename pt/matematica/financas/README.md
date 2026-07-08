@@ -1,11 +1,11 @@
 
-## 📈 Finanças & Organização Patrimonial
+##  Finanças & Organização Patrimonial
 
 Bem-vindo ao núcleo de estudos e modelagem de Finanças. Este espaço é dedicado à exploração conceitual, matemática e prática da gestão patrimonial, investimentos e engenharia financeira.
 
 O objetivo destas notas é construir uma ponte sólida entre a teoria matemática abstrata e as decisões financeiras do dia a dia, fornecendo ferramentas intuitivas para colaboradores, desenvolvedores e clientes organizarem e multiplicarem seu patrimônio de forma proativa e consciente.
 
-## 🛠️ O que você encontrará neste espaço
+##  O que você encontrará neste espaço
 
 Para manter a organização do ecossistema, os tópicos são divididos em três pilares fundamentais:
 
@@ -35,7 +35,7 @@ A aplicação prática das leis financeiras dentro da realidade burocrática do 
 
 Códigos e scripts (desenvolvidos em C, Python e outras tecnologias) criados para automatizar projeções financeiras, calcular descontos tributários automáticos e prever o cenário líquido real de investimentos a longo prazo.
 
-## 🚀 Como Contribuir
+##  Como Contribuir
 
 Futuros colaboradores são super bem-vindos! Para manter o repositório com alto padrão de qualidade, todas as contribuições devem seguir as diretrizes gerais estabelecidas no nosso [CONTRIBUTING.md](./../../../CONTRIBUTING.md). Para esta pasta específica, siga estas regras:
 

@@ -7,7 +7,7 @@ Este módulo contém um conjunto progressivo de problemas projetados para avalia
 
 ---
 
-## 🟢 Seção 1: Fundamentos e Cinemática (Nível Fácil)
+##  Seção 1: Fundamentos e Cinemática (Nível Fácil)
 
 ### Problema 1.1 (Cinemática e Equilíbrio de Múltiplas Cargas)
 
@@ -18,7 +18,7 @@ Uma carga pontual $q_1 = +4,0\ \mu\text{C}$ está fixa na origem espacial $(0,0,
 
 ---
 
-## 🟡 Seção 2: Simetria e Integração de Contorno (Nível Médio)
+##  Seção 2: Simetria e Integração de Contorno (Nível Médio)
 
 ### Problema 2.1 (Halliday Modificado - Haste Carregada Finita com Deflexão Linear)
 Uma haste fina e não condutora de comprimento finito $L$ está posicionada ao longo do eixo x, estendendo-se de $x = -L/2$ até $x = +L/2$. Uma carga líquida total $Q$ está distribuída uniformemente ao longo de seu comprimento com uma densidade linear constante $\lambda$. Um ponto $P$ está localizado no eixo y positivo a uma distância estrutural $\vec{r}_P = y\hat{j}$.
@@ -36,7 +36,7 @@ Um disco plano circular de raio $R$ é posicionado horizontalmente no plano $xy$
 
 > [!CAUTION]
 > 
-> ### 🛑 SEÇÃO DE ENGENHARIA ANALÍTICA AVANÇADA
+> ###  SEÇÃO DE ENGENHARIA ANALÍTICA AVANÇADA
 > As questões desta seção apresentam um salto drástico de complexidade e foram extraídas de exames de altíssimo nível (JEE Advanced e ITA). Elas exigem ferramentas matemáticas e conceitos que extrapolam as distribuições contínuas homogêneas padrão apresentadas até aqui, tais como:
 > * **Densidades de Carga Heterogêneas ($\lambda(x)$ não-constante):** Exigem integração por frações parciais ou substituições avançadas onde a geometria não ajuda a simplificar o integrando.
 > * **Aproximações Macroscópicas via Expansão Binomial:** Uso do Teorema do Binômio de Newton para aproximar campos elétricos locais ($x \ll a$), transformando equações de Coulomb em forças lineares restauradoras.
@@ -44,7 +44,7 @@ Um disco plano circular de raio $R$ é posicionado horizontalmente no plano $xy$
 >
 > Recomenda-se avançar apenas se você já domina as técnicas de expansão em séries e integrais de linha em Cálculo.
 
-## 🔴 Seção 3: Engenharia Analítica Avançada (Nível Difícil)
+##  Seção 3: Engenharia Analítica Avançada (Nível Difícil)
 
 ### Problema 3.1 (JEE Advanced - Dipolo Não-Uniforme Semi-Infinito)
 Uma haste fina não condutora semi-infinita está posicionada ao longo do eixo x positivo, de $x = d$ até $x \to \infty$. A haste possui uma densidade linear de carga não-uniforme dada por $\lambda(x) = \lambda_0 \frac{d}{x}$, onde $\lambda_0$ é uma constante positiva. Uma carga pontual desconhecida $q$ é colocada na origem $(0,0,0)$.
@@ -60,7 +60,7 @@ Duas cargas pontuais positivas idênticas $+Q$ estão fixas no eixo y nas coorde
 
 ---
 
-# 🔬 Seção: Manual de Soluções
+#  Seção: Manual de Soluções
 
 ## Solução 1.1 (Fácil)
 

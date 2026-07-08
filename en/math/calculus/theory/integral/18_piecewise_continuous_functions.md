@@ -76,6 +76,6 @@ $$\int_{-1}^{3} f(x) \, dx = \int_{-1}^{0} (-x) \, dx + \int_{0}^{2} (x) \, dx +
 
 ---
 
-## 💡 Geometric Verification Tip
+##  Geometric Verification Tip
 
 To confirm the result, sketch the graph. In this case, you will see three triangles formed between the function and the x-axis. Calculate the area of each one ($\text{Base} \cdot \text{Height} / 2$) and sum them up. The result should be exactly 3.

@@ -1,5 +1,5 @@
 
-# 🏛️ Análise Dimensional (Método da Cadeia)
+#  Análise Dimensional (Método da Cadeia)
 
 > [!IMPORTANT]
 > 
@@ -7,7 +7,7 @@
 > 
 > Toda grandeza física, por mais complexa que seja, é construída a partir de três "átomos" fundamentais na mecânica. Chamamos a natureza de uma grandeza de sua **dimensão**.
 
-### ⚛️ As Três Dimensões Mestras
+###  As Três Dimensões Mestras
 
 No universo da mecânica clássica, tudo se resume a:
 
@@ -18,7 +18,7 @@ No universo da mecânica clássica, tudo se resume a:
 - **Tempo:** $[T]$
     
 
-### ⚖️ O Princípio da Homogeneidade
+###  O Princípio da Homogeneidade
 
 Você só pode somar ou igualar grandezas que tenham a mesma dimensão. Você não pode somar $2 \text{ metros}$ com $3 \text{ segundos}$. Se uma equação diz que $A = B + C$, então $A$, $B$ e $C$ precisam ter a mesma identidade dimensional.
 
@@ -26,7 +26,7 @@ Você só pode somar ou igualar grandezas que tenham a mesma dimensão. Você n�
 
 ---
 
-### ⛓️ A Regra da Cadeia (Fatores de Conversão)
+###  A Regra da Cadeia (Fatores de Conversão)
 
 O Halliday chama isso de **"Método da Cadeia"**, e é a forma mais segura de trocar de unidade sem perder o valor físico. Em vez de "regrinhas de três" que confundem onde multiplicar ou dividir, usamos a **fração unitária**.
 
@@ -52,7 +52,7 @@ O Halliday chama isso de **"Método da Cadeia"**, e é a forma mais segura de tr
 
 ---
 
-### 🛠️ O Rigor do Engenheiro
+###  O Rigor do Engenheiro
 
 A análise dimensional é a ferramenta de **"depuração" (debug)** da Física. Antes de colocar números na calculadora, verifique as letras. Se a análise dimensional bater, metade do problema já está resolvido.
 

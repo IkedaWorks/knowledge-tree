@@ -12,7 +12,8 @@ In other words, interest represents the yield obtained when lending monetary val
 This is the most basic capitalization regime. The increase always occurs relative to the **initial value (capital)**. Regardless of the yield accumulated over the months, the interest rate will be calculated strictly based on the baseline of the first month.
 
 ### Deduction and Mathematical Pattern
-Suppose an initial capital of $1000.00 is invested at a simple interest rate of 2.5% per month ($i = 0.025$). The behavior of the balance evolution can be mapped cycle by cycle:
+
+Suppose an initial capital of  $1000.00$  is invested at a simple interest rate of 2.5% per month ($i = 0.025$ ). The behavior of the balance evolution can be mapped cycle by cycle:
 
 * **Month 1:** $1000 + 1000 \cdot 0.025 = 1025$
 * **Month 2:** $1025 + 1000 \cdot 0.025 = 1050$

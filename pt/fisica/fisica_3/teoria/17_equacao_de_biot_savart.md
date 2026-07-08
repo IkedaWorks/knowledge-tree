@@ -1,7 +1,7 @@
 
 # O Campo Magnético de Elementos de Corrente (A Lei de Biot-Savart)
 
-# 📜 A Mudança Histórica: A Quebra da Simetria Elétrica
+#  A Mudança Histórica: A Quebra da Simetria Elétrica
 
 No início do século XIX, os físicos tentavam desesperadamente forçar o magnetismo a se comportar como a eletricidade. Eles procuravam por "cargas magnéticas" isoladas (monopolos) que gerassem campos radiais e limpos, exatamente como a Lei de Coulomb fazia. Toda tentativa falhou.
 
@@ -9,7 +9,7 @@ A quebra de paradigma veio em 1820, quando Hans Christian Ørsted percebeu que a
 
 Ao contrário do campo elétrico, que aponta na mesma linha que une as cargas, o campo magnético teimava em apontar para o lado, gerando loops ao redor do fio. Chocados com a descoberta de Ørsted, os físicos franceses **Jean-Baptiste Biot** e **Félix Savart** foram ao laboratório e, através de experimentos meticulosos, conseguiram quantificar matematicamente a força bruta desse novo campo. O que eles descobriram mudou a física: a força geradora do magnetismo não era central, ela era perpendicular.
 
-## 🧠 A Quebra Conceitual: O Escalar fornece a Matéria, o Vetor fornece o Trilho
+##  A Quebra Conceitual: O Escalar fornece a Matéria, o Vetor fornece o Trilho
 
 Para dominar a simulação de sistemas magnéticos, você precisa entender como a natureza resolveu o problema de gerar um vetor a partir de uma corrente elétrica. Como vimos na nota anterior, a corrente elétrica $I$ é um escalar. Um escalar não pode entrar diretamente em um produto vetorial.
 
@@ -24,7 +24,7 @@ Imagine um fio condutor genérico curvando-se pelo espaço. Nós isolamos um ped
 
 É a união do escalar com o vetor ($I d\vec{l}$) que atua como a "carga fonte" da magnetostática. Ela é o análogo exato do $Q$ na Lei de Coulomb.
 
-## 🔬 Definição Matemática Vetorial
+##  Definição Matemática Vetorial
 
 A Lei de Biot-Savart dita que o campo magnético infinitesimal $d\vec{B}$ (também chamado de **Vetor Indução Magnética**) gerado por um elemento de corrente $I d\vec{l}$ em um ponto genérico do espaço é dado por:
 
@@ -37,13 +37,13 @@ Onde:
 - $\times$ representa o **Produto Vetorial**, a operação de Álgebra Linear que joga o campo magnético obrigatoriamente a $90^\circ$ do plano formado pelo fio e pelo ponto.
 
 
-## 📊 Análise Dimensional e Restrições
+##  Análise Dimensional e Restrições
 
 - **Unidade no SI:** Tesla ($\text{T}$), onde $1 \ \text{T} = 1 \ \text{N}/(\text{A}\cdot\text{m})$.
 - **A Restrição Física do Elemento Isolado:** Por definição absoluta, um elemento isolado de corrente $I d\vec{l}$ **não pode existir sozinho no universo**, pois violaria o princípio da conservação das cargas (a corrente precisa vir de algum lugar e ir para algum lugar). Portanto, a equação de Biot-Savart em sua forma diferencial é uma ferramenta matemática de integração: para obter um campo real utilizável, você é obrigado a integrar o circuito fechado inteiro ($\vec{B} = \oint d\vec{B}$).
     
 
-## 🌐 A Geometria Oculta do Decaimento Magnético ($4\pi r^2$)
+##  A Geometria Oculta do Decaimento Magnético ($4\pi r^2$)
 
 Assim como você viu no campo elétrico, a constante magnética oculta a mesma assinatura geométrica do nosso universo tridimensional isotrópico. Ao reescrever a equação isolando o bloco geométrico, o padrão esférico emerge:
 
@@ -51,7 +51,7 @@ $$d\vec{B} = \frac{\mu_0 I}{4\pi r^2} (d\vec{l} \times \hat{r}) \implies d\vec{B
 
 O termo $4\pi r^2$ é a área de uma esfera tridimensional. A perturbação magnética se expande como frentes esféricas a partir do elemento fonte. O decaimento com o inverso do quadrado da distância ($1/r^2$) mostra que o fluxo de perturbação está se diluindo uniformemente pela superfície da esfera 3D em expansão. A única diferença para a eletrostática é que o produto vetorial "torce" a linha de força ao longo dessa superfície esférica.
 
-## 🎯 Notação Vetorial e Formulação Computacional (A Regra do $r^3$)
+##  Notação Vetorial e Formulação Computacional (A Regra do $r^3$)
 
 Ao programar simulações ou rotinas numéricas em matrizes para calcular o campo magnético de circuitos complexos, normalizar o vetor posição para achar o versor ($\hat{r} = \frac{\vec{r}}{r}$) a cada passo do loop consome processamento desnecessário. Substituindo o versor diretamente na lei diferencial, obtemos a **formulação computacional padrão**:
 
@@ -69,7 +69,7 @@ Onde:
 > **Análise Dimensional:** Exatamente como no caso elétrico, o expoente 3 no denominador não quebra a física. O produto vetorial no numerador injeta uma dimensão de comprimento ($[L]$) vinda de $\vec{r}$, que cancela uma dimensão de comprimento do denominador ($[L]^3$), preservando a lei do inverso do quadrado ($[L]^{-2}$).
 
 
-## 💡 Intuição de Engenharia (Separação de Papéis)
+##  Intuição de Engenharia (Separação de Papéis)
 
 Olhando para a formulação computacional, a separação algébrica de papéis para o algoritmo fica evidente:
 
@@ -80,7 +80,7 @@ $$d\vec{B} = \underbrace{\left( \frac{\mu_0 I}{4\pi |\vec{r}|^3} \right)}_{\text
 - **O Bloco Vetorial Geométrico:** Executa o produto vetorial direto entre o vetor tangente do fio e o vetor posição. Ele é o responsável por carimbar os sinais corretos e distribuir a intensidade sobre as componentes cartesianas $(\hat{i}, \hat{j}, \hat{k})$.
     
 
-## 🧩 Princípio da Superposição para Elementos de Corrente
+##  Princípio da Superposição para Elementos de Corrente
 
 Para calcular o campo magnético total $\vec{B}$ gerado por um fio de geometria arbitrária, aplicamos o Princípio da Superposição contínua. O campo magnético resultante é a soma integral de cada contribuição infinitesimal:
 
@@ -93,7 +93,7 @@ $$\vec{B}_{\text{res}} = \int d\vec{B} = \int \frac{\mu_0 I}{4\pi} \frac{d\vec{l
 
 
 
-## 📐 Estratégia de Resolução Humana (A Escapada da Matriz)
+##  Estratégia de Resolução Humana (A Escapada da Matriz)
 
 Se você estiver resolvendo problemas analíticos à mão na prova, montar o determinante $3\times3$ do produto vetorial é um convite ao erro de sinal. Use a divisão analítica de engenharia:
 
@@ -106,7 +106,7 @@ $$dB = \frac{\mu_0 I}{4\pi} \frac{dl \cdot \sin(\theta)}{r^2}$$
 
 Onde $\theta$ é o ângulo formado entre o vetor tangente ao fio $d\vec{l}$ e o vetor distância $\vec{r}$.
 
-## 🔬 Apêndice Conceitual: O Paradoxo das Forças que não Realizam Trabalho
+##  Apêndice Conceitual: O Paradoxo das Forças que não Realizam Trabalho
 
 > [!NOTE]
 > 

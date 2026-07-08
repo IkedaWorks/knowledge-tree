@@ -5,7 +5,7 @@
 
 The **Intermediate Value Theorem (IVT)** states that if a function is continuous on a closed interval $[a, b]$, it takes on every value between $f(a)$ and $f(b)$. There are no jumps; to get from point A to point B, the function must travel the entire path in between.
 
-## 🌡️ The Fever Analogy
+##  The Fever Analogy
 
 Imagine you measured your temperature at 8:00 AM and it was 36°C. At 10:00 AM, you measured it again and it was 39°C. Since human body temperature is a continuous function, you can state with 100% certainty that at some moment between 8:00 AM and 10:00 AM, your temperature was exactly 37.5°C (or any other value between 36 and 39).
 
@@ -13,7 +13,7 @@ Imagine you measured your temperature at 8:00 AM and it was 36°C. At 10:00 AM, 
 
 ---
 
-## 📐 Formalization
+##  Formalization
 
 **The Theorem:**
 
@@ -21,7 +21,7 @@ If $f$ is continuous on $[a, b]$ and $L$ is a number such that $f(a) < L < f(b)$
 
 $$f(c) = L$$
 
-### 🏆 The Special Case (Bolzano's Theorem)
+###  The Special Case (Bolzano's Theorem)
 
 If $f(a)$ and $f(b)$ have opposite signs (one is positive and the other is negative), then there exists at least one root $c$ between them such that $f(c) = 0$.
 
@@ -30,7 +30,7 @@ If $f(a)$ and $f(b)$ have opposite signs (one is positive and the other is negat
 
 ---
 
-## 📝 Step-by-Step Examples
+##  Step-by-Step Examples
 
 ### Example 1: Proving the Existence of a Root
 
@@ -66,7 +66,7 @@ If $f(a)$ and $f(b)$ have opposite signs (one is positive and the other is negat
 
 ---
 
-## 💡 Proof Shortcuts
+##  Proof Shortcuts
 
 - **"At least one":** The IVT does not guarantee there is only one root; there could be 3, 5, or 100. It only guarantees that the number of roots is not zero.
     

@@ -79,7 +79,7 @@ $$\frac{P(x)}{Q(x)} = \text{Quociente}(x) + \frac{Resto(x)}{Q(x)}$$
 
 ---
 
-### 💡 Casos Especiais: Arco Tangente
+###  Casos Especiais: Arco Tangente
 
 Se o denominador for um polinômio de grau 2 que **não possui raízes reais** (como $x^2 + 4$), a DFP não resulta em $\ln$, mas sim em **Arco Tangente**:
 

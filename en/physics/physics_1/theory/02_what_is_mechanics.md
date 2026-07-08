@@ -1,5 +1,5 @@
 
-## 🏛️ The Nature of Classical Mechanics
+##  The Nature of Classical Mechanics
 
 > [!IMPORTANT]
 > 
@@ -7,7 +7,7 @@
 
 ---
 
-### 🔍 The Three Fundamental Questions
+###  The Three Fundamental Questions
 
 A common beginner's mistake is thinking that studying physics is about memorizing formulas. In reality, it is about learning to separate the world into three questions:
 
@@ -26,7 +26,7 @@ A common beginner's mistake is thinking that studying physics is about memorizin
 
 ---
 
-### 📐 Formal Division of Classical Mechanics
+###  Formal Division of Classical Mechanics
 
 #### 1. By the Nature of Investigation: Kinematics vs. Dynamics
 
@@ -46,7 +46,7 @@ A common beginner's mistake is thinking that studying physics is about memorizin
 
 ---
 
-### 🌌 After all, what is Mechanics?
+###  After all, what is Mechanics?
 
 Mechanics is the **fundamental grammar of nature**. It is the science that translates the persistence of matter and the inevitability of interactions into the rigorous language of calculus. Beneath the apparent chaos lies a geometric and causal order where the present is the echo of the past and the draft of the future. Studying Mechanics is learning to read the universe's thoughts through the gears of reality.
 

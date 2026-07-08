@@ -4,13 +4,13 @@
 **Definição e Intuição:**
 Assíntotas são retas das quais o gráfico de uma função se aproxima infinitamente, mas nunca toca (ou toca apenas no infinito). Elas funcionam como "guias" ou "trilhos" que ditam a direção da função nos seus estados extremos.
 
-### 🛤️ A Analogia dos Trilhos 
+###  A Analogia dos Trilhos 
 * **Assíntota Vertical:** É uma parede. Onde a função tenta passar, mas é jogada para o infinito (para cima ou para baixo).
 * **Assíntota Horizontal/Oblíqua:** É o destino. Para onde a função "estabiliza" ou que inclinação ela decide seguir quando viaja para muito longe no eixo $x$.
 
 ---
 
-## 📐 Formalização e Exemplos
+##  Formalização e Exemplos
 
 ### 1. Assíntotas Verticais (AV)
 Ocorrem em valores de $x$ onde a função explode. Geralmente onde o denominador é zero e o numerador não é.
@@ -56,7 +56,7 @@ Ocorrem quando o grau do numerador é exatamente **um a mais** que o do denomina
 
 ---
 
-## 💡 Macetes e Resolução Rápida
+##  Macetes e Resolução Rápida
 
 * **O Macete da Divisão de Polinômios:** Se você quer achar a assíntota oblíqua sem usar os limites de $m$ e $n$, basta fazer a **divisão euclidiana (chave)** do numerador pelo denominador. O quociente da divisão será exatamente a equação da sua reta $y = mx + n$.
 * **Hierarquia de Graus (Para AH e AO):**
@@ -65,7 +65,7 @@ Ocorrem quando o grau do numerador é exatamente **um a mais** que o do denomina
     3.  **Grau Cima = Grau Baixo + 1:** Existe AO (reta inclinada).
     4.  **Grau Cima > Grau Baixo + 1:** Não há AH nem AO (a função explode em curva).
 
-### ⚠️ Cuidado com a AV
+###  Cuidado com a AV
 Nem todo ponto que zera o denominador é AV. Se o ponto também zerar o numerador ($0/0$), pode ser apenas um buraco removível. Calcule sempre o limite para ter certeza se ele vai para o infinito.
 
 ---

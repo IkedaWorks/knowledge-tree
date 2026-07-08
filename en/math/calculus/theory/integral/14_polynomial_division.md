@@ -76,7 +76,7 @@ $$\frac{x^3}{3} + \frac{x^2}{2} + 3x + 4\ln|x - 1| + C$$
 
 ---
 
-## 💡 Tips and Curiosities
+##  Tips and Curiosities
 
 - **Synthetic Division (Briot-Ruffini):** If your divisor is of the type $(x - a)$, you can use the practical Briot-Ruffini device to save time. It is much faster than the long division method!
     

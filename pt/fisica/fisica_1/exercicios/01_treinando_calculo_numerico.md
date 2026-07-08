@@ -1,6 +1,6 @@
 
 
-# 🏛️ Prática de Precisão e SI
+#  Prática de Precisão e SI
 
 > [!IMPORTANT]
 > 
@@ -10,7 +10,7 @@
 > 
 > **Fonte:** Problemas selecionados de _Mecânica para Engenharia: Estática_ (R. C. Hibbeler).
 
-### 📝 Exercício 1.1 — Operações com Algarismos Significativos
+###  Exercício 1.1 — Operações com Algarismos Significativos
 
 **Enunciado:** Avalie cada uma das seguintes operações com três algarismos significativos e expresse cada resposta em unidades SI utilizando um prefixo apropriado.
 
@@ -47,7 +47,7 @@
 
 ---
 
-### 📝 Exercício 1.2 — Simplificação de Prefixos Compostos
+###  Exercício 1.2 — Simplificação de Prefixos Compostos
 
 **Enunciado:** Represente cada uma das seguintes combinações de unidades na forma correta do SI utilizando um prefixo apropriado.
 
@@ -76,7 +76,7 @@
 
 ---
 
-### 📝 Exercício 1.4 — Conversão de Grandezas Complexas
+###  Exercício 1.4 — Conversão de Grandezas Complexas
 
 **Enunciado:** Represente cada uma das seguintes quantidades na forma correta do SI utilizando um prefixo apropriado.
 

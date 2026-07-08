@@ -1,4 +1,4 @@
-## 🏛️ Numerical Calculus & SI — ( Precision and Representation Guidelines )
+##  Numerical Calculus & SI — ( Precision and Representation Guidelines )
 
 > [!IMPORTANT]
 > 
@@ -6,7 +6,7 @@
 
 ---
 
-### 🔢 The Anatomy of Significant Figures ( SF )
+###  The Anatomy of Significant Figures ( SF )
 
 In mechanical engineering, precision is standardized to **3 significant figures**.
 
@@ -29,7 +29,7 @@ In mechanical engineering, precision is standardized to **3 significant figures*
 
 ---
 
-### 📏 Reference Units in Mechanics ( SI )
+###  Reference Units in Mechanics ( SI )
 
 - **Length:** Meter ( $\text{m}$ ).
     
@@ -49,7 +49,7 @@ In mechanical engineering, precision is standardized to **3 significant figures*
 
 ---
 
-### 🛡️ Representation Protocol
+###  Representation Protocol
 
 1. **Final Rounding:** Reduce to **3 SF**. If the 4th digit is ( $\ge 5$ ), round up.
     
@@ -68,6 +68,6 @@ In mechanical engineering, precision is standardized to **3 significant figures*
 
 ---
 
-### 💡 Epiphany: The Scale Error
+###  Epiphany: The Scale Error
 
 - When saying ( $1\text{ km}^2$ ), you are saying ( $(10^3\text{ m})^2 = 10^6\text{ m}^2$ ). **The exponent affects the prefix.**

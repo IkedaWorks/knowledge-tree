@@ -43,6 +43,6 @@ Whenever you encounter a scenario where you know a specific portion of a total q
     We divide both the numerator and the denominator by the same common factor until they can no longer be divided by whole numbers. Intuitively, you perceive that $50\%$ is exactly equivalent to $\frac{1}{2}$ (half) of their current weight.
     
 
-> 🎯 **In other words:** A percentage is a baseline reference that you either multiply by or solve for to simplify part-to-whole relationships.
+>  **In other words:** A percentage is a baseline reference that you either multiply by or solve for to simplify part-to-whole relationships.
 > 
 > A percentage is a **direct proportion** where one of the terms is fixed ($100$). This allows us to compare quantities from entirely different dimensions as if they were placed on the exact same measuring scale.

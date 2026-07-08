@@ -49,7 +49,7 @@ Muitas vezes, é preciso "preparar" a função algebricamente antes de integrar:
 
 ---
 
-### 📊 Tabela de Integrais Imediatas
+###  Tabela de Integrais Imediatas
 
 |**Função f(x)**|**Integral ∫f(x)dx**|**Observação**|
 |---|---|---|

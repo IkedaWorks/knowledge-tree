@@ -3,12 +3,12 @@
 
 Provar as propriedades dos limites significa demonstrar que o controle do erro na entrada ($\delta$) é suficiente para garantir a precisão na saída ($\epsilon$), mesmo quando combinamos duas funções diferentes.
 
-### ⚙️ A Intuição da "Engrenagem Acoplada"
+###  A Intuição da "Engrenagem Acoplada"
 Imagine duas máquinas independentes ($f$ e $g$). Se ambas são precisas, a combinação delas (soma ou produto) também deve ser precisa. O desafio da prova formal é descobrir o novo "ajuste" ($\delta_{total}$) que atenda aos requisitos de ambas as máquinas simultaneamente.
 
 ---
 
-## 📐 Formalização das Provas
+##  Formalização das Provas
 Para todas as provas abaixo, partimos da premissa que os limites individuais existem:
 * $\lim_{x \to a} f(x) = L$ (Para qualquer $\epsilon_f > 0$, existe $\delta_f$)
 * $\lim_{x \to a} g(x) = M$ (Para qualquer $\epsilon_g > 0$, existe $\delta_g$)
@@ -43,7 +43,7 @@ $$|(f(x) - L) + (g(x) - M)| \leq |f(x) - L| + |g(x) - M|$$
 
 ---
 
-## 🧠 Insight de Engenheiro
+##  Insight de Engenheiro
 Nas provas formais, o uso do $\min(\delta_1, \delta_2, \dots)$ é como o **projeto de um sistema tolerante a falhas**: você identifica o componente mais sensível (o menor delta) e ajusta todo o sistema com base nele para garantir que ninguém saia da margem de segurança ($\epsilon$).
 
 > [!TIP]

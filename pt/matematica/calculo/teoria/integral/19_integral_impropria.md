@@ -87,7 +87,7 @@ Aqui, o problema está no **zero**, pois $1/0$ é uma assíntota vertical.
 
 ---
 
-### ⚠️ Observações de Engenharia
+###  Observações de Engenharia
 
 - **Assíntotas Verticais:** Sempre use limites laterais ($t \to a^+$ ou $t \to b^-$) para garantir que você está dentro do domínio da função.
     

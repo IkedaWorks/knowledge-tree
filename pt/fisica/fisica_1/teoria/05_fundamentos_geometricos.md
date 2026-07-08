@@ -1,6 +1,6 @@
 
 
-# 🏛️ Fundamentos Geométricos para Física Superior
+#  Fundamentos Geométricos para Física Superior
 
 > [!IMPORTANT]
 > 

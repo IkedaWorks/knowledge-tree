@@ -5,7 +5,7 @@ Esta nota explora o comportamento das funções nos extremos: quando a entrada  
 
 ---
 
-## 📐 As Identidades Fundamentais
+##  As Identidades Fundamentais
 
 Para resolver esses limites de forma rigorosa, baseamo-nos em duas identidades fundamentais:
 
@@ -19,7 +19,7 @@ Para resolver esses limites de forma rigorosa, baseamo-nos em duas identidades f
 
 ---
 
-## 🚀 Como Aplicar: Limites no Infinito ($x \to \infty$)
+##  Como Aplicar: Limites no Infinito ($x \to \infty$)
 
 O objetivo aqui é forçar o aparecimento de termos na forma $k/x^n$ para que eles se tornem zero. 
 
@@ -38,7 +38,7 @@ O objetivo aqui é forçar o aparecimento de termos na forma $k/x^n$ para que el
 
 ---
 
-## 💥 Como Aplicar: Limites Infinitos ($x \to a$)
+##  Como Aplicar: Limites Infinitos ($x \to a$)
 
 Neste caso, o $x$ tende a um número real, mas o denominador tende a zero, causando uma divisão por "quase nada".
 
@@ -51,7 +51,7 @@ Neste caso, o $x$ tende a um número real, mas o denominador tende a zero, causa
 
 ---
 
-## 💡 Macetes
+##  Macetes
 
 * **No Infinito ($x \to \infty$):**  Se o resultado deu **0**, é porque sobrou um $x$ no denominador após a simplificação. 
     * Se deu **$\infty$**, é porque sobrou um $x$ no numerador.

@@ -1,4 +1,4 @@
-## 🏛️ Numerical Calculus Exercises — ( Precision and SI Practice )
+##  Numerical Calculus Exercises — ( Precision and SI Practice )
 
 > [!IMPORTANT]
 > 
@@ -10,7 +10,7 @@
 
 ---
 
-### 📝 Exercise 1.1 — Operations with Significant Figures
+###  Exercise 1.1 — Operations with Significant Figures
 
 **Statement:** Evaluate each of the following operations to three significant figures and express each answer in SI units using an appropriate prefix.
 
@@ -47,7 +47,7 @@
 
 ---
 
-### 📝 Exercise 1.2 — Simplification of Compound Prefixes
+###  Exercise 1.2 — Simplification of Compound Prefixes
 
 **Statement:** Represent each of the following combinations of units in the correct SI form using an appropriate prefix.
 
@@ -76,7 +76,7 @@
 
 ---
 
-### 📝 Exercise 1.4 — Conversion of Complex Quantities
+###  Exercise 1.4 — Conversion of Complex Quantities
 
 **Statement:** Represent each of the following quantities in the correct SI form using an appropriate prefix.
 

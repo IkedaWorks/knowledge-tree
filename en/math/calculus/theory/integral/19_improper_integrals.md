@@ -87,7 +87,7 @@ _Here, the problem is at zero, as $1/0$ is a vertical asymptote._
 
 ---
 
-## ⚠️ Engineering Observations
+##  Engineering Observations
 
 - **Vertical Asymptotes:** Always use one-sided limits ($t \to a^+$ or $t \to b^-$) to ensure you remain within the function's domain.
     

@@ -5,7 +5,7 @@
 
 A function is **continuous** if you can draw its graph without lifting your pen from the paper. If there is a hole, a jump, or a vertical explosion, the continuity is broken.
 
-## 💡 The Switch Intuition 
+##  The Switch Intuition 
 
 - **Continuous:** Like a light dimmer. You turn it, and the brightness increases smoothly from 0% to 100%, passing through all intermediate values.
     
@@ -14,7 +14,7 @@ A function is **continuous** if you can draw its graph without lifting your pen 
 
 ---
 
-## 📐 Formalization (The 3-Step Test)
+##  Formalization (The 3-Step Test)
 
 To state that a function is continuous at a specific point $x = a$, it must pass three mandatory tests:
 
@@ -27,7 +27,7 @@ To state that a function is continuous at a specific point $x = a$, it must pass
 
 ---
 
-## 📝 Step-by-Step Example: Verifying Continuity
+##  Step-by-Step Example: Verifying Continuity
 
 **Verify if** $f(x) = \frac{x^2 - 1}{x - 1}$ **is continuous at** $x = 1$.
 
@@ -38,7 +38,7 @@ To state that a function is continuous at a specific point $x = a$, it must pass
 
 ---
 
-## 🛠️ Types of Discontinuity and Shortcuts
+##  Types of Discontinuity and Shortcuts
 
 There are three main ways to "break" a function:
 
@@ -57,7 +57,7 @@ There are three main ways to "break" a function:
 
 ---
 
-## 📝 Examples and Exercises Section
+##  Examples and Exercises Section
 
 ### Example 1: "Fixing" a Function
 
@@ -104,7 +104,7 @@ $$
 
 ---
 
-## 📜 The Intermediate Value Theorem (IVT)
+##  The Intermediate Value Theorem (IVT)
 
 If a function is continuous on an interval and it starts at $y = -2$ and ends at $y = 5$, it **must** have passed through zero (or any value between -2 and 5) at some point.
 
@@ -113,7 +113,7 @@ If a function is continuous on an interval and it starts at $y = -2$ and ends at
 
 ---
 
-## 💡 Resolution Shortcuts
+##  Resolution Shortcuts
 
 - **Polynomials are "Well-Behaved":** If the function is just a simple polynomial, it is continuous along the entire real line.
     

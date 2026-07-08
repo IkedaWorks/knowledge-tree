@@ -1,4 +1,4 @@
-# ⚡ Circuitos Elétricos I
+#  Circuitos Elétricos I
 
 Este documento serve como o portal de entrada para o módulo de **Circuitos Elétricos I**. A estrutura foi desenhada de forma modular para separar o aprendizado conceitual da aplicação prática.
 

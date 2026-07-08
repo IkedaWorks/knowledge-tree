@@ -1,9 +1,9 @@
 
-## 🏛️ Exercícios recomendados
+##  Exercícios recomendados
 
 Esta nota compila uma seleção de problemas essenciais para o domínio de **Resultantes de Forças** e **Decomposição em Eixos Não Ortogonais**. O foco aqui é a aplicação da Lei dos Senos e Cossenos em problemas de engenharia real.
 
-### 📚 Bibliografia Sugerida
+###  Bibliografia Sugerida
 
 - **Hibbeler, R. C.** — _Engineering Mechanics: Statics_ (14th Edition).
     
@@ -14,7 +14,7 @@ Esta nota compila uma seleção de problemas essenciais para o domínio de **Res
 
 ---
 
-### 📝 Lista de Exercícios Recomendados (Curadoria)
+###  Lista de Exercícios Recomendados (Curadoria)
 
 #### **1. R. C. Hibbeler: O Padrão da Engenharia**
 
@@ -45,7 +45,7 @@ Para entender a "física" por trás dos vetores, não apenas a matemática.
 
 ---
 
-### ⚠️ Engineer's Insight: A Ferramenta Definitiva
+###  Engineer's Insight: A Ferramenta Definitiva
 
 Em problemas de decomposição oblíqua (como os membros AB e AC de uma estrutura), a **Lei dos Senos** é sua melhor amiga para evitar erros geométricos:
 

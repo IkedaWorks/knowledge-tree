@@ -1,8 +1,8 @@
-## 📈 Caminho de Aprendizado: Derivadas
+##  Caminho de Aprendizado: Derivadas
 
 > **Objetivo:** Ao completar este percurso, você será capaz de resolver problemas com uma abordagem mais realista e prática, além de estar pronto para prosseguir para o último pilar do cálculo: Integrais.
 
-### 📌 Pré-requisitos
+###  Pré-requisitos
 
 Antes de começar, certifique-se de compreender:
 
@@ -13,7 +13,7 @@ Antes de começar, certifique-se de compreender:
 - [ ] Geometria
     
 
-### 📂 Grade de Tópicos
+###  Grade de Tópicos
 
 #### 1. Fundamentos
 
