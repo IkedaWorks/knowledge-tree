@@ -210,17 +210,19 @@ O **Diagrama de Venn** é a ferramenta gráfica universal utilizada para represe
 
 ![Diagrama de Venn](../../../../assets/set-theory-venn-diagram.svg)
 
-### Mapeamento das Regiões do Diagrama
+#### Mapeamento das Regiões
 
-- **Região da Interseção ($A \cap B$):** A zona sombreada no centro onde os círculos se cruzam, contendo apenas elementos compartilhados por ambos.
+- **Interseção Tripla ($A \cap B \cap C$):** O centro do diagrama, onde os 3 círculos se sobrepõem simultaneamente.
     
-- **Apenas $A$ ($A \setminus B$):** A área do círculo $A$ excluindo a zona central de sobreposição.
+- **Apenas A ($A \setminus (B \cup C)$):** A região do círculo $A$ que **não** toca nem em $B$ nem em $C$.
     
-- **Apenas $B$ ($B \setminus A$):** A área do círculo $B$ excluindo a zona central de sobreposição.
+- **Apenas B ($B \setminus (A \cup C)$):** A região do círculo $B$ que **não** toca nem em $A$ nem em $C$.
     
-- **União ($A \cup B$):** O contorno total formado pela junção das três regiões (Apenas $A$, Interseção e Apenas $B$).
+- **Apenas C ($C \setminus (A \cup B)$):** A região exclusiva do círculo $C$.
     
-- **Complementar $(A \cup B)^c$:** Toda a região externa aos círculos, mas dentro do retângulo do Universo.
+- **Interseção Apenas entre A e B ($(A \cap B) \setminus C$):** A região onde $A$ e $B$ se cruzam, mas **fora** do círculo $C$.
+    
+- **União ($A \cup B \cup C$):** A área total coberta pelos três círculos juntos.
     
 
 ## Simplificação Lógica: As Leis de De Morgan

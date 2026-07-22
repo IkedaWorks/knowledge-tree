@@ -211,17 +211,27 @@ $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 
 The Venn Diagram is the universal graphical tool used to geometrically represent relations and overlaps between sets. Each set is drawn as a region bounded by a closed curve (usually a circle), while the enclosing rectangle defines the Universal Set ($U$).
 
-### Mapping Diagram Regions
+![Venn](../../../../assets/set-theory-venn-diagram.svg)
 
-- **Intersection Region ($A \cap B$):** The shaded zone in the center where circles overlap, containing only elements shared by both.
+### Mapping Diagram Regions 
+
+- **Triple Intersection ($A \cap B \cap C$):** The central core where all three circles overlap simultaneously.
     
-- **Only A ($A \setminus B$):** The area of circle $A$ excluding the central overlapping zone.
+- **Only A ($A \setminus (B \cup C)$):** The region of circle $A$ excluding any overlap with $B$ or $C$.
     
-- **Only B ($B \setminus A$):** The area of circle $B$ excluding the central overlapping zone.
+- **Only B ($B \setminus (A \cup C)$):** The region of circle $B$ excluding any overlap with $A$ or $C$.
     
-- **Union ($A \cup B$):** The total contour formed by joining all three regions (Only A, Intersection, and Only B).
+- **Only C ($C \setminus (A \cup B)$):** The region of circle $C$ excluding any overlap with $A$ or $B$.
     
-- **Complement ($(A \cup B)^c$):** The entire region outside both circles, bounded inside the Universe rectangle $U$.
+- **Intersection of Only A and B ($(A \cap B) \setminus C$):** The overlapping area between $A$ and $B$, excluding the section that touches $C$.
+    
+- **Intersection of Only A and C ($(A \cap C) \setminus B$):** The overlapping area between $A$ and $C$, excluding the section that touches $B$.
+    
+- **Intersection of Only B and C ($(B \cap C) \setminus A$):** The overlapping area between $B$ and $C$, excluding the section that touches $A$.
+    
+- **Total Union ($A \cup B \cup C$):** The entire area covered by all three circles combined.
+    
+- **Complement ($(A \cup B \cup C)^\c$):** The entire region outside all three circles, bounded within the Universal set rectangle ($U$).
     
 
 ## Logical Simplification: De Morgan's Laws
