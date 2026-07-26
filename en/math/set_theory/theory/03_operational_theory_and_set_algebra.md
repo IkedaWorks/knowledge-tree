@@ -124,7 +124,7 @@ $$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
 * **Practical Analogy (Exclusivity Filter):** The organizer wants to know who is on the VIP List ($A$) but NOT on the Guest List ($B$). They take List A and cross off Carlos, since Carlos is also a guest. Only exclusive VIPs remain (like Ana).
 
 ### Complement ($A^c$) — Absolute Negation
-![the complemente][../../../../assets/set-theory-complement.svg]
+![the complement](../../../../assets/set-theory-complement.svg)
 Maps all elements belonging to the universal set $U$ that do not belong to set $A$.
 $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 
