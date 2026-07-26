@@ -36,7 +36,7 @@ $$(a, b, c) = (a, (b, c))$$
 
 Unpacking this structure using Kuratowski's rule produces nested layers of sets:
 
-$$(a, b, c) = \left\{ \{a\}, \left\{a, \{\{b\}, \{b, c\}\}\right\} \right\}$$
+$$(a, b, c) = \{\{a\}, \{a, \{\{b\}, \{b, c\}\}\}\}$$
 
 Notice the hierarchy of layers created:
 * **$a$ (1st Position):** Is the leading element, present in the outermost layer.

@@ -36,7 +36,7 @@ $$(a, b, c) = (a, (b, c))$$
 
 Descompactando essa estrutura com a regra de Kuratowski, criamos camadas aninhadas de conjuntos:
 
-$$(a, b, c) = \left\{ \{a\}, \left\{a, \{\{b\}, \{b, c\}\}\right\} \right\}$$
+$$(a, b, c) = \{\{a\}, \{a, \{\{b\}, \{b, c\}\}\}\}$$
 
 Observe a hierarquia de camadas criada:
 * **$a$ (1ª Posição):** É o elemento líder, presente na primeira camada externa.

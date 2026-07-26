@@ -95,6 +95,7 @@ Set operations act as the arithmetic operators of collections, allowing new sets
 
 ### Union ($A \cup B$) — The Logical OR ($\lor$)
 ![union](../../../../assets/set-theory-union-operator.svg)
+
 Combines all elements belonging to $A$, $B$, or both into a single collection.
 $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
 
@@ -105,6 +106,7 @@ $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
 
 ### Intersection ($A \cap B$) — The Logical AND ($\land$)
 ![intersection](../../../../assets/set-theory-intersection-operator.svg)
+
 Filters and preserves exclusively the elements present simultaneously in both sets.
 $$A \cap B = \{x \mid x \in A \land x \in B\}$$
 
@@ -135,13 +137,14 @@ $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 
 ## Spatial Visualization: The Venn Diagram
 ![venn diagram](../../../../assets/set-theory-venn-diagram.svg)
+
 The Venn Diagram is the universal graphical tool used to geometrically represent relations and overlaps between sets. Each set is drawn as a region bounded by a closed curve (usually a circle), while the enclosing rectangle defines the Universal Set ($U$).
 
 ### Mapping Diagram Regions
-* **Triple Intersection** ($A \cap B \cap C$): The central core where all three circles overlap simultaneously.
-* **Only A** ($A \setminus (B \cup C)$): The region of circle $A$ excluding any overlap with $B$ or $C$.
-* **Only B** ($B \setminus (A \cup C)$): The region of circle $B$ excluding any overlap with $A$ or $C$.
-* **Only C** ($C \setminus (A \cup B)$): The region of circle $C$ excluding any overlap with $A$ or $B$.
+* **Triple Intersection** ( $A \cap B \cap C$ ): The central core where all three circles overlap simultaneously.
+* **Only A** ( $A \setminus (B \cup C)$ ): The region of circle $A$ excluding any overlap with $B$ or $C$.
+* **Only B** ( $B \setminus (A \cup C)$ ): The region of circle $B$ excluding any overlap with $A$ or $C$.
+* **Only C** ( $C \setminus (A \cup B)$ ): The region of circle $C$ excluding any overlap with $A$ or $B$.
 * **Intersection of Only A and B** ($(A \cap B) \setminus C$): The overlapping area between $A$ and $B$, excluding the section that touches $C$.
 * **Intersection of Only A and C** ($(A \cap C) \setminus B$): The overlapping area between $A$ and $C$, excluding the section that touches $B$.
 * **Intersection of Only B and C** ($(B \cap C) \setminus A$): The overlapping area between $B$ and $C$, excluding the section that touches $A$.
