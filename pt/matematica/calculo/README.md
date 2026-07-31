@@ -32,7 +32,7 @@ Não acredito em fórmulas "caixa-preta", onde você memoriza passos sem context
 
 > "Se você não consegue explicar algo de forma simples, você não entendeu bem o suficiente." — Richard Feynman
 
-#### 📍 Roteiro de Aprendizado
+#### Roteiro de Aprendizado
 
 1.  **[Limites e Continuidade](./teoria/limite/README.md)**
     
