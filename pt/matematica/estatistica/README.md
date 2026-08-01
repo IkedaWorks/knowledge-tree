@@ -1,32 +1,40 @@
-# Estatística, Metrologia e Modelagem Estocástica
+---
+id: estatistica
+title: Estatística e Análise de Dados
+---
 
-Este módulo reúne o arcabouço matemático e computacional necessário para quantificar a incerteza, analisar a dispersão de dados experimentais e modelar fenômenos probabilísticos. Em vez de uma abordagem puramente teórica, os tópicos são dissecados a partir da anatomia de suas equações, conectando o formalismo estatístico à realidade prática da engenharia e do desenvolvimento de algoritmos.
+## Visão Geral
 
-##  Pré-requisitos
+Este submódulo introduz os fundamentos da estatística descritiva, probabilidade e inferência estatística. A disciplina fornece as ferramentas essenciais para a coleta, organização, análise e interpretação de dados, servindo de base para a tomada de decisões, modelagem preditiva e ciência de dados.
 
-* **Matemática Discreta e Álgebra:** Manipulação de somatórios ($\sum$), teoria de conjuntos e álgebra elementar.
-* **Cálculo Vetorial e Diferencial:** Derivadas parciais, diferenciais totais (essenciais para propagação de erros) e integrais definidas (para distribuições contínuas).
+## Tópicos do Módulo
 
-##  Roteiro de Aprendizado e Estrutura de Notas
+* **Estatística Descritiva e Medidas Resumo**
+  * Medidas de tendência central (média aritmética, mediana e moda)
+  * Medidas de dispersão (variância, desvio-padrão e amplitude)
+  * Média harmônica e média geométrica
+  * Análise exploratória de dados e representação gráfica
 
-O módulo é estruturado de forma cronológica e incremental, dividindo-se nas seguintes frentes analíticas:
+* **Teoria da Probabilidade**
+  * Conceitos fundamentais e espaços amostrais
+  * Probabilidade condicional e independência
+  * Teorema de Bayes
 
-### 01. Medidas de Centralidade e Comportamento Amostral
-* **Foco:** Determinação do centro de gravidade dos dados brutos.
-* **Conceitos:** Média aritmética, mediana e moda. Análise de simetria e o impacto de valores discrepantes (*outliers*) sobre as métricas de tendência central.
+* **Variáveis Aleatórias e Distribuições**
+  * Variáveis aleatórias discretas e contínuas
+  * Distribuições discretas (Binomial e Poisson)
+  * Distribuição Normal (Gaussiana) e padronização ($z$-score)
 
-### 02. Dispersão de Dados e a Anatomia do RMS
-* **Foco:** Quantificação da variabilidade e do ruído inerentes a qualquer processo de medição.
-* **Conceitos:** Variância, Desvio Padrão Amostral ($N-1$) vs. Populacional ($\sigma$). O formalismo da Correção de Bessel (graus de liberdade) e a ponte matemática com o valor eficaz estatístico (Root Mean Square - RMS).
+* **Inferência Estatística**
+  * Amostragem e Teorema do Limite Central (TLC)
+  * Estimação por intervalo de confiança
+  * Testes de hipóteses para médias e proporções
 
-### 03. Metrologia Teórica e Incerteza de Medição
-* **Foco:** Cálculo do parâmetro de confiabilidade e da margem de dúvida geométrica de um resultado experimental.
-* **Conceitos:** Incerteza Tipo A (flutuação estatística amortecida por $\sqrt{n}$), Incerteza Tipo B (limites do hardware normalizados por $\sqrt{3}$) e a Incerteza Combinada Quadrática ($u_c$). Formalismo de expansão ($U = k \cdot u_c$) e as equações diferenciais para Propagação de Incertezas em medições indiretas.
+* **Aprofundamento e Consolidação**
+  * Regressão linear simples e correlação
+  * Revisão geral e aplicações práticas de análise de dados
 
-### 04. Análise Multivariada e Sincronia de Dados
-* **Foco:** Mapeamento do comportamento conjunto entre duas ou mais variáveis independentes.
-* **Conceitos:** Geometria da Covariância Amostral, o Coeficiente de Correlação de Pearson ($r$) como métrica de normalização vetorial e introdução aos modelos de regressão linear.
+## Pré-requisitos
 
-### 05. Teoria Probabilística e Modelos Estocásticos
-* **Foco:** Transição da análise de dados estáticos para a modelagem preditiva de eventos aleatórios.
-* **Conceitos:** Espaço amostral, axiomas da probabilidade, variáveis aleatórias discretas (Binomial, Poisson) e contínuas (Distribuição Normal / Gaussiana).
+- **Matemática Básica e Álgebra:** Operações fundamentais, somatórias ($\sum$), porcentagem e manipulação algébrica.
+- **Funções e Gráficos:** Interpretação de eixos, leitura de tabelas e comportamento de funções elementares.
