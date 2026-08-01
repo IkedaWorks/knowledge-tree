@@ -1,62 +1,38 @@
-##  Learning Path: Integrals
+---
+id: integrals
+title: Integrals
+---
 
-> **Important Note:** Integration is the fundamental process of finding the area under a curve and the accumulation of quantities. It is the inverse mathematical operation of differentiation.
+## Overview
 
-###  Topic Checklist
+This submodule introduces the concept of accumulation and the inverse operation of differentiation. Integration connects the sum of infinitely many infinitesimal quantities to the calculation of areas, volumes, work, and various accumulated quantities in physics and engineering.
 
-#### 1. Foundations
+## Module Topics
 
-- [ ] 01. Definition of Integrals
-    
-- [ ] 02. Indefinite Integrals
-    
-- [ ] 03. Definite Integrals
-    
+* **Foundations and Definition**
+  * Antiderivatives (primitives)
+  * Definite integral as a Riemann sum
+  * Operational properties of integration
 
-#### 2. Fundamental Theorems
+* **Fundamental Theorem of Calculus (FTC)**
+  * Bridge between differentiation and integration
+  * Part I and Part II
 
-- [ ] 04. The Fundamental Theorem of Calculus (FTC)
-    
-- [ ] 05. Proof of the Fundamental Theorem of Calculus
-    
-- [ ] 06. Properties of Definite Integrals
-    
+* **Integration Techniques**
+  * Integration by substitution ($u$-substitution)
+  * Integration by parts
+  * Partial fraction decomposition
 
-#### 3. Integration Techniques
+* **Geometric and Physical Applications**
+  * Area between curves
+  * Volume of solids of revolution
+  * Average value of a function
 
-- [ ] 07. Immediate Integrals (Standard Integrals)
-    
-- [ ] 08. Integration by Substitution ($u$-Substitution)
-    
-- [ ] 09. Change of Variables with Integration Limits
-    
-- [ ] 10. Trigonometric Substitution
-    
-- [ ] 11. Integration by Parts
-    
-- [ ] 12. Riemann Sums
-    
+* **Advanced Topics and Consolidation**
+  * Improper integrals
+  * Comprehensive review of integration
 
-#### 4. Applications
+## Prerequisites
 
-- [ ] 13. Calculating Areas Using Integrals
-    
-
-#### 5. Algebraic Methods
-
-- [ ] 14. Polynomial Long Division
-    
-- [ ] 15. Briot-Ruffini Rule (Synthetic Division)
-    
-- [ ] 16. Integration by Partial Fractions
-    
-- [ ] 17. Proof of the Partial Fractions Method
-    
-
-#### 6. Special Cases
-
-- [ ] 18. Integration of Piecewise Continuous Functions
-    
-- [ ] 19. Improper Integrals
-    
-- [ ] 20. Trigonometric Integrals
+- **Derivatives:** Complete mastery of differentiation rules and the Chain Rule.
+- **Algebra and Trigonometry:** Partial fraction decomposition, trigonometric identities, and exponent manipulation.

@@ -1,64 +1,38 @@
-##  Caminho de Aprendizado: Integrais
+---
+id: integrais
+title: Integrais
+---
 
-> **Nota Importante:** A integração é o processo fundamental para encontrar a área sob uma curva e a acumulação de quantidades. É a operação matemática inversa da diferenciação (derivada).
+## Visão Geral
 
-###  Grade de Tópicos
+Este submódulo introduz o conceito de acumulação e a operação inversa da diferenciação. A integração conecta a soma de infinitas quantidades infinitesimais com o cálculo de áreas, volumes, trabalho e diversas grandezas acumuladas na física e na engenharia.
 
-#### 1. Fundamentos
+## Tópicos do Módulo
 
-- [ ] 01. Definição de Integrais
-    
-- [ ] 02. Integral Indefinida
-    
-- [ ] 03. Integral Definida
-    
+* **Fundamentação e Definição**
+  * Antiderivadas (primitivas)
+  * Integral definida como soma de Riemann
+  * Propriedades operatórias da integração
 
-#### 2. Teoremas Fundamentais
+* **Teorema Fundamental do Cálculo (TFC)**
+  * Conexão entre diferenciação e integração
+  * Parte I e Parte II
 
-- [ ] 04. Teorema Fundamental do Cálculo (TFC)
-    
-- [ ] 05. Demonstração do Teorema Fundamental do Cálculo
-    
-- [ ] 06. Propriedades das Integrais Definidas
-    
+* **Técnicas de Integração**
+  * Integração por substituição (mudança de variável)
+  * Integração por partes
+  * Decomposição em frações parciais
 
-#### 3. Técnicas de Integração
+* **Aplicações Geométricas e Físicas**
+  * Área entre curvas
+  * Volume de sólidos de revolução
+  * Valor médio de uma função
 
-- [ ] 07. Integrais Imediatas
-    
-- [ ] 08. Integração por Substituição (Variável $u$)
-    
-- [ ] 09. Mudança de Variável com Limites de Integração
-    
-- [ ] 10. Substituição Trigonométrica
-    
-- [ ] 11. Integração por Partes
-    
-- [ ] 12. Soma de Riemann
-    
+* **Aprofundamento e Consolidação**
+  * Integrais impróprias
+  * Revisão geral de integração
 
-#### 4. Aplicações
+## Pré-requisitos
 
-- [ ] 13. Cálculo de Áreas Utilizando Integrais
-    
-
-#### 5. Métodos Algébricos
-
-- [ ] 14. Divisão de Polinômios
-    
-- [ ] 15. Dispositivo de Briot-Ruffini
-    
-- [ ] 16. Integração por Frações Parciais
-    
-- [ ] 17. Demonstração do Método de Frações Parciais
-    
-
-#### 6. Casos Especiais
-
-- [ ] 18. Integração de Funções Contínuas por Partes
-    
-- [ ] 19. Integrais Impróprias
-    
-- [ ] 20. Integrais Trigonométricas
-    
-
+- **Derivadas:** Domínio absoluto das regras de derivação e da Regra da Cadeia.
+- **Álgebra e Trigonometria:** Decomposição em frações parciais, identidades trigonométricas e manipulação de expoentes.
