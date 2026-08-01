@@ -1,11 +1,36 @@
-#  Electrical Circuits I
-
-This document serves as the entry portal for the **Electrical Circuits I** module. The structure is modularly designed to segregate conceptual learning from practical application.
-
-To navigate through the content, please use your editor's sidebar or GitHub's native directories by accessing the folders below:
-
-* **`theory/`**: Contains the full logical sequence of topics, spanning from primitive concepts and Kirchhoff's Laws to Systematic Analysis Methods (Nodal/Mesh), Network Theorems (Thévenin/Norton), and Storage Elements.
-* **`exercises/`**: Centralized repository for practical application of the concepts studied and problem-solving.
-
 ---
-*Note: If you are using Obsidian, cross-links between theory notes utilize automatic relative paths that remain fully compatible with the repository's production environment.*
+id: electric_circuits_1
+title: Electric Circuits I
+---
+
+## Overview
+
+This submodule addresses the fundamental analysis of direct current (DC) electrical circuits. The content explores primordial concepts of charge, voltage, current, and power, advancing through network solution techniques, simplification theorems, and transient response analysis of energy storage elements.
+
+## Module Topics
+
+* **Fundamental Variables and Circuit Elements**
+  * Electric charge, current ($I$), voltage ($V$), power ($P$), and energy
+  * Independent and dependent voltage and current sources
+  * Electrical resistance, Ohm's Law, conductance, and Joule heating
+
+* **Fundamental Laws and Analysis Techniques**
+  * Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL)
+  * Series and parallel resistor combinations, plus $Y-\Delta$ (Wye-Delta) transformations
+  * Voltage and current division rules
+  * Node-Voltage Method (Nodal Analysis) and Mesh-Current Method (Mesh Analysis)
+
+* **Network Theorems and Simplification**
+  * Superposition Principle for linear circuits
+  * Thévenin's and Norton's Theorems (equivalent circuits)
+  * Maximum Power Transfer Theorem
+
+* **Energy Storage Elements and Transients**
+  * Capacitors ($C$) and Inductors ($L$): $V-I$ constitutive relationships and combinations
+  * First-order circuit analysis: natural and step responses in $RC$ and $RL$ circuits
+  * Time constant ($\tau$) and DC steady-state behavior
+
+## Prerequisites
+
+- **Differential and Integral Calculus:** Basic differentiation and integration (required for $RC$ and $RL$ differential equations).
+- **Linear Algebra and System of Equations:** Solving systems of simultaneous linear equations (required for Nodal and Mesh analysis).
