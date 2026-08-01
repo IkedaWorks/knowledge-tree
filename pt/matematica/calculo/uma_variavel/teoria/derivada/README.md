@@ -1,97 +1,22 @@
-##  Caminho de Aprendizado: Derivadas
+---
+id: derivadas
+title: Derivadas
+---
 
-> **Objetivo:** Ao completar este percurso, você será capaz de resolver problemas com uma abordagem mais realista e prática, além de estar pronto para prosseguir para o último pilar do cálculo: Integrais.
+## Visão Geral
 
-###  Pré-requisitos
+Este submódulo aborda a taxa de variação instantânea e a geometria das curvas. A derivada é a ferramenta matemática essencial para analisar o comportamento dinâmico de funções, permitindo calcular velocidades instantâneas, taxas de variação, inclinações de retas tangentes e otimização de sistemas.
 
-Antes de começar, certifique-se de compreender:
+## Tópicos do Módulo
 
-- [ ] Limites
-    
-- [ ] Álgebra
-    
-- [ ] Geometria
-    
+* **Fundamentação e Definição:** A derivada como o limite da razão incremental, interpretação geométrica (reta tangente) e taxa de variação instantânea.
+* **Regras de Derivação Operatórias:** Regra da constante, da potência, da soma, do produto e do quociente.
+* **Regra da Cadeia e Diferenciação Implícita:** Derivação de funções compostas, diferenciação implícita e derivadas de ordem superior.
+* **Funções Elementares:** Derivadas de funções trigonométricas, exponenciais, logarítmicas e trigonométricas inversas.
+* **Aplicações e Otimização:** Teorema do Valor Médio (TVM), Regra de L'Hôpital, análise de concavidade, pontos de inflexão, taxas relacionadas e problemas de máximos e mínimos.
 
-###  Grade de Tópicos
+## Pré-requisitos
 
-#### 1. Fundamentos
-
-- [ ] 01. Definição de Derivada
-    
-- [ ] 02. Regras de Derivação
-    
-- [ ] 03. Demonstração das Regras de Derivação
-    
-
-#### 2. Regra da Cadeia
-
-- [ ] 04. Regra da Cadeia
-    
-- [ ] 05. Demonstração da Regra da Cadeia
-    
-
-#### 3. Funções Transcendentais
-
-- [ ] 06. Funções Exponenciais e Logarítmicas
-    
-- [ ] 07. Derivada da Função Inversa
-    
-- [ ] 08. Demonstrações: Derivadas de Logaritmos e Exponenciais
-    
-- [ ] 09. Derivadas Trigonométricas
-    
-- [ ] 10. Demonstração das Derivadas de Seno e Cosseno
-    
-- [ ] 11. Insights sobre as Demonstrações de Tangente e Cotangente
-    
-- [ ] 12. Derivadas de Funções Trigonométricas Inversas
-    
-
-#### 4. Funções Avançadas
-
-- [ ] 13. Funções Hiperbólicas
-    
-- [ ] 14. Derivadas Hiperbólicas
-    
-
-#### 5. Técnicas Especializadas
-
-- [ ] 15. Derivadas de Ordem Superior
-    
-- [ ] 16. Derivação Implícita
-    
-- [ ] 17. Regra de L'Hôpital
-    
-- [ ] 18. Derivadas Paramétricas
-    
-- [ ] 19. A Diferencial
-    
-
-#### 6. Aplicações
-
-- [ ] 20. Taxas Relacionadas
-    
-- [ ] 21. Entendendo Taxas Relacionadas (Conceitos)
-    
-- [ ] 22. Resolução de Exercícios Avançados de Taxas Relacionadas
-    
-- [ ] 23. Análise Marginal
-    
-
-#### 7. Otimização e Teoremas
-
-- [ ] 24. Valores Mínimos e Máximos
-    
-- [ ] 25. Teorema do Valor Médio (TVM)
-    
-- [ ] 26. Demonstração do Teorema do Valor Médio
-    
-- [ ] 27. Testes de Derivadas (Primeira e Segunda Derivada)
-    
-
-#### 8. Visualização e Séries
-
-- [ ] 28. Esboço de Gráficos (Análise de Funções)
-    
-- [ ] 29. Séries de Taylor e Maclaurin
+- **Limites e Continuidade:** Domínio da operação de limites, cálculo de indeterminações e o conceito de continuidade.
+- **Geometria Analítica:** Equação da reta, inclinação (coeficiente angular), retas secantes e tangentes.
+- **Trigonometria e Funções:** Propriedades operatórias e comportamento de funções transcendentais.
