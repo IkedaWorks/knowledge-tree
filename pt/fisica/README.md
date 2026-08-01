@@ -1,26 +1,22 @@
+---
+id: fisica
+title: Trilha de Física
+---
 
-#  Base de Conhecimento de Física
+## Visão Geral
 
-Este diretório centraliza meus estudos estruturados de Física, organizados pelos pilares fundamentais da engenharia.
+Este espaço reúne os submódulos dedicados à exploração conceitual, matemática e prática dos fenômenos físicos. A estrutura é organizada de forma modular, cobrindo desde a mecânica clássica e análise de circuitos elétricos até a termodinâmica, eletromagnetismo e fundamentos de física moderna.
 
-##  Índice de Hierarquia
+## Módulos de Conhecimento
 
--  **[Circuitos Elétricos I](./circuito_eletricos_1/README.md)**: Análise de circuitos DC, Leis de Kirchhoff e Teoremas de Redes.
-    
--  **[Física I (Mecânica)](./fisica_1/README.md)**: Mecânica Clássica, Estática e Cinemática.
-    
--  **Física II**: (Em breve) Termodinâmica, Ondas e Óptica.
-    
--  **[Física III (Eletromagnetismo)](./fisica_3/README.md)**: Eletromagnetismo e Física Moderna.
-    
+* **Mecânica Clássica e Fundamentos**
+  * Física I: Cinemática, Dinâmica e Estática
 
-##  Metodologia de Estudo
+* **Circuitos e Sistemas Elétricos**
+  * Circuitos Elétricos I: Análise de Circuitos DC, Leis de Kirchhoff e Teoremas de Redes
 
-- **Dedução:** Foco total em entender a origem das fórmulas através do cálculo diferencial e integral (rejeição ao método "caixa-preta").
-    
-- **Visualização:** Diagramas autorais em `.webp` de alta qualidade armazenados na pasta raiz `assets/`.
-    
-- **Documentação Bilíngue:** Estrutura de navegação em Inglês; explicações conceituais densas em Português.
-    
+* **Ondas, Fluidos e Termodinâmica**
+  * Física II: Termodinâmica, Hidrostática, Ondas e Óptica
 
-> _Criado como parte do currículo da graduação em Engenharia de Computação_
+* **Eletromagnetismo e Física Moderna**
+  * Física III: Campo Elétrico, Magnetismo e Introdução à Física Moderna

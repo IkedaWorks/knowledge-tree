@@ -1,27 +1,22 @@
+---
+id: physics
+title: Physics Track
+---
 
-#  Physics Knowledge Base
+## Overview
 
-This directory contains my structured studies of Physics, organized by fundamental pillars and engineering applications.
+This space gathers submodules dedicated to the conceptual, mathematical, and practical exploration of physical phenomena. The structure is organized in a modular framework, spanning from classical mechanics and electrical circuit analysis to thermodynamics, electromagnetism, and modern physics foundations.
 
-##  Hierarchy Index
+## Knowledge Modules
 
--  **[Electrical Circuits I](./electrical_circuits_1/README.md)**: DC Circuit analysis, Kirchhoff's Laws, and Network Theorems.
-    
--  **[Physics I (Mechanics)](./physics_1/README.md)**: Classical Mechanics, Statics, and Kinematics.
-    
--  **Physics II**: (Upcoming) Thermodynamics, Waves, and Optics.
-    
--  **[Physics III (Electromagnetism)](./physics_3/README.md)**: Electromagnetism and Modern Physics.
-    
--  **Other**: Miscellaneous physics topics and quick references.
-    
+* **Classical Mechanics and Foundations**
+  * Physics I: Kinematics, Dynamics, and Statics
 
-##  Study Methodology
+* **Circuits and Electrical Systems**
+  * Electric Circuits I: DC Circuit Analysis, Kirchhoff's Laws, and Network Theorems
 
-- **Derivation:** Focus on understanding the origin of formulas through calculus.
-    
-- **Visualization:** High-quality diagrams stored in the root `assets/` folder.
-    
-- **Bilingual Documentation:** Navigational structure in English; deep conceptual explanations in Portuguese.
-    
+* **Waves, Fluids, and Thermodynamics**
+  * Physics II: Thermodynamics, Hydrostatics, Waves, and Optics
 
+* **Electromagnetism and Modern Physics**
+  * Physics III: Electric Fields, Magnetism, and Introduction to Modern Physics
