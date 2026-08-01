@@ -1,62 +1,35 @@
-
-
-#  Física I — Mecânica Clássica
-
-Bem-vindo ao núcleo de estudos de Física I. Este espaço é dedicado à exploração conceitual, matemática e intuitiva da **Mecânica Clássica** — a fundação analítica que descreve o movimento da matéria em escala macroscópica e as interações fundamentais que regem a engenharia, desde o equilíbrio de estruturas rígidas até a dinâmica de sistemas em rotação.
-
-O objetivo destas notas é construir uma compreensão profunda de como corpos e sistemas interagem com forças, focando em desenvolver a **intuição geométrica** para montar e interpretar as equações do movimento a partir do cálculo, rejeitando a simples memorização de fórmulas prontas.
-
+---
+id: fisica_1
+title: Física I — Mecânica Clássica
 ---
 
-##  Pré-requisitos e o Papel do Cálculo
+## Visão Geral
 
-Física I usa a matemática do Cálculo Diferencial e Integral como a sua linguagem natural de modelagem. Não estudamos o movimento apenas através de variações médias ($\Delta$), mas sim como taxas de variação instantâneas e acúmulos contínuos no tempo e no espaço:
+Este submódulo aborda a exploração conceitual, matemática e intuitiva da Mecânica Clássica. O conteúdo explora desde a geometria do movimento e as Leis de Newton até a estática de estruturas, conservação de energia e a dinâmica de rotação de corpos rígidos, utilizando o cálculo diferencial e integral como ferramenta primária de modelagem.
 
-* **Cálculo Diferencial e Integral I:** Entender profundamente o conceito de derivadas como taxas de variação instantâneas ($v = dx/dt$, $a = dv/dt$) e integrais como o acúmulo contínuo de grandezas (área sob a curva e cálculo de trabalho).
-* **Geometria Analítica e Vetores:** Decomposição vetorial em componentes cartesianas, produto escalar (fundamental para o conceito de Trabalho e Energia) e **produto vetorial** (essencial para definir torque, eixos de rotação e momento angular).
-* **Sistemas de Coordenadas:** Intuição sobre o uso de coordenadas polares e cilíndricas ao lidar com problemas que possuem simetria circular ou eixos de rotação.
+## Tópicos do Módulo
 
----
+* **Cinemática (A Geometria do Movimento)**
+  * Ferramentas vetoriais: decomposição, produto escalar ($\vec{a} \cdot \vec{b}$) e produto vetorial ($\vec{a} \times \vec{b}$)
+  * Cinemática diferencial em 1D, 2D e 3D ($v = \frac{dx}{dt}$, $a = \frac{dv}{dt}$) e movimento de projéteis
+  * Cinemática angular, aceleração centrípeta ($a_c$) e movimento circular
 
-##  Fluxo de Aprendizado (Roadmap)
+* **Dinâmica e Leis de Newton (As Causas do Movimento)**
+  * Leis de Newton e Força como variação temporal do momento ($\vec{F} = \frac{d\vec{p}}{dt}$)
+  * Trabalho como integral de linha ($\int \vec{F} \cdot d\vec{r}$), Teorema da Energia Cinética e sistemas conservativos
+  * Centro de massa, conservação do momento linear e sistemas de massa variável
 
-O conteúdo avança de forma linear, partindo da pura geometria da trajetória até as leis que regem as forças e as dinâmicas de rotação em múltiplas dimensões:
+* **Estática e Equilíbrio (A Física das Estruturas)**
+  * Primeira condição de equilíbrio ($\sum \vec{F} = 0$) e forças concorrentes
+  * Conceito de Torque ($\vec{\tau} = \vec{r} \times \vec{F}$) e segunda condição de equilíbrio ($\sum \vec{\tau} = 0$) em corpos extensos
 
-###  Bloco 1: Cinemática (A Geometria do Movimento)
+* **Rotações Avançadas e Dinâmica de Rígidos**
+  * Momento de Inércia ($I$) e relação fundamental do torque ($\tau = I\alpha$)
+  * Momento Angular ($\vec{L} = \vec{r} \times \vec{p}$) e relação com torque ($\vec{\tau} = \frac{d\vec{L}}{dt}$)
+  * Conservação do Momento Angular, precessão e comportamento giroscópico
 
-* **Fundamentos e Ferramentas Vetoriais:** O escopo da mecânica, análise dimensional, grandezas do SI e operações fundamentais com vetores (decomposição, produto escalar e vetorial).
-* **Cinemática Diferencial (1D, 2D e 3D):** Posição, velocidade e aceleração vistas estritamente como derivadas e integrais no tempo. O movimento de projéteis e trajetórias sob aceleração variável.
-* **Cinemática Angular e Movimento Circular:** A definição geométrica do radiano ($\theta = s/r$), a velocidade angular ($\omega$) e a dedução da aceleração centrípeta ($a_c$) via taxas relacionadas do vetor velocidade.
+## Pré-requisitos
 
-###  Bloco 2: Dinâmica e Leis de Newton (As Causas do Movimento)
-
-* **As Leis de Newton e o Momento Linear:** O conceito moderno de Força como a taxa de variação temporal da quantidade de movimento ( $\vec{F} = d\vec{p}/dt$ ). Aplicações em atrito, planos inclinados e forças de arrasto.
-* **Trabalho, Energia e Conservação:** O cálculo do trabalho através da integral de linha do produto escalar ( $\int \vec{F} \cdot d\vec{r}$ ), o Teorema da Energia Cinética e a conservação de energia mecânica em sistemas conservativos.
-* **Sistemas de Partículas e Impulso:** Centro de massa, conservação do momento linear em colisões e a variação da massa ao longo do tempo (sistemas de massa variável).
-
-### Bloco 3: Estática e Equilíbrio (A Física das Estruturas)
-
-* **Equilíbrio de Ponto Material:** A primeira condição de equilíbrio ( $\sum \vec{F} = 0$ ) e a análise de forças concorrentes.
-* **Equilíbrio de Corpos Extensos e Torque:** A introdução ao conceito de Torque ( $\vec{\tau} = \vec{r} \times \vec{F}$ ) como o agente gerador de rotação. A segunda condição de equilíbrio ( $\sum \vec{\tau} = 0$ ) aplicada a estruturas rígidas, vigas e alavancas.
-
-
-### Bloco 4: Rotações Avançadas e Dinâmica de Rígidos
-
-* **Momento de Inércia e Segunda Lei para Rotações:** A resistência escalar de um corpo ao giro e a relação fundamental entre torque e aceleração angular ($\tau = I\alpha$).
-* **Momento Angular ($\vec{L}$) e Torque como Derivada:** O desdobramento do movimento linear para o espaço rotacional. O momento angular definido via produto vetorial ($\vec{L} = \vec{r} \times \vec{p}$) e o torque provado como a sua derivada temporal direta ($\vec{\tau} = d\vec{L}/dt$).
-* **Conservação do Momento Angular:** Fenômenos onde o torque externo é nulo ($\vec{\tau} = 0$), gerando a conservação de $\vec{L}$ e efeitos como a precessão e o comportamento giroscópico.
-
-## Critérios de Progressão e Avanço
-
-- **Validação de Pré-requisito:** A transição da cinemática para a dinâmica exige o domínio completo de cálculo diferencial. A entrada em rotação exige domínio absoluto de produto vetorial e momento de inércia.
-    
-- **Metodologia de Estudo Ativo:** Substituição de fórmulas prontas por deduções partindo de princípios fundamentais. Resolução de problemas literais antes da substituição numérica para validar a lógica dimensional.
-    
-- **Integração de Bibliografia:** Utilização do Halliday para estrutura de problemas e rigor básico. Utilização das Lições de Feynman para fundamentação teórica e física moderna aplicada à mecânica.
-    
-
-> [!TIP]
-> 
-> **Tip**
-> 
-> **Engineer's Insight:** Se você for engenheiro, recomendo o **Hibbeler** também, lá você encontra exercícios que mostram mais a realidade do que é ser um engenheiro.
+- **Cálculo Diferencial e Integral I:** Conceitos de derivadas como taxas instantâneas e integrais como área sob a curva.
+- **Geometria Analítica e Vetores:** Operações vetoriais (produto escalar e vetorial) e decomposição em coordenadas cartesianas.
+- **Sistemas de Coordenadas:** Noções de coordenadas polares e cilíndricas para simetrias circulares.
