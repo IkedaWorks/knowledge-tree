@@ -1,46 +1,35 @@
+---
+id: financas
+title: Finanças e Organização Patrimonial
+---
 
-##  Finanças & Organização Patrimonial
+## Visão Geral
 
-Bem-vindo ao núcleo de estudos e modelagem de Finanças. Este espaço é dedicado à exploração conceitual, matemática e prática da gestão patrimonial, investimentos e engenharia financeira.
+Este módulo é dedicado à exploração conceitual, matemática e prática da gestão patrimonial, investimentos e engenharia financeira. O objetivo é construir uma ponte sólida entre a teoria matemática e as decisões financeiras do dia a dia, fornecendo ferramentas intuitivas e modelos para organização e multiplicação consciente de patrimônio.
 
-O objetivo destas notas é construir uma ponte sólida entre a teoria matemática abstrata e as decisões financeiras do dia a dia, fornecendo ferramentas intuitivas para colaboradores, desenvolvedores e clientes organizarem e multiplicarem seu patrimônio de forma proativa e consciente.
+## Tópicos do Módulo
 
-##  O que você encontrará neste espaço
+* **Matemática Financeira Pura**
+  * Juros compostos e modelagem do crescimento exponencial
+  * Taxas reais e inflação (Equação de Fisher)
+  * Fluxo de caixa e equivalência de capitais
+  * Sistemas de amortização (PRICE e SAC)
 
-Para manter a organização do ecossistema, os tópicos são divididos em três pilares fundamentais:
+* **Ecossistema Financeiro e Regras de Negócio**
+  * Renda fixa e indicadores de mercado (CDB, CDI, Selic e Tesouro Direto)
+  * Tabela regressiva de Imposto de Renda e engenharia tributária
+  * Mecanismos de retenção na fonte e cruzamento de dados tributários
 
-### 1. Matemática Financeira Pura
+* **Algoritmos e Simuladores**
+  * Projeções financeiras automatizadas
+  * Cálculo de retorno líquido real ajustado por inflação e impostos
+  * Scripts e modelos computacionais de simulação patrimonial
 
-A base determinística de qualquer análise. Aqui documentamos o comportamento do dinheiro no tempo através de equações universais:
+* **Aprofundamento e Consolidação**
+  * Análise de risco e retorno
+  * Revisão geral e estudos de caso de planejamento patrimonial
 
-- **Juros Compostos:** Modelagem do crescimento exponencial (efeito bola de neve).
-    
-- **Taxas Reais vs. Inflação:** Aplicação da Equação de Fisher para garantir ganho real de poder de compra.
-    
-- **Sistemas de Amortização:** Análise matemática de financiamentos e fluxos de caixa.
-    
+## Pré-requisitos
 
-### 2. O Ecossistema Brasileiro (Regras de Negócio)
-
-A aplicação prática das leis financeiras dentro da realidade burocrática do Brasil. Este módulo serve como um guia de sobrevivência patrimonial:
-
-- **Renda Fixa:** Funcionamento e simulação de títulos como CDB, CDI e Tesouro Direto.
-    
-- **Engenharia Tributária:** Como funciona a tabela regressiva do Imposto de Renda e os mecanismos de retenção na fonte.
-    
-- **Consistência e e-Financeira:** Entendimento de como o supercomputador da Receita Federal cruza dados globais para garantir a legalidade do crescimento patrimonial.
-    
-
-### 3. Algoritmos e Simuladores
-
-Códigos e scripts (desenvolvidos em C, Python e outras tecnologias) criados para automatizar projeções financeiras, calcular descontos tributários automáticos e prever o cenário líquido real de investimentos a longo prazo.
-
-##  Como Contribuir
-
-Futuros colaboradores são super bem-vindos! Para manter o repositório com alto padrão de qualidade, todas as contribuições devem seguir as diretrizes gerais estabelecidas no nosso [CONTRIBUTING.md](./../../../CONTRIBUTING.md). Para esta pasta específica, siga estas regras:
-
-* **Mantenha o Rigor Matemático:** Sempre que adicionar um conceito de investimento, inclua a equação que rege aquele comportamento (de preferência usando notação LaTeX).
-* 
-* **Separe Conceito de Código:** Explicações teóricas ficam nos arquivos Markdown (`.md`), implementações e simuladores devem ser isolados em arquivos de código limpos e modulares.
-* 
-* **Foco no Ganho Líquido:** Toda simulação deve levar em conta o impacto destrutivo da inflação e dos impostos para refletir a realidade financeira.
+- **Matemática Básica:** Domínio de porcentagem, exponenciação, logaritmos e progressões geométricas.
+- **Álgebra e Funções:** Manipulação de equações algébricas e interpretação de gráficos de crescimento exponencial.

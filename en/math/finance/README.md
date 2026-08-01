@@ -1,46 +1,35 @@
+---
+id: finance
+title: Finance and Wealth Management
+---
 
-##  Finance & Wealth Management
+## Overview
 
-Welcome to the Finance and Asset Modeling core. This space is dedicated to the conceptual, mathematical, and practical exploration of wealth management, investment engineering, and financial algorithms.
+This submodule is dedicated to the conceptual, mathematical, and practical exploration of wealth management, investments, and financial engineering. The objective is to build a solid bridge between mathematical theory and everyday financial decisions, providing intuitive tools and models for conscious wealth growth and organization.
 
-The goal of these notes is to bridge the gap between abstract mathematical models and practical financial decisions, creating scalable frameworks to track, simulate, and optimize asset growth.
+## Module Topics
 
-##  Repository Structure
+* **Pure Financial Mathematics**
+  * Compound interest and exponential growth modeling
+  * Real rates and inflation (Fisher Equation)
+  * Cash flow and capital equivalence
+  * Amortization systems (PRICE and SAC)
 
-To maintain a clean and modular ecosystem, the international documentation focuses strictly on universal financial principles and programmatic tools:
+* **Financial Ecosystem and Business Rules**
+  * Fixed income and market benchmarks (CDB, CDI, Selic, and Treasury Bonds)
+  * Regressive Income Tax schedules and tax engineering
+  * Withholding tax mechanisms and compliance frameworks
 
-### 1. Fundamental Financial Math
+* **Algorithms and Simulators**
+  * Automated financial projections
+  * Real net return calculations adjusted for inflation and taxes
+  * Computational scripts and wealth simulation models
 
-The deterministic foundation of asset growth. This section documents money-time relationships using standard mathematical equations:
+* **Advanced Topics and Consolidation**
+  * Risk and return analysis
+  * Comprehensive review and wealth management case studies
 
-- **Compound Interest:** Modeling exponential growth and capital accumulation patterns.
-    
-- **Real Returns vs. Inflation:** Applying the Fisher Equation to determine actual purchasing power shifts.
-    
-- **Amortization Schedules:** Analyzing fixed-rate vs. variable-rate structures (e.g., Price and SAC equivalent frameworks).
-    
+## Prerequisites
 
-### 2. General Asset Classes & Global Mechanics
-
-A macro view of financial instruments, focusing on logic rather than specific local legislation:
-
-- **Fixed Income Concepts:** The mechanics of yields, coupons, and liquidity constraints.
-    
-- **Taxation Logic:** General algorithmic models for capital gains taxes (short-term vs. long-term holding impacts).
-    
-- **Portfolio Risk & Balancing:** Core data structures used to balance risk versus return over long-term Horizons.
-    
-
-### 3. Algorithms & Financial Tools
-
-Modular scripts (implemented in C, Python, and other low-level or scripting languages) designed to automate financial projections, parse historical yield data, and output real net-worth simulations.
-
-##  Contribution Guidelines
-
-Contributions are highly encouraged! To maintain the repository's high standards, all contributors must adhere to our core project standards found in our [CONTRIBUTING.md](./../../../CONTRIBUTING.md). Additionally, please follow these guidelines for this specific directory:
-
-* **Rigor Over Location:** Focus on universal formulas and logic. Avoid adding highly specific local country rules unless they are isolated in a dedicated subdirectory.
-* 
-* **Mathematical Notation:** Always include the underlying formal equations using LaTeX syntax whenever a new financial model is introduced.
-* 
-* **Clean Code & Modularity:** Keep theoretical explanations in Markdown files (`.md`) and separate your simulation tools into well-structured, clean code files.
+- **Basic Mathematics:** Proficiency in percentages, exponentiation, logarithms, and geometric progressions.
+- **Algebra and Functions:** Algebraic equation manipulation and interpretation of exponential growth graphs.
