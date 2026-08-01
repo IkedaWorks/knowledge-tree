@@ -1,32 +1,22 @@
+---
+id: limits_and_continuity
+title: Limits and Continuity
+---
 
-##  Learning Path: Limits
+## Overview
+This submodule is dedicated to studying the local behavior of functions and establishing the foundation for the concept of continuity.
 
-This index centralizes all limits content to guide your study sequence.
+While some pedagogical approaches attempt to introduce derivatives intuitively before limits, a rigorous construction of Calculus requires limits to come first. In essence, the derivative is the limit of a difference quotient; therefore, mastering this topic provides a clear understanding of where all Differential and Integral Calculus tools originate.
 
-> **Study Note:** Dedicate your time to understanding, not memorizing. This is the first essential pillar to mastering Derivatives and Integrals. Anything you memorize without using frequently, your brain discards. To retain knowledge, the focus must be on the process and the logic behind the result.
+## Module Topics
+* **Foundations and Definitions:** Intuitive definition, formal $(\varepsilon, \delta)$ definition, and limit verification.
+* **Properties and Theorems:** Operational properties, property proofs, the Squeeze Theorem, and the Intermediate Value Theorem (IVT).
+* **Calculus Techniques:** Limits by variable substitution and solving fundamental limits.
+* **Asymptotics and Behavior:** One-sided limits, limits at infinity, infinite limits, and determining vertical and horizontal asymptotes.
+* **Continuity and Consolidation:** Function continuity and a comprehensive review of limits.
 
-###  Topic Checklist
-
-- [ ] 01. Definition of Limits
-    
-- [ ] 02. Properties of Limits
-    
-- [ ] 03. Proof of Properties
-    
-- [ ] 04. Fundamental Limits
-    
-- [ ] 05. Limits by Substitution
-    
-- [ ] 06. One-Sided Limits
-    
-- [ ] 07. Infinite Limits and Limits at Infinity
-    
-- [ ] 08. Squeeze Theorem
-    
-- [ ] 09. Continuity of Functions
-    
-- [ ] 10. Intermediate Value Theorem (IVT)
-    
-- [ ] 11. Asymptotes
-    
-- [ ] 12. General Review of Limits
+## Prerequisites
+- **Algebra and Manipulation:** Polynomial factoring, special products, algebraic fraction simplification, and rationalization.
+- **Function Analysis:** Domain, range, asymptotic behavior, function composition, and graphical analysis of real functions.
+- **Trigonometry:** Unit circle, fundamental identities, and the behavior of $\operatorname{sin}(x)$, $\cos(x)$, and $\tan(x)$ functions.
+- **Exponentials and Logarithms:** Power properties, natural logarithm ($\ln$), and Euler's constant ($e$).
