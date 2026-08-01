@@ -1,45 +1,35 @@
+---
+id: set_theory
+title: Set Theory
+---
 
-# Set Theory: Logical and Axiomatic Foundations
+## Overview
 
-Welcome to the Set Theory study hub. This space is dedicated to the conceptual, philosophical, and mathematical exploration of the subject that serves as the primordial foundation for all modern mathematics. The goal of these notes is to build a solid understanding of how mathematical language was shielded against paradoxes, focusing on developing the logical intuition needed to comprehend the transition from naive theory to axiomatic rigor.
+This submodule is dedicated to the conceptual, philosophical, and axiomatic exploration of the foundational basis of modern mathematics. The goal is to build an understanding of how mathematical language was safeguarded against paradoxes, tracking the transition from naive set theory to the formal rigor of Zermelo-Fraenkel Set Theory with the Axiom of Choice (ZFC).
 
-## Prerequisites and the Role of Logic
+## Module Topics
 
-Set Theory treats Mathematical Logic as a practical modeling tool. We will not merely memorize symbols and operations, but rather develop the ability to translate abstract concepts into rigorous formal structures.
+* **Logical Foundations and the Foundational Crisis**
+  * Tarski's Semantic Conception of Truth: T-schema, object language, and metalanguage
+  * Georg Cantor's infinity and the vulnerabilities of traditional mathematics
+  * Russell's Paradox and the collapse of naive set theory
 
-For this journey to flow naturally, it is essential to comprehend the role of metalanguage — the language that dictates the rules of the game from outside the board — and object-language. Beyond solving mechanical problems, students must visualize how the Semantic Conception of Truth establishes satisfaction criteria within a model. Within pure mathematics, basic notions of functions, relations, and arithmetic will be constantly revisited and rebuilt from absolute scratch, using only sets as building blocks.
+* **The Axiomatic Framework (ZFC)**
+  * Primordial axioms: Extensionality, Empty Set ($\varnothing$), and Pairing
+  * Axiom Schema of Separation (Restricted Comprehension) and paradox prevention
+  * Axiom of Union, Power Set, and Infinity
 
-While understanding elementary algebra helps with the initial transition, a true grasp of this subject demands letting go of vague intuitions. Without mastering the concepts of axioms and inference rules, one risks falling into the same bottlenecks and contradictions that 19th-century mathematicians faced. Therefore, the ideal approach is to progress through this module by accepting the rigidity of formal rules, ensuring that logical precision walks hand in hand with philosophical intuition.
+* **Operations, Relations, and Functions**
+  * Fundamental operations under the axiomatic view (Union, Intersection, Difference)
+  * Ordered pairs (Kuratowski definition) and Cartesian Product
+  * Relations and Functions strictly formalized as sets of ordered pairs
 
-## Learning Flow (Roadmap)
+* **Construction of Numbers and Infinity**
+  * Construction of Natural Numbers via Von Neumann ordinals from the empty set ($\varnothing$)
+  * Ordinal numbers, Cardinal numbers, and transfinite arithmetic
+  * Comparing infinite set sizes and the Continuum Hypothesis
 
-The content advances linearly, moving from philosophical crises and the need for validation to the axiomatic construction of complex concepts:
+## Prerequisites
 
-### Block 1: Logical Foundations and the Crisis of Truth
-
-- **Semantic Conception of Truth:** The study of Tarski's T-Schema and the separation between object-language and metalanguage to shield the system from linguistic paradoxes.
-    
-- **The Crisis of Foundations:** How Georg Cantor's study of infinity exposed the vulnerabilities of traditional mathematics and the necessity of a root subject.
-    
-- **Russell's Paradox:** The contradiction that nearly collapsed naive set theory and the urgency to establish rules that limit what can be considered a valid set.
-    
-
-### Block 2: The Axiomatic Structure (ZFC)
-
-- **The First Axioms:** The introduction of non-negotiable rules that determine the existence of sets, such as the Axiom of Extensionality (when two sets are equal) and the Empty Set Axiom.
-    
-- **Specification and Separation:** How to create new sets from logical properties without generating contradictions or sets that are "too large" for the system to handle.
-    
-
-### Block 3: Operations, Relations, and Functions
-
-- **Fundamental Operations:** Union, intersection, difference, and cartesian product viewed through a strictly axiomatic lens.
-    
-- **Relations and Functions as Sets:** Deconstructing concepts previously thought to be independent, demonstrating that every function and relation is nothing more than a set of ordered pairs.
-    
-
-### Block 4: The Construction of Numbers and Infinity
-
-- **Construction of Natural Numbers:** How mathematics rebuilds all arithmetic counting from the empty set, defining zero, one, and their successors.
-    
-- **Cardinals and Ordinals:** The mathematical formalization of infinity. How to measure and compare the sizes of infinite sets rigorously and without ambiguity.
+- **Mathematical Logic:** Knowledge of logical connectives, quantifiers ($\forall, \exists$), and rules of inference.
+- **Abstract Reasoning:** Ability to interpret formal structures and detach from unformalized arithmetic intuitions.
