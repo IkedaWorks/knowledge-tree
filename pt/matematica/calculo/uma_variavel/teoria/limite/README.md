@@ -21,5 +21,5 @@ Embora algumas abordagens pedagógicas tentem introduzir derivadas de forma pura
 
 - **Álgebra e Manipulação:** Fatoração de polinômios, produtos notáveis, simplificação de frações algébricas e racionalização.
 - **Estudo de Funções:** Domínio, imagem, comportamento assintótico, composição e análise gráfica de funções reais.
-- **Trigonometria:** Circulo trigonométrico, identidades fundamentais e o comportamento das funções $\operatorname{sen}(x)$, $\cos(x)$ e $\tan(x)$.
+- - **Trigonometria:** Círculo trigonométrico, identidades fundamentais e o comportamento das funções $\sin(x)$, $\cos(x)$ e $\tan(x)$.
 - **Exponenciais e Logaritmos:** Propriedades de potências, logaritmo natural ($\ln$) e constantes de crescimento ($e$).

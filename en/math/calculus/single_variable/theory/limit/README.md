@@ -18,5 +18,5 @@ While some pedagogical approaches attempt to introduce derivatives intuitively b
 ## Prerequisites
 - **Algebra and Manipulation:** Polynomial factoring, special products, algebraic fraction simplification, and rationalization.
 - **Function Analysis:** Domain, range, asymptotic behavior, function composition, and graphical analysis of real functions.
-- **Trigonometry:** Unit circle, fundamental identities, and the behavior of $\operatorname{sin}(x)$, $\cos(x)$, and $\tan(x)$ functions.
+- **Trigonometry:** Unit circle, fundamental identities, and the behavior of $\sin(x)$, $\cos(x)$, and $\tan(x)$ functions.
 - **Exponentials and Logarithms:** Power properties, natural logarithm ($\ln$), and Euler's constant ($e$).
