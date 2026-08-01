@@ -1,60 +1,43 @@
-
-#  Calculus Roadmap: An Introduction
-
-To master Calculus with the highest level of excellence, a solid foundation in **Pre-Calculus** is mandatory. Gaps in basic mathematics are often the primary obstacle; skipping these fundamentals will make advanced topics significantly more difficult.
-
-##  Essential Prerequisites (What You Must Know)
-Before diving into limits or derivatives, you must have a deep understanding of:
-
-*   **Functions:** The most critical content of all.
-*   **Trigonometry:** Essential for wave analysis and periodic motion.
-*   **Algebraic Manipulation:** Factorization and expansion of expressions.
-*   **Logarithms and Exponentials:** The language of growth and decay.
-*   **Geometry:** For spatial reasoning and optimization problems.
-
+---
+id: single_variable_calculus
+title: Single Variable Calculus
 ---
 
-##  My Learning Philosophy
-I prioritize **formalization** over rote memorization. I do not believe in "black-box" formulas where steps are memorized without context. 
+## General Objective
 
-Instead, I apply the **Feynman Technique**: if you cannot explain something simply from first principles, you haven't understood it yet. This repository is built on the belief that **derivation is the key to mastery.**
+This module is dedicated to the study of Differential and Integral Calculus for real functions of a single variable. The primary goal is to develop the ability to rigorously analyze variation, local behavior, and the accumulation of quantities in one-dimensional systems.
 
-> "If you can't explain it simply, you don't understand it well enough."  
-> — *Richard Feynman*
+The structure of this module is built upon the three fundamental pillars of Calculus:
 
----
+* **Limits and Continuity:** The foundation of local function behavior near critical points or infinity.
+* **Derivatives:** The study of instantaneous rates of change, curve tangents, optimization, and local linear approximations.
+* **Integrals:** The theory of quantity accumulation, measuring areas/volumes, and the Fundamental Theorem of Calculus.
 
-##  Calculus Index (Learning Roadmap)
+## Essential Prerequisites
 
-###  1. Limits and Continuity
-*   The concept of infinitesimals.
-*   Limit laws and algebraic techniques.
-*   Continuity and the Intermediate Value Theorem.
-* [ ] **[LIMITS](single_variable/theory/limit/README.md)**
+Before advancing to the topics in this module, mastery of foundational Pre-Calculus concepts is required:
 
-###  2. Derivatives (Calculus in Motion)
-*   The definition of the derivative.
-*   Rules of differentiation (Power, Product, Quotient, Chain Rule).
-*   Implicit differentiation and Related Rates.
-*   Optimization (Maxima and Minima).
-*   Taylor and Maclaurin Series.
-* [ ] **[Derivatives](single_variable/theory/derivative/README.md)**
+- **Functions:** Domain, range, codomain, injectivity, surjectivity, and function composition.
+- **Trigonometry:** Trigonometric identities, circular functions, and periodicity.
+- **Algebraic Manipulation:** Factoring, polynomial expansion, special products, and equations.
+- **Exponentials and Logarithms:** Operational properties, equations, and graphs.
+- **Basic Analytic Geometry:** Distance between points, line equations, and conic sections.
 
-###  3. Integrals (The Area Under the Curve)
-*   Antiderivatives and Indefinite Integrals.
-*   Riemann Sums and the Fundamental Theorem of Calculus.
-*   Integration Techniques (Substitution, Parts, Partial Fractions).
-*   Applications (Area, Volume of Solids of Revolution).
-- [ ] **[Integrals](single_variable/theory/integral/README.md)**
----
+## Bibliography and References
 
-##  Resources and References
+### Core Textbooks (Introductory)
 
-*   **Primary Textbook:** Stewart, James. *Calculus: Concepts and Contexts* (or *Early Transcendentals*).
-*   **Secondary Reference:** Halliday & Resnick. *Fundamentals of Physics* (Applied Calculus).
-*   **Essential Tool:** [Desmos Graphing Calculator](https://www.desmos.com/calculator).
+- **STEWART, James.** *Calculus: Early Transcendentals*. Cengage Learning.
+- **ANTON, Howard; BIVENS, Irl; DAVIS, Stephen.** *Calculus*. Wiley.
+- **THOMAS, George B.** *Thomas' Calculus*. Pearson.
 
-> [!TIP]
-> 
-> **Engineering Mindset**
-> Don't just solve for $x$. Ask yourself: "What does this derivative represent in a physical system?" (Velocity? Thermal flux? Marginal cost?). The math is the language; the physics is the story.
+### Advanced and Rigorous Reading
+
+- **APOSTOL, Tom M.** *Calculus, Volume 1*. John Wiley & Sons.
+- **SPIVAK, Michael.** *Calculus*. Publish or Perish.
+
+### Computational Support Tools
+
+- **GeoGebra:** Visual construction of functions and geometric interpretation.
+- **Desmos Graphing Calculator:** Fast analysis of curve behavior and limits.
+- **Wolfram Alpha:** Algebraic step validation and verification of analytical results.

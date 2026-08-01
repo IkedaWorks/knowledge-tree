@@ -1,62 +1,43 @@
-
-##  Roteiro de Cálculo: Uma Introdução
-
-Para dominar o Cálculo com o mais alto nível de excelência, uma base sólida em **Pré-Cálculo** é obrigatória. No Brasil, a matemática básica é frequentemente um obstáculo; no entanto, pular esses fundamentos tornará os tópicos avançados significativamente mais difíceis.
-
-###  Pré-requisitos Essenciais (O que você deve saber)
-
-Antes de mergulhar em limites ou derivadas, você deve ter uma compreensão profunda de:
-
-- **Funções:** O conteúdo mais crítico até agora.
-    
-- **Trigonometria:** Essencial para análise de ondas e movimento periódico.
-    
-- **Manipulação Algébrica:** Fatoração e expansão de expressões.
-    
-- **Logaritmos e Exponenciação:** A linguagem do crescimento e do decaimento.
-    
-- **Geometria:** Para raciocínio espacial e problemas de otimização.
-    
-
+---
+id: calculo_uma_variavel
+title: Cálculo de Uma Variável
 ---
 
-###  Minha Filosofia de Aprendizado
+## Objetivo Geral
 
-Eu priorizo o **processo de formalização** em vez da memorização mecânica (**decoreba**).
+Este módulo é dedicado ao estudo do Cálculo Diferencial e Integral para funções de uma única variável real. O objetivo central é desenvolver a capacidade de analisar rigorosamente a variação, o comportamento local e a acumulação de quantidades em sistemas unidimensionais.
 
-Não acredito em fórmulas "caixa-preta", onde você memoriza passos sem contexto. Em vez disso, aplico a **Técnica de Feynman**: se você não consegue explicar algo de forma simples a partir dos primeiros princípios, você ainda não entendeu. Este repositório foi construído sobre a crença de que a **derivação é a chave para o domínio**.
+A estrutura do módulo é fundamentada sobre os três pilares do Cálculo:
 
----
+* **Limites e Continuidade:** A fundamentação do comportamento local de funções próximo a pontos críticos ou no infinito.
+* **Derivadas:** O estudo da taxa de variação instantânea, inclinação de curvas, otimização e aproximações locais.
+* **Integrais:** A teoria da acumulação de quantidades, medição de áreas/volumes e o Teorema Fundamental do Cálculo.
 
-###  Índice de Cálculo
+## Pré-requisitos Essenciais
 
-> "Se você não consegue explicar algo de forma simples, você não entendeu bem o suficiente." — Richard Feynman
+Antes de avançar para os tópicos deste módulo, é necessário dominar os conceitos básicos de Pré-Cálculo:
 
-#### Roteiro de Aprendizado
+- **Funções:** Domínio, imagem, contradomínio, injetividade, sobrejetividade e composição.
+- **Trigonometria:** Identidades trigonométricas, funções circulares e periodicidade.
+- **Manipulação Algébrica:** Fatoração, expansão de polinômios, produtos notáveis e equações.
+- **Exponenciais e Logaritmos:** Propriedades operacionais, equações e gráficos.
+- **Geometria Analítica Básica:** Distância entre pontos, equações da reta e seções cônicas.
 
-1.  **[Limites e Continuidade](uma_variavel/teoria/limite/README.md)**
-    
-2.  **[Derivadas](uma_variavel/teoria/derivada/README.md)**
-    
-3.  **[Integrais](uma_variavel/teoria/integral/README.md)**
+## Bibliografia e Referências
 
+### Livros-Texto Principais (Didáticos)
 
----
-####  Recursos e Referências
+- **STEWART, James.** *Cálculo, Volume 1*. Cengage Learning.
+- **GUIDORIZZI, Hamilton Luiz.** *Um Curso de Cálculo, Volume 1*. LTC.
+- **ANTON, Howard; BIVENS, Irl; DAVIS, Stephen.** *Cálculo, Volume 1*. Bookman.
 
-- **Livro Principal:** Stewart, James. _Cálculo: Conceitos e Contextos_ (ou _Early Transcendentals_).
-    
-- **Secundário:** Halliday & Resnick. _Fundamentos de Física_ (Cálculo Aplicado).
-    
-- **Ferramentas:** 
-- -  Desmos Graphing Calculator. 
-- - Photomath
-- - GeoGebra
-- - Wolfram Alfa
+### Leitura Complementar e Formalismo Avançado
 
-> [!TIP]
-> 
-> **OBS:**  As ferramentas acima são as que uso para confirmar cálculo e conclusões, nunca use elas para resolver o problema para você, isso se chama auto enganar a  si próprio.
+- **APOSTOL, Tom M.** *Calculus, Volume 1*. John Wiley & Sons.
+- **SPIVAK, Michael.** *Calculus*. Publish or Perish.
 
+### Ferramentas de Apoio Computacional
 
----
+- **GeoGebra:** Construção visual de funções e interpretação geométrica.
+- **Desmos Graphing Calculator:** Análise rápida de comportamento de curvas e limites.
+- **Wolfram Alpha:** Validação de passos algébricos e checagem de resultados.
