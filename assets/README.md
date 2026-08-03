@@ -1,70 +1,125 @@
+# Assets & Media Management
 
-# 📷 Assets & Media Management
+This directory centralizes binary files, vector diagrams, and media assets used throughout the engineering notes.
 
-This directory centralizes all binary files, vector diagrams, and media assets used across the engineering study notes.
+## Guidelines for Contributors
 
-##  Guidelines for Contributors
+To maintain repository performance and compatibility between Obsidian and GitHub, follow these standards.
 
-To ensure repository performance and cross-platform compatibility (Obsidian/GitHub), please follow these standards:
+## File Formats
 
-### 1. Preferred File Formats: 
+Preferred formats:
 
-* **Priority 1: `.svg` (Vector Graphics):** **Absolute priority** for technical diagrams, coordinate systems, and geometric shapes generated via Inkscape or Excalidraw. Infinite resolution with minimal file size.
-* **Priority 2: `.webp` (Compressed Raster):** Use for realistic figures, intricate textbook screenshots, or complex visual textures where vectorization is impossible. Excellent compression-to-quality ratio.
-* **Fallback: `.jpg / .jpeg`:** Use only for high-contrast photos of physical textbooks or handwritten paper notes.
-* **Avoid: `.png`:** Do not use unless alpha transparency is explicitly required and the asset cannot be rendered as an `.svg`.
+- **SVG:** Default format for technical diagrams, mathematical illustrations, coordinate systems, and geometric shapes created with Inkscape or Excalidraw.
+- **WEBP:** Preferred format for compressed raster images, screenshots, and visual references where vectorization is not practical.
+- **JPG/JPEG:** Use only for photographs or scanned physical materials when necessary.
+- **PNG:** Avoid unless transparency is required and SVG or WEBP are not suitable.
 
-### 2. Naming Convention:
+## Asset Organization
 
-Use a hybrid approach to distinguish between content and assets, ensuring compatibility with GitHub and Unix-based systems:
+All shared media files must be stored inside:
 
-* **Notes & Folders (snake_case):** Maintain for consistency with existing academic logs. *Example:* `phys1_statics_notes.md`
-* **Images & Assets (kebab-case):** Standard for web assets and easy visual distinction in terminal trees. *Example:* `phys1-statics-hibbeler-f2-1.svg` or `calc1-integration-by-parts.webp`
+```
+/assets
+```
 
-> [!TIP]
->  
-> **Tip:** This distinction helps in identifying file types at a glance in the terminal and prevents conflicts with Python/C variable naming conventions.
+Editable Excalidraw files should be stored in:
 
-### 3. Workflow & Linking
+```
+/assets/excalidraw
+```
 
-* Save the optimized vector or compressed image directly into this `/assets` folder.
-* Link it in your Markdown file using relative paths for maximum compatibility:
-`![Brief Description](../assets/file-name.svg)`
+## Technical Diagrams
+
+The project prioritizes editable and lightweight graphics.
+
+- Use **Inkscape** for professional technical diagrams.
+- Commit diagrams in native **SVG** format whenever possible.
+- Use **Excalidraw** for conceptual sketches.
+- Export an SVG version for GitHub rendering.
+
+Avoid raster formats when a vector solution is available.
+
+## Naming Convention
+
+All assets should follow **kebab-case**.
+
+Examples:
+
+```
+free-body-diagram.svg
+gauss-law-example.webp
+electric-field-lines.svg
+```
+
+## Linking Assets
+
+Use relative Markdown paths when referencing assets:
+
+```md
+![Brief Description](../assets/file-name.svg)
+```
 
 ---
 
+# Gestão de Ativos e Mídias
 
-# 📷 Gestão de Ativos e Mídias 
+Este diretório centraliza arquivos binários, diagramas vetoriais e arquivos de mídia utilizados nas notas de engenharia.
 
-Este diretório centraliza todos os arquivos binários, diagramas vetoriais e ativos de mídia utilizados em todas as notas de estudo de engenharia.
+## Diretrizes para Colaboradores
 
-##  Diretrizes para Colaboradores 
+Para manter o desempenho do repositório e a compatibilidade entre Obsidian e GitHub, siga estes padrões.
 
-Para garantir o desempenho do repositório e a compatibilidade entre plataformas (Obsidian/GitHub), siga estes padrões:
+## Formatos de Arquivo
 
-### 1. Formatos de Arquivo Preferenciais:
+Formatos preferenciais:
 
-- **Prioridade 1: `.svg` (Gráficos Vetoriais):** Prioridade absoluta para diagramas técnicos, sistemas de coordenadas e formas geométricas geradas via Inkscape ou Excalidraw. Resolução infinita com tamanho de arquivo minimalista.
-    
-- **Prioridade 2: `.webp` (Raster Comprimido):** Utilize para figuras realistas, capturas de tela complexas de livros didáticos ou texturas visuais onde a vetorização é inviável. Excelente taxa de compressão com alta qualidade visual.
-    
-- **Alternativa (Fallback): `.jpg / .jpeg`:** Utilize apenas para fotos de alto contraste de livros didáticos físicos ou esboços feitos à mão no papel.
-    
-- **Evite: `.png`:** Não utilize, a menos que a transparência de canal alfa seja estritamente necessária e o ativo não possa ser renderizado em `.svg`.
-### 2. Convenção de Nomenclatura:
+- **SVG:** Formato padrão para diagramas técnicos, ilustrações matemáticas, sistemas de coordenadas e formas geométricas criadas com Inkscape ou Excalidraw.
+- **WEBP:** Formato preferencial para imagens rasterizadas comprimidas, capturas de tela e referências visuais onde a vetorização não é viável.
+- **JPG/JPEG:** Utilize apenas para fotografias ou materiais físicos digitalizados quando necessário.
+- **PNG:** Evite, a menos que transparência seja necessária e SVG ou WEBP não sejam adequados.
 
-Utilize uma abordagem híbrida para distinguir entre conteúdo e ativos, garantindo compatibilidade com o GitHub e sistemas baseados em Unix:
+## Organização dos Assets
 
-- **Notas e Pastas (snake_case):** Mantenha para consistência com os logs acadêmicos existentes. Exemplo: `fis1_estatica_notas.md`
-    
-- **Imagens e Ativos (kebab-case):** Padrão para ativos web e fácil distinção visual no terminal. Exemplo: `fis1-estatica-hibbeler-f2-1.svg` ou `calc1-integracao-por-partes.webp`
+Todos os arquivos de mídia compartilhados devem ser armazenados em:
 
-  
- > [!TIP]
- > 
- > **Dica:** Esta distinção ajuda a identificar tipos de arquivo rapidamente no terminal e evita conflitos com convenções de nomenclatura de variáveis em Python/C.
-### 3. Fluxo de Trabalho e Links:
+```
+/assets
+```
 
-Salve a imagem vetorial otimizada ou comprimida diretamente nesta pasta `/assets`
-Vincule-a no seu arquivo Markdown usando caminhos relativos para máxima compatibilidade:
-`![Breve Descrição](../assets/nome-do-arquivo.svg)`
+Arquivos editáveis do Excalidraw devem ser armazenados em:
+
+```
+/assets/excalidraw
+```
+
+## Diagramas Técnicos
+
+O projeto prioriza gráficos editáveis e leves.
+
+- Utilize **Inkscape** para diagramas técnicos profissionais.
+- Faça commit dos diagramas no formato nativo **SVG** sempre que possível.
+- Utilize **Excalidraw** para esboços conceituais.
+- Exporte uma versão SVG para renderização no GitHub.
+
+Evite formatos rasterizados quando uma solução vetorial estiver disponível.
+
+## Convenção de Nomenclatura
+
+Todos os assets devem seguir **kebab-case**.
+
+Exemplos:
+
+```
+diagrama-corpo-livre.svg
+lei-de-gauss-exemplo.webp
+linhas-campo-eletrico.svg
+```
+
+## Vinculando Assets
+
+Utilize caminhos relativos em Markdown ao referenciar assets:
+
+```md
+![Breve Descrição](../assets/nome-do-arquivo.svg)
+```
