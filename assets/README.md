@@ -1,6 +1,6 @@
 # Assets & Media Management
 
-This directory centralizes binary files, vector diagrams, and media assets used throughout the engineering notes.
+This directory centralizes binary files, vector diagrams, and media assets used throughout the project's knowledge base.
 
 ## Guidelines for Contributors
 
@@ -64,7 +64,7 @@ Use relative Markdown paths when referencing assets:
 
 # Gestão de Ativos e Mídias
 
-Este diretório centraliza arquivos binários, diagramas vetoriais e arquivos de mídia utilizados nas notas de engenharia.
+Este diretório centraliza arquivos binários, diagramas vetoriais e arquivos de mídia utilizados ao longo da base de conhecimento do projeto.
 
 ## Diretrizes para Colaboradores
 
