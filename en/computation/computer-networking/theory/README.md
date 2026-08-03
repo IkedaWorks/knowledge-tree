@@ -1,4 +1,7 @@
-
+---
+title: "Network Engineering: The Architecture of Organized Chaos"
+id: network_engineering_architecture
+---
 #  Network Engineering: The Architecture of Organized Chaos
 
 The internet is, fundamentally, a victory of logic over entropy. What the average user perceives as an abstract cloud of instantaneous connectivity is, in reality, the largest and most complex engineering infrastructure ever built by humanity operating in an inherently hostile environment. Studying networks through the lens of this ecosystem means rejecting superficial abstractions to dissect the deterministic mechanisms that force billions of heterogeneous devices to communicate in a universal, mathematical language.
