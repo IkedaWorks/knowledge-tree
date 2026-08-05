@@ -9,7 +9,7 @@ When you walk 5 meters forward, you have covered a distance of 5 meters. If you 
 
 The absolute value (or modulus) arises from this simple necessity: to extract the geometric magnitude of a number, regardless of which direction it points on the number line. It measures the physical distance between a point and the origin ($0$).
 
-![Example of geometric definition](../../../../assets/diagrama-modulo-distancia.svg)
+![Example of geometric definition](./../../../../assets/diagrama-modulo-distancia.svg)
 
 Visually, the concept is immediate:
 
@@ -30,7 +30,7 @@ Since the absolute value measures the distance to the origin, we can expand this
 
 $$d(a, b) = |a - b|$$
 
-![Distance between two dots](../../../../assets/diagrama-distancia-dois-pontos.)
+![Distance between two dots](./../../../../assets/diagrama-distancia-dois-pontos.svg)
 
 Notice how mathematics mirrors reality: the distance between two cities does not change whether you are going or returning. The order in which you subtract the points does not alter the extent of the path traveled:
 

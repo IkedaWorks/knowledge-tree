@@ -8,7 +8,7 @@ Quando você caminha $5$ metros para a frente, percorreu uma distância de $5$ m
 
 O **valor absoluto** (ou **módulo**) nasce dessa necessidade simples: extrair a **magnitude geométrica** de um número, ignorando para qual lado da reta numérica ele aponta. Ele mede a distância física entre um ponto e a origem ($0$).
 
-![Exemplo da definição geométrica](../../../../assets/diagrama-modulo-distancia.svg)
+![Exemplo da definição geométrica](./../../../../assets/diagrama-modulo-distancia.svg)
 
 Visualmente, a ideia é imediata:
 
@@ -30,7 +30,7 @@ Quando avaliamos expressões mais elaboradas, o raciocínio permanece o mesmo:
 Se o módulo mede a distância até a origem, podemos expandir essa mesma ideia para calcular o espaço entre **quaisquer dois pontos** $a$ e $b$ na reta real:
 
 $$d(a, b) = |a - b|$$
-![Distância entre dois pontos](../../../../assets/diagrama-distancia-dois-pontos.svg)
+![Distância entre dois pontos](./../../../../assets/diagrama-distancia-dois-pontos.svg)
 
 Note como a matemática reflete a realidade: a distância entre duas cidades não muda se você vai ou se você volta. A ordem em que você subtrai os pontos não altera a extensão do espaço percorrido:
 
