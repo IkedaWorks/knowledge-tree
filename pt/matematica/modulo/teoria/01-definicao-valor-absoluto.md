@@ -30,6 +30,8 @@ Quando avaliamos expressões mais elaboradas, o raciocínio permanece o mesmo:
 Se o módulo mede a distância até a origem, podemos expandir essa mesma ideia para calcular o espaço entre **quaisquer dois pontos** $a$ e $b$ na reta real:
 
 $$d(a, b) = |a - b|$$
+
+
 ![Distância entre dois pontos](./../../../../assets/diagrama-distancia-dois-pontos.svg)
 
 Note como a matemática reflete a realidade: a distância entre duas cidades não muda se você vai ou se você volta. A ordem em que você subtrai os pontos não altera a extensão do espaço percorrido:
