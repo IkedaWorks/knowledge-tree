@@ -13,7 +13,7 @@ After defining absolute value as the geometric distance to the origin and formal
 For any real numbers $x, y \in \mathbb{R}$:
 
 * **Non-negativity:** $|x| \ge 0$  
-  Since the absolute value represents a physical distance, its value can never be negative.
+  Since absolute value represents physical distance, its value can never be negative.
 
 * **Nullity:** $|x| = 0 \iff x = 0$  
   The only distance equal to zero occurs at the origin itself.
@@ -41,7 +41,7 @@ For any real numbers $x, y \in \mathbb{R}$:
   * $|x| \ge k \iff x \le -k \text{ or } x \ge k$ (defines the regions outside the interval).
 
 * **Triangle Inequality:** $|x + y| \le |x| + |y|$  
-  The sum of the absolute values is always greater than or equal to the absolute value of the sum.
+  The sum of absolute values is always greater than or equal to the absolute value of the sum.
 
 * **Reverse Triangle Inequality:** $||x| - |y|| \le |x - y|$  
   The difference between the absolute values of two numbers never exceeds the absolute value of their difference.
@@ -77,7 +77,7 @@ We want to prove that the absolute value of a number and the absolute value of i
 
 ---
 
-### Multiplicatividade ($|x \cdot y| = |x| \cdot |y|$)
+### Multiplicativity ($|x \cdot y| = |x| \cdot |y|$)
 
 We split the analysis based on the sign of the product $x \cdot y$:
 
@@ -118,8 +118,9 @@ $$\left|\frac{x}{y}\right| = \left|x \cdot \frac{1}{y}\right| = |x| \cdot \left|
 
 ### Identity $\sqrt{x^2} = |x|$
 
-> [!warning] Common Error
-> The expression $\sqrt{x^2}$ is **not** simply $x$. The radical $\sqrt{\phantom{x}}$ denotes by convention the **non-negative** square root.
+> [!WARNING]
+> **Common Error**  
+> The expression $\sqrt{x^2}$ is **not** simply $x$. The radical $\sqrt{\quad}$ denotes by convention the **non-negative** square root.
 
 Analyzing the operation $\sqrt{x^2}$:
 
@@ -134,7 +135,6 @@ For a real constant $k > 0$:
 
 $$|x| \le k \iff -k \le x \le k$$
 
-*Proof:*  
 * **From left to right ($\implies$):**  
   If $|x| \le k$, then:
   * If $x \ge 0$, we have $|x| = x \le k$. Since $k > 0$, $-k < 0 \le x$ also holds, so $-k \le x \le k$.

@@ -118,8 +118,9 @@ $$\left|\frac{x}{y}\right| = \left|x \cdot \frac{1}{y}\right| = |x| \cdot \left|
 
 ### A Identidade $\sqrt{x^2} = |x|$
 
-> [!warning] Erro Comum
-> A expressão $\sqrt{x^2}$ **não** é simplesmente $x$. O radical $\sqrt{\phantom{x}}$ indica por convenção a raiz quadrada **não-negativa**.
+> [!WARNING]
+> **Erro Comum**  
+> A expressão $\sqrt{x^2}$ **não** é simplesmente $x$. O radical $\sqrt{\quad}$ indica por convenção a raiz quadrada **não-negativa**.
 
 Analisando a operação $\sqrt{x^2}$:
 
@@ -134,7 +135,6 @@ Para uma constante real $k > 0$:
 
 $$|x| \le k \iff -k \le x \le k$$
 
-*Demonstração:*  
 * **Pela esquerda ($\implies$):**  
   Se $|x| \le k$, então:
   * Se $x \ge 0$, temos $|x| = x \le k$. Como $k > 0$, também vale $-k < 0 \le x$, logo $-k \le x \le k$.
