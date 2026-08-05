@@ -30,7 +30,7 @@ Since the absolute value measures the distance to the origin, we can expand this
 
 $$d(a, b) = |a - b|$$
 
-![Distance between two dots](../../../../assets/diagrama-distancia-dois-pontos.svg)
+![Distance between two dots](../../../../assets/diagrama-distancia-dois-pontos.)
 
 Notice how mathematics mirrors reality: the distance between two cities does not change whether you are going or returning. The order in which you subtract the points does not alter the extent of the path traveled:
 
