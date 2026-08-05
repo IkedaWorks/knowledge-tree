@@ -216,3 +216,92 @@ Unfolding the absolute value:
 
 **Solution Set:**
 $$S = \{-1, 7\}$$
+
+---
+
+## Conclusion: The General Method vs. Exotic Cases
+
+To demonstrate the infallibility of the **Universal General Method (Domain Partition)**, we will solve all the exotic cases presented earlier using **only the piecewise definition of absolute value**, without applying any shortcuts or special properties.
+
+---
+
+### Pitfall 1 via General Method: $|2x - 3| = x - 3$
+
+The only absolute value in the equation is $|2x - 3|$.  
+Critical point: $2x - 3 = 0 \implies x = \frac{3}{2} = 1.5$.
+
+* **Interval I ($x < 1.5$):**  
+  Negative argument $\implies |2x - 3| = -(2x - 3)$.
+  $$-(2x - 3) = x - 3 \implies -2x + 3 = x - 3 \implies -3x = -6 \implies x = 2$$
+  **Validation:** Does $x = 2$ belong to $x < 1.5$? **No** ($2 > 1.5$). $\implies S_1 = \emptyset$.
+
+* **Interval II ($x \ge 1.5$):**  
+  Non-negative argument $\implies |2x - 3| = 2x - 3$.
+  $$2x - 3 = x - 3 \implies x = 0$$
+  **Validation:** Does $x = 0$ belong to $x \ge 1.5$? **No** ($0 < 1.5$). $\implies S_2 = \emptyset$.
+
+**Conclusion:** $S = S_1 \cup S_2 = \emptyset$.  
+*(The General Method discards extraneous solutions naturally during the validation step for each interval!)*
+
+---
+
+### Pitfall 2 via General Method: $||x - 3| - 4| = 2$
+
+We evaluate the inner absolute value $|x - 3|$. Critical point: $x = 3$.
+
+* **Interval I ($x < 3$):**  
+  Here, $|x - 3| = -(x - 3) = -x + 3$. Substituting:
+  $$|(-x + 3) - 4| = 2 \implies |-x - 1| = 2$$
+  New critical point: $-x - 1 = 0 \implies x = -1$.
+  * **Sub-interval $x < -1$:** $|-x - 1| = -x - 1 \implies -x - 1 = 2 \implies x = -3$  
+    *(Valid, since $-3 < -1$).*
+  * **Sub-interval $-1 \le x < 3$:** $|-x - 1| = x + 1 \implies x + 1 = 2 \implies x = 1$  
+    *(Valid, since $1$ lies between $-1$ and $3$).*
+
+* **Interval II ($x \ge 3$):**  
+  Here, $|x - 3| = x - 3$. Substituting:
+  $$|(x - 3) - 4| = 2 \implies |x - 7| = 2$$
+  New critical point: $x - 7 = 0 \implies x = 7$.
+  * **Sub-interval $3 \le x < 7$:** $|x - 7| = -(x - 7) = -x + 7 \implies -x + 7 = 2 \implies x = 5$  
+    *(Valid, since $5$ lies between $3$ and $7$).*
+  * **Sub-interval $x \ge 7$:** $|x - 7| = x - 7 \implies x - 7 = 2 \implies x = 9$  
+    *(Valid, since $9 \ge 7$).*
+
+**Conclusion:** $S = \{-3, 1, 5, 9\}$.
+
+---
+
+### Pitfall 3 via General Method: $|x - 1| + |x - 5| = 4$
+
+Critical points: $x = 1$ and $x = 5$.
+
+* **Interval I ($x < 1$):**  
+  $$-(x - 1) - (x - 5) = 4 \implies -2x + 6 = 4 \implies -2x = -2 \implies x = 1$$
+  **Validation:** Does $x = 1$ belong to $x < 1$? **No** ($1$ is not strictly less than $1$). $\implies S_1 = \emptyset$.
+
+* **Interval II ($1 \le x \le 5$):**  
+  $$(x - 1) - (x - 5) = 4 \implies x - 1 - x + 5 = 4 \implies 4 = 4 \quad \text{(Identity)}$$
+  Since the equality is always true, the solution set is the entire interval being analyzed: $\implies S_2 = [1, 5]$.
+
+* **Interval III ($x > 5$):**  
+  $$(x - 1) + (x - 5) = 4 \implies 2x - 6 = 4 \implies 2x = 10 \implies x = 5$$
+  **Validation:** Does $x = 5$ belong to $x > 5$? **No** ($5$ is not strictly greater than $5$). $\implies S_3 = \emptyset$.
+
+**Conclusion:** $S = S_1 \cup S_2 \cup S_3 = [1, 5]$.
+
+---
+
+### Pitfall 4 via General Method: $\sqrt{x^2 - 6x + 9} + |x - 3| = 8$
+
+By the fundamental definition of the real square root: $\sqrt{(x - 3)^2} = |x - 3|$.  
+The equation becomes $|x - 3| + |x - 3| = 8$. Critical point: $x = 3$.
+
+* **Interval I ($x < 3$):**  
+  $$-(x - 3) - (x - 3) = 8 \implies -2x + 6 = 8 \implies -2x = 2 \implies x = -1$$
+  **Validation:** Does $x = -1$ belong to $x < 3$? **Yes!** $\implies S_1 = \{-1\}$.
+
+* **Interval II ($x \ge 3$):**  
+  $$(x - 3) + (x - 3) = 8 \implies 2x - 6 = 8 \implies 2x = 14 \implies x = 7$$
+  **Validation:** Does $x = 7$ belong to $x \ge 3$? **Yes!** $\implies S_2 = \{7\}$.
+
+**Conclusion:** $S = S_1 \cup S_2 = \{-1, 7\}$.

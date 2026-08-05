@@ -216,3 +216,91 @@ Abrindo o módulo:
 
 **Conjunto Solução:**
 $$S = \{-1, 7\}$$
+---
+
+## Conclusão: O Método Geral vs. Casos Exóticos
+
+Para demonstrar a infalibilidade do **Método Geral (Partição de Domínio)**, resolveremos todos os casos exóticos apresentados anteriormente utilizando **apenas a definição por partes**, sem aplicar nenhum atalho ou propriedade especial.
+
+---
+
+### Pegadinha 1 pelo Método Geral: $|2x - 3| = x - 3$
+
+O único módulo na equação é $|2x - 3|$.  
+Ponto crítico: $2x - 3 = 0 \implies x = \frac{3}{2} = 1{,}5$.
+
+* **Intervalo I ($x < 1{,}5$):**  
+  Expressão negativa $\implies |2x - 3| = -(2x - 3)$.
+  $$-(2x - 3) = x - 3 \implies -2x + 3 = x - 3 \implies -3x = -6 \implies x = 2$$
+  **Validação:** $x = 2$ pertence a $x < 1{,}5$? **Não** ($2 > 1{,}5$). $\implies S_1 = \emptyset$.
+
+* **Intervalo II ($x \ge 1{,}5$):**  
+  Expressão não-negativa $\implies |2x - 3| = 2x - 3$.
+  $$2x - 3 = x - 3 \implies x = 0$$
+  **Validação:** $x = 0$ pertence a $x \ge 1{,}5$? **Não** ($0 < 1{,}5$). $\implies S_2 = \emptyset$.
+
+**Conclusão:** $S = S_1 \cup S_2 = \emptyset$.  
+*(O Método Geral descarta as soluções extrâneas naturalmente na etapa de validação pelo domínio de cada intervalo!)*
+
+---
+
+### Pegadinha 2 pelo Método Geral: $||x - 3| - 4| = 2$
+
+Analisamos o módulo interno $|x - 3|$. Ponto crítico: $x = 3$.
+
+* **Intervalo I ($x < 3$):**  
+  Aqui $|x - 3| = -(x - 3) = -x + 3$. Substituindo:
+  $$|(-x + 3) - 4| = 2 \implies |-x - 1| = 2$$
+  Novo ponto crítico: $-x - 1 = 0 \implies x = -1$.
+  * **Sub-intervalo $x < -1$:** $|-x - 1| = -x - 1 \implies -x - 1 = 2 \implies x = -3$  
+    *(Válido, pois $-3 < -1$).*
+  * **Sub-intervalo $-1 \le x < 3$:** $|-x - 1| = x + 1 \implies x + 1 = 2 \implies x = 1$  
+    *(Válido, pois $1$ está entre $-1$ e $3$).*
+
+* **Intervalo II ($x \ge 3$):**  
+  Aqui $|x - 3| = x - 3$. Substituindo:
+  $$|(x - 3) - 4| = 2 \implies |x - 7| = 2$$
+  Novo ponto crítico: $x - 7 = 0 \implies x = 7$.
+  * **Sub-intervalo $3 \le x < 7$:** $|x - 7| = -(x - 7) = -x + 7 \implies -x + 7 = 2 \implies x = 5$  
+    *(Válido, pois $5$ está entre $3$ e $7$).*
+  * **Sub-intervalo $x \ge 7$:** $|x - 7| = x - 7 \implies x - 7 = 2 \implies x = 9$  
+    *(Válido, pois $9 \ge 7$).*
+
+**Conclusão:** $S = \{-3, 1, 5, 9\}$.
+
+---
+
+### Pegadinha 3 pelo Método Geral: $|x - 1| + |x - 5| = 4$
+
+Pontos críticos: $x = 1$ e $x = 5$.
+
+* **Intervalo I ($x < 1$):**  
+  $$-(x - 1) - (x - 5) = 4 \implies -2x + 6 = 4 \implies -2x = -2 \implies x = 1$$
+  **Validação:** $x = 1$ pertence a $x < 1$? **Não** ($1$ não é estritamente menor que $1$). $\implies S_1 = \emptyset$.
+
+* **Intervalo II ($1 \le x \le 5$):**  
+  $$(x - 1) - (x - 5) = 4 \implies x - 1 - x + 5 = 4 \implies 4 = 4 \quad \text{(Identidade)}$$
+  Como a igualdade é sempre verdadeira, a solução é todo o intervalo da análise: $\implies S_2 = [1, 5]$.
+
+* **Intervalo III ($x > 5$):**  
+  $$(x - 1) + (x - 5) = 4 \implies 2x - 6 = 4 \implies 2x = 10 \implies x = 5$$
+  **Validação:** $x = 5$ pertence a $x > 5$? **Não** ($5$ não é estritamente maior que $5$). $\implies S_3 = \emptyset$.
+
+**Conclusão:** $S = S_1 \cup S_2 \cup S_3 = [1, 5]$.
+
+---
+
+### Pegadinha 4 pelo Método Geral: $\sqrt{x^2 - 6x + 9} + |x - 3| = 8$
+
+Pela definição fundamental de raiz quadrada real: $\sqrt{(x - 3)^2} = |x - 3|$.  
+A equação torna-se $|x - 3| + |x - 3| = 8$. Ponto crítico: $x = 3$.
+
+* **Intervalo I ($x < 3$):**  
+  $$-(x - 3) - (x - 3) = 8 \implies -2x + 6 = 8 \implies -2x = 2 \implies x = -1$$
+  **Validação:** $x = -1$ pertence a $x < 3$? **Sim!** $\implies S_1 = \{-1\}$.
+
+* **Intervalo II ($x \ge 3$):**  
+  $$(x - 3) + (x - 3) = 8 \implies 2x - 6 = 8 \implies 2x = 14 \implies x = 7$$
+  **Validação:** $x = 7$ pertence a $x \ge 3$? **Sim!** $\implies S_2 = \{7\}$.
+
+**Conclusão:** $S = S_1 \cup S_2 = \{-1, 7\}$.
