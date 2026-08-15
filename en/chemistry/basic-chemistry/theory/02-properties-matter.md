@@ -128,15 +128,3 @@ Typically, the coefficient is expressed in the practical unit of grams of solute
 >$$\mu_{\text{solid}}(T, P) = \mu_{\text{solution}}(T, P, x)$$
 >
 >Where $x$ represents the mole fraction of the dissolved solute.
-
----
-
-## Module Progress Map
-
-The concepts presented in this chapter establish the foundational basis for identifying material systems:
-
-* **General Properties (Extensive):** Measure dimensional aspects of matter without identifying the substance.
-* **Specific Properties (Intensive):** Depend on structural arrangement and serve as direct criteria for characterization.
-* **Measurable Quantities:** Density ($\rho = \frac{m}{V}$), phase transition points ($\text{MP}$ and $\text{BP}$), and solubility ($C_s$) are intensive constants under fixed conditions.
-
-With property characterization established, the subsequent step involves analyzing how thermal energy alters the organization of these particles in the chapter dedicated to states of matter and phase changes.
