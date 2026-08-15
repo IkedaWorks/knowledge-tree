@@ -36,7 +36,10 @@ For a system partitioned into $n$ independent subsystems, the total extensive pr
 
 $$P_{\text{total}} = \sum_{i=1}^{n} P_i$$
 
->[!NOTE] Continuous Media and Volume Integration
+>[!NOTE] 
+>
+>Continuous Media and Volume Integration
+>
 >Considering a continuous medium with local mass density $\rho(\mathbf{r})$ contained within a three-dimensional region of space $\Omega$, the total volume $V$ and total mass $m$ are formally defined by integrals over the domain:
 >
 >$$V = \iiint_{\Omega} dV$$
@@ -65,7 +68,9 @@ $$\rho = \frac{m}{V}$$
 
 In the International System of Units (SI), density is expressed in $\text{kg/m}^3$, though practical units such as $\text{g/cm}^3$ and $\text{g/mL}$ are also common (where $1\text{ g/cm}^3 = 1000\text{ kg/m}^3$). Intensive physical properties are fixed thermodynamic constants for pure substances under standardized pressure and temperature conditions.
 
->[!NOTE] Differential Limit Definition in Heterogeneous Media
+>[!NOTE] 
+>
+>Differential Limit Definition in Heterogeneous Media
 >An intensive property $y(\mathbf{r})$ can be defined mathematically as the limit ratio between two extensive properties $P_1$ and $P_2$ as the sampling volume approaches a differential element $dV$:
 >
 >$$y(\mathbf{r}) = \lim_{\Delta V \to 0} \frac{\Delta P_1}{\Delta P_2}$$
@@ -105,7 +110,9 @@ $$q = m \cdot L$$
 
 Where $L$ is a specific property expressed in SI units as Joules per kilogram ($\text{J/kg}$) or practically as calories per gram ($\text{cal/g}$).
 
->[!NOTE] Statistical Mechanics Perspective
+>[!NOTE] 
+>
+>Statistical Mechanics Perspective
 >From a statistical viewpoint, melting and boiling points represent critical temperatures where the average thermal agitation energy ($k_B T$) reaches the value necessary to overcome the potential energies of intermolecular attraction within the crystal lattice or liquid phase.
 
 ---
@@ -122,7 +129,9 @@ $$C_s(T) = \frac{m_{\text{solute, max}}}{m_{\text{solvent}}}$$
 
 Typically, the coefficient is expressed in the practical unit of grams of solute per $100\text{ g}$ of solvent ($\text{g solute} / 100\text{ g } \text{H}_2\text{O}$).
 
->[!NOTE] Thermodynamic Equilibrium of Phases
+>[!NOTE] 
+>
+>Thermodynamic Equilibrium of Phases
 >Thermodynamically, solubility equilibrium occurs when the chemical potential of the solute in the solid phase ($\mu_{\text{solid}}$) equals its chemical potential in the solution phase ($\mu_{\text{solution}}$):
 >
 >$$\mu_{\text{solid}}(T, P) = \mu_{\text{solution}}(T, P, x)$$

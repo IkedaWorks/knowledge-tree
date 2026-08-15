@@ -36,7 +36,9 @@ Para um sistema particionado em $n$ subsistemas independentes, a propriedade ext
 
 $$P_{\text{total}} = \sum_{i=1}^{n} P_i$$
 
->[!NOTE] Formato Contínuo e Integração de Volume
+>[!NOTE] 
+>
+>Formato Contínuo e Integração de Volume
 >Considerando um meio contínuo com densidade de massa local $\rho(\mathbf{r})$ contido em uma região tridimensional do espaço $\Omega$, o volume total $V$ e a massa total $m$ são definidos formalmente por integrais sobre o domínio:
 >
 >$$V = \iiint_{\Omega} dV$$
@@ -64,7 +66,9 @@ $$\rho = \frac{m}{V}$$
 
 No Sistema Internacional de Unidades (SI), a densidade é expressa em $\text{kg/m}^3$, sendo também comum a utilização das unidades práticas $\text{g/cm}^3$ e $\text{g/mL}$ (onde $1\text{ g/cm}^3 = 1000\text{ kg/m}^3$). As propriedades físicas intensivas são constantes termodinâmicas fixas para substâncias puras sob condições padronizadas de pressão e temperatura.
 
->[!NOTE] Definição Limite e Meios Heterogêneos
+>[!NOTE] 
+>
+>Definição Limite e Meios Heterogêneos
 >Uma propriedade intensiva $y(\mathbf{r})$ pode ser definida matematicamente como a razão limite entre duas propriedades extensivas $P_1$ e $P_2$ quando o volume da amostragem tende a um elemento diferencial $dV$:
 >
 >$$y(\mathbf{r}) = \lim_{\Delta V \to 0} \frac{\Delta P_1}{\Delta P_2}$$
@@ -104,7 +108,9 @@ $$q = m \cdot L$$
 
 Em que $L$ é uma propriedade específica expressa no SI em Joules por quilograma ($\text{J/kg}$) ou em caloria por grama ($\text{cal/g}$).
 
->[!NOTE] Visão Estatística e Intermolecular
+>[!NOTE] 
+>
+>Visão Estatística e Intermolecular
 >Do ponto de vista estatístico, os pontos de fusão e ebulição representam temperaturas críticas onde a energia de agitação térmica média ($k_B T$) atinge o valor necessário para superar as energias potenciais de atração intermolecular do reticulado cristalino ou da fase líquida.
 
 ---
@@ -121,7 +127,9 @@ $$C_s(T) = \frac{m_{\text{soluto, máx}}}{m_{\text{solvente}}}$$
 
 Geralmente, expressa-se o coeficiente na unidade prática de gramas de soluto por $100\text{ g}$ de solvente ($\text{g soluto} / 100\text{ g } \text{H}_2\text{O}$).
 
->[!NOTE] Equilíbrio Termodinâmico de Fases
+>[!NOTE] 
+>
+>Equilíbrio Termodinâmico de Fases
 >Termodinamicamente, o equilíbrio de solubilidade ocorre quando o potencial químico do soluto na fase sólida ($\mu_{\text{sólido}}$) iguala-se ao seu potencial químico na fase de solução ($\mu_{\text{solução}}$):
 >
 >$$\mu_{\text{sólido}}(T, P) = \mu_{\text{solução}}(T, P, x)$$
