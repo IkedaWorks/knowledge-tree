@@ -16,14 +16,14 @@ Syntax: type(scope): short description
 
 ## Main Types
 
-| Type           | Description                                                                        | Example                                  |
-| :------------- | :--------------------------------------------------------------------------------- | :--------------------------------------- |
-| **`docs`**     | Documentation changes, study notes, or READMEs.                                    | `docs(git): add commit guidelines`       |
-| **`feat`**     | Addition of new content or functional features (Scripts, subjects).                | `feat(circuits): add Kirchhoff's laws`   |
-| **`refactor`** | Reorganizing folders or files without changing content meaning.                    | `refactor(physics): move statics assets` |
-| **`fix`**      | Correcting errors in LaTeX formulas, broken links, or script bugs.                 | `fix(latex): correct Maxwell equation`   |
-| **`style`**    |  Formatting and visual adjustments (Markdown, spacing) without changing meaning. | `style(md): fix indentation in intro`    |
-| **`chore`**    | Routine maintenance (updating `.gitignore`, licenses, or metadata).                | `chore: update license year`             |
+| Type           | Description                                                                     | Example                                  |
+| :------------- | :------------------------------------------------------------------------------ | :--------------------------------------- |
+| **`docs`**     | Documentation changes, study notes, or READMEs.                                 | `docs(git): add commit guidelines`       |
+| **`feat`**     | Addition of new content or functional features (Scripts, subjects).             | `feat(circuits): add Kirchhoff's laws`   |
+| **`refactor`** | Reorganizing folders or files without changing content meaning.                 | `refactor(physics): move statics assets` |
+| **`fix`**      | Correcting errors in LaTeX formulas, broken links, or script bugs.              | `fix(latex): correct Maxwell equation`   |
+| **`style`**    | Formatting and visual adjustments (Markdown, spacing) without changing meaning. | `style(md): fix indentation in intro`    |
+| **`chore`**    | Routine maintenance (updating `.gitignore`, licenses, or metadata).             | `chore: update license year`             |
 
 ---
 
