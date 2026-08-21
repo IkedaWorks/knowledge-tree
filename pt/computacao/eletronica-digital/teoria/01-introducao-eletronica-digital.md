@@ -18,9 +18,9 @@ Em contrapartida, um **sinal digital** é discretizado. Em um sistema binário, 
 
 ## Por que usar o Sistema Digital ?
 
-A principal vantagem da eletrônica digital é a **imunidade ao ruído**. 
+A principal vantagem da eletrônica digital é a sua **alta tolerância ao ruído**.
 
-Como o sistema só precisa identificar dois estados ($0$ ou $1$), pequenas variações ou ruídos elétricos na linha de transmissão são simplesmente ignorados pelo circuito, garantindo que a informação permaneça intacta.
+Como o sistema só precisa distinguir entre dois estados ($0$ ou $1$), ele consegue suportar pequenas variações e interferências na linha de transmissão. Desde que o ruído não ultrapasse os limites de tolerância do circuito, a informação é interpretada e restaurada corretamente.
 
 Isso possibilita:
 * **Confiabilidade:** Transmissão e processamento de dados sem perda de informação.

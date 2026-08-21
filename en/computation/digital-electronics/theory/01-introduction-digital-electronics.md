@@ -19,10 +19,9 @@ In contrast, a **digital signal** is discretized. In a binary system, we abstrac
 
 ## Why Digital?
 
-The primary advantage of digital electronics is **noise immunity**.
+The primary advantage of digital electronics is its **high noise tolerance**.
 
-Since the system only needs to distinguish between two states ($0$ or $1$), small voltage fluctuations or noise along the transmission line are simply ignored by the circuit, ensuring that information remains intact.
-
+Since the system only needs to distinguish between two states ($0$ or $1$), it can withstand small voltage fluctuations and interference along the transmission line. As long as the noise remains within the circuit's tolerance limits, the information is correctly interpreted and restored.
 This provides:
 * **Reliability:** Data processing and transmission without information loss.
 * **Reproducibility:** Easy storage and exact copying of data.
