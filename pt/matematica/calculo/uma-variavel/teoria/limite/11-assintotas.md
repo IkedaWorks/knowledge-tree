@@ -6,7 +6,7 @@ title: Assíntotas
 
 Quando nos dedicamos a estudar funções matemáticas, construímos gradualmente uma expectativa de ordem: para cada ponto de partida no domínio, um único destino correspondente no contradomínio. No entanto, o cálculo diferencial e integral expande nossa visão para além dos limites finitos, convidando-nos a investigar o que acontece nos extremos, onde as grandezas crescem sem teto ou despencam em direções imprevistas. É nesse terreno que surgem as assíntotas, frequentemente mal interpretadas como gráficos de funções independentes, mas que na realidade desempenham o papel de fronteiras geométricas orientadoras para o comportamento limite de uma curva.
 
-## Introdução 
+## Introdução
 
 Considere uma reta vertical definida pela equação $x = c$. Se tentarmos tratá-la como o gráfico de uma função convencional de uma variável, o modelo conceitual falha imediatamente, pois uma única entrada $c$ estaria associada a uma infinidade de saídas no eixo vertical, violando a premissa fundamental de mapeamento. Surge então um questionamento natural: por que adotamos o termo assíntota para descrever linhas que desafiam a própria definição de função?
 
