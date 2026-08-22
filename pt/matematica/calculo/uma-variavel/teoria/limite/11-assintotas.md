@@ -57,44 +57,62 @@ A identificação de uma assíntota oblíqua ou horizontal permite aos engenheir
 
 ## Aplicações Resolvidas Passo a Passo
 
-1. **Análise de assíntota vertical por descontinuidade:** Determine o comportamento da função nas proximidades da restrição de domínio:
-   $$
-   f(x) = \frac{x^2 - 4}{x - 2}
-   $$
-   Identificamos que o denominador se anula em $x = 2$. Calculando o limite lateral correspondente:
-   $$
-   \lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) = 4
-   $$
-   Como o resultado é finito, o ponto crítico representa uma descontinuidade removível, confirmando a **ausência de assíntota vertical** em $x = 2$.
+Análise de assíntota vertical por descontinuidade: Determine o comportamento da função nas proximidades da restrição de domínio:
 
-2. **Determinação de assíntotas horizontais:** Analise o comportamento limite da função racional abaixo quando a variável cresce indefinidamente:
-   $$
-   f(x) = \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
-   $$
-   Calculamos o limite para o infinito positivo:
-   $$
-   \lim_{x \to \infty} \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
-   $$
-   Dividindo todos os termos pela maior potência do denominador ($x^2$):
-   $$
-   \lim_{x \to \infty} \frac{5 - \frac{3}{x} + \frac{1}{x^2}}{2 + \frac{1}{x} - \frac{4}{x^2}} = \frac{5 - 0 + 0}{2 + 0 - 0} = \frac{5}{2}
-   $$
-   Portanto, a função possui uma **assíntota horizontal** em $y = \frac{5}{2}$.
+$$
+f(x) = \frac{x^2 - 4}{x - 2}
+$$
 
-3. **Cálculo de assíntotas oblíquas:** Encontre a reta diretriz de comportamento extremo para a função:
-   $$
-   f(x) = \frac{x^3 + x^2 - 1}{x^2 - 1}
-   $$
-   Como o grau do numerador supera o do denominador em exatamente uma unidade, calculamos primeiramente o coeficiente angular $m$:
-   $$
-   m = \lim_{x \to \infty} \frac{f(x)}{x} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x(x^2 - 1)} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x^3 - x} = 1
-   $$
-   Em seguida, determinamos o coeficiente linear $b$:
-   $$
-   b = \lim_{x \to \infty} (f(x) - mx) = \lim_{x \to \infty} \left( \frac{x^3 + x^2 - 1}{x^2 - 1} - 1 \cdot x \right)
-   $$
-   Unificando sob o mesmo denominador:
-   $$
-   b = \lim_{x \to \infty} \frac{x^3 + x^2 - 1 - x(x^2 - 1)}{x^2 - 1} = \lim_{x \to \infty} \frac{x^2 + x - 1}{x^2 - 1}
-   $$
-   Aplicando o limite por divisão de termos de maior grau, obtemos $b = 1$. Logo, a função admite uma **assíntota oblíqua** em $y = x + 1$.
+Identificamos que o denominador se anula em $x = 2$. Calculando o limite lateral correspondente:
+
+$$
+\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) = 4
+$$
+
+Como o resultado é finito, o ponto crítico representa uma descontinuidade removível, confirmando a **ausência de assíntota vertical** em $x = 2$.
+
+Determinação de assíntotas horizontais: Analise o comportamento limite da função racional abaixo quando a variável cresce indefinidamente:
+
+$$
+f(x) = \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
+$$
+
+Calculamos o limite para o infinito positivo:
+
+$$
+\lim_{x \to \infty} \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
+$$
+
+Dividindo todos os termos pela maior potência do denominador ($x^2$):
+
+$$
+\lim_{x \to \infty} \frac{5 - \frac{3}{x} + \frac{1}{x^2}}{2 + \frac{1}{x} - \frac{4}{x^2}} = \frac{5 - 0 + 0}{2 + 0 - 0} = \frac{5}{2}
+$$
+
+Portanto, a função possui uma **assíntota horizontal** em $y = \frac{5}{2}$.
+
+Cálculo de assíntotas oblíquas: Encontre a reta diretriz de comportamento extremo para a função:
+
+$$
+f(x) = \frac{x^3 + x^2 - 1}{x^2 - 1}
+$$
+
+Como o grau do numerador supera o do denominador em exatamente uma unidade, calculamos primeiramente o coeficiente angular $m$:
+
+$$
+m = \lim_{x \to \infty} \frac{f(x)}{x} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x(x^2 - 1)} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x^3 - x} = 1
+$$
+
+Em seguida, determinamos o coeficiente linear $b$:
+
+$$
+b = \lim_{x \to \infty} (f(x) - mx) = \lim_{x \to \infty} \left( \frac{x^3 + x^2 - 1}{x^2 - 1} - 1 \cdot x \right)
+$$
+
+Unificando sob o mesmo denominador:
+
+$$
+b = \lim_{x \to \infty} \frac{x^3 + x^2 - 1 - x(x^2 - 1)}{x^2 - 1} = \lim_{x \to \infty} \frac{x^2 + x - 1}{x^2 - 1}
+$$
+
+Aplicando o limite por divisão de termos de maior grau, obtemos $b = 1$. Logo, a função admite uma **assíntota oblíqua** em $y = x + 1$.

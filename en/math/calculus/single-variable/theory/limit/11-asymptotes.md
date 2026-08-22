@@ -57,44 +57,62 @@ Identifying an oblique or horizontal asymptote allows engineers and analysts to 
 
 ## Step-by-Step Solved Applications
 
-1. **Analysis of vertical asymptote via discontinuity:** Determine the behavior of the function near the domain restriction:
-   $$
-   f(x) = \frac{x^2 - 4}{x - 2}
-   $$
-   We identify that the denominator vanishes at $x = 2$. Calculating the corresponding limit:
-   $$
-   \lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) = 4
-   $$
-   Since the result is finite, the critical point represents a removable discontinuity, confirming the **absence of a vertical asymptote** at $x = 2$.
+Analysis of vertical asymptote via discontinuity: Determine the behavior of the function near the domain restriction:
 
-2. **Determination of horizontal asymptotes:** Analyze the limit behavior of the rational function below when the variable grows indefinitely:
-   $$
-   f(x) = \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
-   $$
-   We calculate the limit toward positive infinity:
-   $$
-   \lim_{x \to \infty} \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
-   $$
-   Dividing all terms by the highest power of the denominator ($x^2$):
-   $$
-   \lim_{x \to \infty} \frac{5 - \frac{3}{x} + \frac{1}{x^2}}{2 + \frac{1}{x} - \frac{4}{x^2}} = \frac{5 - 0 + 0}{2 + 0 - 0} = \frac{5}{2}
-   $$
-   Therefore, the function features a **horizontal asymptote** at $y = \frac{5}{2}$.
+$$
+f(x) = \frac{x^2 - 4}{x - 2}
+$$
 
-3. **Calculation of oblique asymptotes:** Find the extreme behavior guiding line for the function:
-   $$
-   f(x) = \frac{x^3 + x^2 - 1}{x^2 - 1}
-   $$
-   Since the degree of the numerator exceeds that of the denominator by exactly one unit, we first calculate the slope $m$:
-   $$
-   m = \lim_{x \to \infty} \frac{f(x)}{x} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x(x^2 - 1)} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x^3 - x} = 1
-   $$
-   Next, we determine the linear intercept $b$:
-   $$
-   b = \lim_{x \to \infty} (f(x) - mx) = \lim_{x \to \infty} \left( \frac{x^3 + x^2 - 1}{x^2 - 1} - 1 \cdot x \right)
-   $$
-   Unifying under a common denominator:
-   $$
-   b = \lim_{x \to \infty} \frac{x^3 + x^2 - 1 - x(x^2 - 1)}{x^2 - 1} = \lim_{x \to \infty} \frac{x^2 + x - 1}{x^2 - 1}
-   $$
-   Applying the limit by dividing terms of highest degree yields $b = 1$. Thus, the function admits an **oblique asymptote** at $y = x + 1$.
+We identify that the denominator vanishes at $x = 2$. Calculating the corresponding limit:
+
+$$
+\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) = 4
+$$
+
+Since the result is finite, the critical point represents a removable discontinuity, confirming the **absence of a vertical asymptote** at $x = 2$.
+
+Determination of horizontal asymptotes: Analyze the limit behavior of the rational function below when the variable grows indefinitely:
+
+$$
+f(x) = \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
+$$
+
+We calculate the limit toward positive infinity:
+
+$$
+\lim_{x \to \infty} \frac{5x^2 - 3x + 1}{2x^2 + x - 4}
+$$
+
+Dividing all terms by the highest power of the denominator ($x^2$):
+
+$$
+\lim_{x \to \infty} \frac{5 - \frac{3}{x} + \frac{1}{x^2}}{2 + \frac{1}{x} - \frac{4}{x^2}} = \frac{5 - 0 + 0}{2 + 0 - 0} = \frac{5}{2}
+$$
+
+Therefore, the function features a **horizontal asymptote** at $y = \frac{5}{2}$.
+
+Calculation of oblique asymptotes: Find the extreme behavior guiding line for the function:
+
+$$
+f(x) = \frac{x^3 + x^2 - 1}{x^2 - 1}
+$$
+
+Since the degree of the numerator exceeds that of the denominator by exactly one unit, we first calculate the slope $m$:
+
+$$
+m = \lim_{x \to \infty} \frac{f(x)}{x} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x(x^2 - 1)} = \lim_{x \to \infty} \frac{x^3 + x^2 - 1}{x^3 - x} = 1
+$$
+
+Next, we determine the linear intercept $b$:
+
+$$
+b = \lim_{x \to \infty} (f(x) - mx) = \lim_{x \to \infty} \left( \frac{x^3 + x^2 - 1}{x^2 - 1} - 1 \cdot x \right)
+$$
+
+Unifying under a common denominator:
+
+$$
+b = \lim_{x \to \infty} \frac{x^3 + x^2 - 1 - x(x^2 - 1)}{x^2 - 1} = \lim_{x \to \infty} \frac{x^2 + x - 1}{x^2 - 1}
+$$
+
+Applying the limit by dividing terms of highest degree yields $b = 1$. Thus, the function admits an **oblique asymptote** at $y = x + 1$.
