@@ -1,115 +1,178 @@
+---
+id: teorema_do_confronto
+title: Squeeze Theorem
+---
+# Squeeze Theorem
 
-# Squeeze Theorem: The Sandwich Strategy
+When calculating limits of mathematical functions, we frequently encounter expressions whose direct evaluation is unfeasible due to incessant oscillations or indeterminate behaviors. In these scenarios, conventional algebraic techniques, such as factoring polynomials or canceling terms, prove insufficient. A fundamental question then arises: how can we determine the asymptotic trend of a function whose exact behavior is complex or unknown, but whose upper and lower bounds can be strictly delimited?
 
-**Definition and Intuition:**
+---
 
-The **Squeeze Theorem** (also known as the **Sandwich Theorem** or **Confrontation Theorem**) is used to find the limit of a "complicated" function by compressing it between two "simple" functions that share the same limit.
+## The Principle of Compression
 
-##  The Hallway Intuition (Reality)
+To understand the essence of this problem, consider the behavior of a particle confined to move between two approaching physical boundaries. Suppose three continuous trajectories are described along a common domain. Two of these trajectories act as inviolable borders: one bounds the path from below, while the other bounds it from above.
 
-Imagine you are walking down a narrow hallway:
+As the independent variable approaches a specific critical value, the lower and upper trajectories progressively converge toward the same final position. The particle located between them has no freedom to deviate beyond the established boundaries. Consequently, if the lower and upper barriers meet at the exact same point, the state of the intermediate trajectory is inevitably determined by this joint convergence.
 
-- To your left is a moving wall ( $g(x)$ ) .
-    
-- To your right is another moving wall ( $h(x)$ ).
-    
-- If both walls taper and meet exactly at a door ( $L$ ), you, who are in the middle ( $f(x)$ ), have no choice but to pass through that same door.
-    
+This phenomenon of asymptotic entrapment and compression constitutes the intuitive basis for analyzing compressed oscillatory functions. If a complex function can be "squeezed" between two simpler functions whose behaviors at the point of interest are known and identical, the limit of the intermediate function will be completely determined.
 
-##  Formalization and the Classic Example
+---
 
-**The Mathematical Rule:**
+## Formalization and Mechanics of the Theorem
 
-If $g(x) \leq f(x) \leq h(x)$ for all values near $a$, and if:
+The rigorous formalization of this geometric intuition is known as the Squeeze Theorem (or Sandwich Theorem).
+
+### Formal Statement
+
+Let $g(x)$, $f(x)$, and $h(x)$ be functions defined on an open interval containing the point $a$, except possibly at point $a$ itself. If, for all $x$ in this interval (with $x \neq a$), the inequality holds:
+
+$$g(x) \le f(x) \le h(x)$$
+
+and if the limits of the outer functions at point $a$ exist and are equal, that is:
 
 $$\lim_{x \to a} g(x) = L \quad \text{and} \quad \lim_{x \to a} h(x) = L$$
 
-Then, it is mandatory that:
+then the limit of the intermediate function $f(x)$, as $x$ approaches $a$, exists and is given by:
 
 $$\lim_{x \to a} f(x) = L$$
 
----
-
-##  Step-by-Step Example: $\lim_{x \to \infty} \frac{\sin(x)}{x}$
-
-1. **Identify the oscillation:** $\sin(x)$ has no limit at infinity (it keeps rising and falling between $-1$ and $1$).
-    
-2. **Create the "Sandwich" (Physical Limits):** We know that sine is always trapped:
-    
-    $$-1 \leq \sin(x) \leq 1$$
-    
-3. **Build the target function:** Divide all sides by $x$ (assuming $x > 0$):
-    
-    $$\frac{-1}{x} \leq \frac{\sin(x)}{x} \leq \frac{1}{x}$$
-    
-4. **Apply the limit to the "bread" (the ends):**
-    
-    $$\lim_{x \to \infty} \frac{-1}{x} = 0 \quad \text{and} \quad \lim_{x \to \infty} \frac{1}{x} = 0$$
-    
-5. **Conclusion:** Since the middle function is squeezed between $0$ and $0$, the limit is **$0$**.
-    
+![Representation of Squeeze Theorem](../../../../../../assets/squeeze-theorem.svg)
+*Figure 1: Geometric representation of the Squeeze Theorem. The intermediate function $f(x)$ is squeezed between the upper boundary $h(x)$ and the lower boundary $g(x)$, forcing its limit to $L$ as $x \to a$.*
 
 ---
 
-##  Shortcuts and Exam Cases
+## Corollaries and Derived Properties
 
-- **The "Bounded $\times$ Zero" Shortcut:** Whenever you have a **bounded function** (like sine or cosine) multiplied by something that **goes to zero**, the result of the limit will always be **Zero**.
-    
-- **How to identify it on paper:** If you try to substitute and get "Oscillation / Infinity", it is almost certainly a Squeeze Theorem case.
-    
-- **Watch the Sign:** If you are dividing by $x$ and the limit goes to $-\infty$, the inequality sign flips, but the "crushing" result is usually the same.
-    
+One of the most fruitful applications of the Squeeze Theorem occurs when analyzing the product of a function that approaches zero and a function whose value remains bounded throughout its domain.
 
-> [!TIP]
-> 
-> **Conclusion:**
-> 
-> The Squeeze Theorem is the mathematical proof that a finite oscillation cannot resist being "crushed" toward a point or toward zero at infinity. It is the rigorous way of saying that "zero" wins against any bounded oscillation.
+### The Bounded-Times-Null Property
 
----
+Let $f(x) = g(x) \cdot h(x)$. If $\lim_{x \to a} g(x) = 0$ and if the function $h(x)$ is bounded in a neighborhood of $a$ (that is, there exist real constants $M > 0$ and $N > 0$ such that $-M \le h(x) \le N$ for all $x \neq a$), then:
 
-##  Practical Examples Section
+$$\lim_{x \to a} [g(x) \cdot h(x)] = 0$$
 
-### Example 1: Squared Cosine (Interval 0 to 1)
+#### Proof
 
-**Calculate:** $\lim_{x \to \infty} \frac{\cos^2(x)}{x^2 + 5}$
+By the boundedness of $h(x)$, we have for all $x$ in the considered neighborhood:
 
-1. **Set up the Sandwich:** $\cos^2(x)$ is trapped between $0$ and $1$ (because it is squared): $0 \leq \cos^2(x) \leq 1$.
-    
-2. **Construct the Function:** $\frac{0}{x^2 + 5} \leq \frac{\cos^2(x)}{x^2 + 5} \leq \frac{1}{x^2 + 5}$.
-    
-3. **Verdict:** As the ends go to $0$ when $x \to \infty$, the limit is **$0$**.
-    
+$$-M \le h(x) \le N$$
 
-### Example 2: The Absolute Value Function
+Assuming initially that $g(x) \ge 0$ as $x$ approaches $a$, we multiply all members of the inequality by $g(x)$:
 
-**Calculate:** $\lim_{x \to 0} x^4 \cdot \sin\left(\frac{1}{x}\right)$
+$$-M \cdot g(x) \le g(x) \cdot h(x) \le N \cdot g(x)$$
 
-1. **Set up the Sandwich:** $-1 \leq \sin(1/x) \leq 1$.
-    
-2. **Multiply by $x^4$:** $-x^4 \leq x^4 \cdot \sin(1/x) \leq x^4$.
-    
-3. **Verdict:** Since $-x^4$ and $x^4$ go to $0$ when $x \to 0$, the limit is **$0$**.
-    
+Applying the limit as $x \to a$ to the outer terms:
 
-### Example 3: Inverse Tangent (Arctan)
+$$\lim_{x \to a} [-M \cdot g(x)] = -M \cdot \lim_{x \to a} g(x) = -M \cdot 0 = 0$$
 
-**Calculate:** $\lim_{x \to \infty} \frac{\arctan(x)}{x}$
+$$\lim_{x \to a} [N \cdot g(x)] = N \cdot \lim_{x \to a} g(x) = N \cdot 0 = 0$$
 
-1. **Identify the Bound:** The function $\arctan(x)$ is bounded between $-\pi/2$ and $\pi/2$.
-    
-2. **Divide by $x$:** $\frac{-\pi/2}{x} \leq \frac{\arctan(x)}{x} \leq \frac{\pi/2}{x}$.
-    
-3. **Verdict:** A constant divided by infinity is $0$. The limit is **$0$**.
-    
+Since the limits of both outer boundaries are equal to $0$, the Squeeze Theorem directly establishes that:
+
+$$\lim_{x \to a} [g(x) \cdot h(x)] = 0$$
+
+An analogous analysis applies to cases where $g(x) < 0$, confirming the general validity of the property through absolute value bounding $|g(x) \cdot h(x)| \le K \cdot |g(x)|$.
 
 ---
 
-##  Attention: Why Tangent and Cosecant do NOT fit the Sandwich?
+## Structural Applications and Model Limitations
 
-- **Tangent ($\tan x$):** Explodes to infinity at multiple points ($\pi/2, 3\pi/2$). It is **not bounded**.
-    
-- **Cosecant ($\csc x$):** This is $1/\sin x$. If the sine goes to zero, the cosecant explodes.
-    
+The Squeeze Theorem plays a fundamental role in laying the foundations of Differential and Integral Calculus. It is the primary tool used in proving the **Fundamental Trigonometric Limit**:
 
-The Sandwich only accepts "fillings" that actually fit inside the "bread" (**bounded functions**).
+$$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
+
+This identity, established geometrically by comparing the areas of triangles and the unit circular sector, subsequently allows for the derivation of all trigonometric functions.
+
+### Applicability Constraints
+
+The choice of bounding functions $g(x)$ and $h(x)$ requires rigor. A common failure in applying the theorem occurs when using bounding functions whose limits at point $a$ do not coincide. If $\lim_{x \to a} g(x) = L_1$ and $\lim_{x \to a} h(x) = L_2$, with $L_1 \neq L_2$, the theorem provides no information regarding the existence or value of the limit of $f(x)$.
+
+Furthermore, the method requires the intermediate function to be strictly bounded within the considered interval. Functions such as tangent ($\tan(x)$) or cosecant ($\csc(x)$) exhibit vertical asymptotic discontinuities in the real domain, making them unbounded in neighborhoods of their singular points and preventing direct squeezing.
+
+---
+
+## Problem Solving
+
+### Example 1: Infinite Convergence of Trigonometric Ratios
+
+Determine the value of the limit:
+
+$$\lim_{x \to \infty} \frac{\sin(x)}{x}$$
+
+#### Solution
+
+1. **Identification of component behavior:** The sine function satisfies the standard amplitude bound for all $x \in \mathbb{R}$:
+
+   $$-1 \le \sin(x) \le 1$$
+
+2. **Construction of inequalities:** Considering the domain where $x > 0$ (since $x \to \infty$), we divide all terms of the inequality by $x$:
+
+   $$-\frac{1}{x} \le \frac{\sin(x)}{x} \le \frac{1}{x}$$
+
+3. **Calculation of outer limits:**
+
+   $$\lim_{x \to \infty} \left(-\frac{1}{x}\right) = 0$$
+
+   $$\lim_{x \to \infty} \left(\frac{1}{x}\right) = 0$$
+
+4. **Conclusion via the Squeeze Theorem:** Since the function $f(x) = \frac{\sin(x)}{x}$ is bounded between two expressions that approach $0$ as $x \to \infty$, it strictly follows that:
+
+   $$\lim_{x \to \infty} \frac{\sin(x)}{x} = 0$$
+
+---
+
+### Example 2: Polynomial Damping Around the Origin
+
+Calculate the limit:
+
+$$\lim_{x \to 0} x^4 \sin\left(\frac{1}{x}\right)$$
+
+#### Solution
+
+1. **Discontinuity analysis:** The expression $\sin(1/x)$ exhibits infinite frequency oscillation as $x$ approaches $0$. Direct evaluation by substitution is undefined.
+
+2. **Applying the squeeze:** Knowing that the range of the sine function is contained within the interval $[-1, 1]$, we have:
+
+   $$-1 \le \sin\left(\frac{1}{x}\right) \le 1 \quad \forall x \neq 0$$
+
+3. **Multiplication by factor $x^4$:** Since $x^4 > 0$ for all $x \neq 0$, the inequality direction is preserved:
+
+   $$-x^4 \le x^4 \sin\left(\frac{1}{x}\right) \le x^4$$
+
+4. **Evaluation of outer limits:**
+
+   $$\lim_{x \to 0} (-x^4) = 0$$
+
+   $$\lim_{x \to 0} x^4 = 0$$
+
+5. **Application of the Bounded-Times-Null Property:** Both outer boundaries converge to $0$. Therefore:
+
+   $$\lim_{x \to 0} x^4 \sin\left(\frac{1}{x}\right) = 0$$
+
+---
+
+### Example 3: Limits Involving Arc-Tangent Relations
+
+Calculate the limit:
+
+$$\lim_{x \to \infty} \frac{\arctan(x)}{x}$$
+
+#### Solution
+
+1. **Arc-tangent boundedness analysis:** The range of $y = \arctan(x)$ is strictly bounded by horizontal asymptotes at $y = \pm \frac{\pi}{2}$:
+
+   $$-\frac{\pi}{2} < \arctan(x) < \frac{\pi}{2} \quad \forall x \in \mathbb{R}$$
+
+2. **Division by variable $x$ ($x > 0$):**
+
+   $$-\frac{\pi}{2x} < \frac{\arctan(x)}{x} < \frac{\pi}{2x}$$
+
+3. **Taking the limit:**
+
+   $$\lim_{x \to \infty} \left(-\frac{\pi}{2x}\right) = 0$$
+
+   $$\lim_{x \to \infty} \left(\frac{\pi}{2x}\right) = 0$$
+
+4. **Verdict:** By the Squeeze Theorem:
+
+   $$\lim_{x \to \infty} \frac{\arctan(x)}{x} = 0$$
