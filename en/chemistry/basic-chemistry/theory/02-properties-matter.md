@@ -1,5 +1,5 @@
 ---
-id: properties_of_matter
+id: properties-of-matter
 title: Properties of Matter
 ---
 # Properties of Matter and System Characterization

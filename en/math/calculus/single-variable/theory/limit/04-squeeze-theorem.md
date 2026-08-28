@@ -1,5 +1,5 @@
 ---
-id: teorema_do_confronto
+id: teorema-do-confronto
 title: Squeeze Theorem
 ---
 # Squeeze Theorem

@@ -1,5 +1,5 @@
 ---
-id: one_sided_limits
+id: one-sided-limits
 title: One Sided Limits
 ---
 

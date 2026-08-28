@@ -1,5 +1,5 @@
 ---
-id: set_theory
+id: set-theory
 title: Set Theory
 ---
 

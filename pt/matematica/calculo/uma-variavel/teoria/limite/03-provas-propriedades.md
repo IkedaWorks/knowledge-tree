@@ -1,5 +1,5 @@
 ---
-id: provando_propriedades_limites
+id: provando-propriedades-limites
 title: Provas Formais das Propriedades de Limites
 ---
 # Provas Formais das Propriedades de Limites

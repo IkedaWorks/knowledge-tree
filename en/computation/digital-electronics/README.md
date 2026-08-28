@@ -1,5 +1,5 @@
 ---
-id: digital_electronics
+id: digital-electronics
 title: Digital Electronics
 ---
 

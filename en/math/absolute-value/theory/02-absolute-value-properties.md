@@ -1,5 +1,5 @@
 ---
-id: absolute_value_properties
+id: absolute-value-properties
 title: Absolute Value Properties
 ---
 # Properties of Absolute Value

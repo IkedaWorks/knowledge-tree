@@ -1,5 +1,5 @@
 ---
-id: fisica_1
+id: fisica-1
 title: Física I — Mecânica Clássica
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: funcoes_modulares
+id: funcoes-modulares
 title: Funções Modulares
 ---
 

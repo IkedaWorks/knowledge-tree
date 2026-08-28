@@ -1,5 +1,5 @@
 ---
-id: absolute_value_equations
+id: absolute-value-equations
 title: Absolute Value Equations
 ---
 

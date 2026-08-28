@@ -1,5 +1,5 @@
 ---
-id: limits_properties
+id: limits-properties
 title: Limit Properties
 ---
 # Limit Properties and Computation Mechanics

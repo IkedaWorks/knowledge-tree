@@ -1,5 +1,5 @@
 ---
-id: single_variable_calculus
+id: single-variable-calculus
 title: Single Variable Calculus
 ---
 

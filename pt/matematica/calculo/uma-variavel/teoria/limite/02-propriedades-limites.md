@@ -1,5 +1,5 @@
 ---
-id: propriedades_limites
+id: propriedades-limites
 title: Propriedades de Limites
 ---
 # Propriedades de Limites e Mecânica de Cálculo

@@ -1,5 +1,5 @@
 ---
-id: introduction_chemistry
+id: introduction-chemistry
 title: Introduction to Chemistry
 ---
 # Introduction to Chemistry

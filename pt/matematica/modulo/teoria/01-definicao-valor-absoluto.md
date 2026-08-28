@@ -1,5 +1,5 @@
 ---
-id: definicao_valor_absoluto
+id: definicao-valor-absoluto
 title: Definição do Valor Absoluto
 ---
 ## A Ideia por Trás da Grandeza: Módulo como Distância

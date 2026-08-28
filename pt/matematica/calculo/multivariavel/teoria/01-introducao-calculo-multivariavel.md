@@ -1,5 +1,5 @@
 ---
-id: introducao_calculo_multivariavel
+id: introducao-calculo-multivariavel
 title: Introdução ao Cálculo Multivariável
 ---
 

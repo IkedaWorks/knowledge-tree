@@ -1,5 +1,5 @@
 ---
-id: quimica_basica
+id: quimica-basica
 title: Módulo de Química Básica
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: definicao_edo
+id: definicao-edo
 title: Definição de Equação Diferencial Ordinária
 ---
 # Definição de Equação Diferencial Ordinária

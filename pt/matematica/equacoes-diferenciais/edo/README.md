@@ -1,5 +1,5 @@
 ---
-id: equacoes_diferenciais
+id: equacoes-diferenciais
 title: Equações Diferenciais
 ---
 # Equações Diferenciais

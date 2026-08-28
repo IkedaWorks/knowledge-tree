@@ -1,5 +1,5 @@
 ---
-id: propriedades_materia
+id: propriedades-materia
 title: Propriedades da Matéria
 ---
 # Propriedades da Matéria e Caracterização de Sistemas

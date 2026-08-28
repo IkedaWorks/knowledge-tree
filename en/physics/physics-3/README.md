@@ -1,5 +1,5 @@
 ---
-id: physics_3
+id: physics-3
 title: Physics III — Electromagnetism
 ---
 

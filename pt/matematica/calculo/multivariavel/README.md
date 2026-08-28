@@ -1,5 +1,5 @@
 ---
-id: calculo_multivariavel
+id: calculo-multivariavel
 title: Cálculo Multivariável
 ---
 

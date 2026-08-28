@@ -1,5 +1,5 @@
 ---
-id: physics_1
+id: physics-1
 title: Physics I — Classical Mechanics
 ---
 

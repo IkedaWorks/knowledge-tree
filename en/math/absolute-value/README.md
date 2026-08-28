@@ -1,5 +1,5 @@
 ---
-id: absolute_value
+id: absolute-value
 title: Absolute Value
 ---
 ## Overview

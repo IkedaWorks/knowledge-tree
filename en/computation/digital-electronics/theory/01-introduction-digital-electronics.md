@@ -1,5 +1,5 @@
 ---
-id: introduction_digital_electronics
+id: introduction-digital-electronics
 title: Introduction to Digital Electronics
 ---
 

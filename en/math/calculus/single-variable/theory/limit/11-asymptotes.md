@@ -1,5 +1,5 @@
 ---
-id: calculus_asymptotes
+id: calculus-asymptotes
 title: Asymptotes
 ---
 # Asymptotes

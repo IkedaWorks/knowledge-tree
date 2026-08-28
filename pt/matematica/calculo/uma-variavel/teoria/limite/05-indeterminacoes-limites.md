@@ -1,5 +1,5 @@
 ---
-id: indeterminacoes_limites
+id: indeterminacoes-limites
 title: Indeterminações em Limites
 ---
 # Indeterminações em Limites e Técnicas Algébricas

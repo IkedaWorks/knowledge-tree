@@ -1,5 +1,5 @@
 ---
-id: infinite_limits
+id: infinite-limits
 title: Limits at Infinity and Infinite Limits
 ---
 # Limits at Infinity and Infinite Limits

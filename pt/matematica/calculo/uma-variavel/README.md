@@ -1,5 +1,5 @@
 ---
-id: calculo_uma_variavel
+id: calculo-uma-variavel
 title: Cálculo de Uma Variável
 ---
 

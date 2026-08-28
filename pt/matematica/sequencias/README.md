@@ -1,5 +1,5 @@
 ---
-id: sequencias_series_e_medias
+id: sequencias-series-e-medias
 title: Sequências, Séries e Médias
 ---
 

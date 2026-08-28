@@ -1,5 +1,5 @@
 ---
-id: teoria_dos_conjuntos
+id: teoria-dos-conjuntos
 title: Teoria dos Conjuntos
 ---
 

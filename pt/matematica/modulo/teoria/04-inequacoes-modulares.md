@@ -1,5 +1,5 @@
 ---
-id: inequacoes_modulares
+id: inequacoes-modulares
 title: Inequações Modulares
 ---
 

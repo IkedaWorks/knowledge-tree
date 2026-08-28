@@ -1,5 +1,5 @@
 ---
-id: limites_infinitos
+id: limites-infinitos
 title: Limites no Infinito e Limites Infinitos
 ---
 # Limites no Infinito e Limites Infinitos

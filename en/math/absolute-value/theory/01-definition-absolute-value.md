@@ -1,5 +1,5 @@
 ---
-id: definition_absolute_value
+id: definition-absolute-value
 title: Definition of Absolute Value
 ---
 

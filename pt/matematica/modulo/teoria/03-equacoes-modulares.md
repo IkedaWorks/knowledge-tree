@@ -1,5 +1,5 @@
 ---
-id: equacoes_modulares
+id: equacoes-modulares
 title: Equações Modulares
 ---
 

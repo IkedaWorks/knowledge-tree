@@ -1,5 +1,5 @@
 ---
-id: indeterminate_forms_limits
+id: indeterminate-forms-limits
 title: Indeterminate Forms in Limits
 ---
 

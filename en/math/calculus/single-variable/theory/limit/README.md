@@ -1,5 +1,5 @@
 ---
-id: limits_and_continuity
+id: limits-and-continuity
 title: Limits and Continuity
 ---
 

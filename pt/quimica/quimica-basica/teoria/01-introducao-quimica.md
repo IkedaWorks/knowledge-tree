@@ -1,5 +1,5 @@
 ---
-id: introducao_quimica
+id: introducao-quimica
 title: Introdução à Química
 ---
 # Introdução à Química

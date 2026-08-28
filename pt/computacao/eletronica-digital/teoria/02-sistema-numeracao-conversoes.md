@@ -1,5 +1,5 @@
 ---
-id: sistemas_numeracao_conversoes
+id: sistemas-numeracao-conversoes
 title: Sistemas de Numeração e Conversões de Base
 ---
 # Sistemas Numéricos e a Linguagem dos Computadores

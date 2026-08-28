@@ -1,5 +1,5 @@
 ---
-id: electric_circuits_1
+id: electric-circuits-1
 title: Electric Circuits I
 ---
 

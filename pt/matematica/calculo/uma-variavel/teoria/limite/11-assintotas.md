@@ -1,5 +1,5 @@
 ---
-id: calculo_assintotas
+id: calculo-assintotas
 title: Assíntotas
 ---
 # Assíntotas

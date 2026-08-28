@@ -1,5 +1,5 @@
 ---
-id: property_proofs
+id: property-proofs
 title: Formal Proofs of Limit Properties
 ---
 # Formal Proofs of Limit Properties

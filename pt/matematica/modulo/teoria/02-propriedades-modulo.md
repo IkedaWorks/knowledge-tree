@@ -1,5 +1,5 @@
 ---
-id: propriedades_modulo
+id: propriedades-modulo
 title: Propriedades do Módulo
 ---
 # Propriedades do Valor Absoluto

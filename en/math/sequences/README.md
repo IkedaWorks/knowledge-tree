@@ -1,5 +1,5 @@
 ---
-id: sequences_series_and_means
+id: sequences-series-and-means
 title: Sequences, Series, and Means
 ---
 

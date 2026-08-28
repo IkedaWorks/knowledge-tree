@@ -1,5 +1,5 @@
 ---
-id: definicao_limites
+id: definicao-limites
 title: Definição Formal de Limite (Epsilon-Delta)
 ---
 # Definição Formal de Limite

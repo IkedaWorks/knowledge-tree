@@ -1,5 +1,5 @@
 ---
-id: definicao_edo
+id: definicao-edo
 title: Definition of Ordinary Differential Equation
 ---
 # Definition of Ordinary Differential Equation

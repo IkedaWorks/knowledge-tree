@@ -1,5 +1,5 @@
 ---
-id: multivariable_calculus
+id: multivariable-calculus
 title: Multivariable Calculus
 ---
 

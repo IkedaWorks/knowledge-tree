@@ -1,5 +1,5 @@
 ---
-id: absolute_value_inequalities
+id: absolute-value-inequalities
 title: Absolute Value Inequalities
 ---
 

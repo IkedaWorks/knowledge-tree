@@ -1,5 +1,5 @@
 ---
-id: eletronica_digital
+id: eletronica-digital
 title: Eletrônica Digital
 ---
 

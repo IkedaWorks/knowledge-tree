@@ -1,5 +1,5 @@
 ---
-id: basic_chemistry
+id: basic-chemistry
 title: Basic Chemistry Module
 ---
 

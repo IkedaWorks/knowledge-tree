@@ -1,5 +1,5 @@
 ---
-id: introduction_multivariable-calculus
+id: introduction-multivariable-calculus
 title: Introduction to Multivariable Calculus
 ---
 

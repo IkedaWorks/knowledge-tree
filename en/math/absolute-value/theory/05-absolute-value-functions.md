@@ -1,5 +1,5 @@
 ---
-id: absolute_value_functions
+id: absolute-value-functions
 title: Absolute Value Functions
 ---
 

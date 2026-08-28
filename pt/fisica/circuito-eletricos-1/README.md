@@ -1,5 +1,5 @@
 ---
-id: circuitos_eletricos_1
+id: circuitos-eletricos-1
 title: Circuitos Elétricos I
 ---
 

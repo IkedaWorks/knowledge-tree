@@ -1,5 +1,5 @@
 ---
-id: introducao_eletronica_digital
+id: introducao-eletronica-digital
 title: Introdução à Eletrônica Digital
 ---
 # Introdução à Eletrônica Digital
