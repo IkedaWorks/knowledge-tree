@@ -1,42 +1,51 @@
+# 🌳 knowledge_tree (Project Yggdrasil)
+
+> *"The branches of knowledge must reach as far as the roots of understanding."*
+
+The **Project Yggdrasil** is an ambitious endeavor to build a massive, interconnected, and ever-growing digital ecosystem. Inspired by the mythical world tree, this project serves as a central hub where distinct domains of human knowledge (from Computer Science and Natural Sciences to the Humanities) meet, branch out, and flourish.
+
+The goal is to move beyond static information and superficial EdTech testing methods. We are cultivating a living knowledge base where every file is a node, every backlink is a root, and learning is evaluated through deep reasoning, conceptual intuition, and root-cause error analysis rather than mechanical multiple-choice drills.
 
 ---
 
-# 🌳 knowledge_tree (Project Yggdrasil)
+## The Vision
 
-### "The branches of knowledge must reach as far as the roots of understanding."
+Most educational tools are built to measure memorization, not to nurture genuine understanding. By relying on rigid drills and superficial testing, traditional platforms treat learning as a mechanical checklist. When someone struggles, these systems offer more of the same tests instead of clarity, mistaking a gap in foundational intuition for a lack of capability. 
 
-The **Project Yggdrasil** is more than a simple repository of notes; it is an ambitious endeavor to build a massive, interconnected, and ever-growing digital ecosystem. Inspired by the mythical world tree, this project serves as a central hub where distinct fields of study—from the rigid laws of **Electromagnetism** and **Statics** to the abstract logic of **Calculus** and **Computer Engineering**—meet, branch out, and flourish.
+Project Yggdrasil turns this paradigm upside down.
 
-The goal is to move beyond static information. We are cultivating a living knowledge base where every file is a node, and every backlink is a root, ensuring that no concept exists in isolation.
+Whether you are exploring philosophy, mastering computer science, understanding history, or diving into natural sciences, true learning requires seeing how ideas connect. Yggdrasil structures knowledge as a living network, designed to foster deep metacognition: helping you understand not just *what* you are learning, but *how* your mind learns best.
 
-##  The Vision
+By mapping how concepts build upon one another, Yggdrasil uncovers the root causes of learning friction while highlighting your natural cognitive strengths. We move away from mechanical repetition to provide the intuition, context, and mental clarity needed for anyone, in any field, to achieve true intellectual independence.
 
-This project is a long-term commitment to the craft of structured learning. In an era of fragmented information, Yggdrasil stands as a testament to deep focus and technical rigor. It is designed to evolve from a personal "vault" into an intelligent system capable of guiding learners through the complex forest of modern science and engineering.
+---
 
-##  Technical Requirements & Standards
+## Technical Standards
 
-To ensure this ecosystem grows with stability and remains accessible across all platforms, we follow a strict set of architectural principles:
+To ensure this ecosystem grows with stability, maintains total commercial and authorial autonomy, and remains accessible across all platforms, we follow a set of architectural principles:
 
-*   **Bilingual Core:** To ensure global reach, the repository is maintained in both **Portuguese and English**.
-*   **Scientific Precision:** We use **LaTeX (MathJax)** for all mathematical and scientific formulas to maintain academic standards.
-*   **Engineering Rigor:** Every update is managed via **Git CLI**, ensuring a deep, professional understanding of the project's lifecycle.
-*   **Obsidian Optimized:** While fully readable in any Markdown editor, the structure is optimized for **Obsidian's** graph and backlinking capabilities.
-* **Excalidraw Integration:** All technical diagrams are built using Excalidraw. This allows for hand-drawn aesthetics with professional engineering precision, maintained as editable source files within the repository.
+* **Bilingual Core:** The repository is maintained in both **Portuguese and English** to ensure global reach.
+* **Scientific Precision:** We use **LaTeX (MathJax)** for mathematical formulas, chemical equations, and formal logic syntax.
+* **Graph Native:** Optimized for **Obsidian's** graph view and backlinking capabilities, serving as a structured data source for graph-traversal algorithms.
+* **Authorial & Open Visual Assets:** To ensure full copyright ownership for open deployment and educational use, all visual content is generated using open-source toolsets (Excalidraw, Mermaid.js, Inkscape, and Python scripts with Matplotlib).
 
 > [!IMPORTANT]
 > **For detailed technical specifications, syntax rules (LaTeX/Markdown), and branching policies, please refer to our [Contributing Guidelines](./CONTRIBUTING.md).**
 
-##  Roadmap to Yggdrasil
-This roadmap tracks the evolution from a static knowledge base to an intelligent ecosystem:
+---
 
-- [x] **Phase 1: Roots** – Establishment of the core bilingual structure with initial knowledge nodes.
-- [ ] **Phase 2: Trunk (Automation)** – Implementation of **Python scripts** to automate YAML frontmatter and metadata management.
-- [ ] **Phase 3: Branches (Interface)** – Development of a custom web interface and graph traversal algorithms for advanced navigation.
-- [ ] **Phase 4: Soul (Neural API)** – Integration of a neural analysis tool for **personalized study recommendations**.
+## Roadmap to Yggdrasil
 
+This roadmap tracks the evolution from a structured knowledge vault to an intelligent, graph-driven ecosystem:
 
+- [x] **Phase 1: Roots (Knowledge Graph & Ontology)** – Establishment of the core bilingual structure with initial knowledge nodes across Computer Science, Natural Sciences, and Humanities, mapping explicit prerequisite dependencies.
+- [ ] **Phase 2: Trunk (Data Pipeline & Graph Validation)** – Implementation of **Python scripts** to automate YAML frontmatter, validate link integrity, and parse Markdown files into API-ready graph structures.
+- [ ] **Phase 3: Branches (Interactive Web Interface)** – Development of a custom web application supporting non-mechanical, open-ended problem resolution and multi-perspective conceptual learning.
+- [ ] **Phase 4: Soul (Cognitive Diagnostic Engine)** – Integration of a neural analysis engine capable of evaluating open reasoning, performing root-cause error tracing across prerequisite nodes, and building personalized cognitive profiles.
 
-##  License & Ethics
+---
+
+## License & Ethics
 
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE.md) file for details.
 
@@ -48,5 +57,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE.
 ---
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
