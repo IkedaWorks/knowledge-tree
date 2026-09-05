@@ -1,33 +1,59 @@
 ---
-id: basic-chemistry
-title: Basic Chemistry Module
+id: "basic-chemistry"
+title: "Basic Chemistry"
+domain: "chemistry"
+type: "module"
+language: "en"
+level: "beginner"
+tags:
+  - "chemistry"
+  - "matter"
+  - "foundations"
+prerequisites: []
+nodes:
+  - "introduction-chemistry"
+  - "properties-matter"
 ---
+# Basic Chemistry
 
-# Basic Chemistry Module
+> "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less." — Marie Curie
 
-> **Overview**  
-> The quantitative and conceptual foundation for the study of matter. This module formalizes atomic models, chemical reaction language, and stoichiometric calculations required for advanced disciplines.
+## Overview
 
----
+This module introduces the fundamental principles of chemistry, covering the core properties of matter, scientific classification, and introductory chemical concepts. It serves as a foundational building block for advanced study in physical sciences and engineering.
 
-## Module Structure
+## Learning Path
 
-The progression of topics in this submodule follows four fundamental axes:
+```mermaid
+flowchart LR
+    IC[Introduction to Chemistry] ==> PM[Properties of Matter]
 
-* **01. Matter and Physical States**  
-  General and specific properties, states of matter, and phase transition diagrams.
-* **02. Atomic Structure and Periodicity**  
-   Evolution of atomic models, electron configuration, quantum numbers, and periodic trends.
-* **03. Chemical Bonding and Molecular Geometry**  
-  Ionic, covalent, and metallic interactions, VSEPR theory, polarity, and intermolecular forces.
-* **04. Chemical Reactions and Stoichiometry**  
-  Reaction classification, equation balancing, mole concept, limiting reagents, and reaction yield.
+    %% High-Contrast Minimalist Styling
+    style IC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
+    style PM fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+```
 
----
+## Module Nodes Structure
 
-## Submodule Prerequisites
+| **Node / Topic**                                              | **Type** | **Brief Description**                                                  |
+| ------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- |
+| [Introduction to Chemistry](theory/introduction-chemistry.md) | concept  | Core principles, scope, and foundational concepts of chemistry.        |
+| [Properties of Matter](theory/properties-matter.md)           | concept  | Physical and chemical properties, states, and phase changes of matter. |
 
-Before proceeding through the theoretical content and exercises, ensure mastery of:
+## Prerequisites
 
-* **Elementary Mathematics**: Ratios, proportions, rule of three, and basic algebra.
-* **Measurement Systems**: SI unit conversion and scientific notation using powers of ten.
+- None.
+    
+
+## Bibliography and References
+
+### Textbooks and Primary Literature
+
+- CHANG, Raymond; OVERBY, Jason. _General Chemistry: The Essential Concepts_. 7th ed. New York: McGraw-Hill Education, 2014.
+    
+- SILBERBERG, Martin. _Chemistry: The Molecular Nature of Matter and Change_. 8th ed. New York: McGraw-Hill Education, 2017.
+    
+
+### Online Platforms and Supplementary Resources
+
+- LibreTexts Chemistry. _Introductory Chemistry Reference Collection_.

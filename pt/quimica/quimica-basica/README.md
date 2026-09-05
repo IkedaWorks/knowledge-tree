@@ -1,33 +1,56 @@
 ---
-id: quimica-basica
-title: Módulo de Química Básica
+id: "basic-chemistry"
+title: "Química Básica"
+domain: "chemistry"
+type: "module"
+language: "pt"
+level: "beginner"
+tags:
+  - "chemistry"
+  - "matter"
+  - "foundations"
+prerequisites: []
+nodes:
+  - "introduction-chemistry"
+  - "properties-matter"
 ---
+# Química Básica
 
-# Módulo de Química Básica
+> "Nada na vida deve ser temido, apenas compreendido. Agora é a hora de compreender mais, para que possamos temer menos." — Marie Curie
 
-> **Visão Geral**  
-> Ponto de partida quantitativo e conceitual para o estudo da matéria. Este módulo formaliza os modelos atômicos, a linguagem das reações e os cálculos estequiométricos necessários para todas as disciplinas avançadas.
+## Visão Geral
 
----
+Este módulo introduz os princípios fundamentais da química, cobrindo as propriedades essenciais da matéria, classificação científica e conceitos químicos introdutórios. Ele serve como um bloco de fundação essencial para o estudo avançado nas ciências físicas e engenharia.
 
-## Estrutura do Módulo
+## Trilha de Aprendizagem
 
-A progressão dos tópicos neste submódulo segue quatro eixos fundamentais:
+```mermaid
+flowchart LR
+    IC[Introdução à Química] ==> PM[Propriedades da Matéria]
 
-* **01. Matéria e Estados Físicos**  
-  Propriedades gerais e específicas, fases da matéria e diagramas de transição de fase.
-* **02. Estrutura Atômica e Periodicidade**  
-  Evolução dos modelos atômicos, distribuição eletrônica, números quânticos e propriedades periódicas.
-* **03. Ligações Químicas e Geometria Molecular**  
-  Interações iônicas, covalentes e metálicas, teoria VSEPR, polaridade e forças intermoleculares.
-* **04. Reações Químicas e Estequiometria**  
-  Classificação de reações, balanceamento de equações, conceito de mol, reagente limitante e rendimento.
+    %% Estilização Místico-Minimalista de Alto Contraste
+    style IC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
+    style PM fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+```
 
----
+## Estrutura de Tópicos do Módulo
 
-## Pré-requisitos do Módulo
+| Tópico / Conceito                                         | Tipo     | Descrição Sucinta                                                       |
+| :-------------------------------------------------------- | :------- | :---------------------------------------------------------------------- |
+| [Introdução à Química](teoria/introducao-quimica.md)      | conceito | Princípios fundamentais, escopo e conceitos base da química.            |
+| [Propriedades da Matéria](teoria/propriedades-materia.md) | conceito | Propriedades físicas e químicas, estados e mudanças de fase da matéria. |
 
-Para acompanhar o conteúdo teórico e os exercícios, certifique-se de dominar:
+## Pré-requisitos
 
-* **Matemática Elementar**: Razão, proporção, regra de três e álgebra básica.
-* **Sistemas de Medida**: Conversão de unidades do SI e notação científica em potências de dez.
+* Nenhum.
+
+## Bibliografia e Referências
+
+### Livros-Texto e Literatura Primária
+
+* CHANG, Raymond; OVERBY, Jason. *Química Geral: Conceitos Essenciais*. 7ª ed. Porto Alegre: AMGH, 2014.
+* SILBERBERG, Martin. *Química: A Natureza Molecular da Matéria e Mudança*. 8ª ed. Porto Alegre: AMGH, 2017.
+
+### Plataformas Online e Recursos Suplementares
+
+* LibreTexts Chemistry. *Introductory Chemistry Reference Collection*.
