@@ -1,59 +1,74 @@
 ---
 id: chemistry
-title: General Chemistry Module
+title: Chemistry Domain
+type: domain
+language: en
+tags:
+  - chemistry
+  - natural-sciences
+  - matter
+modules:
+  - basic-chemistry
 ---
-# General Chemistry Module
+# General Chemistry Domain
 
-> **General Objective**  
-> This module is dedicated to the comprehensive and formal study of Chemistry, addressing the composition, structure, properties of matter, and the energetic and molecular transformations governing natural and synthetic systems. The central goal is to provide the theoretical and quantitative foundation required to analyze and predict the behavior of matter across different levels of complexity.
+> "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less." — Marie Curie
 
----
+## Overview
 
-## Core Pillars
+This domain serves as the primary entry point for the study of chemical science. It organizes core chemical principles into structured learning modules, covering everything from fundamental atomic structure to specialized advanced disciplines.
 
-The structure of Chemistry education in higher education is organized into five universal pillars:
+## Domain Roadmap
 
-1. **Basic Chemistry**  
-   Essential conceptual and quantitative foundations: atomic structure, periodic trends, chemical bonding, molecular geometry, inorganic functions, and stoichiometry.
+```mermaid
+flowchart LR
+    %% Core Module
+    subgraph L1 [Level 1 · Core]
+        BC([Basic Chemistry])
+    end
 
-2. **Inorganic Chemistry**  
-   The study of the elements in the periodic table and compounds not primarily based on carbon chains: transition metals, coordination chemistry, solid-state chemistry, and bioinorganic chemistry.
+    %% Foundation Modules
+    subgraph L2 [Level 2 · Foundations]
+        IC[Inorganic Chemistry]
+        OC[Organic Chemistry]
+        PC[Physical Chemistry]
+        AC[Analytical Chemistry]
+    end
 
-3. **Organic Chemistry**  
-   The study of structure, reactivity, mechanisms, and synthesis of carbon compounds: functional groups, stereochemistry, substitution/addition/elimination reactions, and biomolecules.
+    %% Specializations
+    subgraph L3 [Level 3 · Specializations]
+        BIO[Biochemistry]
+    end
 
-4. **Physical Chemistry**  
-   Applying the rigor of Physics (Thermodynamics, Kinetics, Quantum Mechanics, and Electrochemistry) to chemical transformations, reaction spontaneity, and molecular structure.
+    %% Connections
+    BC ==> IC
+    BC ==> OC
+    BC ==> PC
+    BC ==> AC
 
-5. **Analytical Chemistry**  
-   Development of qualitative and quantitative methods to identify and separate substances: gravimetry, titrimetry, chromatography, and spectrometry.
+    OC --> BIO
 
----
+    %% Estilização Místico-Minimalista de Alto Contraste
+    style BC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
+    style IC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style OC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style PC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style AC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style BIO fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+```
 
-## Essential Prerequisites
+## Modules
 
-Before proceeding through the topics in this module, mastery of the following is required:
+| Module                                       | Description                                                                    | Level        | Status        |
+| :------------------------------------------- | :----------------------------------------------------------------------------- | :----------- | :------------ |
+| [Basic Chemistry](basic-chemistry/README.md) | Foundational principles, atomic theory, states of matter, and stoichiometry.   | Beginner     | **Available** |
+| Inorganic Chemistry                          | Study of inorganic compounds, transition metals, and coordination chemistry.   | Intermediate | *Planned*     |
+| Organic Chemistry                            | Carbon-based chemistry, functional groups, reaction mechanisms, and synthesis. | Intermediate | *Planned*     |
+| Physical Chemistry                           | Chemical thermodynamics, kinetics, quantum mechanics, and electrochemistry.    | Advanced     | *Planned*     |
+| Analytical Chemistry                         | Qualitative and quantitative analysis methods, titrimetry, and spectrometry.   | Advanced     | *Planned*     |
+| Biochemistry                                 | Chemical processes within and relating to living organisms.                    | Advanced     | *Planned*     |
 
-* **Mathematics**: Elementary algebra, functions, basic differential and integral calculus, linear equations, and logarithms.
-* **Physics**: Basic classical mechanics, concepts of energy, work, electrostatics, and fundamental thermodynamics.
-* **Units and Dimensional Analysis**: Operations with scientific notation and conversions within the International System of Units (SI).
+## Prerequisites
 
----
-
-## Bibliography and References
-
-### Primary Textbooks (International Standard)
-* ATKINS, Peter; JONES, Loretta; LAVAVERMAN, Leroy. **Chemical Principles: The Quest for Insight**. W. H. Freeman.
-* BROWN, Theodore L. et al. **Chemistry: The Central Science**. Pearson.
-* ZUMDAHL, Steven S.; ZUMDAHL, Susan A. **Chemistry**. Cengage Learning.
-
-### Advanced and Specialized Literature
-* MIESSLER, Gary L.; FISCHER, Paul J.; TARR, Donald A. **Inorganic Chemistry**. Pearson.
-* CLAYDEN, Jonathan; GREEVES, Nick; WARREN, Stuart. **Organic Chemistry**. Oxford University Press.
-* ATKINS, Peter; DE PAULA, Julio; KEELER, James. **Atkins' Physical Chemistry**. Oxford University Press.
-* SKOOG, Douglas A. et al. **Fundamentals of Analytical Chemistry**. Cengage Learning.
-
-### Computational Tools and Simulations
-* **PhET Interactive Simulations**: Interactive visualization of atomic models and reactions.
-* **MolView / Avogadro**: 3D visualization and modeling of molecular structures.
-* **PubChem (NCBI)**: Database for physical-chemical and spectral data search.
+* **Mathematics**: Elementary algebra, basic logarithms, and introductory calculus.
+* **Physics**: Fundamentals of energy, work, and electrostatics.

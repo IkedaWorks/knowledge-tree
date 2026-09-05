@@ -1,59 +1,75 @@
 ---
-id: quimica
-titulo: Módulo Geral de Química
+id: chemistry
+title: Domínio de Química
+type: domain
+language: pt
+tags:
+  - chemistry
+  - natural-sciences
+  - matter
+modules:
+  - basic-chemistry
 ---
-# Módulo Geral de Química
+# Domínio de Química Geral
 
-> **Objetivo Geral**  
-> Este módulo é dedicado ao estudo abrangente e formal da Química, abordando a composição, a estrutura, as propriedades da matéria e as transformações energéticas e moleculares que regem os sistemas naturais e sintéticos. O objetivo central é fornecer a fundamentação teórica e quantitativa necessária para analisar e prever o comportamento da matéria em diferentes escalas de complexidade.
+> "Nada na vida deve ser temido, apenas compreendido. Agora é a hora de compreender mais, para que possamos temer menos." — Marie Curie
 
----
+## Visão Geral
 
-## Pilares Fundamentais
+Este domínio serve como o ponto de entrada principal para o estudo da ciência química. Ele organiza os princípios químicos fundamentais em módulos de aprendizagem estruturados, cobrindo desde a estrutura atômica básica até disciplinas avançadas e especializadas.
 
-A estrutura do estudo da Química no ensino superior é organizada em cinco grandes pilares universais:
+## Roteiro do Domínio
 
-1. **Química Básica**  
-   Os fundamentos conceituais e quantitativos essenciais: estrutura atômica, propriedades periódicas, ligações químicas, geometria molecular, funções inorgânicas e estequiometria.
 
-2. **Química Inorgânica**  
-   O estudo dos elementos da tabela periódica e seus compostos não baseados primariamente em cadeias de carbono: metais de transição, química de coordenação, estado sólido e bioinorgânica.
+```mermaid
+flowchart LR
+    %% Módulo Principal
+    subgraph L1 [Nível 1 · Núcleo]
+        BC([Química Básica])
+    end
 
-3. **Química Orgânica**  
-   O estudo da estrutura, reatividade, mecanismos e síntese dos compostos de carbono: funções orgânicas, estereoquímica, reações de substituição/adição/eliminação e biomoléculas.
+    %% Módulos Fundamentais
+    subgraph L2 [Nível 2 · Fundamentos]
+        IC[Química Inorgânica]
+        OC[Química Orgânica]
+        PC[Físico-Química]
+        AC[Química Analítica]
+    end
 
-4. **Físico-Química**  
-   A aplicação do rigor da Física (Termodinâmica, Cinética, Mecânica Quântica e Eletroquímica) às transformações químicas, espontaneidade de reações e estrutura molecular.
+    %% Especializações
+    subgraph L3 [Nível 3 · Especializações]
+        BIO[Bioquímica]
+    end
 
-5. **Química Analítica**  
-   O desenvolvimento de métodos qualitativos e quantitativos para identificação e separação de substâncias: gravimetria, volumetria, cromatografia e espectrometria.
+    %% Conexões
+    BC ==> IC
+    BC ==> OC
+    BC ==> PC
+    BC ==> AC
 
----
+    OC --> BIO
 
-## Pré-requisitos Essenciais
+    %% Estilização Místico-Minimalista de Alto Contraste
+    style BC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
+    style IC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style OC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style PC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style AC fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style BIO fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
+```
 
-Antes de avançar pelos tópicos deste módulo, é necessário dominar:
+## Módulos
 
-* **Matemática**: Álgebra elementar, funções, cálculo diferencial e integral básico, equações lineares e logaritmos.
-* **Física**: Mecânica clássica básica, conceitos de energia, trabalho, eletrostática e termodinâmica fundamental.
-* **Unidades e Análise Dimensional**: Operações com notação científica e conversões no Sistema Internacional de Unidades (SI).
+| Módulo                                     | Descrição                                                                      | Nível         | Status         |
+| :----------------------------------------- | :----------------------------------------------------------------------------- | :------------ | :------------- |
+| [Química Básica](quimica-basica/README.md) | Princípios fundamentais, teoria atômica, estados da matéria e estequiometria.  | Iniciante     | **Disponível** |
+| Química Inorgânica                         | Estudo de compostos inorgânicos, metais de transição e química de coordenação. | Intermediário | *Planejado*    |
+| Química Orgânica                           | Química baseada em carbono, grupos funcionais, mecanismos de reação e síntese. | Intermediário | *Planejado*    |
+| Físico-Química                             | Termodinâmica química, cinética, mecânica quântica e eletroquímica.            | Avançado      | *Planejado*    |
+| Química Analítica                          | Métodos de análise qualitativa e quantitativa, titulometria e espectrometria.  | Avançado      | *Planejado*    |
+| Bioquímica                                 | Processos químicos dentro e relacionados a organismos vivos.                   | Avançado      | *Planejado*    |
 
----
+## Pré-requisitos
 
-## Bibliografia e Referências
-
-### Livros-Texto Principais (Didáticos)
-* ATKINS, Peter; JONES, Loretta; LAVAVERMAN, Leroy. **Princípios de Química: Questionando a Vida Moderna e o Meio Ambiente**. Bookman.
-* BROWN, Theodore L. et al. **Química: A Ciência Central**. Pearson.
-* RUSSELL, John B. **Química Geral**, Volumes 1 e 2. Makron Books.
-
-### Leitura Complementar e Avançada
-* SHRIVER, Duward; ATKINS, Peter. **Química Inorgânica**. Bookman.
-* SOLOMONS, T. W. Graham; FRYHLE, Craig B. **Química Orgânica**, Volumes 1 e 2. LTC.
-* ATKINS, Peter; DE PAULA, Julio. **Físico-Química**, Volume 1. LTC.
-* SKOOG, Douglas A. et al. **Fundamentos de Química Analítica**. Cengage Learning.
-
-### Ferramentas Computacionais e Simulações
-* **PhET Interactive Simulations**: Visualização interativa de modelos atômicos e reações.
-* **MolView / Avogadro**: Visualização e modelagem tridimensional de estruturas moleculares.
-* **PubChem (NCBI)**: Base de dados para consulta de propriedades físico-químicas e espectrais.
+* **Matemática**: Álgebra elementar, logaritmos básicos e cálculo introdutório.
+* **Física**: Fundamentos de energia, trabalho e eletrostática.
