@@ -15,7 +15,7 @@ modules:
 ---
 # Domínio de Física
 
-> "If I have seen further it is by standing on the shoulders of Giants."
+> "Se enxerguei mais longe, foi por estar sobre os ombros de gigantes."
 > — Isaac Newton
 
 O domínio de **Física** abrange os princípios fundamentais que regem o comportamento do universo natural, desde as leis mecânicas do movimento e conservação de energia até a dinâmica de campos eletromagnéticos e teoria de circuitos.
