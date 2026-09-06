@@ -13,7 +13,7 @@ We use the **Fork & Pull Request** model to keep the main tree stable.
 - **Sync:** Keep your fork up to date with `git fetch upstream` before opening a Pull Request.
 
 For commit conventions, see:
-[Commit Best Practices](./en/computation/git/commit-best-practices.md)
+[Commit Best Practices](_docs/commit-best-practices.md)
 
 ## Setup & Environment
 
@@ -105,7 +105,7 @@ Utilizamos o modelo **Fork & Pull Request** para manter a árvore principal est�
 - **Sync:** Mantenha seu fork sincronizado com `git fetch upstream` antes de abrir um Pull Request.
 
 Para as convenções de commit, consulte:
-[Boas Práticas de Commit](./pt/computacao/git/boas-praticas-commit.md)
+[Boas Práticas de Commit](_docs/boas-praticas-commit.md)
 
 ## Ambiente e Ferramentas
 
