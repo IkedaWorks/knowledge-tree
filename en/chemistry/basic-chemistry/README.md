@@ -22,17 +22,6 @@ nodes:
 
 This module introduces the fundamental principles of chemistry, covering the core properties of matter, scientific classification, and introductory chemical concepts. It serves as a foundational building block for advanced study in physical sciences and engineering.
 
-## Learning Path
-
-```mermaid
-flowchart LR
-    IC[Introduction to Chemistry] ==> PM[Properties of Matter]
-
-    %% High-Contrast Minimalist Styling
-    style IC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
-    style PM fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
-```
-
 ## Module Nodes Structure
 
 | **Node / Topic**                                              | **Type** | **Brief Description**                                                  |

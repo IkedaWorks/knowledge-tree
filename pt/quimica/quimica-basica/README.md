@@ -22,17 +22,6 @@ nodes:
 
 Este módulo introduz os princípios fundamentais da química, cobrindo as propriedades essenciais da matéria, classificação científica e conceitos químicos introdutórios. Ele serve como um bloco de fundação essencial para o estudo avançado nas ciências físicas e engenharia.
 
-## Trilha de Aprendizagem
-
-```mermaid
-flowchart LR
-    IC[Introdução à Química] ==> PM[Propriedades da Matéria]
-
-    %% Estilização Místico-Minimalista de Alto Contraste
-    style IC fill:#18181b,stroke:#d4d4d4,stroke-width:2px,color:#ffffff
-    style PM fill:#0f172a,stroke:#475569,stroke-width:1px,color:#f8fafc
-```
-
 ## Estrutura de Tópicos do Módulo
 
 | Tópico / Conceito                                         | Tipo     | Descrição Sucinta                                                       |
