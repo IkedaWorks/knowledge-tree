@@ -13,7 +13,6 @@ tags:
   - magnetism
 prerequisites:
   - classical-mechanics
-  - calculus
 ---
 # Electromagnetism
 
@@ -26,19 +25,19 @@ prerequisites:
 
 ### Electrostatics and Electric Fields
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
-| [Nature of Matter](./theory/nature-of-matter.md) | Atomic structure and the microscopic origin of electric charges. |
-| [Elementary Charge](./theory/elementary-charge.md) | Charge quantization and fundamental properties of electrons. |
-| [Principles of Electrostatics](./theory/principles-of-electrostatics-and-charging.md) | Charge conservation, friction, contact, and induction charging mechanisms. |
-| [Coulomb's Law](./theory/coulombs-law.md) | Electrostatic forces between point charges in a vacuum and superposition. |
-| [Electric Field](./theory/electric-field.md) | Concept of electrostatic vector fields, test charges, and field lines. |
-| [Continuous Linear Distributions](./theory/continuous-linear-charge-distributions.md) | Electric field calculations for linear charge densities. |
-| [Continuous Surface Distributions](./theory/continuous-surface-charge-distributions.md) | Electric field calculations for surface charge distributions. |
-| [Continuous Volumetric Distributions](./theory/continuous-volumetric-charge-distributions.md) | Electric field calculations for 3D charge distributions. |
-| [Ring Charge Distribution](./theory/continuous-linear-charge-distributions-ring.md) | Integrating the electric field along the symmetry axis of a charged ring. |
-| [Continuous Field Reflection](./theory/reflection-continuous-electric-field.md) | Conceptual analysis of continuum limits and physical symmetries. |
-| [Gauss's Law](./theory/gauss-law.md) | Electric flux, Gaussian surfaces, and highly symmetric field solutions. |
+| Topic / Concept                                                                               | Brief Description                                                          |
+| :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| [Nature of Matter](./theory/nature-of-matter.md)                                              | Atomic structure and the microscopic origin of electric charges.           |
+| [Elementary Charge](./theory/elementary-charge.md)                                            | Charge quantization and fundamental properties of electrons.               |
+| [Principles of Electrostatics](./theory/principles-of-electrostatics-and-charging.md)         | Charge conservation, friction, contact, and induction charging mechanisms. |
+| [Coulomb's Law](./theory/coulombs-law.md)                                                     | Electrostatic forces between point charges in a vacuum and superposition.  |
+| [Electric Field](./theory/electric-field.md)                                                  | Concept of electrostatic vector fields, test charges, and field lines.     |
+| [Continuous Linear Distributions](./theory/continuous-linear-charge-distributions.md)         | Electric field calculations for linear charge densities.                   |
+| [Continuous Surface Distributions](./theory/continuous-surface-charge-distributions.md)       | Electric field calculations for surface charge distributions.              |
+| [Continuous Volumetric Distributions](./theory/continuous-volumetric-charge-distributions.md) | Electric field calculations for 3D charge distributions.                   |
+| [Ring Charge Distribution](./theory/continuous-linear-charge-distributions-ring.md)           | Integrating the electric field along the symmetry axis of a charged ring.  |
+| [Continuous Field Reflection](./theory/reflection-continuous-electric-field.md)               | Conceptual analysis of continuum limits and physical symmetries.           |
+| [Gauss's Law](./theory/gauss-law.md)                                                          | Electric flux, Gaussian surfaces, and highly symmetric field solutions.    |
 
 ### Potential, Capacitance, and Magnetism
 
