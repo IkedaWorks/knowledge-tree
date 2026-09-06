@@ -1,21 +1,18 @@
 ---
-id: "electric-circuits"
-title: "Electric Circuits"
-domain: "physics"
-type: "module"
-language: "en"
-level: "intermediate"
+id: electric-circuits
+title: Electric Circuits
+domain: physics
+type: module
+language: en
+level: intermediate
 tags:
-  - "circuits"
-  - "ohm-law"
-  - "kirchhoff"
-  - "voltage"
-  - "current"
+  - circuits
+  - ohm-law
+  - kirchhoff
+  - voltage
+  - current
 prerequisites:
-  - "electromagnetism"
-nodes:
-  - "roadmap-electric-circuits"
-  - "basic-concepts"
+  - electromagnetism
 ---
 # Electric Circuits
 

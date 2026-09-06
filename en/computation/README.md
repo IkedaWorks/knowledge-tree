@@ -2,8 +2,13 @@
 id: "computation"
 title: "Computation"
 type: "domain"
-nodes:
-  - "eletronica-digital"
+language: "en"
+tags:
+  - "computation"
+  - "computer-science"
+  - "digital-electronics"
+modules:
+  - "digital-electronics"
 ---
 # Computation Domain
 

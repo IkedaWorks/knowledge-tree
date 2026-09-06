@@ -1,21 +1,18 @@
 ---
-id: "circuitos-eletricos"
-title: "Circuitos Elétricos"
-domain: "fisica"
-type: "module"
-language: "pt"
-level: "intermediate"
+id: circuitos-eletricos
+title: Circuitos Elétricos
+domain: fisica
+type: module
+language: pt
+level: intermediate
 tags:
-  - "circuits"
-  - "ohm-law"
-  - "kirchhoff"
-  - "voltage"
-  - "current"
+  - circuits
+  - ohm-law
+  - kirchhoff
+  - voltage
+  - current
 prerequisites:
-  - "eletromagnetismo"
-nodes:
-  - "roadmap-circuitos-eletricos"
-  - "conceitos-basicos"
+  - eletromagnetismo
 ---
 # Circuitos Elétricos
 

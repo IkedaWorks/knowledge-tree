@@ -1,37 +1,19 @@
 ---
-id: "electromagnetism"
-title: "Electromagnetism"
-domain: "physics"
-type: "module"
-language: "en"
-level: "intermediate"
+id: electromagnetism
+title: Electromagnetism
+domain: physics
+type: module
+language: en
+level: intermediate
 tags:
-  - "electrostatics"
-  - "electric-field"
-  - "gauss-law"
-  - "potential"
-  - "magnetism"
+  - electrostatics
+  - electric-field
+  - gauss-law
+  - potential
+  - magnetism
 prerequisites:
-  - "classical-mechanics"
-  - "calculus-2"
-nodes:
-  - "nature-of-matter"
-  - "elementary-charge"
-  - "principles-of-electrostatics-and-charging"
-  - "coulombs-law"
-  - "electric-field"
-  - "continuous-linear-charge-distributions"
-  - "continuous-surface-charge-distributions"
-  - "continuous-volumetric-charge-distributions"
-  - "continuous-linear-charge-distributions-ring"
-  - "reflection-continuous-electric-field"
-  - "gauss-law"
-  - "electric-potencial"
-  - "getting-field-by-potential"
-  - "dielectric"
-  - "capacitance"
-  - "introduction-to-magnetism"
-  - "biot-savart-law"
+  - classical-mechanics
+  - calculus
 ---
 # Electromagnetism
 

@@ -1,18 +1,15 @@
 ---
-id: "basic-chemistry"
-title: "Basic Chemistry"
-domain: "chemistry"
-type: "module"
-language: "en"
-level: "beginner"
+id: basic-chemistry
+title: Basic Chemistry
+domain: chemistry
+type: module
+language: en
+level: beginner
 tags:
-  - "chemistry"
-  - "matter"
-  - "foundations"
+  - chemistry
+  - matter
+  - foundations
 prerequisites: []
-nodes:
-  - "introduction-chemistry"
-  - "properties-matter"
 ---
 # Basic Chemistry
 

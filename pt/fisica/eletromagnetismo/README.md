@@ -1,37 +1,19 @@
 ---
-id: "eletromagnetismo"
-title: "Eletromagnetismo"
-domain: "fisica"
-type: "module"
-language: "pt"
-level: "intermediate"
+id: eletromagnetismo
+title: Eletromagnetismo
+domain: fisica
+type: module
+language: pt
+level: intermediate
 tags:
-  - "electrostatics"
-  - "electric-field"
-  - "gauss-law"
-  - "potential"
-  - "magnetism"
+  - electrostatics
+  - electric-field
+  - gauss-law
+  - potential
+  - magnetism
 prerequisites:
-  - "mecanica-classica"
-  - "calculo-2"
-nodes:
-  - "natureza-da-materia"
-  - "carga-elementar"
-  - "principios-da-eletrostatica-e-eletrizacao"
-  - "lei-de-coulomb"
-  - "campo-eletrico"
-  - "distribuicao-continua-linear"
-  - "distribuicao-continua-superficial"
-  - "distribuicao-continua-volumetrica"
-  - "distribuicao-continua-anel-carregado"
-  - "reflexao-campo-eletrico-continuo"
-  - "lei-de-gauss"
-  - "potencial-eletrico"
-  - "obtendo-campo-pelo-potencial"
-  - "dieletricos"
-  - "capacitancia"
-  - "introducao-ao-magnetismo"
-  - "equacao-de-biot-savart"
+  - mecanica-classica
+  - calculo
 ---
 # Eletromagnetismo
 

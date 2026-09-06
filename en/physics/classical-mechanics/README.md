@@ -1,26 +1,18 @@
 ---
-id: "classical-mechanics"
-title: "Classical Mechanics"
-domain: "physics"
-type: "module"
-language: "en"
-level: "beginner"
+id: classical-mechanics
+title: Classical Mechanics
+domain: physics
+type: module
+language: en
+level: beginner
 tags:
-  - "mechanics"
-  - "kinematics"
-  - "dynamics"
-  - "statics"
+  - mechanics
+  - kinematics
+  - dynamics
+  - statics
 prerequisites:
-  - "calculus-1"
-  - "vector-algebra"
-nodes:
-  - "what-is-mechanics"
-  - "physical-quantities"
-  - "dimensional-analysis"
-  - "geometric-fundamentals"
-  - "numerical-calculus"
-  - "addition-vectors"
-  - "decomposition-2d"
+  - linear-algebra 
+  - calculus
 ---
 # Classical Mechanics
 

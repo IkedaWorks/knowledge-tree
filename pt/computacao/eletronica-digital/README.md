@@ -1,12 +1,15 @@
 ---
 id: "eletronica-digital"
 title: "Eletrônica Digital"
+domain: "computacao"
 type: "module"
-nodes:
-  - "introducao-eletronica-digital"
-  - "sistemas-numericos-fundamentais"
-  - "conversao-bases"
-  - "codigo-bcd"
+language: "pt"
+level: "beginner"
+tags:
+  - "digital-electronics"
+  - "logic-gates"
+  - "circuits"
+prerequisites: []
 ---
 # Eletrônica Digital
 

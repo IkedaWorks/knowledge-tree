@@ -1,12 +1,15 @@
 ---
 id: "digital-electronics"
 title: "Digital Electronics"
+domain: "computation"
 type: "module"
-nodes:
-  - "introduction-digital-electronics"
-  - "fundamental-number-systems"
-  - "base-conversion"
-  - "bcd-code"
+language: "en"
+level: "beginner"
+tags:
+  - "digital-electronics"
+  - "logic-gates"
+  - "circuits"
+prerequisites: []
 ---
 # Digital Electronics
 

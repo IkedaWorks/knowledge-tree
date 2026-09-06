@@ -2,7 +2,12 @@
 id: "computacao"
 title: "Computação"
 type: "domain"
-nodes:
+language: "pt"
+tags:
+  - "computation"
+  - "computer-science"
+  - "digital-electronics"
+modules:
   - "eletronica-digital"
 ---
 # Domínio de Computação

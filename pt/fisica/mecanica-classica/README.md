@@ -1,26 +1,18 @@
 ---
-id: "mecanica-classica"
-title: "Mecânica Clássica"
-domain: "fisica"
-type: "module"
-language: "pt"
-level: "beginner"
+id: mecanica-classica
+title: Mecânica Clássica
+domain: fisica
+type: module
+language: pt
+level: beginner
 tags:
-  - "mechanics"
-  - "kinematics"
-  - "dynamics"
-  - "statics"
+  - mechanics
+  - kinematics
+  - dynamics
+  - statics
 prerequisites:
-  - "calculo-1"
-  - "algebra-vetorial"
-nodes:
-  - "definicao-mecanica"
-  - "grandezas"
-  - "analise-dimensional"
-  - "fundamentos-geometricos"
-  - "calculo-numerico"
-  - "soma-vetores"
-  - "decomposicao-2d"
+  - algebra-linear
+  - calculo
 ---
 # Mecânica Clássica
 
