@@ -1,35 +1,42 @@
 ---
-id: sequences-series-and-means
-title: Sequences, Series, and Means
+id: "sequences"
+title: "Sequences"
+domain: "math"
+type: "module"
+language: "en"
+level: "beginner"
+tags:
+  - "sequences"
+  - "progressions"
+  - "algebra"
+  - "series"
+prerequisites: []
 ---
+# Sequences
 
-## Overview
+> "Mathematics is the art of giving the same name to different things."  
+> — **Henri Poincaré**
 
-This submodule is dedicated to the structural, algebraic, and intuitive exploration of discrete numerical patterns. The content addresses the evolution of discrete sequences, providing the algebraic and geometric foundation for formula deduction, convergence behavior, and the application of appropriate statistical measures for each context.
+The **Sequences** module explores ordered lists of numbers and the theoretical patterns governing their behavior. Understanding the logic of sequences is essential for algebraic thinking and provides the groundwork for calculus and numerical series.
 
-## Module Topics
+This module covers fundamental sequence properties alongside arithmetic, geometric, and harmonic progressions, detailing general terms, finite sums, and asymptotic behaviors.
 
-* **Fundamental Progressions**
-  * Arithmetic Progression (AP): constant difference variation, general term, and finite summation
-  * Geometric Progression (GP): constant ratio variation, algebraic cancellation, and ratio behavior
-  * Harmonic Progression (HP): reciprocals of AP, inversely proportional quantities, and rates of change
+## Module Content
 
-* **Asymptotic Behavior and Infinite Sums**
-  * Limits of discrete sequences ($n \to \infty$) and convergence analysis
-  * Formal distinction between convergent and divergent sequences
-  * Infinite sum of a GP for $|q| < 1$ and proof of finite convergence
+### Foundations and Progressions
 
-* **Theory of Means and Centrality Measures**
-  * Arithmetic mean: equilibrium center for additive variations and relationship with AP
-  * Geometric mean: equilibrium center for multiplicative variations and cumulative rates
-  * Harmonic mean: equilibrium center for inverse rates, average speeds, and relationship with HP
-
-* **Boundary Properties and Inequalities**
-  * Inequality of Means ($H \le G \le A$) and equality conditions
-  * Estimates and Cauchy bounds as containment tools
-  * Upper and lower bounds for sequences and convergence proofs via boundedness
+| Topic / Concept | Brief Description |
+| :--- | :--- |
+| [Sequence Fundamentals](./theory/sequence-fundamentals.md) | Formal definition, recurrence relations, laws of formation, and sequence classification. |
+| [Arithmetic Progression](./theory/arithmetic-progression.md) | AP properties, common difference, general term formula, and finite arithmetic series summation. |
+| [Geometric Progression](./theory/geometric-progression.md) | GP properties, common ratio, general term, product, and summation of finite and infinite series. |
+| [Harmonic Progression](./theory/harmonic-progression.md) | HP properties, relationship to arithmetic progressions, harmonic means, and applications. |
 
 ## Prerequisites
 
-- **Algebra and Symbolic Manipulation:** Proficiency in exponents, ratios, factoring, summation notation ($\sum$), and fraction manipulation.
-- **Function Analysis:** Asymptotic behavior, intuitive concept of limits, and discrete vs. continuous function graphing.
+* No formal repository prerequisites are required. Fundamental elementary algebra is recommended.
+
+## Bibliography and References
+
+* STEWART, James. **Precalculus: Mathematics for Calculus**. 7th ed. Cengage Learning, 2015.
+* APEX Calculus. **Calculus I & II: Sequences and Series**. Open Educational Resource, 2021.

@@ -1,40 +1,41 @@
 ---
-id: estatistica
-title: Estatística e Análise de Dados
+id: "estatistica"
+title: "Estatística"
+domain: "matematica"
+type: "module"
+language: "pt"
+level: "intermediate"
+tags:
+  - "estatistica"
+  - "probabilidade"
+  - "dispersao"
+  - "incerteza"
+prerequisites: []
 ---
+# Estatística
 
-## Visão Geral
+> "Há três tipos de mentiras: mentiras, mentiras deslavadas e estatística."  
+> — **Benjamin Disraeli**
 
-Este submódulo introduz os fundamentos da estatística descritiva, probabilidade e inferência estatística. A disciplina fornece as ferramentas essenciais para a coleta, organização, análise e interpretação de dados, servindo de base para a tomada de decisões, modelagem preditiva e ciência de dados.
+O módulo de **Estatística** fornece os métodos fundamentais para a coleta, organização, análise e interpretação de dados quantitativos. Ele preenche a lacuna entre a teoria matemática abstrata e a tomada de decisão fundamentada em cenários de incerteza.
 
-## Tópicos do Módulo
+Neste módulo são exploradas as estatísticas descritivas básicas, cobrindo tendências centrais, medidas de dispersão e propagação de incertezas experimentais em medições científicas.
 
-* **Estatística Descritiva e Medidas Resumo**
-  * Medidas de tendência central (média aritmética, mediana e moda)
-  * Medidas de dispersão (variância, desvio-padrão e amplitude)
-  * Média harmônica e média geométrica
-  * Análise exploratória de dados e representação gráfica
+## Conteúdo do Módulo
 
-* **Teoria da Probabilidade**
-  * Conceitos fundamentais e espaços amostrais
-  * Probabilidade condicional e independência
-  * Teorema de Bayes
+### Estatística Descritiva e Análise de Dados
 
-* **Variáveis Aleatórias e Distribuições**
-  * Variáveis aleatórias discretas e contínuas
-  * Distribuições discretas (Binomial e Poisson)
-  * Distribuição Normal (Gaussiana) e padronização ($z$-score)
-
-* **Inferência Estatística**
-  * Amostragem e Teorema do Limite Central (TLC)
-  * Estimação por intervalo de confiança
-  * Testes de hipóteses para médias e proporções
-
-* **Aprofundamento e Consolidação**
-  * Regressão linear simples e correlação
-  * Revisão geral e aplicações práticas de análise de dados
+| Tópico / Conceito                                           | Descrição Sucinta                                                                             |
+| :---------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| [Medidas de Centralidade](./teoria/medidas-centralidade.md) | Média, mediana, moda e interpretação da distribuição de frequências em conjuntos de dados.    |
+| [Desvio Padrão e Dispersão](./teoria/desvio-padrao.md)      | Variância, desvio padrão, amplitude interquartil e variabilidade dos dados.                   |
+| [Incerteza e Medição](./teoria/incerteza.md)                | Erros experimentais, incerteza do tipo A e B e propagação de erros em medições quantitativas. |
 
 ## Pré-requisitos
 
-- **Matemática Básica e Álgebra:** Operações fundamentais, somatórias ($\sum$), porcentagem e manipulação algébrica.
-- **Funções e Gráficos:** Interpretação de eixos, leitura de tabelas e comportamento de funções elementares.
+* Nenhum pré-requisito formal é necessário dentro do repositório. Conhecimentos fundamentais de aritmética e álgebra básica são suficientes.
+
+## Bibliografia e Referências
+
+* BUSSAB, Wilton de O.; MORETTIN, Pedro A. **Estatística Básica**. 9ª ed. Saraiva, 2017.
+* TRIOLA, Mario F. **Introdução à Estatística**. 12ª ed. LTC, 2017.

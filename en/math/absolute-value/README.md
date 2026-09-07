@@ -1,36 +1,48 @@
 ---
-id: absolute-value
-title: Absolute Value
+id: "absolute-value"
+title: "Absolute Value"
+domain: "math"
+type: "module"
+language: "en"
+level: "beginner"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "modular-equations"
+  - "functions"
+prerequisites: []
 ---
-## Overview
+# Absolute Value
 
-This module is dedicated to the formal study of absolute value and the development of the absolute value function. The progression starts from the algebraic and geometric foundations of distance on the real line, moves through solving absolute value equations and inequalities, and culminates in the analysis of behavior, graphical construction, and transformations of absolute value functions.
+> "The shortest distance between two points in real space is the magnitude of their variation."  
+> — **Augustin-Louis Cauchy**
 
-## Module Topics
+The **Absolute Value** module explores the geometric and algebraic interpretation of distance from a number to the origin on the real line. Mastering absolute values is crucial for studying metrics, limits, and mathematical analysis.
 
-### Definition and Properties of Absolute Value
+This module covers fundamental definitions, algebraic properties, resolution of absolute value equations and inequalities, as well as the graphical behavior of absolute value functions.
 
-* Piecewise algebraic definition of the function $|x|$
-* Fundamental properties and behavior under addition, multiplication, and division
-* The triangle inequality and its geometric forms
-* Absolute value as a metric and distance on the real line:
-$$d(x, y) = |x - y|$$
+## Module Content
 
-### Absolute Value Equations and Inequalities
+### Definitions and Properties
 
-* Analytical resolution of equations of the form $|f(x)| = k$ and $|f(x)| = |g(x)|$
-* Interval decomposition techniques and sign analysis
-* Inequalities of the form $|f(x)| < k$ and $|f(x)| > k$
-* Systems of inequalities and geometric interpretation of solutions on the real line
+| Topic / Concept | Brief Description |
+| :--- | :--- |
+| [Definition of Absolute Value](./theory/absolute-value-definition.md) | Geometric concept of distance on the real number line and formal piecewise definition. |
+| [Properties of Absolute Value](./theory/absolute-value-properties.md) | Triangle inequality, multiplicativity, non-negativity, and symmetry properties. |
 
-### The Absolute Value Function
+### Equations, Inequalities, and Functions
 
-* Domain, codomain, range, and parity of the function $f(x) = |x|$
-* Continuity analysis and non-differentiability at the origin
-* Graph construction for composite functions: $y = |f(x)|$ and $y = f(|x|)$
-* Geometric transformations in the Cartesian plane: translations, reflections, and graph foldings
+| Topic / Concept                                                        | Brief Description                                                                             |
+| :--------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| [Absolute Value Equations](./theory/absolute-value-equations.md)       | Algebraic techniques for solving equations containing one or more absolute value expressions. |
+| [Absolute Value Inequalities](./theory/absolute-value-inequalities.md) | Solving absolute value inequalities and interpreting solutions as intervals on the real line. |
+| [Absolute Value Functions](./theory/absolute-value-functions.md)       | Graphical analysis, transformations, domain, range, and symmetry of absolute value functions. |
 
 ## Prerequisites
 
-* **Elementary Algebra:** Mastery in manipulating algebraic expressions, polynomial equations, and sign analysis.
-* **Fundamentals of Functions:** Concepts of domain, range, parity, and reading graphs in the Cartesian plane.
+* No formal repository prerequisites are required. Basic elementary algebra is recommended.
+
+## Bibliography and References
+
+* STEWART, James. **Precalculus: Mathematics for Calculus**. 7th ed. Cengage Learning, 2015.
+* AXON, Sheldon. **Algebra and Trigonometry**. OpenStax, 2021.

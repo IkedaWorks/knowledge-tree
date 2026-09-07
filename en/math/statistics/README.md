@@ -1,40 +1,41 @@
 ---
-id: statistics
-title: Statistics and Data Analysis
+id: "statistics"
+title: "Statistics"
+domain: "math"
+type: "module"
+language: "en"
+level: "intermediate"
+tags:
+  - "statistics"
+  - "probability"
+  - "dispersion"
+  - "uncertainty"
+prerequisites: []
 ---
+# Statistics
 
-## Overview
+> "There are three kinds of lies: lies, damned lies, and statistics."  
+> — **Benjamin Disraeli**
 
-This submodule introduces the foundations of descriptive statistics, probability theory, and statistical inference. The subject provides essential tools for collecting, organizing, analyzing, and interpreting data, serving as the backbone for decision-making, predictive modeling, and data science.
+The **Statistics** module provides core methodologies for collecting, organizing, analyzing, and interpreting quantitative data. It bridges abstract mathematical concepts and data-driven decision-making under uncertainty.
 
-## Module Topics
+This module covers foundational descriptive statistics, including central tendency measures, variability/dispersion analysis, and measurement uncertainty propagation in empirical sciences.
 
-* **Descriptive Statistics and Summary Measures**
-  * Measures of central tendency (arithmetic mean, median, and mode)
-  * Measures of dispersion (variance, standard deviation, and range)
-  * Harmonic and geometric means
-  * Exploratory data analysis and graphical representation
+## Module Content
 
-* **Probability Theory**
-  * Fundamental concepts and sample spaces
-  * Conditional probability and independence
-  * Bayes' Theorem
+### Descriptive Statistics and Data Analysis
 
-* **Random Variables and Distributions**
-  * Discrete and continuous random variables
-  * Discrete distributions (Binomial and Poisson)
-  * Normal (Gaussian) distribution and standardization ($z$-score)
-
-* **Statistical Inference**
-  * Sampling and the Central Limit Theorem (CLT)
-  * Confidence interval estimation
-  * Hypothesis testing for means and proportions
-
-* **Advanced Topics and Consolidation**
-  * Simple linear regression and correlation
-  * Comprehensive review and practical data analysis applications
+| Topic / Concept | Brief Description |
+| :--- | :--- |
+| [Central Tendency](./theory/central-tendency.md) | Mean, median, mode, and structural interpretation of frequency distributions. |
+| [Standard Deviation and Dispersion](./theory/standard-deviation.md) | Variance, standard deviation, interquartile ranges, and data dispersion modeling. |
+| [Uncertainty Measurement](./theory/uncertainty.md) | Experimental error analysis, Type A/B uncertainty, and error propagation techniques. |
 
 ## Prerequisites
 
-- **Basic Mathematics and Algebra:** Fundamental operations, summation notation ($\sum$), percentages, and algebraic manipulation.
-- **Functions and Graphs:** Axis interpretation, reading tables, and behavior of elementary functions.
+* No formal repository prerequisites are required. Basic arithmetic and elementary algebra are recommended.
+
+## Bibliography and References
+
+* TRIOLA, Mario F. **Elementary Statistics**. 13th ed. Pearson, 2018.
+* DEVORE, Jay L. **Probability and Statistics for Engineering and the Sciences**. 9th ed. Cengage Learning, 2015.

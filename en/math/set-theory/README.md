@@ -1,35 +1,49 @@
 ---
-id: set-theory
-title: Set Theory
+id: "set-theory"
+title: "Set Theory"
+domain: "math"
+type: "module"
+language: "en"
+level: "beginner"
+tags:
+  - "set-theory"
+  - "mathematical-logic"
+  - "relations"
+  - "axioms"
+prerequisites: []
 ---
 
-## Overview
+# Set Theory
 
-This submodule is dedicated to the conceptual, philosophical, and axiomatic exploration of the foundational basis of modern mathematics. The goal is to build an understanding of how mathematical language was safeguarded against paradoxes, tracking the transition from naive set theory to the formal rigor of Zermelo-Fraenkel Set Theory with the Axiom of Choice (ZFC).
+> "No one shall expel us from the paradise that Cantor has created."  
+> — **David Hilbert**
 
-## Module Topics
+**Set Theory** is the cornerstone of modern mathematics, providing the formal language and structure upon which all other branches—from algebra to calculus—are built.
 
-* **Logical Foundations and the Foundational Crisis**
-  * Tarski's Semantic Conception of Truth: T-schema, object language, and metalanguage
-  * Georg Cantor's infinity and the vulnerabilities of traditional mathematics
-  * Russell's Paradox and the collapse of naive set theory
+This module covers everything from propositional logic and Zermelo-Fraenkel axiomatization to set operations, Cartesian products, and relation theory.
 
-* **The Axiomatic Framework (ZFC)**
-  * Primordial axioms: Extensionality, Empty Set ($\varnothing$), and Pairing
-  * Axiom Schema of Separation (Restricted Comprehension) and paradox prevention
-  * Axiom of Union, Power Set, and Infinity
+## Module Content
 
-* **Operations, Relations, and Functions**
-  * Fundamental operations under the axiomatic view (Union, Intersection, Difference)
-  * Ordered pairs (Kuratowski definition) and Cartesian Product
-  * Relations and Functions strictly formalized as sets of ordered pairs
+### Logical and Axiomatic Foundations
 
-* **Construction of Numbers and Infinity**
-  * Construction of Natural Numbers via Von Neumann ordinals from the empty set ($\varnothing$)
-  * Ordinal numbers, Cardinal numbers, and transfinite arithmetic
-  * Comparing infinite set sizes and the Continuum Hypothesis
+| Topic / Concept | Brief Description |
+| :--- | :--- |
+| [Logical Foundations](./theory/logical-foundations.md) | Propositional logic, connectives, truth tables, and quantifiers applied to mathematics. |
+| [Axiomatic Foundations](./theory/axiomatic-foundations.md) | Axiomatic set theory formulation (ZFC) and formal logical paradoxes. |
+
+### Operations and Structures
+
+| Topic / Concept | Brief Description |
+| :--- | :--- |
+| [Set Algebra and Operations](./theory/set-algebra-operations.md) | Union, intersection, difference, complement, and fundamental algebraic properties. |
+| [Cartesian Product and Relations](./theory/cartesian-product-relations.md) | Ordered pairs, Cartesian product, binary relations, and their formal properties. |
 
 ## Prerequisites
 
-- **Mathematical Logic:** Knowledge of logical connectives, quantifiers ($\forall, \exists$), and rules of inference.
-- **Abstract Reasoning:** Ability to interpret formal structures and detach from unformalized arithmetic intuitions.
+* No formal repository prerequisites are required. This module serves as an ideal entry point for the Mathematics domain.
+
+## Bibliography and References
+
+* HALMOS, Paul R. **Naive Set Theory**. Springer, 1974.
+* ENDERTON, Herbert B. **Elements of Set Theory**. Academic Press, 1977.
+* LIPSCHUTZ, Seymour. **Set Theory and Related Topics**. Schaum's Outline Series. McGraw-Hill, 1998.

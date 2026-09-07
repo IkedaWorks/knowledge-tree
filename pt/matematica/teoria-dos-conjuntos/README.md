@@ -1,35 +1,48 @@
 ---
-id: teoria-dos-conjuntos
-title: Teoria dos Conjuntos
+id: "teoria-dos-conjuntos"
+title: "Teoria dos Conjuntos"
+domain: "matematica"
+type: "module"
+language: "pt"
+level: "beginner"
+tags:
+  - "conjuntos"
+  - "logica-matematica"
+  - "relacoes"
+  - "axiomas"
+prerequisites: []
 ---
+# Teoria dos Conjuntos
 
-## Visão Geral
+> "Ninguém nos expulsará do paraíso que Cantor criou para nós."  
+> — **David Hilbert**
 
-Este submódulo é dedicado à exploração conceitual, filosófica e axiomática da base primordial da matemática moderna. O objetivo é construir a compreensão de como a linguagem matemática foi blindada contra paradoxos, acompanhando a evolução da teoria ingênua até o rigor formal do sistema axiomático de Zermelo-Fraenkel com o Axioma da Escolha (ZFC).
+A **Teoria dos Conjuntos** é a pedra angular da matemática moderna, fornecendo a linguagem e a estrutura formal sobre as quais todos os outros ramos — da álgebra ao cálculo — são construídos.
 
-## Tópicos do Módulo
+Este módulo aborda desde os princípios da lógica proposicional e axiomatização de Zermelo-Fraenkel até operações avançadas com conjuntos, produto cartesiano e a teoria das relações.
 
-* **Fundamentos Lógicos e a Crise dos Fundamentos**
-  * Concepção Semântica da Verdade: Esquema-T de Tarski, linguagem-objeto e metalinguagem
-  * O infinito de Georg Cantor e as fragilidades da matemática tradicional
-  * O Paradoxo de Russell e o colapso da teoria ingênua dos conjuntos
+## Conteúdo do Módulo
 
-* **A Estrutura Axiomática (ZFC)**
-  * Axiomas primordiais: Extensionalidade, Conjunto Vazio ($\varnothing$) e Par
-  * Esquema de Axiomas da Separação (Compreensão Restrita) e prevenção de paradoxos
-  * Axioma da União, das Partes e da Infinitude
+### Fundamentos Lógicos e Axiomáticos
 
-* **Operações, Relações e Funções**
-  * Operações fundamentais sob a ótica axiomática (União, Interseção e Diferença)
-  * Par ordenado (definição de Kuratowski) e Produto Cartesiano
-  * Relações e Funções formalizadas estritamente como conjuntos de pares ordenados
+| Tópico / Conceito                                              | Descrição Sucinta                                                                           |
+| :------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [Fundamentos Lógicos](./teoria/fundamentos-logicos.md)         | Lógica proposicional, conectivos, tabelas-verdade e quantificadores aplicados à matemática. |
+| [Fundamentos Axiomáticos](./teoria/fundamentos-axiomaticos.md) | Formulação axiomática da teoria dos conjuntos (ZFC) e paradoxos lógicos formais.            |
 
-* **A Construção dos Números e o Infinito**
-  * Construção dos Números Naturais via Von Neumann a partir do conjunto vazio ($\varnothing$)
-  * Números Ordinais, Números Cardinais e aritmética transfinita
-  * Comparação de conjuntos infinitos e Hipótese do Contínuo
+### Operações e Estruturas
+
+| Tópico / Conceito | Descrição Sucinta |
+| :--- | :--- |
+| [Álgebra e Operações com Conjuntos](./teoria/algebra-operacoes-conjuntos.md) | União, interseção, diferença, complemento e propriedades algébricas fundamentais. |
+| [Produto Cartesiano e Relações](./teoria/produto-cartesiano-relacoes.md) | Pares ordenados, produto cartesiano, relações binárias e suas propriedades formais. |
 
 ## Pré-requisitos
 
-- **Lógica Matemática:** Conhecimento de conectivos lógicos, quantificadores ($\forall, \exists$) e regras de inferência.
-- **Raciocínio Abstrato:** Capacidade de interpretação de estruturas formais e desapego de intuições aritméticas não formalizadas.
+* Nenhum pré-requisito formal é necessário dentro do repositório. O módulo é ideal para iniciar o estudo do domínio de Matemática.
+
+## Bibliografia e Referências
+
+* HALMOS, Paul R. **Naive Set Theory**. Springer, 1974.
+* ENDERTON, Herbert B. **Elements of Set Theory**. Academic Press, 1977.
+* LIPSCHUTZ, Seymour. **Teoria dos Conjuntos**. Coleção Schaum. McGraw-Hill, 1972.

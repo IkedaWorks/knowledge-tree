@@ -1,35 +1,42 @@
 ---
-id: sequencias-series-e-medias
-title: Sequências, Séries e Médias
+id: "sequencias"
+title: "Sequências"
+domain: "matematica"
+type: "module"
+language: "pt"
+level: "beginner"
+tags:
+  - "sequencias"
+  - "progressoes"
+  - "algebra"
+  - "series"
+prerequisites: []
 ---
+# Sequências
 
-## Visão Geral
+> "A matemática é a arte de dar o mesmo nome a coisas diferentes."  
+> — **Henri Poincaré**
 
-Este submódulo é dedicado à exploração estrutural, algébrica e intuitiva dos padrões numéricos discretos. O conteúdo aborda a evolução de sequências discretas, fornecendo a fundamentação algébrica e geométrica para dedução de fórmulas, comportamento de convergência e aplicação das medidas estatísticas adequadas para cada contexto.
+O módulo de **Sequências** estuda listas ordenadas de números e os padrões teóricos que regem seu comportamento. Compreender a lógica de formação de uma sequência é essencial para o desenvolvimento do pensamento algébrico e para o estudo subsequente de limites e séries numéricas.
 
-## Tópicos do Módulo
+Neste módulo são analisadas as propriedades fundamentais das sequências, bem como as progressões aritmética, geométrica e harmônica, cobrindo o cálculo de termos gerais, somas finitas e comportamentos assintóticos.
 
-* **Progressões Fundamentais**
-  * Progressão Aritmética (PA): variação por diferença constante, termo geral e soma finita
-  * Progressão Geométrica (PG): variação por razão constante, cancelamento algébrico e comportamento de razões
-  * Progressão Harmônica (PH): inversos da PA, grandezas inversamente proporcionais e taxas de variação
+## Conteúdo do Módulo
 
-* **Comportamento Assintótico e Soma Infinita**
-  * Limites de sequências discretas ($n \to \infty$) e análise de convergência
-  * Distinção formal entre sequências convergentes e divergentes
-  * Soma infinita da PG para $|q| < 1$ e demonstração da convergência finita
+### Fundamentos e Progressões
 
-* **Teoria das Médias e Medidas de Centralidade**
-  * Média aritmética: centro de equilíbrio para variações aditivas e relação com a PA
-  * Média geométrica: centro de equilíbrio para variações multiplicativas e taxas acumuladas
-  * Média harmônica: centro de equilíbrio para taxas inversas, velocidades médias e relação com a PH
-
-* **Propriedades de Fronteira e Desigualdades**
-  * Desigualdade das Médias ($H \le G \le A$) e condições de igualdade
-  * Estimativas e limites de Cauchy como ferramentas de contenção
-  * Conceito de teto e piso para sequências e testes de convergência por limitação
+| Tópico / Conceito                                               | Descrição Sucinta                                                                                 |
+| :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| [Fundamentos de Sequências](./teoria/fundamentos-sequencias.md) | Definição formal, leis de formação, recorrência e classificação de sequências numéricas.          |
+| [Progressão Aritmética](./teoria/progressao-aritmetica.md)      | Propriedades da PA, termo geral, razão e soma dos termos de uma sequência aritmética.             |
+| [Progressão Geométrica](./teoria/progressao-geometrica.md)      | Propriedades da PG, termo geral, razão, produto e soma de séries geométricas finitas e infinitas. |
+| [Progressão Harmônica](./teoria/progressao-harmonica.md)        | Propriedades da PH, relação com a PA, médias harmônicas e aplicações.                             |
 
 ## Pré-requisitos
 
-- **Álgebra e Manipulação Simbólica:** Domínio de potências, razões, fatoração, somatórios ($\sum$) e manipulação de frações.
-- **Análise de Funções:** Comportamento assintótico, conceito intuitivo de limite e gráficos de funções discretas vs. contínuas.
+* Nenhum pré-requisito formal é necessário dentro do repositório. Conhecimentos básicos de álgebra elementar são recomendados.
+
+## Bibliografia e Referências
+
+* IEZZI, Gelson; HAZAZI, Samuel. **Fundamentos de Matemática Elemental, Vol. 2: Sequências, Matrizes, Determinantes e Sistemas**. Atual Editora, 2013.
+* STEWART, James. **Precalculus: Mathematics for Calculus**. 7th ed. Cengage Learning, 2015.

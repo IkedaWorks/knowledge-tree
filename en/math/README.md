@@ -1,23 +1,41 @@
 ---
-id: mathematics
-title: Mathematics Track
+id: math
+title: Mathematics
+type: domain
+language: en
+tags:
+  - mathematics
+  - calculus
+  - statistics
+  - algebra
+modules:
+  - absolute-value
+  - differential-equations
+  - finance
+  - sequences
+  - set-theory
+  - statistics
+  - single-variable-calculus
+  - multivariable-calculus
 ---
+# Mathematics Domain
 
-## Overview
+> "Mathematics is the alphabet with which God has written the universe."  
+> — **Galileo Galilei**
 
-This space gathers submodules dedicated to the conceptual, formal, and applied exploration of mathematics. The structure is organized in a modular framework, covering everything from logical foundations and discrete structures to continuous calculus, data analysis, and financial modeling.
+The **Mathematics** domain establishes the formal language, abstract structures, and rigorous reasoning methods that underpin all scientific analysis, engineering, and quantitative modeling across the repository.
 
-## Knowledge Modules
+Through this ecosystem, modules progress from the logical and algebraic foundations of set theory and sequences to advanced tools in infinitesimal calculus, differential equations, and statistical analysis applied to real-world systems.
 
-* **Foundations and Discrete Algebra**
-  * Set Theory
-  * Sequences, Series, and Means
+## Modules
 
-* **Analysis and Calculus**
-  * Limits and Continuity
-  * Derivatives
-  * Integrals
-
-* **Applied Mathematics**
-  * Statistics and Data Analysis
-  * Finance and Wealth Management
+| Module                                                              | Description                                                                              | Level            | Status |
+| :------------------------------------------------------------------ | :--------------------------------------------------------------------------------------- | :--------------- | :----- |
+| [Set Theory](./set-theory/README.md)                                | Formal language, relations, functions, and fundamental operations of mathematical logic. | **Beginner**     | Active |
+| [Absolute Value](./absolute-value/README.md)                        | Properties of the absolute value function, modular equations, and inequalities.          | **Beginner**     | Active |
+| [Sequences](./sequences/README.md)                                  | Arithmetic and geometric progressions, sequence limits, and numerical series.            | **Beginner**     | Active |
+| [Single Variable Calculus](single-variable-calculus/README.md)      | Limits, derivatives, integrals, and their applications to rates of change and areas.     | **Intermediate** | Active |
+| [Statistics](./statistics/README.md)                                | Exploratory data analysis, probability theory, probability distributions, and inference. | **Intermediate** | Active |
+| [Finance](financial-mathematics/README.md)                          | Financial mathematics, compound interest, amortization schedules, and asset modeling.    | **Intermediate** | Active |
+| [Differential Equations](ordinary-differential-equations/README.md) | Modeling continuous dynamic systems using first and second-order ODEs.                   | **Advanced**     | Active |
+|                                                                     |                                                                                          |                  |        |
