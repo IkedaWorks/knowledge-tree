@@ -46,7 +46,7 @@ A restrição matemática exige que o radicando seja não negativo ($25 - x^2 - 
 
 $$D = \{(x, y) \in \mathbb{R}^2 \mid x^2 + y^2 \le 25\}$$
 
-![Visualização tridimensional de uma função multivariável de raio 5](../../../../../assets/hemisphere-radius-5-domain.svg)
+![Visualização tridimensional de uma função multivariável de raio 5](../../../../assets/hemisphere-radius-5-domain.svg)
 *Figura: Uma prévia tridimensional de f(x, y) = √(25 - x² - y²), ilustrando o comportamento geométrico de funções com restrição de domínio.*
 
 ---

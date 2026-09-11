@@ -46,7 +46,7 @@ The mathematical restriction requires a non-negative radicand ($25 - x^2 - y^2 \
 
 $$D = \{(x, y) \in \mathbb{R}^2 \mid x^2 + y^2 \le 25\}$$
 
-![Three-dimensional visualization of a multivariable function with radius 5](../../../../../assets/hemisphere-radius-5-domain.svg)
+![Three-dimensional visualization of a multivariable function with radius 5](../../../../assets/hemisphere-radius-5-domain.svg)
 *Figure: A 3D preview of f(x, y) = √(25 - x² - y²), illustrating the geometric behavior of functions with domain restrictions.*
 
 ---
