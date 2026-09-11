@@ -1,8 +1,16 @@
 ---
-id: introducao-calculo-multivariavel
-title: Introdução ao Cálculo Multivariável
+id: "introducao-calculo-multivariavel"
+title: "Introdução ao Cálculo Multivariável"
+domain: "matematica"
+type: "theory"
+language: "pt"
+level: "advanced"
+tags:
+  - "calculo-multivariavel"
+  - "funcoes-de-varias-variaveis"
+  - "curvas-de-nivel"
+  - "campos-escalares"
 ---
-
 ## O Paradigma Multivariável
 
 O cálculo de uma variável real concentra-se na análise de funções da forma $y = f(x)$, em que uma única variável de entrada determina o comportamento de uma variável de saída. Essa abordagem é ideal para modelar sistemas unidimensionais simples, como a posição de um objeto ao longo de uma reta em função do tempo ou o decaimento radioativo de uma substância.

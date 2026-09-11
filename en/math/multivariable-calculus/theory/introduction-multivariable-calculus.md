@@ -1,8 +1,16 @@
 ---
-id: introduction-multivariable-calculus
-title: Introduction to Multivariable Calculus
+id: "multivariable-calculus-introduction"
+title: "Introduction to Multivariable Calculus"
+domain: "math"
+type: "theory"
+language: "en"
+level: "advanced"
+tags:
+  - "multivariable-calculus"
+  - "multivariable-functions"
+  - "level-curves"
+  - "scalar-fields"
 ---
-
 ## The Multivariable Paradigm
 
 Single-variable calculus focuses on analyzing functions of the form $y = f(x)$, where a single input variable governs the behavior of a single output variable. This framework is well-suited for modeling simple one-dimensional systems, such as the position of an object along a line over time or the radioactive decay of a substance.
