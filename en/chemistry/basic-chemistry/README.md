@@ -1,14 +1,16 @@
 ---
-id: "basic-chemistry"
-title: "Basic Chemistry"
-domain: "chemistry"
-type: "module"
+id: basic-chemistry
+title: Basic Chemistry
+domain: chemistry
+type: module
 schema_version: "1.0"
-language: "en"
+level: beginner
+language: en
 tags:
-  - "chemistry"
-  - "matter"
-  - "foundations"
+  - chemistry
+  - matter
+  - foundations
+prerequisites:
 ---
 # Basic Chemistry
 

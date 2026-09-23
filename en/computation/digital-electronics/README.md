@@ -1,14 +1,16 @@
 ---
-id: "digital-electronics"
-title: "Digital Electronics"
-domain: "computation"
-type: "module"
+id: digital-electronics
+title: Digital Electronics
+domain: computation
+type: module
 schema_version: "1.0"
-language: "en"
+language: en
+level: beginner
 tags:
-  - "digital-electronics"
-  - "logic-gates"
-  - "circuits"
+  - digital-electronics
+  - logic-gates
+  - circuits
+prerequisites:
 ---
 
 # Digital Electronics
