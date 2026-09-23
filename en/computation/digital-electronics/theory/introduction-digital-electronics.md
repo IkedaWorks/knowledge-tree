@@ -1,8 +1,16 @@
 ---
-id: introduction-digital-electronics
-title: Introduction to Digital Electronics
+id: "introduction-digital-electronics"
+title: "Introduction to Digital Electronics"
+module: "digital-electronics"
+domain: "computation"
+type: "theory"
+schema_version: "1.0"
+language: "en"
+tags:
+  - "digital-electronics"
+  - "analog-vs-digital"
+  - "binary-logic"
 ---
-
 # Introduction to Digital Electronics
 
 Digital electronics is the foundation of modern computing. It focuses on how to represent, process, and store information using discrete electrical signals, in contrast to analog electronics, which deals with continuous quantities.

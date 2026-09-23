@@ -1,19 +1,16 @@
 ---
-id: "codigo-bcd"
+id: "bcd-code"
 title: "Código BCD (Binary-Coded Decimal)"
-domain: "computer-science"
-type: "concept"
+module: "digital-electronics"
+domain: "computation"
+type: "theory"
+schema_version: "1.0"
 language: "pt"
 tags:
   - "digital-electronics"
   - "number-systems"
   - "encoding"
-prerequisites:
-  - "conversao-bases"
-next_steps:
-  - "codigo-gray"
 ---
-
 # Código BCD (Binary-Coded Decimal)
 
 Sistemas digitais processam dados em binário puro, mas a interface humana opera no sistema decimal. Para conectar a lógica dos computadores aos mostradores digitais (como telas e relógios), o Código BCD (*Binary-Coded Decimal*) oferece um mapeamento direto entre cada dígito decimal e um grupo fixo de quatro bits.

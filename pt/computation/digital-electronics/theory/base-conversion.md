@@ -1,8 +1,10 @@
 ---
-id: "conversao-bases"
-title: "Conversão entre Bases Numéricas"
-domain: "engineering"
-type: "method"
+id: "base-conversion"
+title: "Conversão de Bases Numéricas"
+module: "digital-electronics"
+domain: "computation"
+type: "theory"
+schema_version: "1.0"
 language: "pt"
 tags:
   - "digital-electronics"
@@ -10,10 +12,7 @@ tags:
   - "base-conversion"
   - "binary"
   - "hexadecimal"
-prerequisites:
-  - "sistemas-numericos-fundamentais"
 ---
-
 # Conversão entre Bases Numéricas
 
 ## Visão Geral dos Métodos

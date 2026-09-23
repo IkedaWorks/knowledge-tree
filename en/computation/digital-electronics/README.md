@@ -3,14 +3,14 @@ id: "digital-electronics"
 title: "Digital Electronics"
 domain: "computation"
 type: "module"
+schema_version: "1.0"
 language: "en"
-level: "beginner"
 tags:
   - "digital-electronics"
   - "logic-gates"
   - "circuits"
-prerequisites: []
 ---
+
 # Digital Electronics
 
 This module covers the core principles of discrete logic, binary representation, and base conversions that underpin digital computing and processing hardware.

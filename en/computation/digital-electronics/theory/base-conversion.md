@@ -1,8 +1,10 @@
 ---
 id: "base-conversion"
 title: "Number Base Conversion"
-domain: "engineering"
-type: "method"
+module: "digital-electronics"
+domain: "computation"
+type: "theory"
+schema_version: "1.0"
 language: "en"
 tags:
   - "digital-electronics"
@@ -10,8 +12,6 @@ tags:
   - "base-conversion"
   - "binary"
   - "hexadecimal"
-prerequisites:
-  - "fundamental-number-systems"
 ---
 # Number Base Conversion
 

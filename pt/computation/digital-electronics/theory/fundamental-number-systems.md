@@ -1,17 +1,16 @@
 ---
-id: "sistemas-numericos-fundamentais"
+id: "fundamental-number-systems"
 title: "Sistemas Numéricos Fundamentais"
-domain: "engineering"
-type: "concept"
+module: "digital-electronics"
+domain: "computation"
+type: "theory"
+schema_version: "1.0"
 language: "pt"
 tags:
   - "digital-electronics"
   - "number-systems"
   - "binary"
   - "hexadecimal"
-prerequisites:
-  - "potenciacao-e-raizes"
-  - "operacoes-aritmeticas-basicas"
 ---
 # Sistemas Numéricos Fundamentais
 
