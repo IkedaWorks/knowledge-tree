@@ -1,14 +1,16 @@
 ---
-id: "digital-electronics"
-title: "Eletrônica Digital"
-domain: "computation"
-type: "module"
+id: digital-electronics
+title: Eletrônica Digital
+domain: computation
+type: module
 schema_version: "1.0"
-language: "pt"
+level: beginner
+language: pt
 tags:
-  - "digital-electronics"
-  - "logic-gates"
-  - "circuits"
+  - digital-electronics
+  - logic-gates
+  - circuits
+prerequisites:
 ---
 
 # Eletrônica Digital

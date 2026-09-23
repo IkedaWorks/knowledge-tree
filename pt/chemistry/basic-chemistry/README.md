@@ -1,14 +1,16 @@
 ---
-id: "basic-chemistry"
-title: "Química Básica"
-domain: "chemistry"
-type: "module"
+id: basic-chemistry
+title: Química Básica
+domain: chemistry
+type: module
 schema_version: "1.0"
-language: "pt"
+level: beginner
+language: pt
 tags:
-  - "chemistry"
-  - "matter"
-  - "foundations"
+  - chemistry
+  - matter
+  - foundations
+prerequisites:
 ---
 # Química Básica
 
