@@ -1,15 +1,13 @@
 ---
-id: "chemistry"
-title: "Chemistry Domain"
-type: "domain"
+id: chemistry
+title: Chemistry Domain
+type: domain
 schema_version: "1.0"
-language: "en"
+language: en
 tags:
-  - "chemistry"
-  - "natural-sciences"
-  - "matter"
-modules:
-  - "basic-chemistry"
+  - chemistry
+  - natural-sciences
+  - matter
 ---
 # General Chemistry Domain
 

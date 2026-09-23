@@ -1,15 +1,13 @@
 ---
-id: "chemistry"
-title: "Domínio de Química"
-type: "domain"
+id: chemistry
+title: Domínio de Química
+type: domain
 schema_version: "1.0"
-language: "pt"
+language: pt
 tags:
-  - "chemistry"
-  - "natural-sciences"
-  - "matter"
-modules:
-  - "basic-chemistry"
+  - chemistry
+  - natural-sciences
+  - matter
 ---
 # Domínio de Química
 

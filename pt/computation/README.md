@@ -1,15 +1,13 @@
 ---
-id: "computation"
-title: "Computação"
-type: "domain"
+id: computation
+title: Computação
+type: domain
 schema_version: "1.0"
-language: "pt"
+language: pt
 tags:
-  - "computation"
-  - "computer-science"
-  - "digital-electronics"
-modules:
-  - "digital-electronics"
+  - computation
+  - computer-science
+  - digital-electronics
 ---
 
 # Domínio de Computação
