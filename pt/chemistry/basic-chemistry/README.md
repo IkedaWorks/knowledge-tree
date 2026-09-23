@@ -1,15 +1,14 @@
 ---
-id: basic-chemistry
-title: Química Básica
-domain: chemistry
-type: module
-language: pt
-level: beginner
+id: "basic-chemistry"
+title: "Química Básica"
+domain: "chemistry"
+type: "module"
+schema_version: "1.0"
+language: "pt"
 tags:
-  - chemistry
-  - matter
-  - foundations
-prerequisites: []
+  - "chemistry"
+  - "matter"
+  - "foundations"
 ---
 # Química Básica
 
@@ -21,10 +20,10 @@ Este módulo introduz os princípios fundamentais da química, cobrindo as propr
 
 ## Estrutura de Tópicos do Módulo
 
-| Tópico / Conceito                                         | Tipo     | Descrição Sucinta                                                       |
-| :-------------------------------------------------------- | :------- | :---------------------------------------------------------------------- |
-| [Introdução à Química](teoria/introducao-quimica.md)      | conceito | Princípios fundamentais, escopo e conceitos base da química.            |
-| [Propriedades da Matéria](teoria/propriedades-materia.md) | conceito | Propriedades físicas e químicas, estados e mudanças de fase da matéria. |
+| Tópico / Conceito                                          | Tipo     | Descrição Sucinta                                                       |
+| :--------------------------------------------------------- | :------- | :---------------------------------------------------------------------- |
+| [Introdução à Química](theory/introduction-chemistry.md) | conceito | Princípios fundamentais, escopo e conceitos base da química.            |
+| [Propriedades da Matéria](theory/properties-matter.md)   | conceito | Propriedades físicas e químicas, estados e mudanças de fase da matéria. |
 
 ## Pré-requisitos
 

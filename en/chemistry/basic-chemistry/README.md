@@ -1,15 +1,14 @@
 ---
-id: basic-chemistry
-title: Basic Chemistry
-domain: chemistry
-type: module
-language: en
-level: beginner
+id: "basic-chemistry"
+title: "Basic Chemistry"
+domain: "chemistry"
+type: "module"
+schema_version: "1.0"
+language: "en"
 tags:
-  - chemistry
-  - matter
-  - foundations
-prerequisites: []
+  - "chemistry"
+  - "matter"
+  - "foundations"
 ---
 # Basic Chemistry
 
@@ -21,24 +20,20 @@ This module introduces the fundamental principles of chemistry, covering the cor
 
 ## Module Nodes Structure
 
-| **Node / Topic**                                              | **Type** | **Brief Description**                                                  |
-| ------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- |
-| [Introduction to Chemistry](theory/introduction-chemistry.md) | concept  | Core principles, scope, and foundational concepts of chemistry.        |
-| [Properties of Matter](theory/properties-matter.md)           | concept  | Physical and chemical properties, states, and phase changes of matter. |
-
+| **Node / Topic**                                                | **Type** | **Brief Description**                                                  |
+| --------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- |
+| [Introduction to Chemistry](./theory/introduction-chemistry.md) | concept  | Core principles, scope, and foundational concepts of chemistry.        |
+| [Properties of Matter](./theory/properties-matter.md)           | concept  | Physical and chemical properties, states, and phase changes of matter. |
 ## Prerequisites
 
 - None.
-    
 
 ## Bibliography and References
 
 ### Textbooks and Primary Literature
 
 - CHANG, Raymond; OVERBY, Jason. _General Chemistry: The Essential Concepts_. 7th ed. New York: McGraw-Hill Education, 2014.
-    
 - SILBERBERG, Martin. _Chemistry: The Molecular Nature of Matter and Change_. 8th ed. New York: McGraw-Hill Education, 2017.
-    
 
 ### Online Platforms and Supplementary Resources
 

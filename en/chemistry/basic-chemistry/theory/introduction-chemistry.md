@@ -1,6 +1,16 @@
 ---
-id: introduction-chemistry
-title: Introduction to Chemistry
+id: "introduction-chemistry"
+title: "Introduction to Chemistry"
+module: "basic-chemistry"
+domain: "chemistry"
+type: "theory"
+schema_version: "1.0"
+language: "en"
+tags:
+  - "chemistry"
+  - "matter"
+  - "macroscopic-scale"
+  - "submicroscopic-scale"
 ---
 # Introduction to Chemistry
 

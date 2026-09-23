@@ -1,6 +1,18 @@
 ---
-id: properties-of-matter
-title: Properties of Matter
+id: "properties-matter"
+title: "Properties of Matter"
+module: "basic-chemistry"
+domain: "chemistry"
+type: "theory"
+schema_version: "1.0"
+language: "en"
+tags:
+  - "chemistry"
+  - "matter"
+  - "extensive-properties"
+  - "intensive-properties"
+  - "density"
+  - "solubility"
 ---
 # Properties of Matter and System Characterization
 

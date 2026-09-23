@@ -1,6 +1,18 @@
 ---
-id: propriedades-materia
-title: Propriedades da Matéria
+id: "properties-matter"
+title: "Propriedades da Matéria"
+module: "basic-chemistry"
+domain: "chemistry"
+type: "theory"
+schema_version: "1.0"
+language: "pt"
+tags:
+  - "chemistry"
+  - "matter"
+  - "extensive-properties"
+  - "intensive-properties"
+  - "density"
+  - "solubility"
 ---
 # Propriedades da Matéria e Caracterização de Sistemas
 
