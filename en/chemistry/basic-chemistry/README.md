@@ -3,7 +3,7 @@ id: basic-chemistry
 title: Basic Chemistry
 domain: chemistry
 type: module
-schema_version: "1.0"
+schema_version: "2.0"
 level: beginner
 language: en
 tags:

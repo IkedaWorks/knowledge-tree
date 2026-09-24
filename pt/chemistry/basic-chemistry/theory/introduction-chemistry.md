@@ -1,16 +1,18 @@
 ---
-id: "introduction-chemistry"
-title: "Introdução à Química"
-module: "basic-chemistry"
-domain: "chemistry"
-type: "theory"
-schema_version: "1.0"
-language: "pt"
+id: introduction-chemistry
+title: Introdução à Química
+module: basic-chemistry
+domain: chemistry
+type: theory
+schema_version: "2.0"
+level: beginner
+language: pt
+prerequisites:
 tags:
-  - "chemistry"
-  - "matter"
-  - "macroscopic-scale"
-  - "submicroscopic-scale"
+  - chemistry
+  - matter
+  - macroscopic-scale
+  - submicroscopic-scale
 ---
 # Introdução à Química
 

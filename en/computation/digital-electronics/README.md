@@ -3,14 +3,14 @@ id: digital-electronics
 title: Digital Electronics
 domain: computation
 type: module
-schema_version: "1.0"
-language: en
+schema_version: "2.0"
 level: beginner
+language: en
+prerequisites:
 tags:
   - digital-electronics
   - logic-gates
   - circuits
-prerequisites:
 ---
 
 # Digital Electronics

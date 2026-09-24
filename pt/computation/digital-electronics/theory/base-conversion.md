@@ -1,17 +1,19 @@
 ---
-id: "base-conversion"
-title: "Conversão de Bases Numéricas"
-module: "digital-electronics"
-domain: "computation"
-type: "theory"
-schema_version: "1.0"
-language: "pt"
+id: base-conversion
+title: Conversão de Bases Numéricas
+module: digital-electronics
+domain: computation
+type: theory
+schema_version: "2.0"
+level: beginner
+language: pt
+prerequisites:
 tags:
-  - "digital-electronics"
-  - "number-systems"
-  - "base-conversion"
-  - "binary"
-  - "hexadecimal"
+  - digital-electronics
+  - number-systems
+  - base-conversion
+  - binary
+  - hexadecimal
 ---
 # Conversão entre Bases Numéricas
 

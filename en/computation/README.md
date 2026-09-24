@@ -2,7 +2,7 @@
 id: computation
 title: Computation
 type: domain
-schema_version: "1.0"
+schema_version: "2.0"
 language: en
 tags:
   - computation

@@ -1,15 +1,17 @@
 ---
-id: "introduction-digital-electronics"
-title: "Introdução à Eletrônica Digital"
-module: "digital-electronics"
-domain: "computation"
-type: "theory"
-schema_version: "1.0"
-language: "pt"
+id: introduction-digital-electronics
+title: Introdução à Eletrônica Digital
+module: digital-electronics
+domain: computation
+type: theory
+schema_version: "2.0"
+level: beginner
+language: pt
+prerequisites:
 tags:
-  - "digital-electronics"
-  - "analog-vs-digital"
-  - "binary-logic"
+  - digital-electronics
+  - analog-vs-digital
+  - binary-logic
 ---
 # Introdução à Eletrônica Digital
 

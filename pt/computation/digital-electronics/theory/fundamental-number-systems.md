@@ -1,16 +1,18 @@
 ---
-id: "fundamental-number-systems"
-title: "Sistemas Numéricos Fundamentais"
-module: "digital-electronics"
-domain: "computation"
-type: "theory"
-schema_version: "1.0"
-language: "pt"
+id: fundamental-number-systems
+title: Sistemas Numéricos Fundamentais
+module: digital-electronics
+domain: computation
+type: theory
+schema_version: "2.0"
+level: beginner
+language: pt
 tags:
-  - "digital-electronics"
-  - "number-systems"
-  - "binary"
-  - "hexadecimal"
+  - digital-electronics
+  - number-systems
+  - binary
+  - hexadecimal
+prerequisites:
 ---
 # Sistemas Numéricos Fundamentais
 

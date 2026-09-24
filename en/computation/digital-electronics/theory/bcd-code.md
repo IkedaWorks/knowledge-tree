@@ -1,15 +1,17 @@
 ---
-id: "bcd-code"
-title: "BCD Code (Binary-Coded Decimal)"
-module: "digital-electronics"
-domain: "computation"
-type: "theory"
-schema_version: "1.0"
-language: "en"
+id: bcd-code
+title: BCD Code (Binary-Coded Decimal)
+module: digital-electronics
+domain: computation
+type: theory
+schema_version: "2.0"
+level: beginner
+language: en
 tags:
-  - "digital-electronics"
-  - "number-systems"
-  - "encoding"
+  - digital-electronics
+  - number-systems
+  - encoding
+prerequisites:
 ---
 # BCD Code (Binary-Coded Decimal)
 

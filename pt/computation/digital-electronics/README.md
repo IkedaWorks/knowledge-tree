@@ -3,7 +3,7 @@ id: digital-electronics
 title: Eletrônica Digital
 domain: computation
 type: module
-schema_version: "1.0"
+schema_version: "2.0"
 level: beginner
 language: pt
 tags:
