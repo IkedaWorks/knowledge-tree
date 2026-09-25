@@ -8,60 +8,58 @@ To maintain repository performance and compatibility between Obsidian and GitHub
 
 ## File Formats
 
-Preferred formats:
+The repository strictly prioritizes modern and lightweight formats:
 
-- **SVG:** Default format for technical diagrams, mathematical illustrations, coordinate systems, and geometric shapes created with Inkscape or Excalidraw.
-- **WEBP:** Preferred format for compressed raster images, screenshots, and visual references where vectorization is not practical.
-- **JPG/JPEG:** Use only for photographs or scanned physical materials when necessary.
-- **PNG:** Avoid unless transparency is required and SVG or WEBP are not suitable.
+- **SVG:** Default format for technical diagrams, mathematical illustrations, coordinate systems, and plots generated via scripts or drawing tools.
+    
+- **WEBP:** Default format for compressed raster images, screenshots, and visual references where vectorization is not practical.
+    
+- **AVIF / PNG / JPG:** Fallback options used only when WEBP or SVG are not suitable or available.
+    
 
-## Asset Organization
+## Asset Structure & Mapping
 
-All shared media files must be stored inside:
+All shared media files are organized by **domain** and **module** following a 3-level depth structure:
 
-```
-/assets
-```
+$$\text{assets/} \rightarrow \text{<domain>/} \rightarrow \text{<module>/} \rightarrow \text{<filename>}$$
 
-Editable Excalidraw files should be stored in:
+### Folder Flattening Rule
 
-```
-/assets/excalidraw
-```
+Internal content subfolders (such as `theory/`, `practice/`, `kinematics/`, `dynamics/`) **MUST NOT** be replicated inside `assets/`. All assets belonging to a module reside directly at the module root within `assets/<domain>/<module>/`.
 
-## Technical Diagrams
+Editable Excalidraw files are stored separately in `/assets/excalidraw/`.
 
-The project prioritizes editable and lightweight graphics.
+## Technical Diagrams & Scripting
 
-- Use **Inkscape** for professional technical diagrams.
-- Commit diagrams in native **SVG** format whenever possible.
-- Use **Excalidraw** for conceptual sketches.
-- Export an SVG version for GitHub rendering.
+The project prioritizes reproducible, vector-based graphics.
 
-Avoid raster formats when a vector solution is available.
+- **Python (Matplotlib, Manim, SymPy):** Preferred method for precise scientific curves, function plots, and data visualizations.
+    
+- **Inkscape:** Preferred tool for advanced technical diagrams and illustrations.
+    
+- **Excalidraw:** Used for conceptual sketches and rapid diagrams. Export an SVG version for repository inclusion.
+    
 
 ## Naming Convention
 
-All assets should follow **kebab-case**.
+All filenames must strictly use **kebab-case** in **English**, ensuring clean and concise names.
 
 Examples:
 
-```
-free-body-diagram.svg
-gauss-law-example.webp
-electric-field-lines.svg
-```
+- vector-decomposition-2d.svg
+    
+- electric-flux-cube.svg
+    
+- analog-vs-digital.svg
+    
 
 ## Linking Assets
 
-Use relative Markdown paths when referencing assets:
+Use standard Markdown syntax `![]()` with relative paths:
 
-```md
-![Brief Description](../assets/file-name.svg)
-```
+`![Vector Decomposition](../../../../../assets/physics/classical-mechanics/vector-decomposition-2d.svg)`
 
 ---
-
 # Gestão de Ativos e Mídias
 
 Este diretório centraliza arquivos binários, diagramas vetoriais e arquivos de mídia utilizados ao longo da base de conhecimento do projeto.
@@ -72,54 +70,53 @@ Para manter o desempenho do repositório e a compatibilidade entre Obsidian e Gi
 
 ## Formatos de Arquivo
 
-Formatos preferenciais:
+O repositório prioriza estritamente formatos modernos e leves:
 
-- **SVG:** Formato padrão para diagramas técnicos, ilustrações matemáticas, sistemas de coordenadas e formas geométricas criadas com Inkscape ou Excalidraw.
-- **WEBP:** Formato preferencial para imagens rasterizadas comprimidas, capturas de tela e referências visuais onde a vetorização não é viável.
-- **JPG/JPEG:** Utilize apenas para fotografias ou materiais físicos digitalizados quando necessário.
-- **PNG:** Evite, a menos que transparência seja necessária e SVG ou WEBP não sejam adequados.
+- **SVG:** Formato padrão para diagramas técnicos, ilustrações matemáticas, sistemas de coordenadas e gráficos gerados por código ou ferramentas de desenho.
+    
+- **WEBP:** Formato padrão para imagens rasterizadas comprimidas, capturas de tela e referências visuais onde a vetorização não é viável.
+    
+- **AVIF / PNG / JPG:** Opções de suporte utilizadas apenas quando WEBP ou SVG não forem viáveis ou disponíveis.
+    
 
-## Organização dos Assets
+## Estrutura e Mapeamento de Assets
 
-Todos os arquivos de mídia compartilhados devem ser armazenados em:
+Todos os arquivos de mídia são organizados por **domínio** e **módulo**, seguindo uma estrutura máxima de 3 níveis:
 
-```
-/assets
-```
+$$\text{assets/} \rightarrow \text{<domain>/} \rightarrow \text{<module>/} \rightarrow \text{<filename>}$$
 
-Arquivos editáveis do Excalidraw devem ser armazenados em:
+### Regra de Achatamento de Subpastas
 
-```
-/assets/excalidraw
-```
+Subpastas internas de conteúdo (como `theory/`, `practice/`, `kinematics/`, `dynamics/`) **NÃO DEVEM** ser replicadas dentro de `assets/`. Todos os ativos de um módulo residem diretamente na raiz do módulo em `assets/<domain>/<module>/`.
 
-## Diagramas Técnicos
+Arquivos editáveis do Excalidraw são armazenados separadamente em `/assets/excalidraw/`.
 
-O projeto prioriza gráficos editáveis e leves.
+## Diagramas Técnicos e Programação
 
-- Utilize **Inkscape** para diagramas técnicos profissionais.
-- Faça commit dos diagramas no formato nativo **SVG** sempre que possível.
-- Utilize **Excalidraw** para esboços conceituais.
-- Exporte uma versão SVG para renderização no GitHub.
+O projeto prioriza gráficos reprodutíveis baseados em vetores.
 
-Evite formatos rasterizados quando uma solução vetorial estiver disponível.
+- **Python (Matplotlib, Manim, SymPy):** Método preferencial para plotagem de funções, curvas científicas e visualização de dados com precisão.
+    
+- **Inkscape:** Ferramenta preferencial para diagramas técnicos e ilustrações avançadas.
+    
+- **Excalidraw:** Utilizado para esboços conceituais e diagramas rápidos. Exporte uma versão SVG para inclusão no repositório.
+    
 
 ## Convenção de Nomenclatura
 
-Todos os assets devem seguir **kebab-case**.
+Todos os nomes de arquivo devem utilizar estritamente **kebab-case** em **inglês**, garantindo nomes limpos e diretos.
 
 Exemplos:
 
-```
-diagrama-corpo-livre.svg
-lei-de-gauss-exemplo.webp
-linhas-campo-eletrico.svg
-```
+- vector-decomposition-2d.svg
+    
+- electric-flux-cube.svg
+    
+- analog-vs-digital.svg
+    
 
 ## Vinculando Assets
 
-Utilize caminhos relativos em Markdown ao referenciar assets:
+Utilize a sintaxe padrão do Markdown `![]()` com caminhos relativos:
 
-```md
-![Breve Descrição](../assets/nome-do-arquivo.svg)
-```
+`![Decomposição Vetorial](../../../../../assets/physics/classical-mechanics/vector-decomposition-2d.svg)`
