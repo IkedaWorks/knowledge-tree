@@ -19,9 +19,9 @@ This module covers the core principles of discrete logic, binary representation,
 
 ## Content Index
 
-| Topic                                                                               | Description                                                                           |
-| :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| [Introduction to Digital Electronics](./theory/introduction-digital-electronics.md) | Overview of analog vs. digital signals, binary abstraction, and hardware foundations. |
-| [Fundamental Number Systems](./theory/fundamental-number-systems.md)                | Structure of binary, octal, decimal, and hexadecimal systems.                         |
-| [Base Conversion](./theory/base-conversion.md)                                      | Algorithmic methods for direct and indirect base conversions.                         |
-| [BCD Code](./theory/bcd-code.md)                                                    | Binary-Coded Decimal representation and practical applications.                       |
+| Topic                                                                               | **Type**   | Description                                                                           |
+| :---------------------------------------------------------------------------------- | :--------- | :------------------------------------------------------------------------------------ |
+| [Introduction to Digital Electronics](./theory/introduction-digital-electronics.md) | foudantion | Overview of analog vs. digital signals, binary abstraction, and hardware foundations. |
+| [Fundamental Number Systems](./theory/fundamental-number-systems.md)                | concept    | Structure of binary, octal, decimal, and hexadecimal systems.                         |
+| [Base Conversion](./theory/base-conversion.md)                                      | method     | Algorithmic methods for direct and indirect base conversions.                         |
+| [BCD Code](./theory/bcd-code.md)                                                    | concept    | Binary-Coded Decimal representation and practical applications.                       |

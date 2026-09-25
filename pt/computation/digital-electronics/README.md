@@ -19,9 +19,9 @@ Este módulo aborda os conceitos fundamentais da lógica discreta, representaç�
 
 ## Índice de Conteúdo
 
-| Tópico                                                                          | Descrição                                                                                    |
-| :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------- |
-| [Introdução à Eletrônica Digital](./theory/introduction-digital-electronics.md) | Visão geral dos sinais analógicos vs. digitais, abstração binária e fundamentos de hardware. |
-| [Sistemas Numéricos Fundamentais](./theory/fundamental-number-systems.md)       | Estrutura dos sistemas binário, octal, decimal e hexadecimal.                                |
-| [Conversão de Bases](./theory/base-conversion.md)                               | Métodos algorítmicos para conversão direta e indireta entre bases numéricas.                 |
-| [Código BCD](./theory/bcd-code.md)                                              | Representação decimal codificada em binário (Binary-Coded Decimal) e suas aplicações.        |
+| Tópico                                                                          | **Type**   | Descrição                                                                                    |
+| :------------------------------------------------------------------------------ | :--------- | :------------------------------------------------------------------------------------------- |
+| [Introdução à Eletrônica Digital](./theory/introduction-digital-electronics.md) | fundamento | Visão geral dos sinais analógicos vs. digitais, abstração binária e fundamentos de hardware. |
+| [Sistemas Numéricos Fundamentais](./theory/fundamental-number-systems.md)       | conceito   | Estrutura dos sistemas binário, octal, decimal e hexadecimal.                                |
+| [Conversão de Bases](./theory/base-conversion.md)                               | método     | Métodos algorítmicos para conversão direta e indireta entre bases numéricas.                 |
+| [Código BCD](./theory/bcd-code.md)                                              | conceito   | Representação decimal codificada em binário (Binary-Coded Decimal) e suas aplicações.        |

@@ -22,10 +22,10 @@ This module introduces the fundamental principles of chemistry, covering the cor
 
 ## Module Nodes Structure
 
-| **Node / Topic**                                                | **Type** | **Brief Description**                                                  |
-| --------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- |
-| [Introduction to Chemistry](./theory/introduction-chemistry.md) | concept  | Core principles, scope, and foundational concepts of chemistry.        |
-| [Properties of Matter](./theory/properties-matter.md)           | concept  | Physical and chemical properties, states, and phase changes of matter. |
+| **Topic**                                                       | **Type**   | **Brief Description**                                                  |
+| --------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------- |
+| [Introduction to Chemistry](./theory/introduction-chemistry.md) | foundation | Core principles, scope, and foundational concepts of chemistry.        |
+| [Properties of Matter](./theory/properties-matter.md)           | concept    | Physical and chemical properties, states, and phase changes of matter. |
 ## Prerequisites
 
 - None.

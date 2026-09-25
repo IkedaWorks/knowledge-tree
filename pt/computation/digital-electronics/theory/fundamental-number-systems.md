@@ -3,7 +3,7 @@ id: fundamental-number-systems
 title: Sistemas Numéricos Fundamentais
 module: digital-electronics
 domain: computation
-type: theory
+type: concept
 schema_version: "2.0"
 level: beginner
 language: pt

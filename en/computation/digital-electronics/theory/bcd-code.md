@@ -3,7 +3,7 @@ id: bcd-code
 title: BCD Code (Binary-Coded Decimal)
 module: digital-electronics
 domain: computation
-type: theory
+type: concept
 schema_version: "2.0"
 level: beginner
 language: en

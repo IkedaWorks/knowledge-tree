@@ -22,10 +22,10 @@ Este módulo introduz os princípios fundamentais da química, cobrindo as propr
 
 ## Estrutura de Tópicos do Módulo
 
-| Tópico / Conceito                                          | Tipo     | Descrição Sucinta                                                       |
-| :--------------------------------------------------------- | :------- | :---------------------------------------------------------------------- |
-| [Introdução à Química](theory/introduction-chemistry.md) | conceito | Princípios fundamentais, escopo e conceitos base da química.            |
-| [Propriedades da Matéria](theory/properties-matter.md)   | conceito | Propriedades físicas e químicas, estados e mudanças de fase da matéria. |
+| Tópico / Conceito                                        | Tipo       | Descrição Sucinta                                                       |
+| :------------------------------------------------------- | :--------- | :---------------------------------------------------------------------- |
+| [Introdução à Química](theory/introduction-chemistry.md) | fundamento | Princípios fundamentais, escopo e conceitos base da química.            |
+| [Propriedades da Matéria](theory/properties-matter.md)   | conceito   | Propriedades físicas e químicas, estados e mudanças de fase da matéria. |
 
 ## Pré-requisitos
 

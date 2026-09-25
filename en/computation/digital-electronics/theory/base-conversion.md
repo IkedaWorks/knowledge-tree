@@ -1,25 +1,28 @@
 ---
-id: base-conversion
-title: Number Base Conversion
-module: digital-electronics
-domain: computation
-type: theory
+id: "base-conversion"
+title: "Number Base Conversion"
+domain: "computation"
+module: "digital-electronics"
+type: "method"
 schema_version: "2.0"
-level: beginner
-language: en
-prerequisites:
+level: "beginner"
+language: "en"
+prerequisites: []
 tags:
-  - digital-electronics
-  - number-systems
-  - base-conversion
-  - binary
-  - hexadecimal
+  - "digital-electronics"
+  - "number-systems"
+  - "base-conversion"
+  - "binary"
+  - "hexadecimal"
 ---
+
 # Number Base Conversion
+
+Transitioning numerical representations between different bases is a fundamental operation in low-level programming, hardware design, and digital system analysis.
 
 ## Overview of Methods
 
-Transitioning numerical representations between different bases is a fundamental operation in low-level programming, hardware design, and digital system analysis. Conversion algorithms fall into two primary categories:
+Conversion algorithms fall into two primary categories depending on the relationship between the bases involved:
 
 1. **Arithmetic Methods:** Used when one of the bases involved is Decimal ($b=10$). These require explicit division operations or polynomial expansions.
 2. **Direct Mapping Methods (Grouping):** Used between bases that are exact powers of $2$ ($2^1$ Binary, $2^3$ Octal, $2^4$ Hexadecimal). These require no complex arithmetic, relying solely on block substitution of bits.
@@ -93,9 +96,7 @@ Because $16 = 2^4$ and $8 = 2^3$, conversions between these bases bypass success
 > [!NOTE]
 > If the total number of bits is not an exact multiple of the block size (4 bits for Hexadecimal or 3 bits for Octal), **pad the most significant block (MSB) with zeros on the left** until complete.
 
----
-
-### Binary $\leftrightarrow$ Hexadecimal Grouping (4-bit Blocks)
+### 1. Binary $\leftrightarrow$ Hexadecimal Grouping (4-bit Blocks)
 
 Each hexadecimal digit corresponds exactly to a 4-bit group (nibble).
 
@@ -112,7 +113,7 @@ Convert the 10-bit binary value $1101011001_2$ to Hexadecimal:
 
 ---
 
-### Binary $\leftrightarrow$ Octal Grouping (3-bit Blocks)
+### 2. Binary $\leftrightarrow$ Octal Grouping (3-bit Blocks)
 
 Each octal digit corresponds exactly to a 3-bit group.
 
@@ -127,6 +128,35 @@ Convert the same 10-bit binary value $1101011001_2$ to Octal:
    * `011` $\rightarrow 0 + 2 + 1 = 3_8$
    * `001` $\rightarrow 0 + 0 + 1 = 1_8$
 4. **Final Result:** $1101011001_2 = 1531_8$
+
+---
+
+### 3. Indirect Conversion: Hexadecimal $\leftrightarrow$ Octal (Via Binary)
+
+Since $16$ is not an integer power of $8$ ($8^k \ne 16$), digits cannot be mapped directly between Hexadecimal and Octal. The fastest and most error-free strategy is to **use Binary as an intermediate bridge**:
+
+$$\text{Hexadecimal} \xrightarrow{\text{Expand into 4 bits}} \text{Binary} \xrightarrow{\text{Regroup into 3 bits}} \text{Octal}$$
+
+#### Worked Example: Convert $359_{16}$ to Octal
+
+1. **Expand each Hexadecimal digit into 4-bit nibbles:**
+   * $3_{16} \rightarrow \mathbf{0011}$
+   * $5_{16} \rightarrow \mathbf{0101}$
+   * $9_{16} \rightarrow \mathbf{1001}$
+   * *Intermediate binary:* `001101011001`
+
+2. **Remove leading non-significant zeros:**
+   * `001101011001` $\rightarrow$ `1101011001`
+
+3. **Regroup the binary string into 3-bit blocks (right to left):**
+   * `1` | `101` | `011` | `001` $\rightarrow$ Pad leftmost block: `001` | `101` | `011` | `001`
+
+4. **Convert each 3-bit block to Octal:**
+   * `001` $\rightarrow 1_8$
+   * `101` $\rightarrow 5_8$
+   * `011` $\rightarrow 3_8$
+   * `001` $\rightarrow 1_8$
+5. **Final Result:** $359_{16} = 1531_8$
 
 ---
 

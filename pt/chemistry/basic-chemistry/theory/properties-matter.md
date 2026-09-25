@@ -1,9 +1,9 @@
 ---
 id: properties-matter
-title: Propriedades da Matéria
-module: basic-chemistry
+title: Propriedades da Matéria e Caracterização de Sistemas
 domain: chemistry
-type: theory
+module: basic-chemistry
+type: concept
 schema_version: "2.0"
 level: beginner
 language: pt
@@ -16,86 +16,88 @@ tags:
   - density
   - solubility
 ---
+
 # Propriedades da Matéria e Caracterização de Sistemas
 
-## Introdução
+As propriedades da matéria são os atributos mensuráveis ou observáveis utilizados para identificar, classificar e prever o comportamento de sistemas materiais sob diferentes condições físicas e químicas.
 
-No estudo da Química, a caracterização de um sistema material exige determinar como a matéria responde a estímulos físicos e químicos. Embora toda matéria ocupe espaço e possua massa, diferentes materiais apresentam comportamentos singulares quando submetidos a variações de temperatura, pressão ou interações com outras substâncias.
+## Motivação e Contexto
 
-Para compreender como os materiais são identificados e aplicados, a análise é organizada na distinção entre propriedades gerais e específicas.
+A caracterização de um sistema material atende a uma necessidade prática essencial: diferenciar amostras que parecem visualmente idênticas. Dois líquidos incolores em recipientes iguais podem apresentar massas distintas para um mesmo volume ou exibir comportamentos de ebulição opostos quando aquecidos.
 
-## Classificação Fundamental das Propriedades
+A medição e a classificação das propriedades superam os limites da percepção sensorial humana. Em vez de recorrer a descrições qualitativas como "leve" ou "pesado", a físico-química estabelece parâmetros quantitativos e reprodutíveis que conectam a estrutura submicroscópica ao comportamento macroscópico observável.
 
-As propriedades de um sistema material são divididas em duas categorias principais com base em sua capacidade de identificar a substância que constitui a amostra.
+## Formulação Teórica
 
-### Propriedades Gerais (Extensivas)
+Os atributos de um sistema material são categorizados com base em sua dependência do tamanho da amostra e sua relação com a identidade química.
 
-Ao comparar um bloco de concreto e uma barra de ouro de volumes idênticos, ambos ocupam espaço e oferecem resistência ao movimento. Essas características confirmam a presença de matéria, mas não revelam a composição de cada um.
+### Propriedades Extensivas e Intensivas
 
-Propriedades gerais são características inerentes a toda amostra de matéria, independentemente de sua constituição química. Elas variam diretamente com a quantidade de matéria presente no sistema (propriedades extensivas).
+A resposta de um sistema à variação de sua massa total determina sua classificação termodinâmica:
 
-* **Massa ($m$):** Medida da quantidade de matéria contida em um corpo.
-* **Volume ($V$):** Espaço tridimensional ocupado pelo sistema.
-* **Impenetrabilidade:** Dois corpos não podem ocupar simultaneamente o mesmo lugar no espaço.
-* **Inércia:** Tendência de um corpo de manter seu estado de repouso ou de movimento retilínio uniforme.
-* **Compressibilidade e Elasticidade:** Capacidade de alterar o volume sob ação de forças e retornar à forma original quando removidas.
-
-Para qualquer propriedade extensiva, o valor do sistema global é a soma das partes:
+* **Propriedades Extensivas:** Dependem diretamente da quantidade de matéria presente no sistema. O valor total de uma propriedade extensiva é igual à soma de suas partes:
 
 $$P_{\text{total}} = \sum_{i=1}^{n} P_i$$
 
-### Propriedades Específicas (Intensivas)
+Exemplos incluem a massa ($m$), o volume ($V$) e a energia interna ($U$).
 
-Caso dois recipientes contenham líquidos incolores com massas e volumes idênticos, essas medições não revelam qual é água e qual é etanol. No entanto, ao medir a temperatura de ebulição ou a massa contida em um determinado volume, a diferenciação ocorre de forma imediata.
+* **Propriedades Intensivas:** Permanecem independentes da quantidade de matéria e caracterizam a própria substância. Exemplos incluem temperatura ($T$), pressão ($P$), ponto de fusão ($\text{PF}$) e ponto de ebulição ($\text{PE}$).
 
-Propriedades específicas dependem exclusivamente da identidade química e do arranjo estrutural da matéria. Elas não mudam com o tamanho da amostra, funcionando como a "impressão digital" de substâncias puras (propriedades intensivas).
-
-Classificam-se em:
-* **Físicas:** Observadas sem alterar a composição da substância (ex.: ponto de fusão, ponto de ebulição, densidade, condutividade elétrica).
-* **Químicas:** Descrevem a capacidade de reagir e transformar a identidade da substância (ex.: inflamabilidade, reatividade com ácidos, potencial de oxidação).
-* **Organolépticas:** Percebidas pelos sentidos (ex.: cor, odor, sabor e brilho).
-
-O parâmetro de maior destaque na caracterização de materiais é a densidade ($\rho$), definida pela razão entre a massa ($m$) e o volume ($V$):
+A razão entre duas propriedades extensivas resulta em uma propriedade intensiva. A densidade ($\rho$) é definida como a razão entre a massa e o volume:
 
 $$\rho = \frac{m}{V}$$
 
-No SI, a densidade é expressa em $\text{kg/m}^3$, sendo comum o uso das unidades práticas $\text{g/cm}^3$ e $\text{g/mL}$ (onde $1\text{ g/cm}^3 = 1000\text{ kg/m}^3$).
+No Sistema Internacional, a densidade é expressa em $\text{kg/m}^3$, sendo comum o uso de unidades práticas como $\text{g/cm}^3$ ($1 \text{ g/cm}^3 = 1000 \text{ kg/m}^3$).
 
----
+### Propriedades Físicas, Químicas e Organolépticas
 
-## Síntese Comparativa das Propriedades
+* **Propriedades Físicas:** Determinadas sem alterar a composição química da substância (ex.: densidade, condutividade elétrica, viscosidade).
+* **Propriedades Químicas:** Descrevem a capacidade de uma substância sofrer transformações em sua identidade molecular (ex.: inflamabilidade, reatividade com ácidos, potencial de oxidação).
+* **Propriedades Organolépticas:** Percebidas através dos órgãos dos sentidos, como cor, odor e brilho.
 
-| Critério de Classificação | Propriedades Extensivas (Gerais) | Propriedades Intensivas (Específicas) |
-| :--- | :--- | :--- |
-| **Dependência do Tamanho** | Dependem da quantidade de matéria na amostra. | Não dependem da quantidade de matéria na amostra. |
-| **Comportamento ao Dividir** | O valor total é a soma das partes ($P_{\text{total}} = \sum P_i$). | O valor permanece igual em qualquer fração da amostra. |
-| **Identificação da Matéria** | Não identificam a substância (apenas medem dimensões). | Identificam a substância (funcionam como "impressão digital"). |
-| **Exemplos Práticos** | Massa ($m$), Volume ($V$), Área de superfície ($A$). | Densidade ($\rho$), Ponto de fusão ($\text{PF}$), Ponto de ebulição ($\text{PE}$). |
+### Transições de Fase e Solubilidade
 
----
-
-## Medições Quantitativas e Propriedades Físicas Específicas
-
-### Pontos de Transição de Fase
-
-Ao aquecer uma barra de chumbo e um bloco de alumínio, cada metal atinge o estado líquido em temperaturas inteiramente distintas.
-
-* **Ponto de Fusão ($\text{PF}$):** Temperatura exata na qual uma substância transita do estado sólido para o líquido sob dada pressão.
-* **Ponto de Ebulição ($\text{PE}$):** Temperatura na qual a pressão de vapor do líquido iguala-se à pressão externa, promovendo a passagem para o estado gasoso.
-
-Durante a mudança de fase de uma substância pura sob pressão constante, a temperatura permanece inalterada. A quantidade de calor $q$ necessária para a mudança é proporcional à massa $m$ e ao calor latente $L$:
+Durante uma transição de fase de uma substância pura sob pressão constante, a temperatura permanece invariável. A energia térmica $q$ requerida depende da massa $m$ e do calor latente $L$:
 
 $$q = m \cdot L$$
 
-### Solubilidade como Propriedade Específica
-
-Ao adicionar sal à água, ele se dissolve até determinado limite. A partir desse ponto, o excesso acumula-se no fundo. Existe uma capacidade máxima de dissolução ditada pela natureza do solvente e do soluto.
-
-A solubilidade é a quantidade máxima de soluto capaz de se dissover em uma quantidade fixa de solvente a uma dada temperatura e pressão, formando uma solução saturada.
-
-O coeficiente de solubilidade ($C_s$) representa a massa máxima de soluto ($m_{\text{soluto, máx}}$) por massa de solvente ($m_{\text{solvente}}$):
+A solubilidade representa a massa máxima de soluto ($m_{\text{soluto, máx}}$) que se dissolve em uma massa fixa de solvente ($m_{\text{solvente}}$) a uma determinada temperatura e pressão:
 
 $$C_s(T) = \frac{m_{\text{soluto, máx}}}{m_{\text{solvente}}}$$
 
-Geralmente expressa-se em gramas de soluto por 100 gramas de solvente ($\text{g soluto} / 100\text{ g } \text{H}_2\text{O}$).
+## Limites de Operação e Casos Limite
 
+As definições de propriedades extensivas e intensivas enfrentam limites operacionais sob parâmetros ambientais extremos.
+
+Próximo ao ponto crítico em um diagrama de fases, a fronteira física entre as fases líquida e gasosa desaparece, formando um fluido supercrítico. Fluídos supercríticos expandem-se preenchendo o volume como um gás, mantendo densidades semelhantes às dos líquidos, o que invalida as distinções tradicionais de fase.
+
+Adicionalmente, a densidade gasosa depende fortemente da pressão e da temperatura, como rege a lei dos gases ideais:
+
+$$P \cdot V = n \cdot R \cdot T$$
+
+Consequentemente, declarar a densidade de um sistema gasoso sem especificar os valores exatos de temperatura e pressão é fisicamente incompleto.
+
+## Aplicação Prática Resolvida
+
+Uma amostra de uma liga metálica desconhecida com massa de $316 \text{ g}$ é colocada em uma proveta graduada contendo $200 \text{ mL}$ de água. O nível da água eleva-se para $240 \text{ mL}$. Determine a densidade da amostra em $\text{g/cm}^3$ e $\text{kg/m}^3$.
+
+Primeiro, calcula-se o volume da amostra utilizando o método de deslocamento de fluido:
+
+$$V = V_{\text{final}} - V_{\text{inicial}}$$
+
+$$V = 240 \text{ mL} - 200 \text{ mL} = 40 \text{ mL} = 40 \text{ cm}^3$$
+
+Aplica-se a definição de densidade:
+
+$$\rho = \frac{m}{V} = \frac{316 \text{ g}}{40 \text{ cm}^3} = 7,9 \text{ g/cm}^3$$
+
+Converte-se o resultado para unidades do SI ($\text{kg/m}^3$):
+
+$$7,9 \cdot \frac{10^{-3} \text{ kg}}{10^{-6} \text{ m}^3} = 7900 \text{ kg/m}^3$$
+
+A densidade calculada ($7,9 \text{ g/cm}^3$) corresponde à densidade característica do ferro, permitindo a identificação positiva do metal base.
+
+## Conexões Avançadas
+
+> [!TIP]
+> Propriedades intensivas específicas servem como constantes físicas para identificação de substâncias e critérios para determinar a pureza de amostras em processos industriais de separação.

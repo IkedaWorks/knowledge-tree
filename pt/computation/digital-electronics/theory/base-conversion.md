@@ -1,25 +1,28 @@
 ---
-id: base-conversion
-title: Conversão de Bases Numéricas
-module: digital-electronics
-domain: computation
-type: theory
+id: "base-conversion"
+title: "Conversão de Bases Numéricas"
+domain: "computation"
+module: "digital-electronics"
+type: "method"
 schema_version: "2.0"
-level: beginner
-language: pt
-prerequisites:
+level: "beginner"
+language: "pt"
+prerequisites: []
 tags:
-  - digital-electronics
-  - number-systems
-  - base-conversion
-  - binary
-  - hexadecimal
+  - "digital-electronics"
+  - "number-systems"
+  - "base-conversion"
+  - "binary"
+  - "hexadecimal"
 ---
+
 # Conversão entre Bases Numéricas
+
+A transição de representação numérica entre diferentes bases é uma operação fundamental para a programação de baixo nível, projeto de hardware e análise de sistemas digitais.
 
 ## Visão Geral dos Métodos
 
-A transição de representação numérica entre diferentes bases é uma operação fundamental para a programação de baixo nível, projeto de hardware e análise de sistemas digitais. Os algoritmos de conversão dividem-se em duas categorias principais:
+Os algoritmos de conversão dividem-se em duas categorias principais de acordo com a relação entre as bases envolvidas:
 
 1. **Métodos Aritméticos:** Utilizados quando uma das bases é a Decimal ($b=10$). Exigem operações explícitas de divisão ou expansão polinomial.
 2. **Métodos por Mapeamento Direto (Agrupamento):** Utilizados entre bases que são potências exatas de $2$ ($2^1$ Binário, $2^3$ Octal, $2^4$ Hexadecimal). Não exigem cálculos aritméticos complexos, apenas substituição de blocos de bits.
@@ -93,9 +96,7 @@ Como $16 = 2^4$ e $8 = 2^3$, a conversão entre essas bases descarta divisões s
 > [!NOTE]
 > Se a quantidade total de bits não for um múltiplo exato do tamanho do bloco (4 bits para Hexadecimal ou 3 bits para Octal), **adicione zeros à esquerda do bloco mais significativo (MSB)** até completar a quantidade necessária.
 
----
-
-### Agrupamento Binário $\leftrightarrow$ Hexadecimal (Blocos de 4 bits)
+### 1. Agrupamento Binário $\leftrightarrow$ Hexadecimal (Blocos de 4 bits)
 
 Cada dígito hexadecimal corresponde exatamente a um grupo de 4 bits (nibble).
 
@@ -112,7 +113,7 @@ Converter o valor binário de 10 bits $1101011001_2$ para Hexadecimal:
 
 ---
 
-### Agrupamento Binário $\leftrightarrow$ Octal (Blocos de 3 bits)
+### 2. Agrupamento Binário $\leftrightarrow$ Octal (Blocos de 3 bits)
 
 Cada dígito octal corresponde exatamente a um grupo de 3 bits.
 
@@ -127,6 +128,35 @@ Converter o mesmo valor binário $1101011001_2$ para Octal:
    * `011` $\rightarrow 0 + 2 + 1 = 3_8$
    * `001` $\rightarrow 0 + 0 + 1 = 1_8$
 4. **Resultado Final:** $1101011001_2 = 1531_8$
+
+---
+
+### 3. Conversão Indireta: Hexadecimal $\leftrightarrow$ Octal (Via Binário)
+
+Como $16$ não é uma potência inteira de $8$ ($8^k \ne 16$), não é possível mapear blocos diretamente de Hexadecimal para Octal. A estratégia mais rápida e livre de erros é **usar o Binário como intermediário (ponte)**:
+
+$$\text{Hexadecimal} \xrightarrow{\text{Expandir em 4 bits}} \text{Binário} \xrightarrow{\text{Reagrupar em 3 bits}} \text{Octal}$$
+
+#### Exemplo Prático: Converter $359_{16}$ para Octal
+
+1. **Expandir cada dígito Hexadecimal em blocos de 4 bits:**
+   * $3_{16} \rightarrow \mathbf{0011}$
+   * $5_{16} \rightarrow \mathbf{0101}$
+   * $9_{16} \rightarrow \mathbf{1001}$
+   * *Binário intermediário:* `001101011001`
+
+2. **Remover zeros insignificantes à esquerda:**
+   * `001101011001` $\rightarrow$ `1101011001`
+
+3. **Reagrupar o binário resultante em blocos de 3 bits (da direita para a esquerda):**
+   * `1` | `101` | `011` | `001` $\rightarrow$ Adicionar zeros à esquerda: `001` | `101` | `011` | `001`
+
+4. **Converter cada bloco de 3 bits para Octal:**
+   * `001` $\rightarrow 1_8$
+   * `101` $\rightarrow 5_8$
+   * `011` $\rightarrow 3_8$
+   * `001` $\rightarrow 1_8$
+5. **Resultado Final:** $359_{16} = 1531_8$
 
 ---
 
