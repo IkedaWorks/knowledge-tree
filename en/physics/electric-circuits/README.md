@@ -1,41 +1,53 @@
 ---
-id: electric-circuits
-title: Electric Circuits
-domain: physics
-type: module
-language: en
-level: intermediate
+id: "electric-circuits"
+title: "Electric Circuits"
+domain: "physics"
+type: "module"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites: []
 tags:
-  - circuits
-  - ohm-law
-  - kirchhoff
-  - voltage
-  - current
-prerequisites:
-  - electromagnetism
+  - "physics"
+  - "electric-circuits"
+  - "circuit-analysis"
+  - "electricity"
 ---
+
 # Electric Circuits
 
-> "Electricity is really just organized lightning."
-> — George Carlin
+> "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration." — Nikola Tesla
 
-The **Electric Circuits** module covers the analysis of electric current conduction in closed networks, focusing on fundamental parameters such as voltage, current, resistance, power, and circuit analysis techniques.
+**Electric Circuits** (or Circuit Analysis) is the engineering and physics discipline dedicated to modeling, analyzing, and designing systems that transport and process electrical energy and signals.
+
+---
 
 ## Content Structure
 
-### Circuit Fundamentals
+### Theory
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
-| [Electrical Circuits Roadmap](./theory/roadmap-electric-circuits.md) | Study guide and structural roadmap for electric circuits. |
-| [Basic Concepts](./theory/basic-concepts.md) | Definitions of electric charge flow, current, potential difference, and power. |
+| Topic / Concept                                                                 |    Type    | Brief Description                                                                                             |
+| :------------------------------------------------------------------------------ | :--------: | :------------------------------------------------------------------------------------------------------------ |
+| [Introduction to Electric Circuits](./theory/introduction-electric-circuits.md) | foudantion | High-level overview, lumped circuit abstraction, historical context, and real-world engineering applications. |
+
+### Exercises and Practice
+
+> *Practice problems and step-by-step exercises under development.*
+
+---
 
 ## Prerequisites
 
-* **Basic Electromagnetism:** Fundamental understanding of electric charge and potential.
-* **Linear Algebra:** Solving linear systems of equations for loop and nodal analysis.
+* **Classical Mechanics / Physics Foundations:** Physical quantities, SI units, and basic work/energy relationships.
+* **Linear Algebra and Calculus:** Systems of linear equations, basic derivatives, and integrals.
+
+---
 
 ## Bibliography and References
 
-* ALEXANDER, Charles K.; SADIKU, Matthew N. O. **Fundamentals of Electric Circuits**. 6th ed. McGraw-Hill, 2016.
-* NILSSON, James W.; RIEDEL, Susan A. **Electric Circuits**. 10th ed. Pearson, 2014.
+### Textbooks
+* ALEXANDER, Charles K.; SADIKU, Matthew N. O. **Fundamentals of Electric Circuits**. 7th ed. McGraw-Hill, 2021.
+* NILSSON, James W.; RIEDEL, Susan A. **Electric Circuits**. 11th ed. Pearson, 2018.
+
+### Supplementary Resources
+* [MIT OpenCourseWare - Circuits and Electronics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)

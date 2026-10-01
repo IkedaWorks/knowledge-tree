@@ -1,4 +1,21 @@
-
+---
+id: "elementary-charge"
+title: "Elementary Charge and Electric Charge Quantization"
+domain: "physics"
+module: "electromagnetism"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "electric-charge"
+tags:
+  - "electrostatics"
+  - "elementary-charge"
+  - "quantization"
+  - "electron"
+  - "fundamental-constants"
+---
 # Elementary Charge 
 
 In our previous exploration, we established that matter is fundamentally recognized by how it interacts with the fields of nature through its intrinsic properties. Now, it is time to look at the microscopic building blocks responsible for these interactions and formalize the mathematics that govern them.

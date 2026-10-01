@@ -1,4 +1,23 @@
-
+---
+id: "gauss-law-electric-flux"
+title: "Electric Flux and the Genesis of Gauss's Law"
+domain: "physics"
+module: "electromagnetism"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "electric-field"
+  - "coulombs-law"
+  - "vector-calculus-surface-integrals"
+tags:
+  - "electrostatics"
+  - "electric-flux"
+  - "gauss-law"
+  - "gaussian-surface"
+  - "symmetry"
+---
 #  Theory: Electric Flux and the Genesis of Gauss's Law
 
 Gauss's Law is, essentially, Coulomb's Law viewed through a macroscopic and geometric lens. While Coulomb focuses on the brute-force, pair-by-pair force calculated between isolated charges, Gauss shifts the paradigm to the modification of space itself, treating the electric field as an imaginary fluid and computing how it interacts with closed three-dimensional boundaries.
@@ -22,7 +41,7 @@ To map this angular dependence mathematically in physics, we define the **Area V
 
 $$d\vec{A} = \hat{n} \, dA$$
 
-<img src="../../../../assets/fis3-eletromagnetismo-fluxo-cubo.svg" width="450">
+![Electric flux through a cubic surface with oriented field lines.](./../../../../assets/physics/electromagnetism/electric-flux-cube.svg)
 
 ##  Mathematical Formalism: Vector Projection
 
@@ -96,7 +115,7 @@ $$\oint_{S} \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$$
 - **$Q_{\text{enc}}$ (Enclosed Charge):** Functions as a strict logical filter. Charges located outside the Gaussian surface are completely excluded from the net flux computation. The field lines originating from an external charge pierce the surface to enter (negative flux) and pierce it again to exit (positive flux), yielding a net flux contribution of precisely zero ($+1 - 1 = 0$).
     
 
-<img src="../../../../assets/fis3-gauss-law.svg" alt="Gauss's Law" width="450">
+![Spherical Gaussian surface enclosing a central charge with area vectors.](./../../../../assets/physics/electromagnetism/gauss-law-surface.svg)
 ##  The Symmetry "Hack": Isolating the Electric Field
 
 In practical engineering applications, we use Gauss's Law in reverse. We do not compute the flux; we already know the total flux (it is always $Q_{\text{enc}}/\varepsilon_0$). Instead, we exploit this known value to cleanly isolate the Electric Field ($\vec{E}$) without executing complex line parametrizations or brutal trigonometric substitutions.

@@ -1,50 +1,55 @@
 ---
-id: classical-mechanics
-title: Classical Mechanics
-domain: physics
-type: module
-language: en
-level: beginner
+id: "classical-mechanics"
+title: "Classical Mechanics"
+domain: "physics"
+type: "module"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites: []
 tags:
-  - mechanics
-  - kinematics
-  - dynamics
-  - statics
-prerequisites:
-  - linear-algebra 
-  - calculus
+  - "classical-mechanics"
+  - "kinematics"
+  - "dynamics"
+  - "statics"
 ---
+
 # Classical Mechanics
 
 > "Look deep into nature, and then you will understand everything better."
 > — Albert Einstein
 
-**Classical Mechanics** is the foundational branch of physics dedicated to studying the motion and rest of bodies, as well as the forces acting upon them. It forms the essential theoretical foundation for engineering and physical sciences.
+**Classical Mechanics** is the fundamental branch of physics dedicated to the study of the motion and rest of bodies, as well as the forces acting upon them. It constitutes the essential theoretical foundation for engineering and the physical sciences.
 
-The module is structured into three main axes: **Kinematics** (geometric description of motion), **Dynamics** (causes of motion), and **Statics** (conditions of equilibrium).
+The module is structured around three main axes: **Kinematics** (geometric description of motion), **Dynamics** (causes of motion), and **Statics** (equilibrium conditions).
+
+---
 
 ## Content Structure
 
 ### Kinematics
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
-| [What is Mechanics](./theory/kinematics/what-is-mechanics.md) | Introduction to fundamental concepts, reference frames, and classical physics divisions. |
-| [Physical Quantities](./theory/kinematics/physical-quantities.md) | Classification of scalar and vector quantities and the International System of Units (SI). |
-| [Dimensional Analysis](./theory/kinematics/dimensional-analysis.md) | Basic physical dimensions, equation verification, and dimensional homogeneity. |
-| [Geometric Fundamentals](./theory/kinematics/geometric-fundamentals.md) | Applied geometry for spatial motion, position vectors, and trajectories. |
-| [Numerical Calculus](./theory/kinematics/numerical-calculus.md) | Approximations, orders of magnitude, significant figures, and measurement errors. |
-| [Vector Addition](./theory/kinematics/addition-vectors.md) | Vector addition using graphical and algebraic methods. |
-| [2D Decomposition](./theory/kinematics/decomposition-2d.md) | Vector resolution into two-dimensional Cartesian components and trigonometry. |
+| Topic / Concept                                                           |  Type   | Brief Description                                                                           |
+| :------------------------------------------------------------------------ | :-----: | :------------------------------------------------------------------------------------------ |
+| [Mechanics Foundations](./theory/kinematics/mechanics-foundations.md)     | concept | Introduction to fundamental concepts, reference frames, and divisions of classical physics. |
+| [Physical Quantities](./theory/kinematics/physical-quantities.md)         | concept | Classification of scalar and vector quantities and the International System of Units (SI).  |
+| [Measurement Analysis](./theory/kinematics/measurement-analysis.md)       | concept | Approximations, orders of magnitude, significant figures, and measurement errors.           |
+| [Dimensional Analysis](./theory/kinematics/dimensional-analysis.md)       | concept | Base physical dimensions, equation verification, and dimensional homogeneity.               |
+| [Vector Addition](./theory/kinematics/vector-addition.md)                 | concept | Vector addition and subtraction using graphical and algebraic methods.                      |
+| [2D Vector Decomposition](./theory/kinematics/vector-decomposition-2d.md) | concept | Resolving vectors into two-dimensional Cartesian components using trigonometry.             |
 
 ### Dynamics and Statics
 
 > *Modules currently under development.*
 
+---
+
 ## Prerequisites
 
-* **Algebra and Trigonometry:** Trigonometric ratios in right triangles and linear system solving.
-* **Introductory Calculus:** Basic understanding of rates of change and derivatives.
+* **Algebra and Trigonometry:** Trigonometric ratios in right triangles and systems of linear equations.
+* **Introductory Calculus:** Basic understanding of rates of change, derivatives, and simple integrals.
+
+---
 
 ## Bibliography and References
 

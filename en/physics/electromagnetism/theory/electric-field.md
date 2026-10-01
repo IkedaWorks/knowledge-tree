@@ -1,3 +1,22 @@
+---
+id: "electric-field"
+title: "Electric Field and Vector Force"
+domain: "physics"
+module: "electromagnetism"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "vectors"
+  - "electric-charge"
+  - "coulombs-law"
+tags:
+  - "electrostatics"
+  - "electric-field"
+  - "field-lines"
+  - "point-charges"
+---
 # The Electric Field of Point Charges (Vector Field Theory)
 
 ##  The Historical Shift: Action-at-a-Distance vs. Field Theory
