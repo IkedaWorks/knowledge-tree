@@ -1,8 +1,22 @@
 ---
-id: funcoes-modulares
-title: Funções Modulares
+id: "absolute-value-functions"
+title: "Funções Modulares"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "functions"
+  - "piecewise-functions"
+  - "transformations"
 ---
-
 # Funções Modulares
 
 Uma função modular é qualquer função $f: \mathbb{R} \to \mathbb{R}$ em que a variável independente $x$ aparece dentro de pelo menos uma expressão em valor absoluto (módulo).
@@ -61,7 +75,7 @@ $$f(x) = \begin{cases} -2x + 4, & \text{se } x < 1 \\ 2, & \text{se } 1 \le x \l
 > * **Conjunto Imagem:** $\text{Im}(f) = [2, +\infty)$
 
 
-![Gráfico da função da soma  de módulo](./../../../../assets/funcao-soma-modulos.svg)
+![Gráfico da função da soma  de módulo](./../../../../assets/math/absolute-value/absolute-value-sum-function.svg)
 
 ---
 
@@ -118,7 +132,7 @@ $$\text{Definição por Partes: } f(x) = \begin{cases} -4, & \text{se } x < -2 \
 > * **Domínio:** $\mathbb{R}$
 > * **Imagem:** $\text{Im}(f) = [-4, 4]$
 
-![Função diferença de módulos](./../../../../assets/funcao-diferenca-modulos.svg)
+![Função diferença de módulos](./../../../../assets/math/absolute-value/absolute-value-difference-function.svg)
 ---
 
 ### Pegadinha 3: Reflexões Aninhadas $y = ||g(x)| - k|$

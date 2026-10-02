@@ -1,15 +1,26 @@
 ---
-id: definition-absolute-value
-title: Definition of Absolute Value
+id: "absolute-value-definition"
+title: "Definition of Absolute Value"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites: []
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "distance"
+  - "real-numbers"
 ---
-
 ## The Big Idea: Absolute Value as Distance
 
 When you walk 5 meters forward, you have covered a distance of 5 meters. If you turn around and walk 5 meters backward, the distance traveled is still 5 meters. Physics and geometry do not recognize "negative distances" — the direction of motion may change, but the extent of the space covered is always a non-negative quantity.
 
 The absolute value (or modulus) arises from this simple necessity: to extract the geometric magnitude of a number, regardless of which direction it points on the number line. It measures the physical distance between a point and the origin ($0$).
 
-![Example of geometric definition](./../../../../assets/diagrama-modulo-distancia.svg)
+![Example of geometric definition](./../../../../assets/math/absolute-value/absolute-value-distance-diagram.svg)
 
 Visually, the concept is immediate:
 
@@ -30,7 +41,7 @@ Since the absolute value measures the distance to the origin, we can expand this
 
 $$d(a, b) = |a - b|$$
 
-![Distance between two dots](./../../../../assets/diagrama-distancia-dois-pontos.svg)
+![Distance between two dots](./../../../../assets/math/absolute-value/two-points-distance-diagram.svg)
 
 Notice how mathematics mirrors reality: the distance between two cities does not change whether you are going or returning. The order in which you subtract the points does not alter the extent of the path traveled:
 

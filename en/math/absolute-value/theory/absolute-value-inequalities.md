@@ -1,8 +1,21 @@
 ---
-id: absolute-value-inequalities
-title: Absolute Value Inequalities
+id: "absolute-value-inequalities"
+title: "Absolute Value Inequalities"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "inequalities"
+  - "intervals"
 ---
-
 # Absolute Value Inequalities
 
 An absolute value inequality is any inequality ($\le, <, \ge, >$) where the variable is contained within at least one absolute value expression.

@@ -1,6 +1,18 @@
 ---
-id: definicao-valor-absoluto
-title: Definição do Valor Absoluto
+id: "absolute-value-definition"
+title: "Definição de Valor Absoluto"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites: []
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "distance"
+  - "real-numbers"
 ---
 ## A Ideia por Trás da Grandeza: Módulo como Distância
 
@@ -8,7 +20,7 @@ Quando você caminha $5$ metros para a frente, percorreu uma distância de $5$ m
 
 O **valor absoluto** (ou **módulo**) nasce dessa necessidade simples: extrair a **magnitude geométrica** de um número, ignorando para qual lado da reta numérica ele aponta. Ele mede a distância física entre um ponto e a origem ($0$).
 
-![Exemplo da definição geométrica](./../../../../assets/diagrama-modulo-distancia.svg)
+![Exemplo da definição geométrica](./../../../../assets/math/absolute-value/absolute-value-distance-diagram.svg)
 
 Visualmente, a ideia é imediata:
 
@@ -32,7 +44,7 @@ Se o módulo mede a distância até a origem, podemos expandir essa mesma ideia 
 $$d(a, b) = |a - b|$$
 
 
-![Distância entre dois pontos](./../../../../assets/diagrama-distancia-dois-pontos.svg)
+![Distância entre dois pontos](./../../../../assets/math/absolute-value/two-points-distance-diagram.svg)
 
 Note como a matemática reflete a realidade: a distância entre duas cidades não muda se você vai ou se você volta. A ordem em que você subtrai os pontos não altera a extensão do espaço percorrido:
 

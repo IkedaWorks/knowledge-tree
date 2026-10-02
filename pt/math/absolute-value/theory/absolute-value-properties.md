@@ -1,6 +1,19 @@
 ---
-id: propriedades-modulo
-title: Propriedades do Módulo
+id: "absolute-value-properties"
+title: "Propriedades do Valor Absoluto"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "absolute-value-definition"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "properties"
+  - "triangle-inequality"
 ---
 # Propriedades do Valor Absoluto
 

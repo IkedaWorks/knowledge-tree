@@ -1,6 +1,19 @@
 ---
-id: absolute-value-properties
-title: Absolute Value Properties
+id: "absolute-value-properties"
+title: "Absolute Value Properties"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "absolute-value-definition"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "properties"
+  - "triangle-inequality"
 ---
 # Properties of Absolute Value
 

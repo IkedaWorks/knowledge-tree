@@ -1,8 +1,21 @@
 ---
-id: inequacoes-modulares
-title: Inequações Modulares
+id: "absolute-value-inequalities"
+title: "Inequações Modulares"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "inequalities"
+  - "intervals"
 ---
-
 # Inequações Modulares
 
 Uma inequação modular é qualquer desigualdade ($\le, <, \ge, >$) em que a incógnita aparece sob a ação de pelo menos um valor absoluto.

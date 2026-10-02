@@ -1,8 +1,21 @@
 ---
-id: equacoes-modulares
-title: Equações Modulares
+id: "absolute-value-equations"
+title: "Equações Modulares"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "equations"
+  - "modular-equations"
 ---
-
 # Equações Modulares
 
 Uma equação modular é qualquer equação na qual a incógnita está contida dentro de pelo menos uma expressão em valor absoluto (módulo).

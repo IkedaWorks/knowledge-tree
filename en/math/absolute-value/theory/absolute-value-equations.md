@@ -1,8 +1,21 @@
 ---
-id: absolute-value-equations
-title: Absolute Value Equations
+id: "absolute-value-equations"
+title: "Absolute Value Equations"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "equations"
+  - "modular-equations"
 ---
-
 # Absolute Value Equations
 
 An absolute value equation is any equation where the unknown variable is contained within at least one absolute value expression.

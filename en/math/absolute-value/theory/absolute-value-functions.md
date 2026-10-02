@@ -1,8 +1,22 @@
 ---
-id: absolute-value-functions
-title: Absolute Value Functions
+id: "absolute-value-functions"
+title: "Absolute Value Functions"
+domain: "math"
+module: "absolute-value"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "absolute-value-definition"
+  - "absolute-value-properties"
+tags:
+  - "absolute-value"
+  - "algebra"
+  - "functions"
+  - "piecewise-functions"
+  - "transformations"
 ---
-
 # Absolute Value Functions
 
 An absolute value function is a function $f: \mathbb{R} \to \mathbb{R}$ where the independent variable $x$ appears within at least one absolute value expression.
@@ -60,7 +74,7 @@ $$f(x) = \begin{cases} -2x + 4, & \text{if } x < 1 \\ 2, & \text{if } 1 \le x \l
 > * **Domain:** $\text{Dom}(f) = \mathbb{R}$
 > * **Range (Image):** $\text{Im}(f) = [2, +\infty)$
 
-![Graph of sum of absolute values f(x) = |x - 1| + |x - 3| showing a trough shape](./../../../../assets/funcao-soma-modulos.svg)
+![Graph of sum of absolute values f(x) = |x - 1| + |x - 3| showing a trough shape](./../../../../assets/math/absolute-value/absolute-value-sum-function.svg)
 
 ---
 
@@ -118,7 +132,7 @@ $$\text{Piecewise: } f(x) = \begin{cases} -4, & \text{if } x < -2 \\ 2x, & \text
 > * **Range:** $\text{Im}(f) = [-4, 4]$
 
 
-![[Graph of difference of absolute values f(x) = |x + 2| - |x - 2| with bounded plateaus](./../../../../assets/funcao-diferenca-modulos.svg)
+![[Graph of difference of absolute values f(x) = |x + 2| - |x - 2| with bounded plateaus](./../../../../assets/math/absolute-value/absolute-value-difference-function.svg)
 
 ---
 
