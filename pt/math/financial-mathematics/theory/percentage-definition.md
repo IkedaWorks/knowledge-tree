@@ -1,4 +1,19 @@
-
+---
+id: "percentage-definition"
+title: "Definição de Porcentagem"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites: []
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "fractions"
+  - "decimals"
+---
 # Definição de Porcentagem
 
 Para entendermos de fato o que é a porcentagem, precisamos relembrar o que é uma **fração**. Ela é uma forma de escrever "quantas partes em relação a um todo", um jeito diferente de expressar a divisão.

@@ -1,3 +1,20 @@
+---
+id: "sequential-changes"
+title: "Variações Sucessivas"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "percentage-changes"
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "compounding"
+  - "effective-rates"
+---
 # Aumentos e Descontos Sucessivos
 
 Este assunto é sutil e costuma induzir muitas pessoas ao erro. Intuitivamente, pode-se pensar: *"Se um produto aumentou 20% e depois diminuiu 20%, ele voltou ao seu preço original"*. 

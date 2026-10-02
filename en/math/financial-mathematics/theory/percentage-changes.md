@@ -1,4 +1,20 @@
-
+---
+id: "percentage-changes"
+title: "Percentage Changes"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "percentage-definition"
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "discounts"
+  - "markups"
+---
 # Application in Percentage Increases and Decreases
 
 These two mechanisms are widely used in "part-of-a-whole" problems, most commonly associated with money, which represents their primary practical application.

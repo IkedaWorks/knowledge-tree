@@ -1,3 +1,19 @@
+---
+id: "percentage-definition"
+title: "Percentage Definition"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites: []
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "fractions"
+  - "decimals"
+---
 # Percentage Definition
 
 To truly understand what a percentage is, we must first recall the core concept of a **fraction**. A fraction is a way to express "how many parts in relation to a whole"—a different perspective on division.

@@ -1,4 +1,20 @@
-
+---
+id: "simple-compound-interest"
+title: "Simple and Compound Interest"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "sequential-changes"
+tags:
+  - "financial-mathematics"
+  - "interest-rates"
+  - "simple-interest"
+  - "compound-interest"
+---
 # Capitalization Regimes: Simple and Compound Interest
 
 The concept of interest corresponds, in simple terms, to a "rent" charged on capital that has been entrusted to someone. Since this money is not with its rightful owner, it cannot be deployed in other ways (opportunity cost).

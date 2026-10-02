@@ -1,3 +1,20 @@
+---
+id: "sequential-changes"
+title: "Sequential Changes"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "percentage-changes"
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "compounding"
+  - "effective-rates"
+---
 # Sequential Increases and Decreases
 
 This topic is subtle and often misleads many. Intuitively, one might think: *"If a product's price increases by 20% and then decreases by 20%, it returns to its original value"*. 

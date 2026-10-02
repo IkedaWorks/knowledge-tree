@@ -1,4 +1,20 @@
-
+---
+id: "percentage-changes"
+title: "Variações Percentuais"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "percentage-definition"
+tags:
+  - "financial-mathematics"
+  - "percentages"
+  - "discounts"
+  - "markups"
+---
 # Aplicação em Aumentos e Descontos
 
 Esses dois mecanismos são muito usados em problemas de "parte por um todo", geralmente associados ao dinheiro, que é sua aplicação mais comum.

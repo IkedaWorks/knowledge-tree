@@ -1,3 +1,20 @@
+---
+id: "simple-compound-interest"
+title: "Juros Simples e Compostos"
+domain: "math"
+module: "financial-mathematics"
+type: "concept"
+schema_version: "2.0"
+level: "beginner"
+language: "pt"
+prerequisites:
+  - "sequential-changes"
+tags:
+  - "financial-mathematics"
+  - "interest-rates"
+  - "simple-interest"
+  - "compound-interest"
+---
 # Regimes de Capitalização: Juros Simples e Compostos
 
 O conceito de juros corresponde, de forma simplificada, a um "aluguel" cobrado sobre um capital que foi confiado a alguém. Uma vez que esse dinheiro não está com o seu legítimo dono, ele deixa de ser aplicado de outras maneiras (custo de oportunidade). 
