@@ -1,4 +1,21 @@
-
+---
+id: "taylor-maclaurin-series"
+title: "Taylor and Maclaurin Series"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "higher-order-derivatives"
+  - "differentials-linear-approximation"
+tags:
+  - "calculus"
+  - "series"
+  - "taylor-series"
+  - "approximations"
+---
 # Taylor and Maclaurin Series: Polynomialization of Functions
 
 ## 1. The Big Idea

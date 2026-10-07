@@ -1,4 +1,21 @@
-
+---
+id: "integration-substitution-method"
+title: "Integration by Substitution"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "chain-rule"
+  - "indefinite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-techniques"
+  - "u-substitution"
+---
 # u-Substitution 
 
 ## Definition and Intuition

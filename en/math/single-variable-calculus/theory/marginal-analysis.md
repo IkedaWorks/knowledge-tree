@@ -1,4 +1,20 @@
-
+---
+id: "marginal-analysis"
+title: "Marginal Analysis"
+domain: "math"
+module: "single-variable-calculus"
+type: "application"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "derivative-definition"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "economics"
+  - "applications"
+---
 # Marginal Analysis: Calculus in Decision Making
 
 ## 1. Definition and Intuition

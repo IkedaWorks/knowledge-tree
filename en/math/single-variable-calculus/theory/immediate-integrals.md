@@ -1,4 +1,19 @@
-
+---
+id: "immediate-integrals"
+title: "Immediate Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "indefinite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-rules"
+---
 # Immediate Integrals 
 
 ## Introduction and Definition

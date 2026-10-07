@@ -1,3 +1,21 @@
+---
+id: "substitution-limits-change"
+title: "Substitution with Limit Changes"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "integration-substitution-method"
+  - "fundamental-theorem-calculus"
+tags:
+  - "calculus"
+  - "integrals"
+  - "definite-integrals"
+  - "u-substitution"
+---
 # Change of Variables in Definite Integrals
 
 ## Definition

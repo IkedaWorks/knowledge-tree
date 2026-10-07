@@ -1,8 +1,19 @@
 ---
-id: one-sided-limits
-title: One Sided Limits
+id: "one-sided-limits"
+title: "One-Sided Limits"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "limits"
+  - "one-sided-limits"
 ---
-
 # The Geometry of Unilateral Approximation
 
 When examining the behavior of a real function $f(x)$ near a point $a$, the primary intuition of Calculus suggests observing the trend of the values of $f(x)$ as $x$ approaches $a$. However, the real line possesses a fundamental topological property: it is one-dimensional and orientable. This means that there are only two possible paths to approach a point $a$ along the real axis: walking from values strictly greater than $a$ (approaching from the right) or walking from values strictly less than $a$ (approaching from the left).

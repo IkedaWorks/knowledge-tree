@@ -1,4 +1,21 @@
-
+---
+id: "trigonometric-substitution"
+title: "Trigonometric Substitution"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "integration-substitution-method"
+  - "trigonometric-derivatives"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-techniques"
+  - "trigonometry"
+---
 # Trigonometric Substitution
 
 ## The Problem: The Sum Barrier Under the Root

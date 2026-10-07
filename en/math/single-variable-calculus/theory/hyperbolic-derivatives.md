@@ -1,4 +1,20 @@
-
+---
+id: "hyperbolic-derivatives"
+title: "Hyperbolic Function Derivatives"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "hyperbolic-functions"
+  - "chain-rule"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "hyperbolic-functions"
+---
 # Derivatives of Hyperbolic Functions
 
 > [!NOTE]

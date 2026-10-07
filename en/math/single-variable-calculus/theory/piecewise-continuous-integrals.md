@@ -1,4 +1,20 @@
-
+---
+id: "piecewise-continuous-integrals"
+title: "Piecewise Continuous Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "definite-integral-properties"
+  - "continuity"
+tags:
+  - "calculus"
+  - "integrals"
+  - "piecewise-functions"
+---
 # Integrability vs. Differentiability
 
 ## The Fundamental Difference

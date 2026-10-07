@@ -1,4 +1,21 @@
-
+---
+id: "trigonometric-integrals"
+title: "Trigonometric Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "integration-substitution-method"
+  - "trigonometric-derivatives"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-techniques"
+  - "trigonometry"
+---
 # Mastering Trigonometric Integration
 
 ## The Ontology of the Method: Why does it work?

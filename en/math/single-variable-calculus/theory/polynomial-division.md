@@ -1,3 +1,18 @@
+---
+id: "polynomial-division"
+title: "Polynomial Division"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites: []
+tags:
+  - "algebra"
+  - "polynomials"
+  - "pre-calculus"
+---
 # Polynomial Division
 
 ## Introduction and Context

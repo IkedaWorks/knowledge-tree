@@ -1,6 +1,19 @@
 ---
-id: infinite-limits
-title: Limits at Infinity and Infinite Limits
+id: "infinite-limits"
+title: "Infinite Limits and Limits at Infinity"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "limits"
+  - "infinity"
+  - "asymptotes"
 ---
 # Limits at Infinity and Infinite Limits
 

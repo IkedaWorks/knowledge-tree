@@ -1,4 +1,20 @@
-
+---
+id: "intermediate-value-theorem"
+title: "Intermediate Value Theorem"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "continuity"
+tags:
+  - "calculus"
+  - "continuity"
+  - "theorems"
+  - "roots"
+---
 # Intermediate Value Theorem (IVT): The Guarantee of Existence
 
 **Definition and Intuition:**

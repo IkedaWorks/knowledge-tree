@@ -1,4 +1,20 @@
-
+---
+id: "riemann-sums"
+title: "Riemann Sums"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "integrals"
+  - "riemann-sums"
+  - "area"
+---
 # Riemann Sums 
 
 ## The Dream of Measuring the Curve

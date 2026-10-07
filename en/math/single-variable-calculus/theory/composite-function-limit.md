@@ -1,4 +1,19 @@
-
+---
+id: "composite-function-limit"
+title: "Composite Function Limits"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "continuity"
+tags:
+  - "calculus"
+  - "limits"
+  - "composite-functions"
+---
 # Limits by Substitution: Cleaning the Expression
 
 **What is it?** A technique to transform a "dirty" limit (where $x$ tends to a number $a \neq 0$) into a "clean" limit (where the variable tends to $0$).

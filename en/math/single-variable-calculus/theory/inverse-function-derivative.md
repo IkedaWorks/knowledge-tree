@@ -1,4 +1,19 @@
-
+---
+id: "inverse-function-derivative"
+title: "Inverse Function Derivative"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "chain-rule"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "inverse-functions"
+---
 # Derivative of the Inverse Function
 
 ## 1. The Concept: Derivative as "Inverse Speed"

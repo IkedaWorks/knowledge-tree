@@ -1,4 +1,21 @@
-
+---
+id: related-rates
+title: Related Rates
+domain: math
+module: single-variable-calculus
+type: concept
+schema_version: "2.0"
+level: intermediate
+language: en
+prerequisites:
+  - chain-rule
+  - implicit-differentiation
+tags:
+  - calculus
+  - derivatives
+  - related-rates
+  - applications
+---
 # Related Rates: Calculus in Motion
 
 ## 1. Concept and Intuition

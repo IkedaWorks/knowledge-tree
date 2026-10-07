@@ -1,4 +1,19 @@
-
+---
+id: "definite-integral-properties"
+title: "Properties of Definite Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "definite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "definite-integrals"
+---
 # Properties of Definite Integrals 
 
 ## Definition and Intuition

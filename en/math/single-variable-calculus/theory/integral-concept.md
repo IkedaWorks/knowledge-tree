@@ -1,3 +1,19 @@
+---
+id: "integral-concept"
+title: "Integral Concept"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "derivative-definition"
+tags:
+  - "calculus"
+  - "integrals"
+  - "antiderivatives"
+---
 # Definition of Integrals 
 
 ## What is an Integral?

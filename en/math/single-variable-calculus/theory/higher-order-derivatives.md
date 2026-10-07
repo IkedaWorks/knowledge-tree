@@ -1,4 +1,19 @@
-
+---
+id: "higher-order-derivatives"
+title: "Higher-Order Derivatives"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "derivative-rules"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "higher-order"
+---
 # Higher-Order Derivatives (Successive Derivatives)
 
 ## 1. The Concept: The Derivative of the Derivative

@@ -1,4 +1,19 @@
-
+---
+id: proof-chain-rule
+title: Proof of Chain Rule
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - chain-rule
+tags:
+  - calculus
+  - derivatives
+  - proofs
+---
 # Proof of the Chain Rule
 
 ## 1. Objective

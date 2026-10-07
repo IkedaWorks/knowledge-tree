@@ -1,6 +1,18 @@
 ---
-id: teorema-do-confronto
-title: Squeeze Theorem
+id: "squeeze-theorem"
+title: "Squeeze Theorem"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "limits"
+  - "squeeze-theorem"
 ---
 # Squeeze Theorem
 
@@ -36,7 +48,7 @@ then the limit of the intermediate function $f(x)$, as $x$ approaches $a$, exist
 
 $$\lim_{x \to a} f(x) = L$$
 
-![Representation of Squeeze Theorem](../../../../../../assets/squeeze-theorem.svg)
+![Representation of Squeeze Theorem](./../../../../assets/math/single-variable-calculus/squeeze-theorem.svg)
 *Figure 1: Geometric representation of the Squeeze Theorem. The intermediate function $f(x)$ is squeezed between the upper boundary $h(x)$ and the lower boundary $g(x)$, forcing its limit to $L$ as $x \to a$.*
 
 ---

@@ -1,4 +1,21 @@
-
+---
+id: "exponential-logarithmic-derivatives"
+title: "Exponential and Logarithmic Derivatives"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "derivative-rules"
+  - "fundamental-limits"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "exponentials"
+  - "logarithms"
+---
 # Derivatives of Exponentials and Logarithms
 
 The derivatives of exponential and logarithmic functions often involve a scale adjustment known as the **"$\ln(a)$ Toll"**. This adjustment ensures the growth rate is calibrated to the natural scale.

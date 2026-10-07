@@ -1,4 +1,20 @@
-
+---
+id: "derivative-definition"
+title: "Derivative Concept"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "rate-of-change"
+  - "tangent-line"
+---
 # Definition and Intuition of the Derivative
 
 The derivative of a function at a point is its **instantaneous rate of change**. Geometrically, it represents the **slope** (gradient) of the tangent line to the graph at that specific point.

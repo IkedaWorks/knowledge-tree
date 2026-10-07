@@ -1,3 +1,20 @@
+---
+id: related-rates-problem-solving
+title: Application of Related Rates
+domain: math
+module: single-variable-calculus
+type: application
+schema_version: "2.0"
+level: intermediate
+language: en
+prerequisites:
+  - related-rates-logic
+tags:
+  - calculus
+  - derivatives
+  - related-rates
+  - problem-solving
+---
 # The Intuition: Why is Calculus the Robot's "Brain"?
 
 Imagine you are programming a drone to film a race car. If you program the camera to rotate at a fixed speed, you will fail.

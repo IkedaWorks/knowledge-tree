@@ -1,4 +1,20 @@
-
+---
+id: "related-rates-logic"
+title: "Logic of Related Rates"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "related-rates"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "related-rates"
+  - "problem-solving"
+---
 # The Metaphysics of Rates: Understanding Proportion
 
 ## 1. Proportion as a "Tug of War"

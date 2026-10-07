@@ -1,4 +1,19 @@
-
+---
+id: "briot-ruffini-method"
+title: "Briot-Ruffini Method"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "beginner"
+language: "en"
+prerequisites:
+  - "polynomial-division"
+tags:
+  - "algebra"
+  - "polynomials"
+  - "synthetic-division"
+---
 # Briot-Ruffini & Polynomial Reduction
 
 ## Recommendations and Context

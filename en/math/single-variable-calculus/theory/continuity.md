@@ -1,4 +1,20 @@
-
+---
+id: "continuity"
+title: "Function Continuity"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+  - "one-sided-limits"
+tags:
+  - "calculus"
+  - "continuity"
+  - "functions"
+---
 # Continuity of Functions: The Seamless Flow
 
 **Definition and Intuition:**

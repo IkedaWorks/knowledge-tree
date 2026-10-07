@@ -1,4 +1,21 @@
-
+---
+id: "proof-fundamental-theorem-calculus"
+title: "Proof of Fundamental Theorem of Calculus"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "fundamental-theorem-calculus"
+  - "mean-value-theorem"
+tags:
+  - "calculus"
+  - "proofs"
+  - "theorems"
+  - "ftc"
+---
 # Proof: Fundamental Theorem of Calculus 
 
 ## The Intuition Behind the Proof

@@ -1,8 +1,20 @@
 ---
-id: limits-definition
-title: Formal Definition of Limits (Epsilon-Delta)
+id: "limit-definition"
+title: "Limit Concept"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "absolute-value"
+tags:
+  - "calculus"
+  - "limits"
+  - "epsilon-delta"
+  - "analysis"
 ---
-
 # Formal Definition of a Limit
 
 Imagine you are trying to predict the behavior of a phenomenon, but you cannot observe the exact moment it occurs — only what happens in the instances leading up to it. How can you ensure that your prediction is mathematically reliable? The limit is the tool that studies the trend and proximity of a function: it does not care about what happens *at* the exact point, but rather about the behavior *around* it.

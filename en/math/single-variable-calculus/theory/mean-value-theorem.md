@@ -1,4 +1,21 @@
-
+---
+id: "mean-value-theorem"
+title: "Mean Value Theorem"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "continuity"
+  - "derivative-definition"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "theorems"
+  - "analysis"
+---
 # Rolle's Theorem and the Mean Value Theorem (MVT)
 
 ## 1. Rolle's Theorem (The Specific Case)

@@ -1,4 +1,19 @@
-
+---
+id: inverse-function-derivative
+title: Inverse Function Derivative
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - chain-rule
+tags:
+  - calculus
+  - derivatives
+  - inverse-functions
+---
 # Proof: Derivatives of Logarithm and Exponential Functions
 
 The following proofs rely on fundamental limits and the properties of logarithms and powers.

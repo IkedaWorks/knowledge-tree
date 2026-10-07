@@ -1,4 +1,19 @@
-
+---
+id: "parametric-differentiation"
+title: "Parametric Differentiation"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "chain-rule"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "parametric-equations"
+---
 # Parametric Derivatives
 
 ## 1. Explanation and Intuition

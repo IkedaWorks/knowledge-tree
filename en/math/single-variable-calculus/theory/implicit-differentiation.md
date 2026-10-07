@@ -1,4 +1,19 @@
-
+---
+id: "implicit-differentiation"
+title: "Implicit Differentiation"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "chain-rule"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "implicit-differentiation"
+---
 # 1. What is an Implicit Equation?
 
 We say a function is in **explicit form** when the output $y$ is isolated, similar to a variable assignment in programming: $y = f(x)$.

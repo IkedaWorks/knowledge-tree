@@ -1,4 +1,21 @@
-
+---
+id: "fundamental-theorem-calculus"
+title: "Fundamental Theorem of Calculus"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "definite-integrals"
+  - "indefinite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "theorems"
+  - "ftc"
+---
 # The Fundamental Theorem of Calculus 
 
 ## Definition and Intuition

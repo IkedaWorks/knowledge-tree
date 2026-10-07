@@ -1,4 +1,19 @@
-
+---
+id: "differentials-linear-approximation"
+title: "Differentials and Linear Approximation"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "derivative-definition"
+tags:
+  - "calculus"
+  - "differentials"
+  - "linear-approximation"
+---
 # Differentials and Linear Approximation
 
 ## 1. What is a Differential?

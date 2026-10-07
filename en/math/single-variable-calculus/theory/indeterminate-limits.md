@@ -1,8 +1,19 @@
 ---
-id: indeterminate-forms-limits
-title: Indeterminate Forms in Limits
+id: "indeterminate-limits"
+title: "Indeterminate Limits"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-laws"
+tags:
+  - "calculus"
+  - "limits"
+  - "indeterminacy"
 ---
-
 # Indeterminate Forms in Limits and Algebraic Techniques
 
 When applying the operational properties of limits, direct evaluation by simple substitution in a function can result in an expression whose numerical value cannot be determined immediately. This occurrence is referred to as a mathematical indeterminate form.

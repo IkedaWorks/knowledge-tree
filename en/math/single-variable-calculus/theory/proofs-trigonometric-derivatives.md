@@ -1,4 +1,19 @@
-
+---
+id: proofs-trigonometric-derivatives
+title: Proof of Sine and Cosine Derivatives
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - trigonometric-derivatives
+tags:
+  - calculus
+  - derivatives
+  - proofs
+---
 # Proof: Fundamental Trigonometric Derivatives
 
 This section constructs the derivatives of sine and cosine from "absolute zero" using the formal limit definition. The algebra is based on two essential tools from analytical geometry and calculus.

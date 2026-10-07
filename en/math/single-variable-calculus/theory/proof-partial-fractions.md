@@ -1,4 +1,19 @@
-
+---
+id: "proof-partial-fractions"
+title: "Proof of Partial Fractions"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "partial-fraction-decomposition"
+tags:
+  - "calculus"
+  - "proofs"
+  - "algebra"
+---
 # Proof: Validity of Partial Fraction Decomposition
 
 ## The Intuition: The Reverse LCD

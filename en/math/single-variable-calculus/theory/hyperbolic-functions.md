@@ -1,4 +1,18 @@
-
+---
+id: "hyperbolic-functions"
+title: "Hyperbolic Functions Overview"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "exponential-logarithmic-derivatives"
+tags:
+  - "calculus"
+  - "hyperbolic-functions"
+---
 # Introduction to Hyperbolic Functions
 
 ## 1. Geometric Context: From the Circle to the Hyperbola

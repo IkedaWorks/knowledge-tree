@@ -1,4 +1,21 @@
-
+---
+id: "partial-fraction-decomposition"
+title: "Partial Fraction Decomposition"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "polynomial-division"
+  - "indefinite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-techniques"
+  - "partial-fractions"
+---
 # Partial Fraction Decomposition (PFD)
 
 ## Definition and Intuition

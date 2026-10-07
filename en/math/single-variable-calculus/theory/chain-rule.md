@@ -1,4 +1,20 @@
-
+---
+id: "chain-rule"
+title: "Chain Rule"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "derivative-rules"
+  - "composite-function-limit"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "chain-rule"
+---
 # Chain Rule (Composite Functions)
 
 The **Chain Rule** is used to differentiate functions that are nested within one another (composition). It establishes that the total rate of change is the product of the rates of change for each layer.

@@ -1,3 +1,20 @@
+---
+id: "derivative-rules"
+title: "Basic Differentiation Rules"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "derivative-definition"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "differentiation-rules"
+  - "power-rule"
+---
 # Differentiation Rules
 
 ## 1. Definition and Intuition

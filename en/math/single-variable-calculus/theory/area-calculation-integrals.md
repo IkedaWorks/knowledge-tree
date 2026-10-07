@@ -1,4 +1,20 @@
-
+---
+id: "area-calculation-integrals"
+title: "Area Calculation with Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "application"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "fundamental-theorem-calculus"
+tags:
+  - "calculus"
+  - "integrals"
+  - "applications"
+  - "area"
+---
 # Practical Applications: Area Calculation 
 
 ## Guide for Exercises

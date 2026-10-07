@@ -1,6 +1,18 @@
 ---
-id: limits-properties
-title: Limit Properties
+id: "limit-laws"
+title: "Limit Laws"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "limit-definition"
+tags:
+  - "calculus"
+  - "limits"
+  - "algebraic-properties"
 ---
 # Limit Properties and Computation Mechanics
 

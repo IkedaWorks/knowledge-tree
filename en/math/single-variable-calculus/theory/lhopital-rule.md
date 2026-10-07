@@ -1,5 +1,22 @@
+---
+id: "lhopital-rule"
+title: "L'Hôpital's Rule"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "derivative-definition"
+  - "indeterminate-limits"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "limits"
+  - "indeterminate-forms"
+---
 
-# L'Hôpital's Rule: The Lifesaver for Indeterminate Forms
 
 ## 1. What is L'Hôpital's Rule?
 It is a technique that uses derivatives to solve limits that result in indeterminate forms. Instead of exhaustive algebraic manipulations (factoring, rationalization, or fundamental limits), we analyze the rate of change (velocity) of the numerator and the denominator separately.

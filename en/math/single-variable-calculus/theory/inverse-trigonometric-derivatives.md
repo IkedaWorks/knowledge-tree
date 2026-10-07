@@ -1,4 +1,20 @@
-
+---
+id: "inverse-trigonometric-derivatives"
+title: "Inverse Trigonometric Derivatives"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites:
+  - "trigonometric-derivatives"
+  - "inverse-function-derivative"
+tags:
+  - "calculus"
+  - "derivatives"
+  - "inverse-trigonometry"
+---
 
 # Derivatives of Inverse Trigonometric Functions
 

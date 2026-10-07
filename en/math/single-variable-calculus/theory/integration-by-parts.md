@@ -1,4 +1,21 @@
-
+---
+id: "integration-by-parts"
+title: "Integration by Parts"
+domain: "math"
+module: "single-variable-calculus"
+type: "method"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "derivative-rules"
+  - "indefinite-integrals"
+tags:
+  - "calculus"
+  - "integrals"
+  - "integration-techniques"
+  - "integration-by-parts"
+---
 # Integration by Parts 
 
 ## Introduction and Definition

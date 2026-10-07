@@ -1,4 +1,20 @@
-
+---
+id: "indefinite-integrals"
+title: "Indefinite Integrals"
+domain: "math"
+module: "single-variable-calculus"
+type: "concept"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "integral-concept"
+  - "derivative-rules"
+tags:
+  - "calculus"
+  - "integrals"
+  - "antiderivatives"
+---
 # Indefinite Integrals 
 
 ## Definition and Intuition

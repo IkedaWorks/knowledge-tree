@@ -1,6 +1,18 @@
 ---
-id: calculus-asymptotes
-title: Asymptotes
+id: asymptotes
+title: asymptotes
+domain: math
+module: single-variable-calculus
+type: concept
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - infinite-limits
+tags:
+  - calculus
+  - asymptotes
+  - graphing
 ---
 # Asymptotes
 

@@ -1,4 +1,19 @@
-
+---
+id: proof-derivative-rules
+title: Proof of Differentiation Rules
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - derivative-rules
+tags:
+  - calculus
+  - derivatives
+  - proofs
+---
 # Differentiation Rules: Mathematical Proofs
 
 These proofs transform "memorized rules" into fundamental mathematical truths by utilizing the formal definition of a derivative:

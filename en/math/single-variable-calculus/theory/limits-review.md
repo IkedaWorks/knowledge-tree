@@ -1,4 +1,21 @@
-
+---
+id: limits-review
+title: Limits Comprehensive Review
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - limit-definition
+  - continuity
+  - intermediate-value-theorem
+tags:
+  - calculus
+  - limits
+  - review
+---
 # Limits Review: Step-by-Step Resolutions
 
 This note contains detailed resolutions for problems ranging from easy to medium difficulty. The focus is on the **attack strategy** rather than just the final result.

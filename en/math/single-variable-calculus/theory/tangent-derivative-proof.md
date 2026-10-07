@@ -1,4 +1,20 @@
-
+---
+id: tangent-derivative-proof
+title: Tangent Derivative Proof Details
+domain: math
+module: single-variable-calculus
+type: method
+schema_version: "2.0"
+language: en
+level: intermediate
+prerequisites:
+  - trigonometric-derivatives
+  - derivative-rules
+tags:
+  - calculus
+  - derivatives
+  - proofs
+---
 ### Chronicle of an Extraordinary "Discovery": Riccati and Trigonometric Derivatives
 
 The journey of a focused student often leads to "discoveries" that reveal deep connections between algebra, calculus, and engineering. While standard textbooks prioritize the fundamental trigonometric identity to simplify results, alternative algebraic manipulations can lead to the world of **Ordinary Differential Equations (ODEs)**.
