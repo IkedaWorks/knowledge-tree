@@ -3,6 +3,7 @@ id: electromagnetism
 title: Electromagnetism
 domain: physics
 type: module
+schema_version: "2.0"
 language: en
 level: intermediate
 tags:

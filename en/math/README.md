@@ -2,21 +2,13 @@
 id: math
 title: Mathematics
 type: domain
+schema_version: "2.0"
 language: en
 tags:
   - mathematics
   - calculus
   - statistics
   - algebra
-modules:
-  - absolute-value
-  - differential-equations
-  - finance
-  - sequences
-  - set-theory
-  - statistics
-  - single-variable-calculus
-  - multivariable-calculus
 ---
 # Mathematics Domain
 

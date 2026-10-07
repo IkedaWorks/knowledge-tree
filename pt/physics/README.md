@@ -1,14 +1,14 @@
 ---
-id: "physics"
-title: "Domínio de Física"
-type: "domain"
-schema_version: "1.0"
-language: "pt"
+id: physics
+title: Domínio de Física
+type: domain
+schema_version: "2.0"
+language: pt
 tags:
-  - "physics"
-  - "mechanics"
-  - "electromagnetism"
-  - "circuits"
+  - physics
+  - mechanics
+  - electromagnetism
+  - circuits
 ---
 # Domínio de Física
 

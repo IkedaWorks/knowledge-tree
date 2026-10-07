@@ -1,17 +1,18 @@
 ---
-id: "physics"
-title: "Physics"
-type: "domain"
-language: "en"
+id: physics
+title: Physics
+type: domain
+language: en
+schema_version: "2.0"
 tags:
-  - "physics"
-  - "mechanics"
-  - "electromagnetism"
-  - "circuits"
+  - physics
+  - mechanics
+  - electromagnetism
+  - circuits
 modules:
-  - "classical-mechanics"
-  - "electromagnetism"
-  - "electric-circuits"
+  - classical-mechanics
+  - electromagnetism
+  - electric-circuits
 ---
 # Physics Domain
 

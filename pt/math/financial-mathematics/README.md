@@ -15,7 +15,7 @@ prerequisites: []
 ---
 # Matemática Financeira
 
-> "No curto prazo, o mercado é uma máquina de votar; no longo prazo, é uma máquina de pesar."  — **Benjamin Graham**
+> "No curto prazo, o mercado é uma máquina de votar, no longo prazo, é uma máquina de pesar."  — **Benjamin Graham**
 
 O módulo de **Matemática Financeira** explora métodos algébricos e aritméticos aplicados à análise do valor do dinheiro no tempo. Ele fornece ferramentas para avaliar variações percentuais, acumulação de juros e crescimento de capital em contextos financeiros.
 

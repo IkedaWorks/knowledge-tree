@@ -3,6 +3,7 @@ id: eletromagnetismo
 title: Eletromagnetismo
 domain: fisica
 type: module
+schema_version: "2.0"
 language: pt
 level: intermediate
 tags:
