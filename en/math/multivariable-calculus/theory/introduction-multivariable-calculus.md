@@ -1,15 +1,18 @@
 ---
-id: "multivariable-calculus-introduction"
-title: "Introduction to Multivariable Calculus"
+id: "introduction-multivariable-calculus"
+title: "Multivariable Calculus Introduction"
 domain: "math"
-type: "theory"
-language: "en"
+module: "multivariable-calculus"
+type: "concept"
+schema_version: "2.0"
 level: "advanced"
+language: "en"
+prerequisites: []
 tags:
   - "multivariable-calculus"
-  - "multivariable-functions"
-  - "level-curves"
   - "scalar-fields"
+  - "level-curves"
+  - "limits"
 ---
 ## The Multivariable Paradigm
 
@@ -46,7 +49,7 @@ The mathematical restriction requires a non-negative radicand ($25 - x^2 - y^2 \
 
 $$D = \{(x, y) \in \mathbb{R}^2 \mid x^2 + y^2 \le 25\}$$
 
-![Three-dimensional visualization of a multivariable function with radius 5](../../../../assets/hemisphere-radius-5-domain.svg)
+![Three-dimensional visualization of a multivariable function with radius 5](./../../../../assets/math/multivariable-calculus/hemisphere-radius-5-domain.svg)
 *Figure: A 3D preview of f(x, y) = √(25 - x² - y²), illustrating the geometric behavior of functions with domain restrictions.*
 
 ---

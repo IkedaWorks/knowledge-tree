@@ -1,22 +1,22 @@
 ---
-id: "multivariable-calculus"
-title: "Multivariable Calculus"
-domain: "math"
-type: "module"
-language: "en"
-level: "advanced"
+id: multivariable-calculus
+title: Multivariable Calculus
+domain: math
+type: module
+schema_version: "2.0"
+language: en
+level: advanced
 tags:
-  - "calculus"
-  - "multivariable-calculus"
-  - "partial-derivatives"
-  - "multiple-integrals"
+  - calculus
+  - multivariable-calculus
+  - partial-derivatives
+  - multiple-integrals
 prerequisites:
-  - "single-variable-calculus"
+  - single-variable-calculus
 ---
 # Multivariable Calculus
 
-> "The study of multivariable functions serves as the gateway to modeling three-dimensional space and physical field theory."  
-> — **Joseph-Louis Lagrange**
+> "The study of multivariable functions serves as the gateway to modeling three-dimensional space and physical field theory."  — **Joseph-Louis Lagrange**
 
 The **Multivariable Calculus** module extends infinitesimal calculus methods to functions operating across multiple independent variables, supporting the quantitative modeling of spatial surfaces, scalar fields, and vector fields.
 
@@ -26,8 +26,8 @@ This module covers functions of several variables, multidimensional limits, part
 
 ### Scalar Fields and Differentiation
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
+| Topic / Concept                                                                        | Brief Description                                                                                        |
+| :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | [Multivariable Calculus Introduction](./theory/introduction-multivariable-calculus.md) | Domains of multivariable functions, level curves, 3D surface visualization, and multidimensional limits. |
 
 ## Prerequisites
