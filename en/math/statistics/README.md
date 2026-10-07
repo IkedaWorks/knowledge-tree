@@ -3,13 +3,14 @@ id: "statistics"
 title: "Statistics"
 domain: "math"
 type: "module"
+schema_version: "2.0"
 language: "en"
 level: "intermediate"
 tags:
   - "statistics"
+  - "data-analysis"
+  - "descriptive-statistics"
   - "probability"
-  - "dispersion"
-  - "uncertainty"
 prerequisites: []
 ---
 # Statistics
@@ -25,17 +26,17 @@ This module covers foundational descriptive statistics, including central tenden
 
 ### Descriptive Statistics and Data Analysis
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
-| [Central Tendency](./theory/central-tendency.md) | Mean, median, mode, and structural interpretation of frequency distributions. |
-| [Standard Deviation and Dispersion](./theory/standard-deviation.md) | Variance, standard deviation, interquartile ranges, and data dispersion modeling. |
-| [Uncertainty Measurement](./theory/uncertainty.md) | Experimental error analysis, Type A/B uncertainty, and error propagation techniques. |
+| Topic / Concept                                      | Brief Description                                                                    |
+| :--------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| [Central Tendency](./theory/central-tendency.md)     | Mean, median, mode, and structural interpretation of frequency distributions.        |
+| [Standard Deviation](./theory/standard-deviation.md) | Variance, standard deviation, interquartile ranges, and data dispersion modeling.    |
+| [Uncertainty](./theory/uncertainty.md)               | Experimental error analysis, Type A/B uncertainty, and error propagation techniques. |
 
 ## Prerequisites
 
-* No formal repository prerequisites are required. Basic arithmetic and elementary algebra are recommended.
+- No formal repository prerequisites are required. Basic arithmetic and elementary algebra are recommended.
 
 ## Bibliography and References
 
-* TRIOLA, Mario F. **Elementary Statistics**. 13th ed. Pearson, 2018.
-* DEVORE, Jay L. **Probability and Statistics for Engineering and the Sciences**. 9th ed. Cengage Learning, 2015.
+- TRIOLA, Mario F. **Elementary Statistics**. 13th ed. Pearson, 2018.
+- DEVORE, Jay L. **Probability and Statistics for Engineering and the Sciences**. 9th ed. Cengage Learning, 2015.

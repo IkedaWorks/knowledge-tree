@@ -1,4 +1,20 @@
-
+---
+id: "central-tendency"
+title: "Central Tendency"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "central-tendency"
+  - "mean"
+  - "median"
+  - "mode"
+---
 # Measures of Central Tendency
 
 Imagine you have a massive volume of data. Looking at thousands of rows in a table tells you nothing at first glance. We need a mechanism to reduce this pile of numbers into a **single value** that represents the behavior of the entire group. That is where measures of central tendency come in: they pinpoint the "center of gravity" of your data.

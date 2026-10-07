@@ -1,4 +1,20 @@
-
+---
+id: "central-tendency"
+title: "Tendência Central"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "central-tendency"
+  - "mean"
+  - "median"
+  - "mode"
+---
 # Medidas de Tendência Central
 
 Imagine que você tem um volume gigantesco de dados. Olhar para milhares de linhas em uma tabela não te diz nada à primeira vista. Nós precisamos de um mecanismo para reduzir esse monte de números a **um único valor** que represente o comportamento do grupo todo. É aí que entram as medidas de tendência central: elas buscam o "centro de gravidade" dos seus dados.

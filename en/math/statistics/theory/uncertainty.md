@@ -1,4 +1,19 @@
-
+---
+id: "uncertainty"
+title: "Measurement Uncertainty"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "uncertainty"
+  - "error-propagation"
+  - "experimental-analysis"
+---
 # The Measurement Reliability Parameter
 
 In the universe of experimental physics and metrology, the absolute real value of a quantity is an inaccessible unknown. Every measurement yields only an approximation. **Measurement Uncertainty** is the parameter associated with the result of a measurement that characterizes the dispersion of the values that could reasonably be attributed to the measurand.

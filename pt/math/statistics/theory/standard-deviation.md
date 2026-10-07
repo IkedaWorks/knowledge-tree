@@ -1,4 +1,19 @@
-
+---
+id: "standard-deviation"
+title: "Desvio-Padrão e Dispersão"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "standard-deviation"
+  - "variance"
+  - "dispersion"
+---
 # O Desvio Padrão Amostral e a Anatomia do RMS
 
 Quando coletamos dados no laboratório, a média aritmética funciona como o nosso centro de gravidade, apostando na premissa de que os erros aleatórios para mais e para menos vão se auto-cancelar. Mas a média, sozinha, é cega. Ela não te diz se os seus tiros acertaram raspando no centro do alvo ou se você deu dois tiros completamente opostos que, por pura ironia matemática, resultaram no mesmo centro.

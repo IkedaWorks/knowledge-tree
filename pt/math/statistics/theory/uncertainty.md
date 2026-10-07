@@ -1,3 +1,19 @@
+---
+id: "uncertainty"
+title: "Incerteza de Medição"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "uncertainty"
+  - "error-propagation"
+  - "experimental-analysis"
+---
 # O Parâmetro de Confiabilidade da Medição
 
 No universo da física experimental e da metrologia, o valor real absoluto de uma grandeza é uma incógnita inacessível. Toda medição gera apenas uma aproximação. A **Incerteza de Medição** é o parâmetro associado ao resultado de uma medição que caracteriza a dispersão dos valores que podem ser fundamentadamente atribuídos à grandeza.

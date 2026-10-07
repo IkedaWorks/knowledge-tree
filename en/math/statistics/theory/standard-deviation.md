@@ -1,4 +1,19 @@
-
+---
+id: "standard-deviation"
+title: "Standard Deviation and Dispersion"
+domain: "math"
+module: "statistics"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "intermediate"
+prerequisites: []
+tags:
+  - "statistics"
+  - "standard-deviation"
+  - "variance"
+  - "dispersion"
+---
 # Sample Standard Deviation and the Anatomy of RMS
 
 When collecting data in the laboratory, the arithmetic mean acts as our center of gravity, betting on the premise that random errors above and below the true value will eventually cancel each other out. However, the mean alone is blind. It does not tell you whether your shots hit right next to the center of the target or if you fired two completely opposite shots that, by pure mathematical irony, resulted in the same average center.
