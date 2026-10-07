@@ -1,4 +1,20 @@
-
+---
+id: "logical-foundations"
+title: "Logical Foundations"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "mathematical-logic"
+  - "propositional-logic"
+  - "truth-tables"
+  - "quantifiers"
+---
 # From Philosophy to Axiom: The Quest for the Primordial Foundation
 
 At the turn of the 19th to the 20th century, mathematics experienced a silent yet devastating existential crisis. Powerful tools such as differential calculus, advanced geometry, and algebra were already well established and operating at full steam. However, when mathematicians decided to investigate the deepest foundations of these tools — dealing directly with the concept of infinity —, the very base of the structure began to crack. The emergence of unsolvable logical paradoxes revealed that mathematics was operating on fragile ground.

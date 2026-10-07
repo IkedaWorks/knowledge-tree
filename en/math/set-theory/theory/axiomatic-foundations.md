@@ -1,3 +1,19 @@
+---
+id: "axiomatic-foundations"
+title: "Axiomatic Foundations"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "axioms"
+  - "zfc"
+  - "logical-paradoxes"
+---
 # Axiomatic Construction of Sets (ZFC)
 
 ## Overview and Purpose

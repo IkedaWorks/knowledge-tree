@@ -1,3 +1,20 @@
+---
+id: "set-algebra-operations"
+title: "Set Algebra and Operations"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "set-algebra"
+  - "union"
+  - "intersection"
+  - "complement"
+---
 # Operational Theory and Set Algebra
 
 ## From Axiomatic Foundations to Practical Language
@@ -94,7 +111,7 @@ Given the sets $A = \{1, 2\}$, $B = \{1, 2, 3\}$, $C = \{3, 4\}$, and $D = \{1, 
 Set operations act as the arithmetic operators of collections, allowing new sets to be constructed from existing ones.
 
 ### Union ($A \cup B$) — The Logical OR ($\lor$)
-![union](../../../../assets/set-theory-union-operator.svg)
+![union](./../../../../assets/math/set-theory/union.svg)
 
 Combines all elements belonging to $A$, $B$, or both into a single collection.
 $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
@@ -105,7 +122,7 @@ $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
 * **Theoretical Note (Why are repeated elements not counted?):** When joining $A$ and $B$, the element $3$ is present in both sets. The raw result of the junction would be $\{1, 2, 3, 3, 4, 5\}$. However, by the Axiom of Extensionality, two sets are identical if they contain exactly the same elements. Repeating $3$ adds no new object to the collection, so $\{1, 2, 3, 3, 4, 5\}$ and $\{1, 2, 3, 4, 5\}$ are the exact same set. Therefore, duplicates are omitted.
 
 ### Intersection ($A \cap B$) — The Logical AND ($\land$)
-![intersection](../../../../assets/set-theory-intersection-operator.svg)
+![intersection](./../../../../assets/math/set-theory/intersection.svg)
 
 Filters and preserves exclusively the elements present simultaneously in both sets.
 $$A \cap B = \{x \mid x \in A \land x \in B\}$$
@@ -115,7 +132,7 @@ $$A \cap B = \{x \mid x \in A \land x \in B\}$$
 * **Practical Analogy (The Restricted Area):** Imagine a private room inside the party that requires a person to be on the VIP List AND on the Guest List at the same time. Ana (only on List A) is denied entry. Carlos (present on both) meets the condition and passes. The intersection set consists solely of people in Carlos's situation.
 
 ### Difference ($A \setminus B$) — The Logical NOT ($\neg$)
-![differnce operator](../../../../assets/set-theory-difference-operator.svg)
+![differnce operator](./../../../../assets/math/set-theory/difference.svg)
 Subtracts from set $A$ all elements that also belong to set $B$.
 $$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
 
@@ -124,7 +141,7 @@ $$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
 * **Practical Analogy (Exclusivity Filter):** The organizer wants to know who is on the VIP List ($A$) but NOT on the Guest List ($B$). They take List A and cross off Carlos, since Carlos is also a guest. Only exclusive VIPs remain (like Ana).
 
 ### Complement ($A^c$) — Absolute Negation
-![the complement](../../../../assets/set-theory-complement.svg)
+![the complement](./../../../../assets/math/set-theory/complement.svg)
 Maps all elements belonging to the universal set $U$ that do not belong to set $A$.
 $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 
@@ -136,7 +153,7 @@ $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 ---
 
 ## Spatial Visualization: The Venn Diagram
-![venn diagram](../../../../assets/set-theory-venn-diagram.svg)
+![venn diagram](./../../../../assets/math/set-theory/venn-diagram.svg)
 
 The Venn Diagram is the universal graphical tool used to geometrically represent relations and overlaps between sets. Each set is drawn as a region bounded by a closed curve (usually a circle), while the enclosing rectangle defines the Universal Set ($U$).
 

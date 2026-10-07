@@ -1,3 +1,20 @@
+---
+id: "set-algebra-operations"
+title: "Álgebra e Operações de Conjuntos"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "set-algebra"
+  - "union"
+  - "intersection"
+  - "complement"
+---
 # Teoria Operacional e Álgebra de Conjuntos
 
 ## Da Fundação Axiomática à Linguagem Prática
@@ -95,7 +112,7 @@ As operações de conjuntos funcionam como os operadores aritméticos das coleç
 
 ### União ($A \cup B$) — O OU Lógico ($\lor$)
 
-![união](../../../../assets/set-theory-union-operator.svg)
+![união](./../../../../assets/math/set-theory/union.svg)
 
 Combina todos os elementos pertencentes a $A$, a $B$ ou a ambos em uma única coleção.
 $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
@@ -108,7 +125,7 @@ $$A \cup B = \{x \mid x \in A \lor x \in B\}$$
 
 ### Interseção ($A \cap B$) — O E Lógico ($\land$)
 
-![Intersecção](../../../../assets/set-theory-intersection-operator.svg)
+![Intersecção](./../../../../assets/math/set-theory/intersection.svg)
 
 Filtra e preserva exclusivamente os elementos que estão presentes de forma simultânea nos dois conjuntos.
 $$A \cap B = \{x \mid x \in A \land x \in B\}$$
@@ -119,7 +136,7 @@ $$A \cap B = \{x \mid x \in A \land x \in B\}$$
 
 ### Diferença ($A \setminus B$) — O NÃO Lógico ($\neg$)
 
-![diferença](../../../../assets/set-theory-difference-operator.svg)
+![diferença](./../../../../assets/math/set-theory/difference.svg)
 
 Subtrai do conjunto $A$ todos os elementos que também pertencem ao conjunto $B$.
 $$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
@@ -130,7 +147,7 @@ $$A \setminus B = \{x \mid x \in A \land x \notin B\}$$
 
 ### Complementar ($A^c$) — A Negação Absoluta
 
-![Complementar](../../../../assets/set-theory-complement.svg)
+![Complementar](./../../../../assets/math/set-theory/complement.svg)
 
 Mapeia todos os elementos pertencentes ao universo de trabalho $U$ que não fazem parte do conjunto $A$.
 $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
@@ -144,7 +161,7 @@ $$A^c = \{x \in U \mid x \notin A\} = U \setminus A$$
 
 ## Visualização Espacial: O Diagrama de Venn
 
-![diagrama de venn](../../../../assets/set-theory-venn-diagram.svg)
+![diagrama de venn](./../../../../assets/math/set-theory/venn-diagram.svg)
 
 O Diagrama de Venn é a ferramenta gráfica universal utilizada para representar geometricamente as relações e sobreposições entre conjuntos. Cada conjunto é desenhado como uma região limitada por uma curva fechada (geralmente um círculo), enquanto o plano retângulo delimita o conjunto Universo ($U$).
 

@@ -1,3 +1,19 @@
+---
+id: "axiomatic-foundations"
+title: "Fundamentos Axiomáticos"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "axioms"
+  - "zfc"
+  - "logical-paradoxes"
+---
 # A Construção Axiomática dos Conjuntos (ZFC)
 
 ## Visão Geral e Propósito

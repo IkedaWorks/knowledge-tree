@@ -1,4 +1,20 @@
-
+---
+id: "logical-foundations"
+title: "Fundamentos Lógicos"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "mathematical-logic"
+  - "propositional-logic"
+  - "truth-tables"
+  - "quantifiers"
+---
 # Da Filosofia ao Axioma: A Busca pela Base Primordial
 
 Na virada do século XIX para o século XX, a matemática passou por uma crise existencial silenciosa, mas devastadora. Ferramentas poderosas como o cálculo diferencial, a geometria avançada e a álgebra já estavam consolidadas e funcionando a pleno vapor. No entanto, quando os matemáticos decidiram investigar os fundamentos mais profundos dessas ferramentas — lidando diretamente com o conceito de infinito —, a base de toda a estrutura começou a rachar. O surgimento de paradoxos lógicos insolúveis mostrou que a matemática operava sobre um terreno frágil.

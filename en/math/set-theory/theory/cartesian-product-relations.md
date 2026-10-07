@@ -1,3 +1,19 @@
+---
+id: "cartesian-product-relations"
+title: "Cartesian Product and Relations"
+domain: "math"
+module: "set-theory"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "set-theory"
+  - "cartesian-product"
+  - "binary-relations"
+  - "ordered-pairs"
+---
 # Cartesian Product and Binary Relations
 
 ## Up to This Point: Static Collections vs. Order
