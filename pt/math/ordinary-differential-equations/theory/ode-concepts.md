@@ -1,16 +1,20 @@
 ---
-id: "01-edo-conceitos"
-title: "Conceito e Classificação de Equações Diferenciais Ordinárias"
-domain: "mathematics"
+id: "ode-concepts"
+title: "Conceitos Fundamentais de EDO"
+domain: "math"
+module: "ordinary-differential-equations"
 type: "concept"
+schema_version: "2.0"
 language: "pt"
+level: "advanced"
+prerequisites:
+  - "single-variable-calculus"
 tags:
-  - "calculus"
   - "differential-equations"
   - "ode"
-prerequisites:
-  - "calculo-diferencial-integral"
-  - "funcoes-elementares"
+  - "linearity"
+  - "order"
+  - "ivp"
 ---
 # Conceito e Classificação de Equações Diferenciais Ordinárias
 

@@ -1,16 +1,20 @@
 ---
-id: "01-ode-concepts"
-title: "Concept and Classification of Ordinary Differential Equations"
-domain: "mathematics"
+id: "ode-concepts"
+title: "ODE Fundamental Concepts"
+domain: "math"
+module: "ordinary-differential-equations"
 type: "concept"
+schema_version: "2.0"
 language: "en"
+level: "advanced"
+prerequisites:
+  - "single-variable-calculus"
 tags:
-  - "calculus"
   - "differential-equations"
   - "ode"
-prerequisites:
-  - "differential-integral-calculus"
-  - "elementary-functions"
+  - "linearity"
+  - "order"
+  - "ivp"
 ---
 # Concept and Classification of Ordinary Differential Equations
 
