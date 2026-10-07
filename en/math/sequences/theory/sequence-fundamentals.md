@@ -1,4 +1,19 @@
-
+---
+id: "sequence-fundamentals"
+title: "Sequence Fundamentals"
+domain: "math"
+module: "sequences"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "sequences"
+  - "recurrence-relation"
+  - "classification"
+  - "algebra"
+---
 # Introduction to Numerical Sequences
 
 A numerical sequence is an ordered list of elements arranged in a discrete structure. Unlike a standard set in set theory — where the order of elements does not alter the object —, the position occupied by each element in a sequence is fundamental to its definition.

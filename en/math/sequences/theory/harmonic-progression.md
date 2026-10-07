@@ -1,4 +1,19 @@
-
+---
+id: "harmonic-progression"
+title: "Harmonic Progression"
+domain: "math"
+module: "sequences"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "sequences"
+  - "harmonic-progression"
+  - "harmonic-mean"
+  - "algebra"
+---
 # Harmonic Progression
 
 ## Intuition and Definition

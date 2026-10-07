@@ -1,15 +1,16 @@
 ---
-id: "sequences"
-title: "Sequences"
-domain: "math"
-type: "module"
-language: "en"
-level: "beginner"
+id: sequences
+title: Sequences
+domain: math
+type: module
+schema_version: "2.0"
+language: en
+level: beginner
 tags:
-  - "sequences"
-  - "progressions"
-  - "algebra"
-  - "series"
+  - sequences
+  - progressions
+  - algebra
+  - series
 prerequisites: []
 ---
 # Sequences
@@ -25,12 +26,12 @@ This module covers fundamental sequence properties alongside arithmetic, geometr
 
 ### Foundations and Progressions
 
-| Topic / Concept | Brief Description |
-| :--- | :--- |
-| [Sequence Fundamentals](./theory/sequence-fundamentals.md) | Formal definition, recurrence relations, laws of formation, and sequence classification. |
-| [Arithmetic Progression](./theory/arithmetic-progression.md) | AP properties, common difference, general term formula, and finite arithmetic series summation. |
-| [Geometric Progression](./theory/geometric-progression.md) | GP properties, common ratio, general term, product, and summation of finite and infinite series. |
-| [Harmonic Progression](./theory/harmonic-progression.md) | HP properties, relationship to arithmetic progressions, harmonic means, and applications. |
+| Topic / Concept                                              | Brief Description                                                                                |
+| :----------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| [Sequence Fundamentals](./theory/sequence-fundamentals.md)   | Formal definition, recurrence relations, laws of formation, and sequence classification.         |
+| [Arithmetic Progression](./theory/arithmetic-progression.md) | AP properties, common difference, general term formula, and finite arithmetic series summation.  |
+| [Geometric Progression](./theory/geometric-progression.md)   | GP properties, common ratio, general term, product, and summation of finite and infinite series. |
+| [Harmonic Progression](./theory/harmonic-progression.md)     | HP properties, relationship to arithmetic progressions, harmonic means, and applications.        |
 
 ## Prerequisites
 

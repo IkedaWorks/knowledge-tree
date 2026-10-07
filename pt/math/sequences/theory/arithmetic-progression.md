@@ -1,3 +1,19 @@
+---
+id: "arithmetic-progression"
+title: "Progressão Aritmética"
+domain: "math"
+module: "sequences"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "beginner"
+prerequisites: []
+tags:
+  - "sequences"
+  - "arithmetic-progression"
+  - "common-difference"
+  - "algebra"
+---
 # Progressão Aritmética
 
 ## Intuição e Definição

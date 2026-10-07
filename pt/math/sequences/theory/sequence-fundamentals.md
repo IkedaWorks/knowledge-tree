@@ -1,3 +1,19 @@
+---
+id: "sequence-fundamentals"
+title: "Fundamentos de Sequências"
+domain: "math"
+module: "sequences"
+type: "concept"
+schema_version: "2.0"
+language: "pt"
+level: "beginner"
+prerequisites: []
+tags:
+  - "sequences"
+  - "recurrence-relation"
+  - "classification"
+  - "algebra"
+---
 # Introdução às Sequências Numéricas
 
 Uma sequência numérica é uma lista ordenada de elementos dispostos em uma estrutura discreta. Diferente de um conjunto comum na teoria dos conjuntos — onde a ordem dos elementos não altera o objeto —, em uma sequência a posição ocupada por cada elemento é fundamental para a sua definição.

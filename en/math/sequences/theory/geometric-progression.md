@@ -1,4 +1,19 @@
-
+---
+id: "geometric-progression"
+title: "Geometric Progression"
+domain: "math"
+module: "sequences"
+type: "concept"
+schema_version: "2.0"
+language: "en"
+level: "beginner"
+prerequisites: []
+tags:
+  - "sequences"
+  - "geometric-progression"
+  - "common-ratio"
+  - "algebra"
+---
 # Geometric Progression
 
 ## Intuition and Definition
