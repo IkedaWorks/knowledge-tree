@@ -47,13 +47,16 @@ This roadmap tracks the evolution from a structured knowledge vault to an intell
 
 ## License & Ethics
 
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE.md) file for details.
+This project adopts a **dual-layer licensing strategy** to balance open academic access with technical integrity:
+
+-  **Educational Content & Knowledge Graphs (`/pt`, `/en` , etc.):** Licensed under [Creative Commons (CC BY-NC-SA 4.0)](./LICENSE-CONTENT.md). Free for academic, personal, and research use; commercial exploitation by third parties is prohibited.
+-  **Code, Scripts & Tooling (`/src`, `/scripts`):** Licensed under the [MIT License](./LICENSE-MIT.md).
 
 > [!WARNING]
 > **Personal Image & Name Protection**
 > 
 > Citing the authors' names for proper academic attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' personal images (photos, avatars, or portraits), as well as the use of their names or handles for advertising, commercial promotion, or third-party product endorsements, is strictly prohibited without prior written consent.
 
----
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
