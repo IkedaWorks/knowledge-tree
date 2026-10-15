@@ -28,11 +28,12 @@ Este módulo explora conceitos fundamentais de EDOs, classificações por ordem 
 
 ### Conceitos e Métodos de EDO
 
-| Tópico / Conceito                                                         | Descrição Sucinta                                                                                                     |
-| :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------- |
-| [Conceitos Fundamentais de EDO](./theory/ode-concepts.md)                 | Definição de EDOs, ordem, grau, linearidade, verificação de soluções e Problemas de Valor Inicial (PVI).              |
-| [Modelagem Matemática](./theory/mathematical-modeling.md)                 | Dedução de equações governantes baseadas em leis de conservação, taxas de variação e equações constitutivas.          |
-| [Natureza e Geometria das Soluções de uma EDO](./theory/ode-solutions.md) | Análise geométrica de soluções explícitas/implícitas, campos de direções, soluções gerais, particulares e singulares. |
+| Tópico / Conceito                                                          | Descrição Sucinta                                                                                                     |
+| :------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| [Conceitos Fundamentais de EDO](./theory/ode-concepts.md)                  | Definição de EDOs, ordem, grau, linearidade, verificação de soluções e Problemas de Valor Inicial (PVI).              |
+| [Modelagem Matemática](./theory/mathematical-modeling.md)                  | Dedução de equações governantes baseadas em leis de conservação, taxas de variação e equações constitutivas.          |
+| [Natureza e Geometria das Soluções de uma EDO](./theory/ode-solutions.md)  | Análise geométrica de soluções explícitas/implícitas, campos de direções, soluções gerais, particulares e singulares. |
+| [Existência e Unicidade de Soluções](./theory/ode-existence-uniqueness.md) | Teoremas de Peano e Picard-Lindelöf, Retângulo de Picard, condição de Lipschitz e iteração de Picard.                 |
 
 ## Pré-requisitos
 
