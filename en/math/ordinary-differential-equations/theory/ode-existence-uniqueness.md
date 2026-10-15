@@ -42,7 +42,7 @@ y(x_0) = y_0
 
 To analyze whether a solution exists around the initial point $(x_0, y_0)$, we define a small region of analysis in the $xy$-plane: a **closed rectangle $R$** centered at $(x_0, y_0)$, defined as:
 
-$$R = \left\{ (x, y) \in \mathbb{R}^2 \mid |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
+$$R = \{ (x, y) \in \mathbb{R}^2 : |x - x_0| \le a, \; |y - y_0| \le b \}$$
 
 where $a$ is the horizontal half-width and $b$ is the vertical half-height.
 

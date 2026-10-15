@@ -42,7 +42,7 @@ y(x_0) = y_0
 
 Para analisar se existe solução ao redor do ponto inicial $(x_0, y_0)$, desenhamos uma pequena região de análise no plano $xy$: um **retângulo fechado $R$** centrado no ponto $(x_0, y_0)$, definido por:
 
-$$R = \left\{ (x, y) \in \mathbb{R}^2 \mid |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
+$$R = \{ (x, y) \in \mathbb{R}^2 : |x - x_0| \le a, \; |y - y_0| \le b \}$$
 
 onde $a$ é a meia-largura horizontal e $b$ é a meia-altura vertical.
 
