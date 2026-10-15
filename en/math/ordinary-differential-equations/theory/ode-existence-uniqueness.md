@@ -35,11 +35,14 @@ Guaranteeing **existence** ensures that the mathematical model is well-defined a
 
 Consider a first-order Initial Value Problem (IVP) in normal form:
 
-$$\begin{cases} \dfrac{dy}{dx} = f(x, y) \\[6pt] y(x_0) = y_0 \end{cases}$$
+$$\begin{cases} 
+\dfrac{dy}{dx} = f(x, y) \\ 
+y(x_0) = y_0 
+\end{cases}$$
 
 To analyze whether a solution exists around the initial point $(x_0, y_0)$, we define a small region of analysis in the $xy$-plane: a **closed rectangle $R$** centered at $(x_0, y_0)$, defined as:
 
-$$R = \left\{ (x, y) \in \mathbb{R}^2 \;\middle|\; |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
+$$R = \left\{ (x, y) \in \mathbb{R}^2 \mid |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
 
 where $a$ is the horizontal half-width and $b$ is the vertical half-height.
 

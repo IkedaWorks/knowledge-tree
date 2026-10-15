@@ -35,11 +35,14 @@ Garantir a **existência** garante que o modelo matemático faz sentido e tem re
 
 Considere o Problema de Valor Inicial (PVI) de primeira ordem na forma normal:
 
-$$\begin{cases} \dfrac{dy}{dx} = f(x, y) \\[6pt] y(x_0) = y_0 \end{cases}$$
+$$\begin{cases} 
+\dfrac{dy}{dx} = f(x, y) \\ 
+y(x_0) = y_0 
+\end{cases}$$
 
 Para analisar se existe solução ao redor do ponto inicial $(x_0, y_0)$, desenhamos uma pequena região de análise no plano $xy$: um **retângulo fechado $R$** centrado no ponto $(x_0, y_0)$, definido por:
 
-$$R = \left\{ (x, y) \in \mathbb{R}^2 \;\middle|\; |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
+$$R = \left\{ (x, y) \in \mathbb{R}^2 \mid |x - x_0| \le a, \; |y - y_0| \le b \right\}$$
 
 onde $a$ é a meia-largura horizontal e $b$ é a meia-altura vertical.
 
