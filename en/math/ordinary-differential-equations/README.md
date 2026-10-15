@@ -28,10 +28,11 @@ This module explores core ODE concepts, classifications by order and linearity, 
 
 ### ODE Concepts and Methods
 
-| Topic / Concept                                            | Brief Description                                                                                          |
-| :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| [ODE Fundamental Concepts](./theory/ode-concepts.md)       | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).     |
-| [Mathematical Modeling](./theory/mathematical-modeling.md) | Derivation of governing equations based on conservation laws, rates of change, and constitutive equations. |
+| Topic / Concept                                                   | Brief Description                                                                                                  |
+| :---------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [ODE Fundamental Concepts](./theory/ode-concepts.md)              | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).             |
+| [Mathematical Modeling](./theory/mathematical-modeling.md)        | Derivation of governing equations based on conservation laws, rates of change, and constitutive equations.         |
+| [Nature and Geometry of EDO Solutions](./theory/ode-solutions.md) | Geometric analysis of explicit/implicit solutions, direction fields, general, particular, and singular solutions.  |
 
 ## Prerequisites
 
