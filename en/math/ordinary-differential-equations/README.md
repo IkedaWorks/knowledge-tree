@@ -28,13 +28,14 @@ This module explores core ODE concepts, classifications by order and linearity, 
 
 ### ODE Concepts and Methods
 
-| Topic / Concept                                                               | Brief Description                                                                                                                            |
-| :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ODE Fundamental Concepts](./theory/ode-concepts.md)                          | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).                                       |
-| [Mathematical Modeling](./theory/mathematical-modeling.md)                    | Derivation of governing equations based on conservation laws, rates of change, and constitutive equations.                                   |
-| [Nature and Geometry of EDO Solutions](./theory/ode-solutions.md)             | Geometric analysis of explicit/implicit solutions, direction fields, general, particular, and singular solutions.                            |
-| [Existence and Uniqueness of Solutions](./theory/ode-existence-uniqueness.md) | Peano and Picard-Lindelöf theorems, Picard Rectangle, Lipschitz condition, and Picard iteration.                                             |
-| [Method of Separation of Variables](./theory/ode-separable.md)                | Solving 1st-order ODEs via separation and direct integration of $x$ and $y$ variables, including equilibrium and singular solution analysis. |
+| Topic / Concept                                                               | Brief Description                                                                                                                                               |
+| :---------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ODE Fundamental Concepts](./theory/ode-concepts.md)                          | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).                                                          |
+| [Mathematical Modeling](./theory/mathematical-modeling.md)                    | Derivation of governing equations based on conservation laws, rates of change, and constitutive equations.                                                      |
+| [Nature and Geometry of EDO Solutions](./theory/ode-solutions.md)             | Geometric analysis of explicit/implicit solutions, direction fields, general, particular, and singular solutions.                                               |
+| [Existence and Uniqueness of Solutions](./theory/ode-existence-uniqueness.md) | Peano and Picard-Lindelöf theorems, Picard Rectangle, Lipschitz condition, and Picard iteration.                                                                |
+| [Method of Separation of Variables](./theory/ode-separable.md)                | Solving 1st-order ODEs via separation and direct integration of $x$ and $y$ variables, including equilibrium and singular solution analysis.                    |
+| [Integrating Factor Method](./theory/ode-linear-integrating-factor.md)        | Solving 1st-order linear ODEs via integrating factor $\mu(x) = e^{\int P(x)dx}$, including product-rule derivation, direct application, and practical examples. |
 
 ## Prerequisites
 
