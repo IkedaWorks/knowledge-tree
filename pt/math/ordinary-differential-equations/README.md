@@ -36,6 +36,7 @@ Este módulo explora conceitos fundamentais de EDOs, classificações por ordem 
 | [Existência e Unicidade de Soluções](./theory/ode-existence-uniqueness.md) | Teoremas de Peano e Picard-Lindelöf, Retângulo de Picard, condição de Lipschitz e iteração de Picard.                                                            |
 | [Metódo de Separação de Variáveis](./theory/ode-separable.md)              | Resolução de EDOs de 1ª ordem por separação e integração direta de variáveis $x$ e $y$, com análise de soluções de equilíbrio e singulares.                      |
 | [Método do Fator Integrante](./theory/ode-linear-integrating-factor.md)    | Resolução de EDOs lineares de 1ª ordem via fator integrante $\mu(x) = e^{\int P(x)dx}$, com dedução pela regra do produto, aplicação direta e exemplos práticos. |
+| [Método da Equação Exata](./theory/ode-exact.md)                           | Resolução de EDOs exatas via potencial $\psi(x,y) = C$, critério de Clairaut/Schwarz e dedução de fatores integrantes $\mu(x)$ e $\mu(y)$.                       |
 
 ## Pré-requisitos
 
