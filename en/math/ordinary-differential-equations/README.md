@@ -30,7 +30,7 @@ This module explores core ODE concepts, classifications by order and linearity, 
 
 | Topic / Concept                                                               | Brief Description                                                                                                                                               |
 | :---------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ODE Fundamental Concepts](theory/ode-fundamental-concepts.md)                          | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).                                                          |
+| [ODE Fundamental Concepts](theory/ode-fundamental-concepts.md)                | Definition of ODEs, order, degree, linearity, solution verification, and Initial Value Problems (IVP).                                                          |
 | [Mathematical Modeling](./theory/mathematical-modeling.md)                    | Derivation of governing equations based on conservation laws, rates of change, and constitutive equations.                                                      |
 | [Nature and Geometry of EDO Solutions](./theory/ode-solutions.md)             | Geometric analysis of explicit/implicit solutions, direction fields, general, particular, and singular solutions.                                               |
 | [Existence and Uniqueness of Solutions](./theory/ode-existence-uniqueness.md) | Peano and Picard-Lindelöf theorems, Picard Rectangle, Lipschitz condition, and Picard iteration.                                                                |
@@ -38,6 +38,7 @@ This module explores core ODE concepts, classifications by order and linearity, 
 | [Integrating Factor Method](./theory/ode-linear-integrating-factor.md)        | Solving 1st-order linear ODEs via integrating factor $\mu(x) = e^{\int P(x)dx}$, including product-rule derivation, direct application, and practical examples. |
 | [Exact Equation Method](./theory/ode-exact.md)                                | Solving exact ODEs via potential function $\psi(x,y) = C$, Clairaut/Schwarz criterion, and derivation of integrating factors $\mu(x)$ and $\mu(y)$.             |
 | [Bernoulli ODEs](./theory/ode-bernoulli.md)                                   | Linearization of non-linear ODEs of the form $y' + P(x)y = Q(x)y^n$ via $u = y^{1-n}$ substitution.                                                             |
+| [Riccati ODEs](./theory/ode-riccati.md)                                       | Reduction of quadratic non-linear ODEs $y' = P(x) + Q(x)y + R(x)y^2$ to linear ODEs given particular solution $y_1$.                                            |
 
 ## Prerequisites
 
