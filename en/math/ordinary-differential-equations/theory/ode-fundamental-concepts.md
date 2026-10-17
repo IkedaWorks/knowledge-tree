@@ -1,20 +1,20 @@
 ---
-id: "ode-concepts"
-title: "ODE Fundamental Concepts"
-domain: "math"
-module: "ordinary-differential-equations"
-type: "concept"
+id: ode-fundamental-concepts
+title: ODE Fundamental Concepts
+domain: math
+module: ordinary-differential-equations
+type: concept
 schema_version: "2.0"
-language: "en"
-level: "advanced"
+language: en
+level: advanced
 prerequisites:
-  - "single-variable-calculus"
+  - single-variable-calculus
 tags:
-  - "differential-equations"
-  - "ode"
-  - "linearity"
-  - "order"
-  - "ivp"
+  - differential-equations
+  - ode
+  - linearity
+  - order
+  - ivp
 ---
 # Concept and Classification of Ordinary Differential Equations
 

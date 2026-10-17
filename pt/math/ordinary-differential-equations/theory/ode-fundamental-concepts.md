@@ -1,20 +1,20 @@
 ---
-id: "ode-concepts"
-title: "Conceitos Fundamentais de EDO"
-domain: "math"
-module: "ordinary-differential-equations"
-type: "concept"
+id: ode-fundamental-concepts
+title: Conceitos Fundamentais de EDO
+domain: math
+module: ordinary-differential-equations
+type: concept
 schema_version: "2.0"
-language: "pt"
-level: "advanced"
+language: pt
+level: advanced
 prerequisites:
-  - "single-variable-calculus"
+  - single-variable-calculus
 tags:
-  - "differential-equations"
-  - "ode"
-  - "linearity"
-  - "order"
-  - "ivp"
+  - differential-equations
+  - ode
+  - linearity
+  - order
+  - ivp
 ---
 # Conceito e Classificação de Equações Diferenciais Ordinárias
 
