@@ -37,6 +37,7 @@ This module explores core ODE concepts, classifications by order and linearity, 
 | [Method of Separation of Variables](./theory/ode-separable.md)                | Solving 1st-order ODEs via separation and direct integration of $x$ and $y$ variables, including equilibrium and singular solution analysis.                    |
 | [Integrating Factor Method](./theory/ode-linear-integrating-factor.md)        | Solving 1st-order linear ODEs via integrating factor $\mu(x) = e^{\int P(x)dx}$, including product-rule derivation, direct application, and practical examples. |
 | [Exact Equation Method](./theory/ode-exact.md)                                | Solving exact ODEs via potential function $\psi(x,y) = C$, Clairaut/Schwarz criterion, and derivation of integrating factors $\mu(x)$ and $\mu(y)$.             |
+| [Bernoulli ODEs](./theory/ode-bernoulli.md)                                   | Linearization of non-linear ODEs of the form $y' + P(x)y = Q(x)y^n$ via $u = y^{1-n}$ substitution.                                                             |
 
 ## Prerequisites
 
