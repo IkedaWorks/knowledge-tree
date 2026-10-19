@@ -1,23 +1,22 @@
 ---
-id: "ode-exact"
-title: "Equações Diferenciais Exatas e Fatores Integrantes"
-domain: "math"
-module: "ordinary-differential-equations"
-type: "method"
+id: ode-exact
+title: Equações Diferenciais Exatas e Fatores Integrantes
+domain: math
+module: ordinary-differential-equations
+type: method
 schema_version: "2.0"
-level: "advanced"
-language: "pt"
+level: advanced
+language: pt
 prerequisites:
-  - "single-variable-calculus"
-  - "ode-fundamental-concepts"
-  - "ode-solutions"
+  - ode-fundamental-concepts
+  - ode-solutions
 tags:
-  - "differential-equations"
-  - "exact-odes"
-  - "integrating-factor"
-  - "partial-derivatives"
-  - "potential-function"
-  - "level-curves"
+  - differential-equations
+  - exact-odes
+  - integrating-factor
+  - partial-derivatives
+  - potential-function
+  - level-curves
 ---
 
 # Equações Diferenciais Exatas e Fatores Integrantes
