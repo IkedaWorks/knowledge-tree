@@ -1,17 +1,17 @@
 ---
-id: "introduction-digital-electronics"
-title: "Introduction to Digital Electronics"
-domain: "computation"
-module: "digital-electronics"
-type: "foundation"
+id: introduction-digital-electronics
+title: Introduction to Digital Electronics
+domain: computation
+module: digital-electronics
+type: concept
 schema_version: "2.0"
-level: "beginner"
-language: "en"
+level: beginner
+language: en
 prerequisites: []
 tags:
-  - "digital-electronics"
-  - "analog-vs-digital"
-  - "binary-logic"
+  - digital-electronics
+  - analog-vs-digital
+  - binary-logic
 ---
 
 # Introduction to Digital Electronics
