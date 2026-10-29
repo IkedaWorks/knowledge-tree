@@ -1,7 +1,7 @@
 ---
-id: eletromagnetismo
+id: electromagnetism
 title: Eletromagnetismo
-domain: fisica
+domain: physics
 type: module
 schema_version: "2.0"
 language: pt
@@ -13,10 +13,10 @@ tags:
   - potential
   - magnetism
 prerequisites:
-  - mecanica-classica
-  - calculo
+  - classical-mechanics
+  - single-variable-calculus
+  - multivariable-calculus
 ---
-
 # Eletromagnetismo
 
 > "A teoria da relatividade restrita deve sua origem às equações de Maxwell do campo eletromagnético."

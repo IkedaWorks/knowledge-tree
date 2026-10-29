@@ -1,19 +1,19 @@
 ---
-id: calculo-uma-variavel
+id: single-variable-calculus
 title: Cálculo de Uma Variável
-domain: matematica
+domain: math
 type: module
 schema_version: "2.0"
 language: pt
 level: intermediate
 tags:
-  - calculo
-  - limites
-  - derivadas
-  - integrais
+  - calculus
+  - limits
+  - derivatives
+  - integrals
   - series
 prerequisites:
-  - valor-absoluto
+  - absolute-value
 ---
 # Cálculo de Uma Variável
 

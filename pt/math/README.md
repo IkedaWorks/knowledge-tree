@@ -1,13 +1,12 @@
 ---
-id: matematica
+id: math
 title: Matemática
 type: domain
 schema_version: "2.0"
 language: pt
 tags:
-  - matematica
-  - calculo
-  - estatistica
+  - calculus
+  - statistics
   - algebra
 ---
 # Domínio de Matemática

@@ -1,15 +1,15 @@
 ---
-id: "valor-absoluto"
-title: "Valor Absoluto"
-domain: "matematica"
-type: "module"
-language: "pt"
-level: "beginner"
+id: absolute-value
+title: Valor Absoluto
+domain: math
+type: module
+language: pt
+level: beginner
 tags:
-  - "valor-absoluto"
-  - "algebra"
-  - "equacoes-modulares"
-  - "funcoes"
+  - absolute-value
+  - algebra
+  - modular-equations
+  - functions
 prerequisites: []
 ---
 # Valor Absoluto

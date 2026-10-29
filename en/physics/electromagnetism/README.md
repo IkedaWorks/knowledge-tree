@@ -13,6 +13,9 @@ tags:
   - potential
   - magnetism
 prerequisites:
+  - classical-mechanics
+  - single-variable-calculus
+  - multivariable-calculus
 ---
 
 # Electromagnetism

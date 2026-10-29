@@ -1,14 +1,14 @@
 ---
-id: sequencias
+id: sequences
 title: Sequências
-domain: matematica
+domain: math
 type: module
 schema_version: "2.0"
 language: pt
 level: beginner
 tags:
-  - sequencias
-  - progressoes
+  - sequences
+  - progressions
   - algebra
   - series
 prerequisites: []
