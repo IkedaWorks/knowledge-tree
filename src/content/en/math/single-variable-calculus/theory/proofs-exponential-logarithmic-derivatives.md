@@ -3,7 +3,7 @@ id: inverse-function-derivative
 title: Inverse Function Derivative
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 language: en
 level: intermediate

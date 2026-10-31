@@ -3,7 +3,7 @@ id: proof-chain-rule
 title: Demonstração da Regra da Cadeia
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 language: pt
 level: intermediate

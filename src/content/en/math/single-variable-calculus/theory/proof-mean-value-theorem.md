@@ -1,4 +1,20 @@
-
+---
+id: "proof-mean-value-theorem"
+title: "Proof: Rolle's Theorem and the Mean Value Theorem (MVT)"
+domain: "math"
+module: "single-variable-calculus"
+type: "proof"
+schema_version: "2.0"
+level: "intermediate"
+language: "en"
+prerequisites:
+  - "derivatives-definition"
+tags:
+  - "calculus"
+  - "proof"
+  - "mean-value-theorem"
+  - "rolles-theorem"
+---
 # Proofs: Why Rolle and MVT are True
 
 ## 1. Why is Rolle's Theorem True?

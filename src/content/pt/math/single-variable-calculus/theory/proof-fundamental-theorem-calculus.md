@@ -3,7 +3,7 @@ id: proof-fundamental-theorem-calculus
 title: Demonstração do Teorema Fundamental do Cálculo
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 level: intermediate
 language: pt

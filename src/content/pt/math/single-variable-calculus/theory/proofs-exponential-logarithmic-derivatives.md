@@ -3,7 +3,7 @@ id: inverse-function-derivative
 title: Demonstração das Derivadas Exponenciais e Logarítmicas
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 language: pt
 level: intermediate

@@ -1,4 +1,20 @@
-
+---
+id: "proof-mean-value-theorem"
+title: "Demonstração: Teorema de Rolle e Teorema do Valor Médio (TVM)"
+domain: "math"
+module: "single-variable-calculus"
+type: "proof"
+schema_version: "2.0"
+level: "intermediate"
+language: "pt"
+prerequisites:
+  - "derivatives-definition"
+tags:
+  - "calculus"
+  - "proof"
+  - "mean-value-theorem"
+  - "rolle-theorem"
+---
 # Demonstração: Por que o Rolle e o TVM são verdade?
 
 ## Por que o Teorema de Rolle é verdade?

@@ -3,7 +3,7 @@ id: proof-partial-fractions
 title: Demonstração das Frações Parciais
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 level: intermediate
 language: pt

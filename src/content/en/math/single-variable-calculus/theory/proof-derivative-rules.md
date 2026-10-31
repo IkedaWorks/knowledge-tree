@@ -3,7 +3,7 @@ id: proof-derivative-rules
 title: Proof of Differentiation Rules
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 language: en
 level: intermediate

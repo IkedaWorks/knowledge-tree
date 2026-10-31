@@ -3,7 +3,7 @@ id: tangent-derivative-proof
 title: Detalhes na Demostração da Derivada da Tangente
 domain: math
 module: single-variable-calculus
-type: method
+type: "proof"
 schema_version: "2.0"
 language: pt
 level: intermediate
