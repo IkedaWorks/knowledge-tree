@@ -47,16 +47,16 @@ This roadmap tracks the evolution from a structured knowledge vault to an intell
 
 ## License & Ethics
 
-This project adopts a **dual-layer licensing strategy** to balance open academic access with technical integrity:
+This project adopts a **dual-layer licensing strategy**. The full terms are in [LICENSE.md](./LICENSE.md). How contributions are licensed is in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
--  **Educational Content & Knowledge Graphs (`/pt`, `/en` , etc.):** Licensed under [Creative Commons (CC BY-NC-SA 4.0)](./LICENSE-CONTENT.md). Free for academic, personal, and research use; commercial exploitation by third parties is prohibited.
--  **Code, Scripts & Tooling (`/src`, `/scripts`):** Licensed under the [MIT License](./LICENSE-MIT.md).
+- **Educational content and assets** (`src/content/`, `src/assets/`): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Academic, personal, and research use is allowed. Commercial use by third parties requires authorization.
+- **Code, scripts, and tooling** (`src/components/`, `src/layouts/`, root scripts): [MIT License](./LICENSE.md).
+- **Diagnostic engine and backend services:** not in this public repository; proprietary.
 
 > [!WARNING]
 > **Personal Image & Name Protection**
 > 
 > Citing the authors' names for proper academic attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' personal images (photos, avatars, or portraits), as well as the use of their names or handles for advertising, commercial promotion, or third-party product endorsements, is strictly prohibited without prior written consent.
 
-
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+For contributor rights and commercial grant details, see [CONTRIBUTING.md](./CONTRIBUTING.md) and [LICENSE.md](./LICENSE.md).
+[![Content: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](https://opensource.org/licenses/MIT) 
