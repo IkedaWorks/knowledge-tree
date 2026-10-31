@@ -58,5 +58,7 @@ This project adopts a **dual-layer licensing strategy**. The full terms are in [
 > 
 > Citing the authors' names for proper academic attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' personal images (photos, avatars, or portraits), as well as the use of their names or handles for advertising, commercial promotion, or third-party product endorsements, is strictly prohibited without prior written consent.
 
-For contributor rights and commercial grant details, see [CONTRIBUTING.md](./CONTRIBUTING.md) and [LICENSE.md](./LICENSE.md).
-[![Content: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](https://opensource.org/licenses/MIT) 
+For contributor rights and commercial grant details, see [CONTRIBUTING.md](./CONTRIBUTING.md) and [LICENSE.md](./LICENSE.md). 
+
+
+[![Content: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](https://opensource.org/licenses/MIT)
