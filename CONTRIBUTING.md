@@ -220,9 +220,9 @@ Copy this list into your Pull Request description:
 
 A maintainer reviews every Pull Request for correctness, pedagogy, and graph consistency.
 
-### 13. Licenses and your contribution
+### 13. Licensing of Contributions & CLA
 
-The legal text is in [LICENSE.md](./LICENSE.md). This section is the contributor agreement. By opening a Pull Request you agree to it.
+The legal text is in [LICENSE.md](./LICENSE.md). This section constitutes the **Contributor License Agreement (CLA)** of Project Yggdrasil. By opening a Pull Request or submitting contributions, you explicitly agree to these terms.
 
 **What applies where**
 
@@ -464,9 +464,9 @@ Formatos, layout das pastas, nomes e como ligar uma figura a partir de um docume
 
 Um mantenedor revisa todo PR para garantir correção técnica, clareza pedagógica e consistência no grafo.
 
-### 13. Licenças e a sua contribuição
+### 13. Licenciamento de Contribuições e CLA
 
-O texto legal está em [LICENSE.md](./LICENSE.md). Esta seção é o acordo de contribuição. Ao abrir um Pull Request, você concorda com ele.
+O texto legal está em [LICENSE.md](./LICENSE.md). Esta seção constitui o **Contributor License Agreement (CLA)** do Projeto Yggdrasil. Ao abrir um Pull Request ou enviar contribuições, você concorda explicitamente com estes termos.
 
 **O que vale em cada caminho**
 

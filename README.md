@@ -24,10 +24,10 @@ By mapping how concepts build upon one another, Yggdrasil uncovers the root caus
 
 To ensure this ecosystem grows with stability, maintains total commercial and authorial autonomy, and remains accessible across all platforms, we follow a set of architectural principles:
 
-* **Bilingual Core:** The repository is maintained in both **Portuguese and English** to ensure global reach.
-* **Scientific Precision:** We use **LaTeX (MathJax)** for mathematical formulas, chemical equations, and formal logic syntax.
-* **Graph Native:** Optimized for **Obsidian's** graph view and backlinking capabilities, serving as a structured data source for graph-traversal algorithms.
-* **Authorial & Open Visual Assets:** To ensure full copyright ownership for open deployment and educational use, all visual content is generated using open-source toolsets (Excalidraw, Mermaid.js, Inkscape, and Python scripts with Matplotlib).
+- **Bilingual Core:** The repository is maintained in both **Portuguese and English** to ensure global reach.
+- **Scientific Precision:** We use **LaTeX (MathJax)** for mathematical formulas, chemical equations, and formal logic syntax.
+- **Graph Native:** Optimized for **Obsidian's** graph view and backlinking capabilities, serving as a structured data source for graph-traversal algorithms.
+- **Authorial & Open Visual Assets:** To ensure full copyright ownership for open deployment and educational use, all visual content is generated using open-source toolsets (Excalidraw, Mermaid.js, Inkscape, and Python scripts with Matplotlib).
 
 > [!IMPORTANT]
 > **For detailed technical specifications, syntax rules (LaTeX/Markdown), and branching policies, please refer to our [Contributing Guidelines](./CONTRIBUTING.md).**
@@ -45,20 +45,20 @@ This roadmap tracks the evolution from a structured knowledge vault to an intell
 
 ---
 
-## License & Ethics
+## License & Governance
 
-This project adopts a **dual-layer licensing strategy**. The full terms are in [LICENSE.md](./LICENSE.md). How contributions are licensed is in [CONTRIBUTING.md](./CONTRIBUTING.md).
+This project adopts a **dual-layer licensing strategy** combined with a Contributor License Agreement (CLA) for commercial protection. Full legal terms are available in [LICENSE.md](./LICENSE.md) and [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-- **Educational content and assets** (`src/content/`, `src/assets/`): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Academic, personal, and research use is allowed. Commercial use by third parties requires authorization.
-- **Code, scripts, and tooling** (`src/components/`, `src/layouts/`, root scripts): [MIT License](./LICENSE.md).
-- **Diagnostic engine and backend services:** not in this public repository; proprietary.
+- **Educational Content & Assets** (`src/content/`, `src/assets/`): Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Public, academic, and research use is encouraged. Commercial use by third parties requires explicit authorization from the maintainer.
+- **Code, Scripts & Tooling** (`src/components/`, `src/layouts/`, root scripts): Licensed under the [MIT License](./LICENSE.md).
+- **Proprietary Neural Engine & SaaS Backend:** Hosted under private infrastructure and not included in this public repository.
+- **Contributions & Commercial Grant:** All contributions made via Pull Requests are subject to the Contributor License Agreement (CLA) detailed in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 > [!WARNING]
 > **Personal Image & Name Protection**
 > 
 > Citing the authors' names for proper academic attribution and open-source collaboration is highly welcomed and encouraged. However, the use of the authors' personal images (photos, avatars, or portraits), as well as the use of their names or handles for advertising, commercial promotion, or third-party product endorsements, is strictly prohibited without prior written consent.
 
-For contributor rights and commercial grant details, see [CONTRIBUTING.md](./CONTRIBUTING.md) and [LICENSE.md](./LICENSE.md). 
-
+---
 
 [![Content: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](https://opensource.org/licenses/MIT)

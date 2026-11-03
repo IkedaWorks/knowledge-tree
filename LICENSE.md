@@ -41,5 +41,7 @@ This layer constitutes **Closed Source / Proprietary Intellectual Property** hos
 
 ---
 
-How contributions are licensed: see CONTRIBUTING.md.
-Commercial use of the content: contact the maintainer through https://github.com/IkedaWorks.
+## 4. CONTRIBUTIONS LICENSING & GOVERNANCE
+By contributing to this repository through Pull Requests, Issues, or any other means, you explicitly accept and agree that your contributions will be bound by the Contributor License Agreement (CLA) terms detailed in `CONTRIBUTING.md`.
+
+Commercial use of the content or custom licensing inquiries: contact the maintainer through https://github.com/IkedaWorks.
