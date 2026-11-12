@@ -1,18 +1,18 @@
 ---
-id: fundamental-number-systems
-title: Fundamental Number Systems
-module: digital-electronics
-domain: computation
-type: concept
+id: "fundamental-number-systems"
+title: "Fundamental Number Systems"
+domain: "engineering"
+module: "digital-electronics"
+type: "concept"
 schema_version: "2.0"
-level: beginner
-language: en
-prerequisites:
+level: "beginner"
+language: "en"
+prerequisites: []
 tags:
-  - digital-electronics
-  - number-systems
-  - binary
-  - hexadecimal
+  - "digital-electronics"
+  - "number-systems"
+  - "positional-notation"
+  - "hexadecimal-system"
 ---
 # Fundamental Number Systems
 

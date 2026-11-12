@@ -1,17 +1,18 @@
 ---
-id: introduction-digital-electronics
-title: Introdução à Eletrônica Digital
-domain: computation
-module: digital-electronics
-type: concept
+id: "introduction-digital-electronics"
+title: "Introdução à Eletrônica Digital"
+domain: "engineering"
+module: "digital-electronics"
+type: "concept"
 schema_version: "2.0"
-level: beginner
-language: pt
+level: "beginner"
+language: "pt"
 prerequisites: []
 tags:
-  - digital-electronics
-  - analog-vs-digital
-  - binary-logic
+  - "digital-electronics"
+  - "signal-discretization"
+  - "boolean-logic"
+  - "binary-abstraction"
 ---
 
 # Introdução à Eletrônica Digital
@@ -26,7 +27,7 @@ No entanto, a representação contínua exibe uma limitação fundamental de eng
 
 A eletrônica digital resolve essa instabilidade fundamental por meio da discretização espacial e matemática. Ao definir limiares rígidos de tensão, faixas físicas contínuas são comprimidas em estados lógicos discretos, mais comumente estados binários denotados como $0$ e $1$ (ou *LOW* e *HIGH*).
 
-![Abstração de Sinais Analógicos versus Digitais](./../../../../../assets/computation/digital-electronics/analog-vs-digital-signals.svg)
+![Abstração de Sinais Analógicos versus Digitais](./../../../../../assets/engineering/digital-electronics/analog-vs-digital-signals.svg)
 
 Essa abstração binária garante imunidade ao ruído. Desde que a interferência física não ultrapasse as fronteiras dos limiares padronizados entre os níveis lógicos, o sistema regenera o valor discreto original perfeitamente, eliminando a degradação cumulativa do sinal ao longo de redes de processamento em múltiplos estágios.
 

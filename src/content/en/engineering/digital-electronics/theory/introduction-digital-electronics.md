@@ -1,17 +1,18 @@
 ---
-id: introduction-digital-electronics
-title: Introduction to Digital Electronics
-domain: computation
-module: digital-electronics
-type: concept
+id: "introduction-digital-electronics"
+title: "Introduction to Digital Electronics"
+domain: "engineering"
+module: "digital-electronics"
+type: "concept"
 schema_version: "2.0"
-level: beginner
-language: en
+level: "beginner"
+language: "en"
 prerequisites: []
 tags:
-  - digital-electronics
-  - analog-vs-digital
-  - binary-logic
+  - "digital-electronics"
+  - "signal-discretization"
+  - "boolean-logic"
+  - "binary-abstraction"
 ---
 
 # Introduction to Digital Electronics
@@ -26,7 +27,7 @@ However, continuous representation exhibits a fundamental engineering limitation
 
 Digital electronics resolves this fundamental instability through spatial and mathematical discretization. By defining strict voltage thresholds, continuous physical ranges are compressed into discrete logic states, most commonly binary states denoted as $0$ and $1$ (or *LOW* and *HIGH*). 
 
-![Analog versus Digital Signal Abstraction](./../../../../../assets/computation/digital-electronics/analog-vs-digital-signals.svg)
+![Analog versus Digital Signal Abstraction](./../../../../../assets/engineering/digital-electronics/analog-vs-digital-signals.svg)
 
 This binary abstraction provides noise immunity. As long as physical interference does not cross the standardized threshold boundaries between logic levels, the system regenerates the original discrete value perfectly, eliminating cumulative signal degradation across multi-stage processing networks.
 

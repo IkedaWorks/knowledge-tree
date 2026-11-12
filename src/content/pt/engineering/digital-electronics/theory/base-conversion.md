@@ -1,7 +1,7 @@
 ---
 id: "base-conversion"
 title: "Conversão de Bases Numéricas"
-domain: "computation"
+domain: "engineering"
 module: "digital-electronics"
 type: "method"
 schema_version: "2.0"
@@ -12,8 +12,7 @@ tags:
   - "digital-electronics"
   - "number-systems"
   - "base-conversion"
-  - "binary"
-  - "hexadecimal"
+  - "binary-arithmetic"
 ---
 
 # Conversão entre Bases Numéricas
